@@ -1,0 +1,173 @@
+/*버튼디자인*/
+a.btn,
+.btn{ padding: 0 10px; display:inline-block; line-height: 28px; height: 30px; border-radius:4px; text-align: center; box-sizing: border-box;
+	background-color: #45A6EA; color: #fff; border: 0;}
+
+a.btn_shadow,
+.btn_shadow{box-shadow: 0 1px 1px #00000059;}
+
+/*버튼사이즈*/
+a.large,
+.large{ display:block; width: 100%; /*max-width: 315px;*/ margin: 0 auto 10px auto;}
+a.medium,
+.medium{ display:block; max-width: 215px; margin: 0 auto 10px auto;}
+a.small,
+.small{ display:inline-block; width: 95px; margin:10px 3px;}
+
+/*버튼색상*/
+a.grayline,
+.grayline{background: #ffffff; color: #666666; border: 1px solid #C4C4C4;}
+a.gray,
+.gray{ border: 0; background-color: #C4C4C4;}
+
+a.blueline,
+.blueline{background-color: #FFFFFF;
+	border: 1px solid #45A6EA; color: #45A6EA;}
+a.blue,
+.blue{background-color: #45A6EA;
+	  border:0; color: #ffffff;}
+
+a.red,
+.red{border: 0; background-color: #F26563;}
+a.redline,
+.redline{border:1px solid #F26563; background-color: #fff; color: #F26563;}
+
+a.green,
+.green{ border: 0; background-color: #27D1AA; }
+
+a.black,
+.black{ display: inline-block; background: #343434; color: #fff; font-size: 0.9em; line-height: 1.4em; height: auto; padding: 1px 8px; border-radius:40px;}
+
+.btn.off{ background: #F2F2F2; color: #C4C4C4; }
+a.add_btn{ color: #666666; font-size: 0.9em; text-decoration: underline;}
+
+/*글자색상*/
+.color_blue{display: inline-block; color: #45A6EA;}
+.color_red{display: inline-block; color: #F26563 ;}
+.color_green{display: inline-block; color: #27D1AA;}
+.color_gray{display: inline-block; color: #C4C4C4;}
+
+/*인풋폼*/
+select,
+input{ width: 100%; line-height: 1.4em; border: 1px solid #C4C4C4; color: #666666; margin: 10px auto; padding: 13px 10px; box-sizing: border-box;}
+input::placeholder{ color: #C4C4C4;}
+input.read{background: #F2F2F2 0 0 no-repeat padding-box; color: #C4C4C4; border: 0;}
+input[type=text]{width: 100%; line-height: 1.4em; border: 1px solid #C4C4C4; color: #666666; margin: 10px auto; padding: 13px 10px; box-sizing: border-box;}
+input[type=text]::placeholder{ color: #C4C4C4;}
+input[type=password]{ color: #666666;}
+input[type=password].on{ background:url("../img/common/password_hide_on.svg") no-repeat 99% 50%}
+input[type=password]::placeholder{ background:url("../img/common/password_hide.svg") no-repeat 99% 50%}
+
+input[type=button].select{ text-align: left; background:url("../img/common/select_arrow.svg") no-repeat #fff 98% 50%;}
+
+
+/*셀렉트박스-드롭다운*/
+.dropdown-menu{box-shadow: 0 3px 6px #00000029; border-radius: 4px; border: 0; min-width: 100%; overflow: hidden; margin-top: -5px; z-index: 50;}
+.dropdown-menu li{ padding: 10px; height: 40px;}
+.dropdown-menu li:hover{ background: #45A6EA; color: #fff;}
+
+textarea{border: 1px solid #C4C4C4; border-radius: 4px; width: 100%; padding: 10px; min-height: 110px;}
+label{ color: #666666; font-weight: 400;}
+
+.fa-hyphen{margin: 0 5px;}
+
+.error input{border: 1px solid #F26563; color: #F26563; margin-bottom: 2px; }
+.error input::placeholder{ color: #F26563;}
+.error span.msg{ font-size: 0.9em; color:  #F26563; padding-left: 5px;}
+
+.pass input{margin-bottom: 2px;}
+.pass span.msg{ font-size: 0.9em; color:  #45A6EA; padding-left: 5px;}
+
+/*체크박스*/
+input[type=checkbox] { display: none; }
+input[type=checkbox] + label { cursor: pointer; margin:5px 0; font-size:1em; }
+input[type=checkbox] + label > div {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    background: white;
+    box-sizing: border-box;
+    width: 14px; height: 14px;
+    margin-top: -4px;
+    border: 1px solid #C4C4C4;
+    border-radius:4px;
+	margin-right:5px;
+	position:relative;
+}
+input[type=checkbox]:checked + label > div{
+	background:#45A6EA;
+	border:0;
+}
+input[type=checkbox]:checked + label > div:before {
+	font-family: "Font Awesome 5 Pro";
+    color: #fff;
+    content: "\f00c";
+	position:absolute;
+	top:50%; left:50%; transform:translate(-50%,-50%);
+	font-weight:400;
+	font-size: 11px;
+}
+input[type=checkbox] + label:hover > div { border-width: 2px; }
+
+/*라운드 라디오버튼*/
+input[type=checkbox].circle + label > div {
+	border-radius:50%;
+}
+
+/*라디오버튼*/
+input[type=radio] { display: none; }
+input[type=radio] + label { cursor: pointer; margin:5px 0; font-weight:normal; display:inline-block !important; margin-right:5px; }
+input[type=radio] + label > div {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    background: white;
+    box-sizing: border-box;
+    width: 12px; height: 12px;
+    margin-top: -4px;
+    border: 1px solid #45A6EA;
+	border-radius:50%;
+	margin-right:5px;
+	position:relative;
+}
+input[type=radio]:checked + label > div{
+}
+input[type=radio]:checked + label > div:before {
+    content: "";
+	position:absolute;
+	top:50%; left:50%; transform:translate(-50%,-50%);
+	width: 6px; height: 6px;
+	border-radius:50%; 
+	display: block;
+	background:#45A6EA;
+}
+
+
+/*기본모달*/
+
+/*alert디자인2(사용중)*/
+.swal2-popup{max-width: 300px; width: calc(100% - 80px); font-size: 13px; padding:35px;}
+.swal2-title{font-size: 1.15em; margin-bottom: 10px;}
+.swal2-html-container{font-size: 1em; margin: 0;}
+.swal2-actions{width: 100%; margin-top:20px; flex-wrap:nowrap;flex-direction: row-reverse;}
+
+.swal2-actions button{width: 100%; border-radius:4px; font-weight: 400;
+					  line-height: 30px; height: 30px; padding: 0; border:0; margin:0 2px;}
+
+.swal2-actions button:hover {
+  background-color: #fff !important;
+}
+.swal2-actions button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0) !important;
+}
+
+.swal2-styled.swal2-confirm{background: #45A6EA; color: #fff; border-radius:4px;}
+.swal2-styled.swal2-deny{background:#C4C4C4; color: #fff; border-radius:4px;}
+
+
+/*리스트없음*/
+.empty{ padding: 20% 0!important; text-align: center; background-color: transparent!important; display: block!important;}
+.empty svg{ background-repeat: no-repeat; background-position: 50%;}
+.empty h4{ font-size: 1.5em; font-weight: 600; color: #45A6EA; margin-bottom: 10px; line-height: 1.4em;}
+.empty span{ color: #C4C4C4; font-size: 1.1em; font-weight: 200;}
