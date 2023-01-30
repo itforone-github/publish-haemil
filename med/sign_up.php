@@ -1,13 +1,11 @@
-<script src="../js/include.js" defer></script>
-<!--헤더 인클루드-->
-<header data-include="../include/header.html"></header>
+<?php include '../include/header.php'; ?>
 
   <!--1.2 회원가입-->
   <div class="wrap_bg">
     <div class="mb_wrap">
 
       <div class="box2">
-        <h1><img src="../img/common/logo_w.svg" alt="해밀한의원 원외탕전실"> <span>회원가입</span></h1>
+        <h1><img src="../img/common/logo_w.svg" alt="해밀한의원 원외탕전실"><span>회원가입</span></h1>
 
 
         <form>
@@ -39,7 +37,7 @@
               <div>
                 <input type="number" placeholder="사업자등록번호">
                 <input type="text" placeholder="대표자명">
-                <input type="tex'" placeholder="대표자명">
+                <input type="number" placeholder="대표전화">
               </div>
               <div>
                 <dl class="file_wrap">
@@ -54,7 +52,7 @@
               </div>
             </div>
             <div class="btn_wrap">
-              <a href="../med/login.html" class="btn btn_sdw btn_red">회원가입요청</a>
+              <a href="login.php" class="btn btn_sdw btn_red">회원가입요청</a>
               <a href="" class="btn btn_sdw btn_gray">최소하기</a>
             </div>
           </div>
@@ -69,4 +67,4 @@
   </div>
 
 <!--푸터 인클루드-->
-<footer data-include="../include/footer.html"></footer>
+<?php include '../include/footer.php'; ?>

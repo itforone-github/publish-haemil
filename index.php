@@ -7,7 +7,7 @@
 	<title>해밀원</title>
 
 	<script type="text/javascript">
-		document.location.href="./med/login.html";
+		document.location.href="med/login.php";
 	</script>
 </head>
 
