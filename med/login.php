@@ -11,7 +11,7 @@
           <div class="form_wrap">
             <input type="text" placeholder="아이디">
             <input type="password" placeholder="비밀번호">
-            <input type="submit" value="로그인" class="btn btn_sdw btn_large btn_red">
+              <a href="index.php" class="btn btn_sdw btn_large btn_red">로그인</a>
           </div>
 
           <div class="btn_wrap">
@@ -24,7 +24,7 @@
       </div>
     </div>
     <section class="login_ft">
-      ※ 해밀한의원 원외탕전실에서는 개인에게 한약재를 판매하지 않으며, <br>
+      ※ 해밀한의원 원외탕전실에서는 개인에게 한약재를 판매하지 않으며, <br class="hidden-xs">
       한의사 면허를 취득한 한의사의 처방에 의한 조제 의뢰를 받고 있습니다.
     </section>
   </div>

@@ -31,13 +31,13 @@
             <div class="form_wrap">
               <div>
                 <input type="text" placeholder="성명">
-                <input type="number" placeholder="휴대폰번호">
+                <input type="text" placeholder="휴대폰번호">
                 <input type="date" placeholder="생년월일">
               </div>
               <div>
-                <input type="number" placeholder="사업자등록번호">
+                <input type="text" placeholder="사업자등록번호">
                 <input type="text" placeholder="대표자명">
-                <input type="number" placeholder="대표전화">
+                <input type="text" placeholder="대표전화">
               </div>
               <div>
                 <dl class="file_wrap">
