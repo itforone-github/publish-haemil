@@ -76,12 +76,12 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <!-- <li class="sidebar-dropdown">
                         <a href="#">
                         <img src="../img/common/sidemenu01_03.svg">
-                            <span>진료 리뷰 관리</span>
+                            <span>원격 진료</span>
                         </a>
-                    </li>
+                    </li> -->
                     <li class="sidebar-dropdown">
                         <a href="#">
                         <img src="../img/common/sidemenu01_04.svg">

@@ -301,10 +301,12 @@
     opacity: 1;
 }
 
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu{
+    margin-bottom: 15px;
+}
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul {
     padding: 12px 0;
     border-bottom: 0;
-    margin-bottom: 15px;
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li {
