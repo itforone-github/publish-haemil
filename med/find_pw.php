@@ -1,4 +1,8 @@
-<?php include '../include/header.php'; ?>
+<?php
+$pid = "find_pw";
+include_once("../include/header.php");
+//환자메인
+?>
 
 <!--1.3 아이디/비밀번호 찾기-->
 <div class="wrap_bg">

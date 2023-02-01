@@ -1,4 +1,8 @@
-<?php include '../include/header.php'; ?>
+<?php
+$pid = "login";
+include_once("../include/header.php");
+//환자메인
+?>
 
 <!--1.1 로그인-->
 <div class="wrap_bg">
@@ -15,7 +19,7 @@
           </div>
 
           <div class="btn_wrap">
-            <a href="find_pw.php" class="btn btn_sdw btn_white">아이디 비밀번호 찾기</a>
+            <a href="find_pw.php" class="btn btn_sdw btn_white2">아이디 비밀번호 찾기</a>
             <a href="sign_up.php" class="btn btn_sdw btn_black">회원 가입</a>
           </div>
 

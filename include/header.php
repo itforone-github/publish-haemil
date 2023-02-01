@@ -16,7 +16,7 @@
     <link href="../css/sideber.css" rel="stylesheet" type="text/css" />
     <link href="../css/common.css" rel="stylesheet" type="text/css" />
     <link href="../css/member.css" rel="stylesheet" type="text/css" />
-    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+    <link href="../css/layout.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -29,16 +29,33 @@ $header_name = "";      // 상단페이지명
 $content = "";      // 상단페이지 설명문
 
 switch ($pid) {
-    case "index" :  // 메인
+    //1.공통
+    case "login" :  
+        $header_type = 0;
+		$footer_type = 0;
+		$header_name = "로그인";
+        break;
+    case "sign_up" :  
+        $header_type = 0;
+		$footer_type = 0;
+		$header_name = "회원가입";
+        break;
+    case "find_pw" :  
+        $header_type = 0;
+        $footer_type = 0;
+        $header_name = "아이디/비밀번호 찾기";
+        break;
+    //2. 환자진료
+    case "index" :  
         $header_type = 1;
 		$footer_type = 1;
 		$header_name = "환자 메인";
         $exp = "환자 관리, 진료 접수, 예약 관리가 가능합니다.";
         break;
-
 }
 ?>
-
+<? if ($header_type == 0) { ?>
+<? } else if ($header_type == 1) { ?>
 <div class="page-wrapper chiller-theme toggled">
         <?php include '../include/sidebar.php'; ?>
         <!-- sidebar-wrapper  -->
@@ -67,3 +84,4 @@ switch ($pid) {
                     <strong><?=$header_name?></strong>
                     <span><?=$exp?></span>
                 </h2>
+<? } ?>

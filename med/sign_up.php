@@ -1,4 +1,8 @@
-<?php include '../include/header.php'; ?>
+<?php
+$pid = "sign_up";
+include_once("../include/header.php");
+//환자메인
+?>
 
   <!--1.2 회원가입-->
   <div class="wrap_bg">

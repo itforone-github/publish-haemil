@@ -27,12 +27,13 @@
 /* 1.2 회원가입 */
 .sign_form .form_wrap:first-child{background-color: #F9F9F9;}
 .sign_form .form_wrap{padding: 55px 50px; display: flex;}
+.sign_form .form_wrap input{ min-width: 374px;}
 .sign_form .form_wrap > div{padding-right: 20px; border-right: 1px solid #C8C8CB; margin-right: 20px; width:100%;}
 .sign_form .form_wrap > div:last-child{padding-right: 0; margin-right: 0; border: 0;}
 .sign_form .btn_wrap{border-top: 1px solid #E8E8E8;}
 
 @media screen and (max-width:950px) {
-    .sign_form input{width: 100%;}
+    .sign_form input{width: 100%; min-width: 100%;}
 
 }
 @media screen and (max-width:550px){
