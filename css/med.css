@@ -1,0 +1,54 @@
+
+
+
+
+
+
+/** 환자메인 **/
+.patient_main{display: flex; align-items: flex-end;}
+.patient_main .box1{padding: 24px 20px; width: 100%; height: 100%;}
+.patient_main > div{margin-right:18px; width: 100%;}
+.patient_main > div:last-child{margin-right: 0;}
+
+.patient_main .box_title{background-color: #AAAAAA; color: #ffffff; display: flex; align-items: center; justify-content: space-between; border-radius: 0 0 5px 5px;
+    padding: 15px 20px;}
+.patient_main .box_title strong{font-size: 1.2em; font-weight: 400;;}
+.patient_main .box_title.bg_red{background-color: #BC2D1E;}
+
+.patient_main .title_btn span,
+.patient_main .title_btn a{display: inline-block; margin-left: 4px;}
+.patient_main .title_btn span{font-size: 1.1em;}
+.patient_main .title_btn .arrow.on{opacity: 1;}
+.patient_main .title_btn .arrow.off{opacity: 0.5;}
+
+.patient_main .box2 {width: 100%; height: 100%;}
+.patient_main .box2 .list li .patient_name::before{content: ""; display:inline-block; width: 14px; height: 14px; background: url('../img/common/list_icon.svg') no-repeat center/auto 100%; vertical-align: middle; margin-right: 8px; margin-bottom: 1px;}
+.patient_main .box1 .list{padding: 0;}
+
+.patient_main .list{padding: 20px 20px;}
+.patient_main .list li{display: flex; align-items: center; justify-content: space-between; font-size: 1.1em; color: #373844; line-height: 25px; padding: 4px 0;}
+.patient_main .list li .state.ing{color: #36A102; font-weight: 600;}
+.patient_main .list li .state.standby{color: #373844; font-weight: 400;}
+.patient_main .list li .btn{margin: 0 0 0 5px;}
+
+.patient_main .list li .birth{font-size: 0.8em; font-weight: 200; margin-left: 6px;}
+.patient_main .list li .time{}
+.patient_main .list li .date_time{font-size: 0.8em; font-weight: 200; margin-left: 6px;}
+
+.register .form{display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 6px;}
+.register .form label{width: 85px; padding-right: 10px;}
+.register .form input{width: calc(100% - 85px); min-width: auto; padding: 6px 15px; margin-bottom: 2px;}
+
+.request .list{font-size: 0.95em;}
+
+@media screen and (max-width:1400px) {
+    .patient_main{flex-wrap: wrap;}
+    .patient_main > div{width: calc((100% / 2) - 9px); margin-bottom: 30px;}
+    .patient_main > div:nth-child(2n){margin-right: 0;}
+}
+
+.patient_latest .box2{padding:  30px 24px; width: 100%;}
+.patient_latest .table th:nth-child(1),
+.patient_latest .table th:nth-child(2),
+.patient_latest .table td:nth-child(1),
+.patient_latest .table td:nth-child(2){text-align: center;}

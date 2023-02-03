@@ -11,12 +11,12 @@
     <script src="../js/ui.js"></script>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../css/font.css" rel="stylesheet" type="text/css" />
     <link href="../css/all.min.css" rel="stylesheet" type="text/css" />
     <link href="../css/sideber.css" rel="stylesheet" type="text/css" />
     <link href="../css/common.css" rel="stylesheet" type="text/css" />
     <link href="../css/member.css" rel="stylesheet" type="text/css" />
     <link href="../css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="../css/med.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -26,7 +26,7 @@
 $header_type = 0;       // 헤더타입
 $footer_type = 0;       // 푸터타입
 $header_name = "";      // 상단페이지명
-$content = "";      // 상단페이지 설명문
+$exp = "";      // 상단페이지 설명문
 
 switch ($pid) {
     //1.공통
@@ -54,8 +54,8 @@ switch ($pid) {
         break;
 }
 ?>
-<? if ($header_type == 0) { ?>
-<? } else if ($header_type == 1) { ?>
+<?php if ($header_type == 0) { ?>
+<?php } else if ($header_type == 1) { ?>
 <div class="page-wrapper chiller-theme toggled">
         <?php include '../include/sidebar.php'; ?>
         <!-- sidebar-wrapper  -->
@@ -84,4 +84,4 @@ switch ($pid) {
                     <strong><?=$header_name?></strong>
                     <span><?=$exp?></span>
                 </h2>
-<? } ?>
+<?php } ?>

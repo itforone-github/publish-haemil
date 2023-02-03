@@ -1,6 +1,6 @@
 
-<? if ($header_type == 0) { ?>
-<? } else if ($header_type == 1) { ?>
+<?php if ($header_type == 0) { ?>
+<?php } else if ($header_type == 1) { ?>
     </div>
 
 </main>
@@ -23,7 +23,7 @@
 </div>
 <!-- page-wrapper -->
 
-<? } ?>
+<?php } ?>
 
 </body>
 </html>
