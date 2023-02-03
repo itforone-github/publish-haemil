@@ -2,6 +2,7 @@
 $pid = "index";
 include_once("../include/header.php");
 //환자메인
+//테스트
 ?>
 
 <section class="patient_main">
