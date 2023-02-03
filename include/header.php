@@ -37,8 +37,8 @@ switch ($pid) {
     case "a_index" :
         $header_type = 2;
         $footer_type = 1;
-        $header_name = "환자 메인";
-        $exp = "환자 관리, 진료 접수, 예약 관리가 가능합니다.";
+        $header_name = "통합 메인";
+        $exp = "";
         break;
 }
 ?>
@@ -97,5 +97,4 @@ switch ($pid) {
                         <strong><?=$header_name?></strong>
                         <span><?=$exp?></span>
                     </h2>
- <?php } else { ?>
 <?php } ?>
