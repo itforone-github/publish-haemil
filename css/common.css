@@ -40,7 +40,7 @@ a:hover, a:focus, a:active {text-decoration:none;}
 .flex.jc-sb {justify-content: space-between}
 .w50 {width: 50%}
 /*버튼*/
-.btn{height: 27px!important;all:unset; display: inline-block ; text-align:center;  border-radius: 5px; padding: 7px; line-height: 1em; cursor: pointer; font-weight: 400; position: relative; box-sizing: border-box;}
+.btn{height: 27px;all:unset; display: inline-block ; text-align:center;  border-radius: 5px; padding: 7px; line-height: 1em; cursor: pointer; font-weight: 400; position: relative; box-sizing: border-box;}
 .btn:hover{transition: all 0.3s;}
 
 .btn_mini{padding: 5px 10px; font-size: 13px;}
