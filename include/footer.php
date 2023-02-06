@@ -1,6 +1,6 @@
 
-<?php if ($header_type == 0) { ?>
-<?php } else if ($header_type == 1) { ?>
+<?php if ($footer_type == 0) { ?>
+<?php } else if ($footer_type == 1) { ?>
     </div>
 
 </main>
