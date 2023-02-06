@@ -5,6 +5,11 @@ header {    background-color: #F6F6F6;}
 /*박스 타이틀*/
 .box_title {    min-height: 60px;background-color: #AAAAAA;    color: #ffffff;    display: flex;    align-items: center;    justify-content: space-between;    border-radius: 0 0 5px 5px;    padding: 15px 20px;}
 .box_title.bg_red {    background-color: #BC2D1E;}
+.panel  {   display: flex;    flex-wrap: wrap;}
+.panel > div  {   display: flex; max-width: 300px}
+.panel > .btn_red {   margin-left: auto}
+.panel p {line-height: 40px;padding-right: 10px;}
+.panel .red {color: #BC2D1E; font-weight: 800}
 
 /*index*/
 .adm_main{display: flex; align-items: flex-end;}
@@ -25,9 +30,37 @@ header {    background-color: #F6F6F6;}
 }
 
 /*point*/
-.panel  {   display: flex;    flex-wrap: wrap;}
-.panel > div  {   display: flex; max-width: 300px}
-.panel .btn {   margin-left: auto}
 .point .box3 {padding: 24px 20px; width: 100%; height: 100%;}
 .point .table .red {color: #BC2D1E}
 .point .table .blue {color: #2531B7}
+.pointset {display: flex;flex-wrap: wrap;  justify-content: space-between;}
+.pointset > div {width: calc((100% / 2) - 9px); margin-bottom: 30px;}
+.pointset .box3 {padding: 24px 20px; width: 100%; height: 100%;}
+.pointset .box3 > .title{ display: flex;    flex-wrap: wrap; justify-content: space-between;}
+.pointset .box3 > p{text-align: right}
+.pointset .table .red {color: #BC2D1E}
+
+@media screen and (max-width: 1400px){
+    .pointset > div {width: 100%;}
+}
+
+/*clinic*/
+.clinicmem .box3 {    padding: 30px 24px;    width: 100%;}
+.clinicmem .tagbox {    padding: 20px 24px;    width: 100%; background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.clinicmem select {  width: 100%; margin-bottom: 12px; }
+.clinicmem  .flex:first-child {  margin-bottom: 30px; }
+.clinicmem  .flex > div {        width: 32%;    margin-bottom: 15px;    padding-right: 15px;    border-right: 1px solid #C8C8CB;}
+.clinicmem  .flex > div:last-child { padding-right: 0px;    border-right: 0;}
+
+.clinic .box3 {    padding: 30px 24px;    width: 100%;}
+.clinic .tagbox {    padding: 20px 24px;    width: 100%; background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.clinic select {  width: 100%; margin-bottom: 12px; }
+.clinic  .flex > div {        width: 32%;    margin-bottom: 15px;    padding-right: 15px;    border-right: 1px solid #C8C8CB;}
+.clinic .flex > div:last-child { padding-right: 0px;    border-right: 0;}
+
+@media screen and (max-width: 1000px){
+    .clinicmem  .flex {display: block}
+    .clinicmem  .flex > div {width: 100%; padding-right: 0px;border-right: 0;}
+    .clinic  .flex {display: block}
+    .clinic  .flex > div {width: 100%; padding-right: 0px;border-right: 0;}
+}

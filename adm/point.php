@@ -48,7 +48,19 @@ include_once("../include/header.php");
                 </tbody>
             </table>
         </div>
-
+        <div class="b-pagination-outer ">
+            <ul id="border-pagination">
+                <li><a class="" href="#">«</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#" class="active">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">»</a></li>
+            </ul>
+        </div>
     </div>
 </section>
 
@@ -57,7 +69,7 @@ include_once("../include/header.php");
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="epointmodal01Label">포인트 지급/차감</h5>
+                <h5 class="modal-title" id="pointmodal01Label">포인트 지급/차감</h5>
             </div>
             <div class="modal-body">
                 <form>
@@ -77,3 +89,7 @@ include_once("../include/header.php");
         </div>
     </div>
 </div>
+
+
+    <!--푸터 인클루드-->
+<?php include '../include/footer.php'; ?>

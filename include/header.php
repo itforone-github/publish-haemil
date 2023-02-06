@@ -45,6 +45,31 @@ switch ($pid) {
         $header_name = "포인트 내역";
         $exp = "";
         break;
+    case "a_pointset" :
+        $header_type = 2;
+        $footer_type = 1;
+        $header_name = "선결제 금액 관리";
+        $exp = "";
+        break;
+    //3. 한의원관리
+    case "a_clinicmem" :
+        $header_type = 2;
+        $footer_type = 1;
+        $header_name = "한의원 직원 관리";
+        $exp = "";
+        break;
+    case "a_clinic" :
+        $header_type = 2;
+        $footer_type = 1;
+        $header_name = "한의원 관리";
+        $exp = "";
+        break;
+    case "a_clinicgrp" :
+        $header_type = 2;
+        $footer_type = 1;
+        $header_name = "그룹 관리";
+        $exp = "";
+        break;
 }
 ?>
 <?php if ($header_type == 0) { ?>
