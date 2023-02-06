@@ -1,0 +1,33 @@
+/*기본 adm*/
+body {    background: #ffffff;}
+header {    background-color: #F6F6F6;}
+
+/*박스 타이틀*/
+.box_title {    min-height: 60px;background-color: #AAAAAA;    color: #ffffff;    display: flex;    align-items: center;    justify-content: space-between;    border-radius: 0 0 5px 5px;    padding: 15px 20px;}
+.box_title.bg_red {    background-color: #BC2D1E;}
+
+/*index*/
+.adm_main{display: flex; align-items: flex-end;}
+.adm_main .box3 {padding: 24px 20px; width: 100%; height: 100%;}
+.adm_main .box4 {width: 100%; height: 100%;}
+.adm_main > div{margin-right:18px; width: 100%;}
+.adm_main > div:last-child{margin-right: 0;}
+.adm_main .list li {    display: flex;    align-items: center;    justify-content: space-between;    font-size: 1.1em;    color: #78787B;    line-height: 25px;    padding: 4px 0;}
+.adm_main .list.week li {    padding: 10px 0;}
+.adm_main .list li p span img {  max-height: 15px; margin-right: 5px;}
+.adm_main .box4 .list {padding: 24px 20px;  }
+.adm_main .box4 .list li p {color: #373844;}
+.adm_main input[type="date"] {height: 30px; background: rgb(255, 255, 255, 0.14); color: #fff; border: none}
+.request_latest .box3 {    padding: 30px 24px;    width: 100%;}
+@media screen and (max-width: 1200px){
+    .adm_main {    display: block;  }
+    .adm_main > div {        width: 100%;        margin-bottom: 30px;    }
+}
+
+/*point*/
+.panel  {   display: flex;    flex-wrap: wrap;}
+.panel > div  {   display: flex; max-width: 300px}
+.panel .btn {   margin-left: auto}
+.point .box3 {padding: 24px 20px; width: 100%; height: 100%;}
+.point .table .red {color: #BC2D1E}
+.point .table .blue {color: #2531B7}

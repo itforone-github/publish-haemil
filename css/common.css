@@ -12,7 +12,7 @@
 html {overflow-y:scroll;}
 body {margin:0 auto; padding:0!important; font-size:13px; letter-spacing:0;
     line-height:1.6em; color:#78787B; background:#FAFBFD;
-    font-family: 'Pretendard', 'Noto Sans KR', sans-serif; font-weight:300; word-break:keep-all;}
+    font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif; font-weight:300; word-break:keep-all;}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
 h1, h2, h3, h4, h5, h6 {font-size:1em}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, div {display:block; box-sizing: border-box;}
@@ -35,10 +35,12 @@ hr {display:none}
 pre {overflow-x:scroll;font-size:1.1em}
 a, a:link, a:visited {text-decoration:none; cursor: pointer;}
 a:hover, a:focus, a:active {text-decoration:none;}
-
-
+.panel {    margin-bottom: 20px;    background-color: none;    border: none;    border-radius: 0px;    -webkit-box-shadow:none;    box-shadow: none;}
+.flex {display: flex; }
+.flex.jc-sb {justify-content: space-between}
+.w50 {width: 50%}
 /*버튼*/
-.btn{all:unset; display: inline-block ; text-align:center;  border-radius: 5px; padding: 10px 25px; line-height: 1em; margin-right: 14px; cursor: pointer; font-weight: 400; position: relative; box-sizing: border-box;}
+.btn{all:unset; display: inline-block ; text-align:center;  border-radius: 5px; padding: 7px; line-height: 1em; margin-right: 14px; cursor: pointer; font-weight: 400; position: relative; box-sizing: border-box;}
 .btn:last-child{margin-right: 0;}
 .btn:hover{transition: all 0.3s;}
 
@@ -48,17 +50,19 @@ a:hover, a:focus, a:active {text-decoration:none;}
 .btn_large{width: 100%; padding: 15px 0; font-size: 1.2em; font-weight: 600;}
 
 .btn_red{background-color: #BC2D1E; color: #fff;}
-.btn_red:hover{color: #fff;}
+.btn_red:hover{background-color: #fff;}
 .btn_white{background-color: #fff; color: #484951;}
-.btn_white:hover{color: #484951;}
+.btn_white:hover{background-color: #484951;}
+.btn_whiteline{background-color: #fff; color: #484951; border: 1px solid #E8E8E8;}
+.btn_white:hover{background-color: #484951;}
 .btn_white2{background-color: #fff; color: #BC2D1E;}
-.btn_white2:hover{color: #BC2D1E;}
+.btn_white2:hover{background-color: #BC2D1E;}
 .btn_black{background-color: #484951; color: #fff;}
-.btn_black:hover{color: #fff;}
+.btn_black:hover{background-color: #fff;}
 .btn_gray{background-color: #E8E8E8; color: #373844;}
-.btn_gray:hover{color: #373844;}
+.btn_gray:hover{background-color: #373844;}
 .btn_line{border: 1px solid #E8E8E8; background-color: #ffffff; color: #484951;}
-.btn_line:hover{color: #484951;}
+.btn_line:hover{background-color: #484951;}
 
 .btn_sdw{box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);}
 
@@ -67,6 +71,9 @@ a:hover, a:focus, a:active {text-decoration:none;}
 /*박스디자인*/
 .box1{display: inline-block; border-radius: 5px; box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.06); background-color: #F9F9F9; overflow: hidden;}
 .box2{display: inline-block; border-radius: 5px; box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.06); background-color: #FFFFFF; overflow: hidden;}
+/*adm*/
+.box3{display: inline-block; border-radius: 5px; background-color: #F6F6F6; overflow: hidden;}
+.box4{display: inline-block; border-radius: 5px; background-color: #F6F6F6; overflow: hidden;}
 
 /*폼형태*/
 input{background-color: #FFFFFF; border: 1px solid #E8E8E8; color: #78787B; padding: 10px 15px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
@@ -79,6 +86,22 @@ input::placeholder{opacity: 0.8;}
     display:inline-block; width:100%; white-space: nowrap;overflow: hidden; text-overflow: ellipsis; vertical-align:middle;}
 .file_wrap dd .btn{margin-right: 10px; padding: 6px 10px;}
 
+select {border-radius: 0;width: 110px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #E8E8E8;}
+input[type="search"] {border-radius: 0;width: 150px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #E8E8E8;    border-right: 0;display: inline-block; margin-bottom: 0;}
+.btn_search {border-radius: 0;width: 40px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #E8E8E8;    border-left: 0;display: inline-block;}
+
+@media screen and (max-width: 330px){
+    select {width: 50px}
+    input[type="search"] {width: 100px}
+}
+
+input[type=radio] {    margin: 0px 5px 0 0;}
+[type="radio"] {  display: inline-block;  vertical-align: middle; background: lightgray;    appearance: none;    width: 1.25em;    height: 1.25em;}
+[type="radio"]:checked {  background: #fff;   ;border: 0.4em solid #BC2D1E;}
+[type="radio"]:focus-visible {    outline-offset: max(2px, 0.1em);    outline: max(2px, 0.1em) dotted #BC2D1E;}
+[type="radio"]:hover {    box-shadow: 0 0 0 max(4px, 0.2em) lightgray;    cursor: pointer;}
+[type="radio"]:disabled {    background-color: lightgray;    box-shadow: none;    opacity: 0.7;    cursor: not-allowed;}
+[type="radio"]:disabled + span {    opacity: 0.7;    cursor: not-allowed;}
 /*탭디자인*/
 .nav-tabs{font-size: 1.1em;}
 .nav-tabs>li>a{border:0; border-radius: 0; color: #555; opacity: 0.6;}
@@ -113,6 +136,7 @@ input::placeholder{opacity: 0.8;}
 
 
 /*테이블*/
+.table {    overflow-y: auto;}
 .table table{width: 100%; border-top: 1px solid #707070;}
 .table th,
 .table td{ padding: 14px; border-bottom: 1px solid #ECECEC;}
@@ -120,3 +144,14 @@ input::placeholder{opacity: 0.8;}
 .table th{font-weight: 600; font-size: 1.1em; text-align: center;}
 .table .text_center{text-align: center;}
 .table .text_left{text-align: left;}
+/*adm*/
+.table.adm tr:nth-child(odd) td{ background-color: #EEEEEE;}
+
+/*모달*/
+.modal-content {    box-shadow: none;}
+.modal .btn-primary {background-color: #BC2D1E; color: #fff; width: 48%; height: 35px}
+.modal .btn-secondary {background-color: #78787B; color: #fff; width: 48%; height: 35px}
+.modal-title {color: #373844; opacity: 0.55; font-size: 1.7em;}
+.modal-header {    border-bottom: 0;}
+.modal-footer {     border-top: 0;    display: flex;    justify-content: space-around;}
+

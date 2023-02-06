@@ -21,9 +21,10 @@
     </div>
 </footer>
 </div>
+
+    <?php include '../include/modal.php'; ?>
 <!-- page-wrapper -->
 
 <?php } ?>
-
 </body>
 </html>

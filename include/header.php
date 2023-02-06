@@ -30,14 +30,19 @@ switch ($pid) {
 		$header_name = "환자 메인";
         $exp = "환자 관리, 진료 접수, 예약 관리가 가능합니다.";
         break;
-
-
     ////adm
     //1. 통합관리
     case "a_index" :
         $header_type = 2;
         $footer_type = 1;
         $header_name = "통합 메인";
+        $exp = "";
+        break;
+    //2. 포인트관리
+    case "a_point" :
+        $header_type = 2;
+        $footer_type = 1;
+        $header_name = "포인트 내역";
         $exp = "";
         break;
 }
@@ -73,7 +78,8 @@ switch ($pid) {
                     <span><?=$exp?></span>
                 </h2>
  <?php } else if ($header_type == 2) { ?>
-            <?php include '../include/sidebar.php'; ?>
+    <div class="page-wrapper chiller-theme toggled">
+            <?php include '../include/sideadm.php'; ?>
             <!-- sidebar-wrapper  -->
             <header>
                 <div class="tnb">
@@ -97,4 +103,5 @@ switch ($pid) {
                         <strong><?=$header_name?></strong>
                         <span><?=$exp?></span>
                     </h2>
+<?php } else { ?>
 <?php } ?>
