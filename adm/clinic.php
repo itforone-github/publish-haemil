@@ -17,9 +17,13 @@ include_once("../include/header.php");
         <button type="button" class="btn btn_red"  onclick="location.href='./clinic.update.php'">등록하기</button>
     </div>
     <div class="tagbox">
-        <p><strong>한의원명</strong></p>
-        <p><a><span class="tag active">전체</span></a></p>
-        <p><a><span class="tag">전체</span></a></p>
+        <div>
+            <p><strong>한의원명</strong></p>
+        </div>
+        <div>
+            <p><a><span class="tag active">전체</span></a></p>
+            <p><a><span class="tag">전체</span></a></p>
+        </div>
     </div>
     <div class="box3">
         <div class="table adm">

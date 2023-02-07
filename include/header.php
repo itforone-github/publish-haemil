@@ -34,40 +34,60 @@ switch ($pid) {
     //1. 통합관리
     case "a_index" :
         $header_type = 2;
-        $footer_type = 1;
+        $footer_type = 2;
         $header_name = "통합 메인";
         $exp = "";
         break;
     //2. 포인트관리
     case "a_point" :
         $header_type = 2;
-        $footer_type = 1;
+        $footer_type = 2;
         $header_name = "포인트 내역";
         $exp = "";
         break;
     case "a_pointset" :
         $header_type = 2;
-        $footer_type = 1;
+        $footer_type = 2;
         $header_name = "선결제 금액 관리";
         $exp = "";
         break;
     //3. 한의원관리
     case "a_clinicmem" :
         $header_type = 2;
-        $footer_type = 1;
+        $footer_type = 2;
         $header_name = "한의원 직원 관리";
         $exp = "";
         break;
     case "a_clinic" :
         $header_type = 2;
-        $footer_type = 1;
+        $footer_type = 2;
         $header_name = "한의원 관리";
         $exp = "";
         break;
     case "a_clinicgrp" :
         $header_type = 2;
-        $footer_type = 1;
+        $footer_type = 2;
         $header_name = "그룹 관리";
+        $exp = "";
+        break;
+    //4. 환자관리
+    case "a_patient" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "환자 관리";
+        $exp = "";
+        break;
+    //5. 상품관리
+    case "a_product" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "상품 관리";
+        $exp = "";
+        break;
+    case "a_productupd" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "상품 등록";
         $exp = "";
         break;
 }

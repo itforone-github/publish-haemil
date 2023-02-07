@@ -64,31 +64,6 @@ include_once("../include/header.php");
     </div>
 </section>
 
-<!-- Modal -->
-<div class="modal fade" id="pointmodal01" tabindex="-1" aria-labelledby="pointmodal01Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="pointmodal01Label">포인트 지급/차감</h5>
-            </div>
-            <div class="modal-body">
-                <form>
-                <label>대상 ID</label><input type="text" placeholder="대상 ID을 입력해주세요">
-                <label>포인트 금액</label><input type="text" placeholder="포인트 금액을 입력해주세요">
-                <label>포인트 내용</label><input type="text" placeholder="포인트 내용을 입력해주세요">
-                <div class="flex jc-sb">
-                    <div class="w50"><input type="radio" name="point"><label>포인트 지급</label></div>
-                    <div class="w50"><input type="radio" name="point"><label>포인트 차감</label></div>
-                </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
-                <button type="button" class="btn btn-primary">등록</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
     <!--푸터 인클루드-->

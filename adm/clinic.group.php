@@ -68,32 +68,6 @@ include_once("../include/header.php");
     </div>
 </section>
 
-    <!-- Modal -->
-    <div class="modal fade" id="groupmodal01" tabindex="-1" aria-labelledby="groupmodal01Label" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="groupmodal01Label">한의원 그룹 등록</h5>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <label>그룹명</label><input type="text" placeholder="그룹명을 입력해주세요">
-                        <label>조제비</label><input type="text" placeholder="조제비를 입력해주세요">
-                        <label>포장비</label><input type="text" placeholder="포장비를 입력해주세요">
-                        <label>마감시간</label>
-                        <div class="flex jc-sb">
-                            <div class="w50"><input type="time" name=""></div>
-                            <div class="w50"><input type="time" name=""></div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
-                    <button type="button" class="btn btn-primary">등록</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!--푸터 인클루드-->
 <?php include '../include/footer.php'; ?>

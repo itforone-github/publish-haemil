@@ -26,6 +26,11 @@ footer{background-color: #F6F6F6;}
 footer .copy{padding: 26px 42px;}
 footer h1{color: #78787B; font-weight: 600; margin-bottom: 6px;}
 footer .copy li{display: inline-block; color: #78787B;;}
+footer.adm{background-color: #FFFFFF; border-top:1px solid #F6F6F6; }
+footer.adm .copy{padding: 26px 42px;}
+footer.adm h1{color: #C9C9C9; font-weight: 600; margin-bottom: 6px;}
+footer.adm .copy li{display: inline-block; color: #C9C9C9;;}
+footer.adm p{ color: #C9C9C9;;}
 
 
 @media screen and (max-width:950px) {

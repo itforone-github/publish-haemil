@@ -4,15 +4,23 @@
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
+    /*unicode-range: U+AC00-D7A3, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+0041-005A, U+0061-007A;*/
     font-style: normal;
-}
+}/*
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    font-weight: 300;
+    unicode-range: U+0030-0039;
+    font-style: normal;
+}*/
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 
 /* 초기화 */
 html {overflow-y:scroll;}
 body {margin:0 auto; padding:0!important; font-size:13px; letter-spacing:0;
     line-height:1.6em; color:#78787B; background:#FAFBFD;
-    font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif; font-weight:300; word-break:keep-all;}
+    font-family: 'Pretendard-Regular', 'Montserrat', 'Noto Sans KR', sans-serif; font-weight:300; word-break:keep-all;}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
 h1, h2, h3, h4, h5, h6 {font-size:1em}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, div {display:block; box-sizing: border-box;}
@@ -54,7 +62,7 @@ a:hover, a:focus, a:active {text-decoration:none;}
 .btn_redline:hover{background-color: #BC2D1E;}
 .btn_white{background-color: #fff; color: #484951;}
 .btn_white:hover{background-color: #484951;}
-.btn_whiteline{background-color: #fff; color: #484951; border: 1px solid #E8E8E8;}
+.btn_whiteline{background-color: #fff; color: #484951; border: 1px solid #78787B;}
 .btn_white:hover{background-color: #484951;}
 .btn_white2{background-color: #fff; color: #BC2D1E;}
 .btn_white2:hover{background-color: #BC2D1E;}
@@ -62,6 +70,8 @@ a:hover, a:focus, a:active {text-decoration:none;}
 .btn_black:hover{background-color: #fff;}
 .btn_gray{background-color: #E8E8E8; color: #373844;}
 .btn_gray:hover{background-color: #373844;}
+.btn_gray2{background-color: #78787B; color: #E8E8E8;}
+.btn_gray2:hover{background-color: #78787B;}
 .btn_line{border: 1px solid #E8E8E8; background-color: #ffffff; color: #484951;}
 .btn_line:hover{background-color: #484951;}
 
@@ -143,9 +153,11 @@ input[type=radio] {    margin: 0px 5px 0 0;}
 }
 
 /*분류태그*/
-.tagbox > p {display: inline-block}
-.tagbox > p span.tag {border-radius: 5px; border: 1px solid #C8C8CB;color: #484951; padding: 5px;margin-left: 5px;}
-.tagbox > p span.tag.active {background: #FFD0CB;    border: 1px solid #BC2D1E;    color: #BC2D1E;}
+.tagbox {    padding: 20px 24px 0;    display: flex;  width: 100%;}
+.tagbox > div {    display: flex;    flex-wrap: wrap;   }
+.tagbox > div > p {display: inline-block;    margin-bottom: 20px;}
+.tagbox > div > p span.tag {border-radius: 5px; border: 1px solid #C8C8CB;color: #484951; padding: 5px;margin-left: 5px;}
+.tagbox > div > p span.tag.active {background: #FFD0CB;    border: 1px solid #BC2D1E;    color: #BC2D1E;}
 
 /*테이블*/
 .table {    overflow-y: auto;}
@@ -153,7 +165,7 @@ input[type=radio] {    margin: 0px 5px 0 0;}
 .table th,
 .table td{ padding: 14px; border-bottom: 1px solid #ECECEC;}
 .table tr:nth-child(odd) td{background-color: #FBFBFB;}
-.table th{font-weight: 800; font-size: 1.1em; text-align: left; border-bottom: 1px solid #707070;}
+.table th{font-weight: 800; font-size: 1.1em; text-align: left; border-bottom: 1px solid #707070; color: #373844;}
 .table .text_center{text-align: center;}
 .table .text_left{text-align: left;}
 /*adm*/

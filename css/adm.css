@@ -7,7 +7,9 @@ header {    background-color: #F6F6F6;}
 .box_title.bg_red {    background-color: #BC2D1E;}
 .panel  {   display: flex;    flex-wrap: wrap;}
 .panel > div  {   display: flex; max-width: 300px}
+.panel > span  {    margin-left: auto}
 .panel > .btn_red {   margin-left: auto}
+.panel > .btn {  height: 27px}
 .panel p {line-height: 40px;padding-right: 10px;}
 .panel .red {color: #BC2D1E; font-weight: 800}
 
@@ -46,14 +48,14 @@ header {    background-color: #F6F6F6;}
 
 /*clinic*/
 .clinicmem .box3 {    padding: 30px 24px;    width: 100%;}
-.clinicmem .tagbox {    padding: 20px 24px;    width: 100%; background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.clinicmem .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .clinicmem select {  width: 100%; margin-bottom: 12px; }
 .clinicmem  .flex:first-child {  margin-bottom: 30px; }
 .clinicmem  .flex > div {        width: 32%;    margin-bottom: 15px;    padding-right: 15px;    border-right: 1px solid #C8C8CB;}
 .clinicmem  .flex > div:last-child { padding-right: 0px;    border-right: 0;}
 
 .clinic .box3 {    padding: 30px 24px;    width: 100%;}
-.clinic .tagbox {    padding: 20px 24px;    width: 100%; background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.clinic .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .clinic select {  width: 100%; margin-bottom: 12px; }
 .clinic  .flex > div {        width: 32%;    margin-bottom: 15px;    padding-right: 15px;    border-right: 1px solid #C8C8CB;}
 .clinic .flex > div:last-child { padding-right: 0px;    border-right: 0;}
@@ -64,3 +66,40 @@ header {    background-color: #F6F6F6;}
     .clinic  .flex {display: block}
     .clinic  .flex > div {width: 100%; padding-right: 0px;border-right: 0;}
 }
+
+/*patient*/
+.patient .box3 {    padding: 30px 24px;    width: 100%;}
+.patient .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.patient select {  width: 100%; margin-bottom: 12px; }
+
+/*product*/
+.product .box5 {   width: 100%;}
+.product .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.product select {  width: 100%; margin-bottom: 12px; }
+div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    display: inline-block;    margin-right: 7px;}
+.pro_item:last-child {    margin-right: 0px;}
+.pro_item img{     border-radius: 5px;  width: 100%;}
+.pro_item .item_txt {padding:15px;background: #F6F6F6;    border-radius: 5px; }
+.pro_item .item_cate {padding:5px;background: #FFFFFF;    border-radius: 5px; }
+.pro_item .item_name {padding:5px 0; }
+.pro_item .item_price {text-align: right; font-size: 1.2em; font-weight: 800; color:#BC2D1E}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px){
+    .product .box5 > div > div.pro_item{     width: calc((100% / 4) - 9px);   }
+    .pro_item:last-child {    margin-right: 9px;}
+    .pro_item:nth-child(4n) {    margin-right: 0px;}
+}
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+    .product .box5 > div > div.pro_item{     width: calc((100% / 3) - 9px); }
+    .pro_item:last-child {    margin-right: 9px;}
+    .pro_item:nth-child(3n) {    margin-right: 0px;}
+}
+@media screen and (max-width: 700px){
+    .product .box5 > div > div.pro_item{     width: calc((100% / 2) - 9px); }
+    .pro_item:last-child {    margin-right: 9px;}
+    .pro_item:nth-child(2n) {    margin-right: 0px;}
+}
+
+.productupd .box3 {    padding: 30px 24px;    width: 100%;}
+.productupd .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.productupd select {  width: 100%; margin-bottom: 12px; }
