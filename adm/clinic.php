@@ -30,7 +30,7 @@ include_once("../include/header.php");
             <table>
                 <thead>
                 <tr>
-                    <th><input type="checkbox" name="checkbox"></th>
+                    <th><input type="checkbox" name="checkbox"/></th>
                     <th>No.</th>
                     <th>한의원명</th>
                     <th>대표자</th>
@@ -43,7 +43,7 @@ include_once("../include/header.php");
                 </thead>
                 <tbody>
                 <tr>
-                    <td><input type="checkbox" name="checkbox"></td>
+                    <td><input type="checkbox" name="checkbox"/></td>
                     <td>1</td>
                     <td>유신한의원</td>
                     <td>김유신</td>

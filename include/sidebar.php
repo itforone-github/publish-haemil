@@ -4,7 +4,7 @@
 <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-content">
         <div class="sidebar-brand">
-            <a href="#"><img src="../img/common/logo.svg" alt="해밀한의원 원외탕전실"></a>
+            <a href="#"><img src="../img/common/logo.svg" alt="해밀한의원 원외탕전실"/></a>
             <div id="close-sidebar">
                 <i class="fa-light fa-xmark"></i>
             </div>
@@ -13,7 +13,7 @@
         <div class="sidebar-header">
             <div class="user-info">
                 <span class="user-name">유신한의원</span>
-                <span class="user-role"><img src="../img/common/user_icon01.svg">김유신 담당자</span>
+                <span class="user-role"><img src="../img/common/user_icon01.svg"/>김유신 담당자</span>
                 <span class="user-point">
                 <img src="../img/common/user_icon02.svg">1,000점
                 </span>
@@ -26,19 +26,19 @@
             <div class="side-icon">
                 <a href="#side-icon1" class="active">
                     <!-- <span class="badge badge-pill badge-warning notification">3</span> -->
-                    <img src="../img/common/sidebar_icon01.svg">
+                    <img src="../img/common/sidebar_icon01.svg"/>
                     <p>환자진료</p>
                 </a>
                 <a href="#side-icon2">
-                    <img src="../img/common/sidebar_icon02.svg">
+                    <img src="../img/common/sidebar_icon02.svg"/>
                     <p>처방하기</p>
                 </a>
                 <a href="#side-icon3">
-                    <img src="../img/common/sidebar_icon03.svg">
+                    <img src="../img/common/sidebar_icon03.svg"/>
                     <p>한의학몰</p>
                 </a>
                 <a href="#side-icon4">
-                    <img src="../img/common/sidebar_icon04.svg">
+                    <img src="../img/common/sidebar_icon04.svg"/>
                     <p>기본설정</p>
                 </a>
             </div>
@@ -50,13 +50,13 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#" <?php if($pid == "index") { echo "class='active'"; }?>>
-                            <img src="../img/common/sidemenu01_01.svg">
+                            <img src="../img/common/sidemenu01_01.svg"/>
                             <span>환자 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu01_02.svg">
+                            <img src="../img/common/sidemenu01_02.svg"/>
                             <span>예약·진료 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
@@ -84,7 +84,7 @@
                     </li> -->
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu01_04.svg">
+                        <img src="../img/common/sidemenu01_04.svg"/>
                             <span>진료 리뷰 관리</span>
                         </a>
                     </li>
@@ -98,7 +98,7 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu02_01.svg">
+                            <img src="../img/common/sidemenu02_01.svg"/>
                             <span>처방하기</span>
                         </a>
                         <div class="sidebar-submenu">
@@ -123,25 +123,25 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu02_02.svg">
+                            <img src="../img/common/sidemenu02_02.svg"/>
                             <span>복용법 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu02_03.svg">
+                            <img src="../img/common/sidemenu02_03.svg"/>
                             <span>자주 쓰는 처방</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu02_04.svg">
+                            <img src="../img/common/sidemenu02_04.svg"/>
                             <span>주문 배송 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu02_05.svg">
+                            <img src="../img/common/sidemenu02_05.svg"/>
                             <span>처방 기본 설정</span>
                         </a>
                     </li>
@@ -155,13 +155,13 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu03_01.svg">
+                            <img src="../img/common/sidemenu03_01.svg"/>
                             <span>약속 처방재</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu03_02.svg">
+                            <img src="../img/common/sidemenu03_02.svg"/>
                             <span>기획전</span>
                         </a>
                     </li>
@@ -170,13 +170,13 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu03_03.svg">
+                        <img src="../img/common/sidemenu03_03.svg"/>
                             <span>장바구니</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu03_04.svg">
+                        <img src="../img/common/sidemenu03_04.svg"/>
                             <span>주문·배송 조회</span>
                         </a>
                     </li>
@@ -190,43 +190,43 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu04_01.svg">
+                            <img src="../img/common/sidemenu04_01.svg"/>
                             <span>한의원 정보</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sidemenu04_02.svg">
+                            <img src="../img/common/sidemenu04_02.svg"/>
                             <span>진료 예약 설정</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu04_03.svg">
+                        <img src="../img/common/sidemenu04_03.svg"/>
                             <span>이벤트 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu04_04.svg">
+                        <img src="../img/common/sidemenu04_04.svg"/>
                             <span>포인트 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu04_05.svg">
+                        <img src="../img/common/sidemenu04_05.svg"/>
                             <span>직원 계정 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu04_06.svg">
+                        <img src="../img/common/sidemenu04_06.svg"/>
                             <span>요청·문의하기</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu04_07.svg">
+                        <img src="../img/common/sidemenu04_07.svg"/>
                             <span>홈페이지 제작·관리</span>
                         </a>
                     </li>

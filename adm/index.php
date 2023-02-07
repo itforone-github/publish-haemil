@@ -10,19 +10,19 @@ include_once("../include/header.php");
             <div class="box3">
                 <ul class="list week">
                     <li>
-                        <p><span><img src="../img/common/ic_week01.svg"></span>총 주문금액</p>
+                        <p><span><img src="../img/common/ic_week01.svg"/></span>총 주문금액</p>
                         <p><strong>100,000</strong> 원</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_week02.svg"></span>조제·준비 중</p>
+                        <p><span><img src="../img/common/ic_week02.svg"/></span>조제·준비 중</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_week03.svg"></span>배송 중</p>
+                        <p><span><img src="../img/common/ic_week03.svg"/></span>배송 중</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_week04.svg"></span>배송 완료</p>
+                        <p><span><img src="../img/common/ic_week04.svg"/></span>배송 완료</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                 </ul>
@@ -38,23 +38,23 @@ include_once("../include/header.php");
                 </div>
                 <ul class="list">
                     <li>
-                        <p><span><img src="../img/common/ic_order01.svg"></span>총 주문건수</p>
+                        <p><span><img src="../img/common/ic_order01.svg"/></span>총 주문건수</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order02.svg"></span>한의학몰</p>
+                        <p><span><img src="../img/common/ic_order02.svg"/></span>한의학몰</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order03.svg"></span>탕/환/산</p>
+                        <p><span><img src="../img/common/ic_order03.svg"/></span>탕/환/산</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order03.svg"></span>약속처방</p>
+                        <p><span><img src="../img/common/ic_order03.svg"/></span>약속처방</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order03.svg"></span>서술식 주문</p>
+                        <p><span><img src="../img/common/ic_order03.svg"/></span>서술식 주문</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                 </ul>
@@ -65,29 +65,29 @@ include_once("../include/header.php");
                 <div class="box_title">
                     <strong>2022년 11월 주문배송 요약</strong>
                     <div class="title_btn">
-                        <a class="arrow on"><img src="../img/common/arrow_left.svg"></a>
-                        <a class="arrow off"><img src="../img/common/arrow_right.svg"></a>
+                        <a class="arrow on"><img src="../img/common/arrow_left.svg"/></a>
+                        <a class="arrow off"><img src="../img/common/arrow_right.svg"/></a>
                     </div>
                 </div>
                 <ul class="list">
                     <li>
-                        <p><span><img src="../img/common/ic_order01.svg"></span>총 주문건수</p>
+                        <p><span><img src="../img/common/ic_order01.svg"/></span>총 주문건수</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order02.svg"></span>한의학몰</p>
+                        <p><span><img src="../img/common/ic_order02.svg"/></span>한의학몰</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order03.svg"></span>탕/환/산</p>
+                        <p><span><img src="../img/common/ic_order03.svg"/></span>탕/환/산</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order03.svg"></span>약속처방</p>
+                        <p><span><img src="../img/common/ic_order03.svg"/></span>약속처방</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                     <li>
-                        <p><span><img src="../img/common/ic_order03.svg"></span>서술식 주문</p>
+                        <p><span><img src="../img/common/ic_order03.svg"/></span>서술식 주문</p>
                         <p><strong>100,000</strong> 건</p>
                     </li>
                 </ul>

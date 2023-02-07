@@ -5,7 +5,7 @@
 <nav id="sidebar" class="sidebar-wrapper sideadm">
     <div class="sidebar-content">
         <div class="sidebar-brand">
-            <a href="#"><img src="../img/common/logo.svg" alt="해밀한의원 원외탕전실"></a>
+            <a href="#"><img src="../img/common/logo.svg" alt="해밀한의원 원외탕전실"/></a>
             <div id="close-sidebar">
                 <i class="fa-light fa-xmark"></i>
             </div>
@@ -17,11 +17,11 @@
             <div class="side-icon">
                 <a href="#side-icon1" class="active">
                     <!-- <span class="badge badge-pill badge-warning notification">3</span> -->
-                    <img src="../img/common/sideadm_icon01.svg">
+                    <img src="../img/common/sideadm_icon01.svg"/>
                     <p>통합 관리자</p>
                 </a>
                 <a href="#side-icon2">
-                    <img src="../img/common/sideadm_icon02.svg">
+                    <img src="../img/common/sideadm_icon02.svg"/>
                     <p>어플 관리자</p>
                 </a>
             </div>
@@ -33,7 +33,7 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_02.svg">
+                            <img src="../img/common/sideadm01_02.svg"/>
                             <span>포인트 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
@@ -52,7 +52,7 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_03.svg">
+                            <img src="../img/common/sideadm01_03.svg"/>
                             <span>한의원 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
@@ -74,21 +74,21 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_04.svg">
+                            <img src="../img/common/sideadm01_04.svg"/>
                             <span>환자 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_05.svg">
+                            <img src="../img/common/sideadm01_05.svg"/>
                             <span>상품 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_06.svg">
+                            <img src="../img/common/sideadm01_06.svg"/>
                             <span>주문 배송 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
@@ -107,14 +107,14 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_07.svg">
+                            <img src="../img/common/sideadm01_07.svg"/>
                             <span>약재 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_08.svg">
+                            <img src="../img/common/sideadm01_08.svg"/>
                             <span>환제 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
@@ -154,14 +154,14 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_09.svg">
+                            <img src="../img/common/sideadm01_09.svg"/>
                             <span>기성처방 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_10.svg">
+                            <img src="../img/common/sideadm01_10.svg"/>
                             <span>포장 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
@@ -180,21 +180,21 @@
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_11.svg">
+                            <img src="../img/common/sideadm01_11.svg"/>
                             <span>공지 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_12.svg">
+                            <img src="../img/common/sideadm01_12.svg"/>
                             <span>문의·요청 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm01_13.svg">
+                            <img src="../img/common/sideadm01_13.svg"/>
                             <span>팝업 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
@@ -207,38 +207,38 @@
                         <span>관리자</span>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#" <?php if($pid == "index") { echo "class='active'"; }?>>
-                            <img src="../img/common/sideadm01_01.svg">
+                        <a href="#">
+                            <img src="../img/common/sideadm01_01.svg"/>
                             <span>회원 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#" <?php if($pid == "index") { echo "class='active'"; }?>>
-                            <img src="../img/common/sideadm02_01.svg">
+                        <a href="#">
+                            <img src="../img/common/sideadm02_01.svg"/>
                             <span>이벤트 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm02_02.svg">
+                            <img src="../img/common/sideadm02_02.svg"/>
                             <span>신고리뷰 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm02_03.svg">
+                            <img src="../img/common/sideadm02_03.svg"/>
                             <span>한약재 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm02_04.svg">
+                            <img src="../img/common/sideadm02_04.svg"/>
                             <span>FAQ 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                            <img src="../img/common/sideadm02_05.svg">
+                            <img src="../img/common/sideadm02_05.svg"/>
                             <span>질병음식 관리</span>
                         </a>
                     </li>

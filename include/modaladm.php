@@ -9,12 +9,12 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <label>대상 ID</label><input type="text" placeholder="대상 ID을 입력해주세요">
-                    <label>포인트 금액</label><input type="text" placeholder="포인트 금액을 입력해주세요">
-                    <label>포인트 내용</label><input type="text" placeholder="포인트 내용을 입력해주세요">
+                    <label>대상 ID</label><input type="text" placeholder="대상 ID을 입력해주세요"/>
+                    <label>포인트 금액</label><input type="text" placeholder="포인트 금액을 입력해주세요"/>
+                    <label>포인트 내용</label><input type="text" placeholder="포인트 내용을 입력해주세요"/>
                     <div class="flex jc-sb">
-                        <div class="w50"><input type="radio" name="point"><label>포인트 지급</label></div>
-                        <div class="w50"><input type="radio" name="point"><label>포인트 차감</label></div>
+                        <div class="w50"><input type="radio" name="point"/><label>포인트 지급</label></div>
+                        <div class="w50"><input type="radio" name="point/"><label>포인트 차감</label></div>
                     </div>
                 </form>
             </div>
@@ -34,9 +34,9 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <label>그룹명</label><input type="text" placeholder="그룹명을 입력해주세요">
-                    <label>조제비</label><input type="text" placeholder="조제비를 입력해주세요">
-                    <label>포장비</label><input type="text" placeholder="포장비를 입력해주세요">
+                    <label>그룹명</label><input type="text" placeholder="그룹명을 입력해주세요"/>
+                    <label>조제비</label><input type="text" placeholder="조제비를 입력해주세요"/>
+                    <label>포장비</label><input type="text" placeholder="포장비를 입력해주세요"/>
                     <label>마감시간</label>
                     <div class="flex jc-sb">
                         <div class="w50"><input type="time" name=""></div>
@@ -60,14 +60,14 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <label>차트번호</label><input type="text" value="00000001" readonly>
-                    <label>한의원명</label><input type="text" value="유신한의원" readonly>
-                    <label>성함</label><input type="text" value="김환자" readonly>
-                    <label>어플연동(ID)</label><input type="text" value="kim900101" readonly>
-                    <label>생년월일</label><input type="text" value="1990-01-01" readonly>
-                    <label>연락처</label><input type="text" value="010-0000-0000" readonly>
-                    <label>주소</label><input type="text" value="부산시 해운대구 센텀동로 7" readonly>
-                    <label>체질구분</label><input type="text" value="소양인" readonly>
+                    <label>차트번호</label><input type="text" value="00000001" readonly/>
+                    <label>한의원명</label><input type="text" value="유신한의원" readonly/>
+                    <label>성함</label><input type="text" value="김환자" readonly/>
+                    <label>어플연동(ID)</label><input type="text" value="kim900101" readonly/>
+                    <label>생년월일</label><input type="text" value="1990-01-01" readonly/>
+                    <label>연락처</label><input type="text" value="010-0000-0000" readonly/>
+                    <label>주소</label><input type="text" value="부산시 해운대구 센텀동로 7" readonly/>
+                    <label>체질구분</label><input type="text" value="소양인" readonly/>
                 </form>
             </div>
             <div class="modal-footer">

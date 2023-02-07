@@ -103,3 +103,5 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .productupd .box3 {    padding: 30px 24px;    width: 100%;}
 .productupd .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .productupd select {  width: 100%; margin-bottom: 12px; }
+lable.title {   line-height: 40px;}
+input.title {    display: inline-block;    max-width: 400px;    margin-bottom: 0;}

@@ -28,8 +28,8 @@ include_once("../include/header.php");
                     </thead>
                     <tbody>
                     <tr>
-                        <td><input type="text" placeholder="포인트 금액"></td>
-                        <td><input type="text" placeholder="보너스 퍼센트"></td>
+                        <td><input type="text" placeholder="포인트 금액"/></td>
+                        <td><input type="text" placeholder="보너스 퍼센트"/></td>
                         <td>32,100,000</td>
                     </tr>
                     <tr>
@@ -63,8 +63,8 @@ include_once("../include/header.php");
                     </thead>
                     <tbody>
                     <tr>
-                        <td><input type="text" placeholder="포인트 금액"></td>
-                        <td><input type="text" placeholder="보너스 퍼센트"></td>
+                        <td><input type="text" placeholder="포인트 금액"/></td>
+                        <td><input type="text" placeholder="보너스 퍼센트"/></td>
                         <td>32,100,000</td>
                     </tr>
                     <tr>

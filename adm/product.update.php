@@ -6,14 +6,7 @@ include_once("../include/header.php");
 
     <section class="productupd">
         <div class="panel">
-            <p>총 <span class="red">4</span>개 </p>
-            <div>
-                <select name="search">
-                    <option value="">선택</option>
-                </select>
-                <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
-
-            </div>
+            <label class="title">상품명</label><input type="text" placeholder="상품명을입력하세요" class="title" />
             <button type="button" class="btn btn_red">등록하기</button>
         </div>
         <div class="box3">
