@@ -100,19 +100,19 @@ switch ($pid) {
         <header>
             <div class="tnb">
                 <a heft="../med/index.php">
-                    <img src="../img/common/top_menu01.svg"><span>메인</span>
+                    <img src="../img/common/top_menu01.svg"/><span>메인</span>
                 </a>
                 <a>
-                    <img src="../img/common/top_menu02.svg"><span>계좌정보</span>
+                    <img src="../img/common/top_menu02.svg"/><span>계좌정보</span>
                 </a>
                 <a>
-                    <img src="../img/common/top_menu03.svg"><span>마이페이지</span>
+                    <img src="../img/common/top_menu03.svg"/><span>마이페이지</span>
                 </a>
                 <a>
-                    <img src="../img/common/top_menu04.svg"><span>홈페이지</span>
+                    <img src="../img/common/top_menu04.svg"/><span>홈페이지</span>
                 </a>
                 <a>
-                    <img src="../img/common/top_menu05.svg"><span>로그아웃</span>
+                    <img src="../img/common/top_menu05.svg"/><span>로그아웃</span>
                 </a>
             </div>
         </header>
@@ -129,16 +129,16 @@ switch ($pid) {
             <header>
                 <div class="tnb">
                     <a heft="../adm/index.php">
-                        <img src="../img/common/top_menu01.svg"><span>메인</span>
+                        <img src="../img/common/top_menu01.svg"/><span>메인</span>
                     </a>
                     <a>
-                        <img src="../img/common/top_menu03.svg"><span>마이페이지</span>
+                        <img src="../img/common/top_menu03.svg"/><span>마이페이지</span>
                     </a>
                     <a heft="../med/index.php">
-                        <img src="../img/common/top_menu04.svg"><span>홈페이지</span>
+                        <img src="../img/common/top_menu04.svg"/><span>홈페이지</span>
                     </a>
                     <a>
-                        <img src="../img/common/top_menu05.svg"><span>로그아웃</span>
+                        <img src="../img/common/top_menu05.svg"/><span>로그아웃</span>
                     </a>
                 </div>
             </header>

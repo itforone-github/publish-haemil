@@ -45,7 +45,7 @@ include_once("../include/header.php");
         <div class="box5">
             <div>
                 <div class="pro_item">
-                    <img src="../img/common/noimg.png">
+                    <img src="../img/common/noimg.png"/>
                     <div class="item_txt">
                         <p><span class="item_cate">기획전</span></p>
                         <p class="item_name">경옥고S스틱박스</p>
@@ -53,7 +53,7 @@ include_once("../include/header.php");
                     </div>
                 </div>
                 <div class="pro_item">
-                    <img src="../img/common/noimg.png">
+                    <img src="../img/common/noimg.png"/>
                     <div class="item_txt">
                         <p><span class="item_cate">기획전</span></p>
                         <p class="item_name">경옥고S스틱박스</p>
@@ -61,7 +61,7 @@ include_once("../include/header.php");
                     </div>
                 </div>
                 <div class="pro_item">
-                    <img src="../img/common/noimg.png">
+                    <img src="../img/common/noimg.png"/>
                     <div class="item_txt">
                         <p><span class="item_cate">기획전</span></p>
                         <p class="item_name">경옥고S스틱박스</p>
@@ -69,7 +69,7 @@ include_once("../include/header.php");
                     </div>
                 </div>
                 <div class="pro_item">
-                    <img src="../img/common/noimg.png">
+                    <img src="../img/common/noimg.png"/>
                     <div class="item_txt">
                         <p><span class="item_cate">기획전</span></p>
                         <p class="item_name">경옥고S스틱박스</p>
@@ -77,7 +77,7 @@ include_once("../include/header.php");
                     </div>
                 </div>
                 <div class="pro_item">
-                    <img src="../img/common/noimg.png">
+                    <img src="../img/common/noimg.png"/>
                     <div class="item_txt">
                         <p><span class="item_cate">기획전</span></p>
                         <p class="item_name">경옥고S스틱박스</p>

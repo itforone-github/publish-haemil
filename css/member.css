@@ -25,8 +25,10 @@
 }
 
 /* 1.2 회원가입 */
-.sign_form .form_wrap:first-child{background-color: #F9F9F9;}
-.sign_form .form_wrap{padding: 55px 50px; display: flex;}
+.sign_form > div:first-child{background-color: #F9F9F9;}
+.sign_form > div{padding: 55px 50px;}
+.sign_form > div > p{padding-bottom: 10px; font-weight: bold}
+.sign_form .form_wrap{ display: flex;}
 .sign_form .form_wrap input{ min-width: 374px;}
 .sign_form .form_wrap > div{padding-right: 20px; border-right: 1px solid #C8C8CB; margin-right: 20px; width:100%;}
 .sign_form .form_wrap > div:last-child{padding-right: 0; margin-right: 0; border: 0;}
@@ -37,8 +39,11 @@
 
 }
 @media screen and (max-width:550px){
+
+    .sign_form .form_wrap input{ min-width:0px;}
     .sign_form{overflow-y: auto; height:calc(100vh - 150px)}
-    .sign_form .form_wrap{padding: 20px 25px; display:block;}
+    .sign_form > div {padding: 20px 25px;}
+    .sign_form .form_wrap{ display:block;}
     .sign_form .form_wrap > div{border-right: 0; border-bottom: 1px solid #C8C8CB; padding:0 0 20px; margin: 0 0 20px; }
     .sign_form .form_wrap > div:last-child{margin-bottom: 0; padding-bottom: 0;}
 }

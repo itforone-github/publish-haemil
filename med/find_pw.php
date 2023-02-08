@@ -9,7 +9,7 @@ include_once("../include/header.php");
   <div class="mb_wrap">
 
     <div class="box2">
-      <h1><img src="../img/common/logo_w.svg" alt="해밀한의원 원외탕전실"><span>아이디/비밀번호 찾기</span></h1>
+      <h1><img src="../img/common/logo_w.svg" alt="해밀한의원 원외탕전실"/><span>아이디/비밀번호 찾기</span></h1>
 
 
       <form>
@@ -27,8 +27,8 @@ include_once("../include/header.php");
               <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="find_id">
                     <!--아이디찾기-->
-                    <input type="text" placeholder="직장/한의원명">
-                    <input type="text" placeholder="사업자등록번호">
+                    <input type="text" placeholder="직장/한의원명"/>
+                    <input type="text" placeholder="사업자등록번호"/>
 
                     <div class="btn_wrap">
                         <a class="btn btn_sdw btn_red" onclick="message()">조회하기</a>
@@ -37,8 +37,8 @@ include_once("../include/header.php");
                 </div>
                 <div role="tabpanel" class="tab-pane" id="find_pw">
                     <!--비밀번호찾기-->
-                    <input type="text" placeholder="아이디">
-                    <input type="text" placeholder="사업자등록번호">
+                    <input type="text" placeholder="아이디"/>
+                    <input type="text" placeholder="사업자등록번호"/>
 
                     <div class="btn_wrap">
                         <a href="login.php" class="btn btn_sdw btn_red">비밀번호 재설정</a>

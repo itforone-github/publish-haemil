@@ -105,7 +105,8 @@ input[type="search"] {border-radius: 0;width: 150px;    height: 40px;    backgro
     select {width: 50px}
     input[type="search"] {width: 100px}
 }
-
+input[type='date']::before {    content: attr(data-placeholder);    width: 100%;}
+input[type='date']:focus::before,input[type='date']:valid::before {    display: none;}
 input[type=radio] {    margin: 0px 5px 0 0;}
 [type="radio"] {  display: inline-block;  vertical-align: middle; background: lightgray;    appearance: none;    width: 1.25em;    height: 1.25em;}
 [type="radio"]:checked {  background: #fff;   ;border: 0.4em solid #BC2D1E;}
@@ -119,6 +120,11 @@ input[type=radio] {    margin: 0px 5px 0 0;}
 [type="checkbox"]:hover {    box-shadow: 0 0 0 max(4px, 0.2em) lightgray;    cursor: pointer;}
 [type="checkbox"]:disabled {    background-color: lightgray;    box-shadow: none;    opacity: 0.7;    cursor: not-allowed;}
 [type="checkbox"]:disabled + span {    opacity: 0.7;    cursor: not-allowed;}
+/*네모형 라디오*/
+.select input[type=radio]{    display: none;}
+.select input[type=radio]+label{    border-radius: 0; display: inline-block;    cursor: pointer;    height: 40px;    width: 40px;    border: 1px solid #373844;    line-height: 40px;    text-align: center;    font-weight:bold; }
+.select input[type=radio]+label{    background-color: #fff;    color: #373844;}
+.select input[type=radio]:checked+label{    background-color: #373844;    color: #fff;}
 
 /*탭디자인*/
 .nav-tabs{font-size: 1.1em;}

@@ -20,13 +20,13 @@ include_once("../include/header.php");
         <div class="table adm">
             <table>
                 <colgroup>
-                    <col width="5%">
-                    <col width="*">
-                    <col width="10%">
-                    <col width="10%">
-                    <col width="15%">
-                    <col width="10%">
-                    <col width="15%">
+                    <col width="5%"/>
+                    <col width="*"/>
+                    <col width="10%"/>
+                    <col width="10%"/>
+                    <col width="15%"/>
+                    <col width="10%"/>
+                    <col width="15%"/>
                 </colgroup>
                 <thead>
                 <tr>

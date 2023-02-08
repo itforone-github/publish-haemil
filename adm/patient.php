@@ -25,7 +25,7 @@ include_once("../include/header.php");
             <table>
                 <thead>
                 <tr>
-                    <th><input type="checkbox" name="checkbox"></th>
+                    <th><input type="checkbox" name="checkbox"/></th>
                     <th>No.</th>
                     <th>차트번호</th>
                     <th>한의원명</th>
@@ -39,7 +39,7 @@ include_once("../include/header.php");
                 </thead>
                 <tbody>
                 <tr>
-                    <td><input type="checkbox" name="checkbox"></td>
+                    <td><input type="checkbox" name="checkbox"/></td>
                     <td>1</td>
                     <td>00000001</td>
                     <td>유신한의원</td>

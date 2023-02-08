@@ -10,10 +10,10 @@ include_once("../include/header.php");
         <h3>간편 환자등록</h3>
         <div class="box1">
             <div class="form">
-                <label>이름</label><input type="text" placeholder="이름">
-                <label>주민등록번호</label><input type="text" placeholder="주민등록번호">
-                <label>연락처</label><input type="text" placeholder="연락처">
-                <label>주소</label><input type="text" placeholder="주소">
+                <label>이름</label><input type="text" placeholder="이름"/>
+                <label>주민등록번호</label><input type="text" placeholder="주민등록번호"/>
+                <label>연락처</label><input type="text" placeholder="연락처"/>
+                <label>주소</label><input type="text" placeholder="주소"/>
             </div>
             <a class="btn btn_middle btn_red">등록</a>
         </div>
@@ -24,8 +24,8 @@ include_once("../include/header.php");
                 <strong>실시간 진료 명단</strong>
                 <div class="title_btn">
                     <span>7명</span>
-                    <a class="arrow on"><img src="../img/common/arrow_left.svg"></a>
-                    <a class="arrow off"><img src="../img/common/arrow_right.svg"></a>
+                    <a class="arrow on"><img src="../img/common/arrow_left.svg"/></a>
+                    <a class="arrow off"><img src="../img/common/arrow_right.svg"/></a>
                     <a class="btn btn_small btn_white">직접접수</a>
                 </div>
             </div>
@@ -77,8 +77,8 @@ include_once("../include/header.php");
                 <strong>금일 진료 예약건</strong>
                 <div class="title_btn">
                     <span>7명</span>
-                    <a class="arrow on"><img src="../img/common/arrow_left.svg"></a>
-                    <a class="arrow off"><img src="../img/common/arrow_right.svg"></a>
+                    <a class="arrow on"><img src="../img/common/arrow_left.svg"/></a>
+                    <a class="arrow off"><img src="../img/common/arrow_right.svg"/></a>
                     <a class="btn btn_small btn_white">직접접수</a>
                 </div>
             </div>
