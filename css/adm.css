@@ -6,11 +6,14 @@ header {    background-color: #F6F6F6;}
 .box_title {    min-height: 60px;background-color: #AAAAAA;    color: #ffffff;    display: flex;    align-items: center;    justify-content: space-between;    border-radius: 0 0 5px 5px;    padding: 15px 20px;}
 .box_title.bg_red {    background-color: #BC2D1E;}
 .panel  {   display: flex;    flex-wrap: wrap;}
-.panel > div  {   display: flex; max-width: 300px}
+.panel > div  {    margin: 0 5px;display: flex; max-width: 300px}
 .panel > span  {    margin-left: auto}
 .panel > .btn_red {   margin-left: auto}
 .panel > .btn {  height: 27px}
-.panel p {line-height: 40px;padding-right: 10px;}
+.panel p {line-height: 40px;padding: 0 10px;}
+.panel > p:first-child {line-height: 40px;padding-left: 0px;}
+.panel input {    border-radius: 0px;}
+.panel input[type=text] {border-right: 0px;}
 .panel .red {color: #BC2D1E; font-weight: 800}
 
 /*index*/
@@ -99,28 +102,71 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
     .pro_item:last-child {    margin-right: 9px;}
     .pro_item:nth-child(2n) {    margin-right: 0px;}
 }
-
 .productupd .box3 {    padding: 30px 24px;    width: 100%;}
 .productupd .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .productupd select {  width: 100%; margin-bottom: 12px; }
 .productupd label.title {   line-height: 40px;}
 .productupd input.title {    display: inline-block;    max-width: 400px;    margin-bottom: 0; border:1px solid #2A2A2A; box-shadow: 5px 5px 15px #0000001A;}
-.productupd p.name {margin-bottom: 10px; padding-top: 10px;border-top:1px solid #ececec;}
+.productupd p.name {margin-bottom: 10px; padding-top: 10px;border-top:1px solid #ececec;color: #BC2D1E; font-size: 1.1em; font-weight: bold;}
 .productupd p.line {margin-bottom: 10px;}
+.productupd p.line.group {margin-bottom: 20px;}
+.productupd p.line.indiv {margin-bottom: 20px;}
 .productupd p.line > div {display: inline-block; }
 .productupd p.line button {height: 40px; padding: 0 15px;  margin-bottom: 10px; font-size: 1em }
-.productupd input {display: inline-block;   width: 33vw; max-width: 300px; margin:0 10px; margin-bottom: 10px; }
+.productupd input[type=text] {display: inline-block;   width: 33vw; max-width: 300px; margin:0 10px; margin-bottom: 10px; }
+.productupd input[type=radio] { margin:0 10px; margin-bottom: 10px; }
+.productupd input[type=checkbox] { margin:0 10px; margin-bottom: 10px; }
 .productupd input.ip-sm { width: 18vw; max-width: 120px; }
-.productupd p.line > select { width: 33vw; max-width: 300px;display: inline-block; x; margin:0 10px; margin-bottom: 10px; }
+.productupd p.line > select { width: 33vw; max-width: 300px;display: inline-block; margin:0 10px; margin-bottom: 10px; }
 .productupd p.line > select.st-sm { width: 18vw; max-width: 120px;}
-.productupd p.line > label { margin-bottom: 10px;}
-
+.productupd p.line > label { margin-bottom: 10px;    font-weight: 400;}
+.productupd .price {    width: 100%;  padding: 15px; border: 1px solid #ebebeb; background: #ffffff;    margin-bottom: 20px;}
+.productupd .editor {    width: 100%;  margin-bottom: 20px;}
+.productupd .editor textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 200px; padding: 15px}
 @media screen and (max-width: 400px){
-    .productupd input {width: 70vw; max-width: 300px;  margin:0px;  display: block;  }
+    .productupd input[type=text] {width: 100%; max-width: 300px;  margin:0px;  display: block;  }
     .productupd input.ip-sm { display: inline-block; width: 50vw; max-width: 200px; margin-right: 10px; margin-bottom: 20px; }
     .productupd label.title {   margin-bottom: 20px;}
     .productupd input.title {   margin:0 10px; margin-bottom: 20px;}
-    .productupd p.line > select { width: 70vw; max-width: 300px; margin:0px; display: block; }
+    .productupd p.line > select { width: 100%; max-width: 300px; margin:0px; display: block; }
     .productupd p.line button {height: 40px; padding: 0 15px;  margin: 10px 0; font-size: 1em }
-    .productupd p.line > select.st-sm { width: 70vw; max-width: 300px; margin:0px; display: block;  margin-bottom: 20px; }
+    .productupd p.line > select.st-sm { width: 100%; max-width: 300px; margin:0px; display: block;  margin-bottom: 20px; }
+}
+#productupmodal01 .list {padding: 10px; margin-bottom: 10px; border-bottom: 1px solid #ebebeb}
+
+/*order1*/
+.order1 .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.order1 .tagbox > div:nth-child(odd) {width: 50px}
+.order1 .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.order1 .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.order1 .box3 {    padding: 30px 24px;    width: 100%;}
+.order1 .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.order1 select {  width: 100%; margin-bottom: 12px; }
+.order1 .delivery input,.order1 .delivery select {  margin-bottom: 0px; }
+@media screen and (max-width: 1400px){
+    .order1 .delivery {flex-wrap: wrap}
+    .order1 .delivery input,.order1 .delivery select {  margin-bottom: 0px; min-width: 100px }
+}
+/*order2*/
+.order2 .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.order2 .tagbox > div:nth-child(odd) {width: 50px}
+.order2 .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.order2 .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.order2 .box3 {    padding: 30px 24px;    width: 100%;}
+.order2 .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.order2 select {  width: 100%; margin-bottom: 12px; }
+.order2 .delivery input,.order2 .delivery select {  margin-bottom: 0px; }
+@media screen and (max-width: 1400px){
+    .order2 .delivery {flex-wrap: wrap}
+    .order2 .delivery input,.order2 .delivery select {  margin-bottom: 0px; min-width: 100px }
+}
+/*medicine*/
+.medicine .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.medicine .box3 {    padding: 30px 24px;    width: 100%;}
+.medicine .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.medicine select {  width: 100%; margin-bottom: 12px; }
+.thumb_img {width: 100%;height: 35px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#medicinemodal01 select {width: 100%}
+#medicinemodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
 }

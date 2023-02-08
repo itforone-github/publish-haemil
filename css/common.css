@@ -34,21 +34,28 @@ input:focus,
 button:focus {outline:none;}
 input, button {margin:0;padding:0;font-size:initial;outline:none;}
 button {cursor:pointer;}
-input[type=text], input[type=password], input[type=submit], input[type=image], button {border-radius:;font-size:initial;-webkit-appearance:none}
+input[type=text], input[type=password], input[type=submit], input[type=image], button {border-radius:0px;font-size:initial;-webkit-appearance:none}
 textarea, select {font-size:1em;} 
 textarea {border-radius:0;-webkit-appearance:none}
 select {margin:0; border-radius:4px;}
 p {margin:0;padding:0;word-break:keep-all}
 hr {display:none}
 pre {overflow-x:scroll;font-size:1.1em}
-a, a:link, a:visited {text-decoration:none; cursor: pointer;}
+a, a:link, a:visited {color:inherit;text-decoration:none; cursor: pointer;}
 a:hover, a:focus, a:active {text-decoration:none;}
+
+/*설정*/
+.text-center {text-align: center}
 .panel {    margin-bottom: 20px;    background-color: none;    border: none;    border-radius: 0px;    -webkit-box-shadow:none;    box-shadow: none;}
 .flex {display: flex; }
+.flexwrap {flex-wrap: wrap}
 .flex.jc-sb {justify-content: space-between}
 .w50 {width: 50%}
+.w100 {width: 100%!important;}
+.max-none {max-width: none!important;}
+
 /*버튼*/
-.btn{height: 27px;all:unset; display: inline-block ; text-align:center;  border-radius: 5px; padding: 7px; line-height: 1em; cursor: pointer; font-weight: 400; position: relative; box-sizing: border-box;}
+.btn{height: 27px;all:unset; background: #fff; display: inline-block ; text-align:center;  border-radius: 5px; padding: 7px; line-height: 1em; cursor: pointer; font-weight: 400; position: relative; box-sizing: border-box;}
 .btn:hover{transition: all 0.3s;}
 
 .btn_mini{padding: 5px 10px; font-size: 13px;}
@@ -58,6 +65,8 @@ a:hover, a:focus, a:active {text-decoration:none;}
 
 .btn_red{background-color: #BC2D1E; color: #fff;}
 .btn_red:hover{background-color: #871509}
+.btn_blue{background-color: #1E48BC; color: #fff;}
+.btn_blue:hover{background-color: #153480}
 .btn_redline{background-color: none; color: #BC2D1E; border: 1px solid #BC2D1E;}
 .btn_redline:hover{background-color: #BC2D1E;}
 .btn_white{background-color: #fff; color: #484951;}
@@ -76,9 +85,13 @@ a:hover, a:focus, a:active {text-decoration:none;}
 .btn_line:hover{background-color: #484951;}
 
 .btn_sdw{box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);}
-
+.btn_h40 {height: 40px}
 .btn_wrap{ text-align: center; padding:28px 0;}
 
+/*글자*/
+.txt_blue { color: #1E48BC;}
+.txt_red { color: #BC2D1E;}
+.txt_under {text-decoration: underline}
 /*박스디자인*/
 .box1{display: inline-block; border-radius: 5px; box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.06); background-color: #F9F9F9; overflow: hidden;}
 .box2{display: inline-block; border-radius: 5px; box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.06); background-color: #FFFFFF; overflow: hidden;}
@@ -97,7 +110,7 @@ input::placeholder{opacity: 0.8;}
     display:inline-block; width:100%; white-space: nowrap;overflow: hidden; text-overflow: ellipsis; vertical-align:middle;}
 .file_wrap dd .btn{margin-right: 10px; padding: 6px 10px;}
 
-select {  padding: 10px;border-radius: 0;width: 110px;color: #78787B;     height: 40px;    background: #FFFFFF;    border: 1px solid #E8E8E8;}
+select {    margin-bottom: 12px;padding: 10px;border-radius: 0;width: 100%;color: #78787B;     height: 40px;    background: #FFFFFF;    border: 1px solid #E8E8E8;}
 input[type="search"] {border-radius: 0;width: 150px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #E8E8E8;    border-right: 0;display: inline-block; margin-bottom: 0;}
 .btn_search {border-radius: 0;width: 40px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #E8E8E8;    border-left: 0;display: inline-block;    padding: 0 10px;}
 
@@ -122,9 +135,16 @@ input[type=radio] {    margin: 0px 5px 0 0;}
 [type="checkbox"]:disabled + span {    opacity: 0.7;    cursor: not-allowed;}
 /*네모형 라디오*/
 .select input[type=radio]{    display: none;}
-.select input[type=radio]+label{    border-radius: 0; display: inline-block;    cursor: pointer;    height: 40px;    width: 40px;    border: 1px solid #373844;    line-height: 40px;    text-align: center;    font-weight:bold; }
+.select input[type=radio]+label{    border-radius: 0; display: inline-block;    cursor: pointer;    height: 40px; padding: 0 10px;    border: 1px solid #E8E8E8;    line-height: 40px;    text-align: center;  font-weight:400;}
 .select input[type=radio]+label{    background-color: #fff;    color: #373844;}
-.select input[type=radio]:checked+label{    background-color: #373844;    color: #fff;}
+.select input[type=radio]:checked+label{    background-color: #373844;    color: #fff; font-weight:bold;}
+.select input[type=radio].red+label{  background-color: #fff;    color: #373844; }
+.select input[type=radio].red:checked+label{    background-color: #FFD0CB;    border: 1px solid #BC2D1E;  color: #BC2D1E; font-weight:bold;}
+/*네모형 체크*/
+.select input[type=checkbox]{    display: none;}
+.select input[type=checkbox]+label{    border-radius: 0; display: inline-block;    cursor: pointer;    height: 40px;  padding: 0 10px;    border: 1px solid #E8E8E8;    line-height: 40px;    text-align: center;    font-weight:400; }
+.select input[type=checkbox]+label{    background-color: #fff;    color: #373844;}
+.select input[type=checkbox]:checked+label{    background-color: #373844;    color: #fff; font-weight:bold;}
 
 /*탭디자인*/
 .nav-tabs{font-size: 1.1em;}
@@ -195,3 +215,26 @@ input[type=radio] {    margin: 0px 5px 0 0;}
 #border-pagination li a {    -webkit-transition: background-color 0.4s;    transition: background-color 0.4s}
 #border-pagination li a.active {    background-color: #78787B;    border-color: #78787B;    color: #fff;}
 #border-pagination li a:hover:not(.active) {    background: #ddd;}
+
+/*사진첨부*/
+
+
+.newpic {  display: inline-block;    margin-bottom: 10px;    margin-right: 10px;}
+.newpic.after {  margin-bottom: 10px;    margin-right: 0px;}
+.newpic-upload { display: inline-block;position: relative;    text-align: left;}
+.newpic-upload.w100 { width: 100%;}
+.newpic-upload .newpic-edit {  position: absolute;  left: 0px;  z-index: 1;  top: 0px;}
+.newpic-upload .newpic-edit input {  display: none;}
+.newpic-upload .newpic-edit input + label {  display: inline-block;    width: 130px;    height: 130px;    line-height: 110px;
+    margin-bottom: 0;    border-radius: 100%;    color: #fff0;    background: #FFF0;  cursor: pointer;  font-weight: normal;  transition: all 0.2s ease-in-out;}
+.newpic-upload.w100 .newpic-edit input + label {  width: 100%;   }
+.newpic-upload .newpic-edit input + label:hover {  background: #ffffff69;}
+.newpic-upload .newpic-edit input + label:after {  content: "";  font-family: "FontAwesome"; color: #fff0;
+    position: absolute;  top: 10px;  left: 0;  right: 0;  text-align: center;  margin: auto;}
+.newpic-upload .newpic-preview {  width: 130px;  height: 130px;  position: relative;  border: 1px solid #F8F8F8;}
+.newpic-upload.w100 .newpic-preview {  width: 100%; }
+.newpic-upload .newpic-preview > div {  width: 100%;  height: 100%;  background-size: cover;  background-repeat: no-repeat;  background-position: center;}
+@media screen and (max-width: 300px) {
+    .newpic-upload .newpic-edit input + label {  display: inline-block;    width: 100px;    height: 100px;    line-height: 110px;}
+    .newpic-upload .newpic-preview {  width: 100px;  height: 100px;  position: relative;  border: 1px solid #F8F8F8;}
+}
