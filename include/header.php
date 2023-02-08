@@ -99,6 +99,26 @@ switch ($pid) {
         $header_name = "상품 등록";
         $exp = "";
         break;
+    //6. 주문배송관리
+    case "a_order1" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "주문 배송 관리 (처방주문)";
+        $exp = "";
+        break;
+    case "a_order2" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "주문 배송 관리 (약속처방)";
+        $exp = "";
+        break;
+    //7. 약재관리
+    case "a_medicine" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "약재관리";
+        $exp = "해밀원원외탕전실 전체 약재 리스트 입니다.";
+        break;
 }
 ?>
 <?php if ($header_type == 0) { ?>
