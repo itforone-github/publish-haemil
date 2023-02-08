@@ -184,7 +184,7 @@ input[type=radio] {    margin: 0px 5px 0 0;}
 .tagbox > div > p span.tag.active {background: #FFD0CB;    border: 1px solid #BC2D1E;    color: #BC2D1E;}
 
 /*테이블*/
-.table {    overflow-y: auto;}
+.table {overflow-y: auto;}
 .table table{width: 100%; border-top: 1px solid #707070;}
 .table th,
 .table td{ padding: 14px; border-bottom: 1px solid #ECECEC;}
