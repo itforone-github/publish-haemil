@@ -62,8 +62,8 @@ include_once("../include/header.php");
                     </div>
               </div>
             <div class="btn_wrap">
-              <a href="login.php" class="btn btn_sdw btn_red">회원가입요청</a>
-              <a href="" class="btn btn_sdw btn_gray">최소하기</a>
+              <a href="login.php" class="btn btn_small2 btn_sdw btn_red">회원가입요청</a>
+              <a href="" class="btn btn_small2 btn_sdw btn_gray">최소하기</a>
             </div>
           </div>
         </form>

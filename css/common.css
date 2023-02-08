@@ -34,7 +34,7 @@ input:focus,
 button:focus {outline:none;}
 input, button {margin:0;padding:0;font-size:initial;outline:none;}
 button {cursor:pointer;}
-input[type=text], input[type=password], input[type=submit], input[type=image], button {border-radius:0px;font-size:initial;-webkit-appearance:none}
+input[type=text], input[type=password], input[type=submit], input[type=image], button {border-radius:;font-size:initial;-webkit-appearance:none}
 textarea, select {font-size:1em;} 
 textarea {border-radius:0;-webkit-appearance:none}
 select {margin:0; border-radius:4px;}
@@ -46,6 +46,8 @@ a:hover, a:focus, a:active {text-decoration:none;}
 
 /*설정*/
 .text-center {text-align: center}
+a, a:link, a:visited {text-decoration:none; cursor: pointer;}
+a:hover, a:focus, a:active {text-decoration:none; color: #BC2D1E;}
 .panel {    margin-bottom: 20px;    background-color: none;    border: none;    border-radius: 0px;    -webkit-box-shadow:none;    box-shadow: none;}
 .flex {display: flex; }
 .flexwrap {flex-wrap: wrap}
@@ -60,29 +62,48 @@ a:hover, a:focus, a:active {text-decoration:none;}
 
 .btn_mini{padding: 5px 10px; font-size: 13px;}
 .btn_small{padding: 7px 10px;}
+.btn_small2{padding: 10px 25px;}
 .btn_middle{width: 100%;}
 .btn_large{width: 100%; padding: 15px 0; font-size: 1.2em; font-weight: 600;}
 
 .btn_red{background-color: #BC2D1E; color: #fff;}
+a.btn_red:hover,
+.btn_red:hover{background-color: #871509; color: #fff;}
+
 .btn_red:hover{background-color: #871509}
 .btn_blue{background-color: #1E48BC; color: #fff;}
 .btn_blue:hover{background-color: #153480}
 .btn_redline{background-color: none; color: #BC2D1E; border: 1px solid #BC2D1E;}
+a.btn_redline:hover,
 .btn_redline:hover{background-color: #BC2D1E;}
+
 .btn_white{background-color: #fff; color: #484951;}
-.btn_white:hover{background-color: #484951;}
+a.btn_white:hover,
+.btn_white:hover{background-color: #484951; color: #fff;}
+
 .btn_whiteline{background-color: #fff; color: #484951; border: 1px solid #78787B;}
-.btn_white:hover{background-color: #484951;}
+a.btn_whiteline:hover,
+.btn_whiteline:hover{background-color: #fff; color: #484951; border: 1px solid #78787B;}
+
 .btn_white2{background-color: #fff; color: #BC2D1E;}
-.btn_white2:hover{background-color: #BC2D1E;}
-.btn_black{background-color: #484951; color: #fff;}
-.btn_black:hover{background-color: #fff;}
+a.btn_white2:hover,
+.btn_white2:hover{background-color: #BC2D1E; color: #fff}
+
+.btn_black{background-color: #484951; color: #fff; border: 1px solid transparent;}
+a.btn_black:hover,
+.btn_black:hover{background-color: #fff; border: 1px solid rgba(0,0,0,0.2);}
+
 .btn_gray{background-color: #E8E8E8; color: #373844;}
-.btn_gray:hover{background-color: #373844;}
+a.btn_gray:hover,
+.btn_gray:hover{background-color: #373844; color: #fff}
+
 .btn_gray2{background-color: #78787B; color: #E8E8E8;}
+a.btn_gray2:hover,
 .btn_gray2:hover{background-color: #78787B;}
+
 .btn_line{border: 1px solid #E8E8E8; background-color: #ffffff; color: #484951;}
-.btn_line:hover{background-color: #484951;}
+a.btn_line:hover,
+.btn_line:hover{background-color: #484951; border: 1px solid #484951; color: #fff}
 
 .btn_sdw{box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);}
 .btn_h40 {height: 40px}
@@ -186,7 +207,7 @@ input[type=radio] {    margin: 0px 5px 0 0;}
 .tagbox > div > p span.tag.active {background: #FFD0CB;    border: 1px solid #BC2D1E;    color: #BC2D1E;}
 
 /*테이블*/
-.table {    overflow-y: auto;}
+.table {overflow-y: auto;}
 .table table{width: 100%; border-top: 1px solid #707070;}
 .table th,
 .table td{ padding: 14px; border-bottom: 1px solid #ECECEC;}

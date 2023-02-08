@@ -1,9 +1,3 @@
-
-
-
-
-
-
 /** 환자메인 **/
 .patient_main{display: flex; align-items: flex-end;}
 .patient_main .box1{padding: 24px 20px; width: 100%; height: 100%;}

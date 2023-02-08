@@ -31,7 +31,7 @@ include_once("../include/header.php");
                     <input type="text" placeholder="사업자등록번호"/>
 
                     <div class="btn_wrap">
-                        <a class="btn btn_sdw btn_red" onclick="message()">조회하기</a>
+                        <a class="btn btn_large btn_sdw btn_red" onclick="message()">조회하기</a>
                     </div>
 
                 </div>
@@ -41,7 +41,7 @@ include_once("../include/header.php");
                     <input type="text" placeholder="사업자등록번호"/>
 
                     <div class="btn_wrap">
-                        <a href="login.php" class="btn btn_sdw btn_red">비밀번호 재설정</a>
+                        <a href="login.php" class="btn btn_large btn_sdw btn_red">비밀번호 재설정</a>
                     </div>
                 </div>
               </div>
