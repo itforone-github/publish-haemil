@@ -94,21 +94,28 @@ switch ($pid) {
     case "a_order1" :
         $header_type = 2;
         $footer_type = 2;
-        $header_name = "주문 배송 관리 (처방주문)";
-        $exp = "";
+        $header_name = "주문 배송 관리";
+        $exp = "처방주문";
         break;
     case "a_order2" :
         $header_type = 2;
         $footer_type = 2;
-        $header_name = "주문 배송 관리 (약속처방)";
-        $exp = "";
+        $header_name = "주문 배송 관리";
+        $exp = "약속처방";
         break;
     //7. 약재관리
     case "a_medicine" :
         $header_type = 2;
         $footer_type = 2;
-        $header_name = "약재관리";
+        $header_name = "약재 관리";
         $exp = "해밀원원외탕전실 전체 약재 리스트 입니다.";
+        break;
+    //8. 제형관리
+    case "a_texture" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "제형 관리";
+        $exp = "";
         break;
 }
 ?>

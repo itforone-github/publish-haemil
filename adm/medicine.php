@@ -61,14 +61,16 @@ include_once("../include/header.php");
                         <col width="*"/>
                         <col width="*"/>
                         <col width="*"/>
+                        <col width="*"/>
                         <col width="120px"/>
                     </colgroup>
                     <thead>
                     <tr>
                         <th><input type="checkbox" name="chkall" value="1" id="chkall"/></th>
                         <th>번호</th>
-                        <th>이미지</th>
                         <th>약재명</th>
+                        <th>후하가능</th>
+                        <th>후하추천</th>
                         <th>1g 당 가격</th>
                         <th>원산지</th>
                         <th>상태</th>
@@ -80,8 +82,9 @@ include_once("../include/header.php");
                     <tr>
                         <td><input type="checkbox" name="chk[]" value="0" id="chk_0" /></td>
                         <td>1</td>
-                        <td><div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div> </td>
                         <td>운모</td>
+                        <td>O</td>
+                        <td>추천</td>
                         <td>100</td>
                         <td>중국</td>
                         <td>처방가능</td>

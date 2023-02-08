@@ -122,7 +122,7 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <label>약재 이미지 업로드</label><br/>
+                    <!--label>약재 이미지 업로드</label><br/>
                     <div class="newpic-upload w100">
                         <div class="newpic-edit">
                             <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
@@ -133,14 +133,48 @@
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button><br/><br/>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button><br/><br/-->
                     <label>약재명</label><input type="text" placeholder="약재명을 입력해주세요"/>
                     <label>원산지</label><input type="text" placeholder="원산지를 입력해주세요"/>
                     <label>1g당 가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>상태</label><select><option>처방가능</option><option>처방블가능</option></select>
+                    <label>후하추천</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select1-1" name="select1"/><label for="select1-1">추천</label></div>
+                        <div class="w50"><input type="radio" id="select1-2" name="select1"/><label for="select1-2">비추천</label></div>
+                    </div>
+                    <br/>
+                    <label>후하여부</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select2-1" name="select2"/><label for="select2-1">후하가능</label></div>
+                        <div class="w50"><input type="radio" id="select2-2" name="select2"/><label for="select2-2">후하불가</label></div>
+                    </div>
+                    <br/>
                     <label>상세설명</label><textarea placeholder="상세설명을 입력하세요"></textarea>
                     <label>검색 키워드</label><input type="text" placeholder="키워드를 입력하세요"/>
                     <p>※ 약재 검색에 필요한 키워드를 등록해주세요. ","콤마로 키워드 구분. 예)감초,염증제거,해독작용</p>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- texture -->
+<div class="modal fade" id="texturemodal01" tabindex="-1" aria-labelledby="texturemodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="texturemodal01Label">제형 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>제형명</label><input type="text" placeholder="약재명을 입력해주세요"/>
+                    <label>1g당 가격</label><input type="text" placeholder="숫자만 입력"/>
+                    <label>순서</label><input type="text" placeholder="순서를 입력해주세요"/>
                 </form>
             </div>
             <div class="modal-footer">
