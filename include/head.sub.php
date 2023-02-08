@@ -16,7 +16,6 @@
     <link href="../css/common.css" rel="stylesheet" type="text/css" />
     <link href="../css/member.css" rel="stylesheet" type="text/css" />
     <link href="../css/layout.css" rel="stylesheet" type="text/css" />
-    <link href="../css/med.css" rel="stylesheet" type="text/css" />
 
 </head>
 

@@ -1,3 +1,4 @@
+<link href="../css/med.css" rel="stylesheet" type="text/css" />
 <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
 <i class="fa-light fa-bars"></i>
 </a>
