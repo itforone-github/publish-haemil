@@ -27,8 +27,17 @@ switch ($pid) {
     case "index" :  
         $header_type = 1;
 		$footer_type = 1;
-		$header_name = "환자 메인";
+        $lnb_type = 1;
+        $header_name = "환자 메인";
         $exp = "환자 관리, 진료 접수, 예약 관리가 가능합니다.";
+        break;
+    //3. 처방하기
+    case "treat_main" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "처방메인";
+        $exp = "처방 및 환재, 복용법 관리가 가능합니다.";
         break;
     ////adm
     //1. 통합관리

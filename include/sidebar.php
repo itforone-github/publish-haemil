@@ -25,25 +25,27 @@
         <div class="sidebar-menu">
             <!-- sidebar-content  -->
             <div class="side-icon">
-                <a href="#side-icon1" class="active">
+                <!--<a href="#side-icon1" class="active"> 탭형태 삭제 -->
+                <a href="../med/index.php" <?php if($lnb_type == 1){ echo "class='active'"; } ?>>
                     <!-- <span class="badge badge-pill badge-warning notification">3</span> -->
                     <img src="../img/common/sidebar_icon01.svg"/>
                     <p>환자진료</p>
                 </a>
-                <a href="#side-icon2">
+                <a href="../med/treat.main.php" <?php if($lnb_type == 2){ echo "class='active'"; } ?>>
                     <img src="../img/common/sidebar_icon02.svg"/>
                     <p>처방하기</p>
                 </a>
-                <a href="#side-icon3">
+                <a href="../med/mall.main.php" <?php if($lnb_type == 3){ echo "class='active'"; } ?>>
                     <img src="../img/common/sidebar_icon03.svg"/>
                     <p>한의학몰</p>
                 </a>
-                <a href="#side-icon4">
+                <a href="../med/setting.main.php" <?php if($lnb_type == 4){ echo "class='active'"; } ?>>
                     <img src="../img/common/sidebar_icon04.svg"/>
                     <p>기본설정</p>
                 </a>
             </div>
             <div class="lnb">
+                <?php if ($lnb_type == 1) { ?>
                 <div id="side-icon1">
                     <ul>
                     <li class="header-menu">
@@ -92,6 +94,7 @@
 
                     </ul>
                 </div>
+                <?php } else if ($lnb_type == 2) { ?>
                 <div id="side-icon2">
                     <ul>
                     <li class="header-menu">
@@ -149,6 +152,7 @@
 
                     </ul>
                 </div>
+                <?php } else if ($lnb_type == 3) { ?>
                 <div id="side-icon3">
                     <ul>
                     <li class="header-menu">
@@ -184,6 +188,7 @@
 
                     </ul>
                 </div>
+                <?php } else if ($lnb_type == 4) { ?>
                 <div id="side-icon4">
                     <ul>
                     <li class="header-menu">
@@ -234,6 +239,7 @@
 
                     </ul>
                 </div>
+                <?php } ?>
             </div>
         </div>
         <!-- sidebar-menu  -->
