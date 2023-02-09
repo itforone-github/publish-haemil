@@ -1,48 +1,100 @@
-/** 환자메인 **/
-.patient_main{display: flex; align-items: flex-end;}
-.patient_main .box1{padding: 24px 20px; width: 100%; height: 100%;}
-.patient_main > div{margin-right:18px; width: 100%;}
-.patient_main > div:last-child{margin-right: 0;}
+/** 공통 - 메인 **/
+.table th,
+.table td{text-align: center; font-size: 1.1em;}
 
-.patient_main .box_title{background-color: #AAAAAA; color: #ffffff; display: flex; align-items: center; justify-content: space-between; border-radius: 0 0 5px 5px;
-    padding: 15px 20px;}
-.patient_main .box_title strong{font-size: 1.2em; font-weight: 400;;}
-.patient_main .box_title.bg_red{background-color: #BC2D1E;}
+.main{display: flex; align-items: flex-end;}
+.main .box1{padding: 24px 20px; width: 100%; height: 100%;}
+.main > div{margin-right:18px; width: 100%;}
+.main > div:last-child{margin-right: 0;}
 
-.patient_main .title_btn span,
-.patient_main .title_btn a{display: inline-block; margin-left: 4px;}
-.patient_main .title_btn span{font-size: 1.1em;}
-.patient_main .title_btn .arrow.on{opacity: 1;}
-.patient_main .title_btn .arrow.off{opacity: 0.5;}
+.box_title{background-color: #AAAAAA; color: #ffffff; display: flex; align-items: center; justify-content: space-between; border-radius: 0 0 5px 5px;
+    padding: 15px 20px; line-height: 30px;}
+.box_title strong{font-size: 1.2em; font-weight: 400;;}
+.box_title.bg_red{background-color: #BC2D1E;}
 
-.patient_main .box2 {width: 100%; height: 100%;}
-.patient_main .box2 .list li .patient_name::before{content: ""; display:inline-block; width: 14px; height: 14px; background: url('../img/common/list_icon.svg') no-repeat center/auto 100%; vertical-align: middle; margin-right: 8px; margin-bottom: 1px;}
-.patient_main .box1 .list{padding: 0;}
+.title_btn span,
+.title_btn a{display: inline-block; margin-left: 4px;}
+.title_btn span{font-size: 1.1em;}
+.title_btn .arrow.on{opacity: 1;}
+.title_btn .arrow.off{opacity: 0.5;}
 
-.patient_main .list{padding: 20px 20px;}
-.patient_main .list li{display: flex; align-items: center; justify-content: space-between; font-size: 1.1em; color: #373844; line-height: 25px; padding: 4px 0;}
-.patient_main .list li .state.ing{color: #36A102; font-weight: 600;}
-.patient_main .list li .state.standby{color: #373844; font-weight: 400;}
-.patient_main .list li .btn{margin: 0 0 0 5px;}
+.main .box2 {width: 100%; height: 100%;}
+.main .box2 .list li .name::before{content: ""; display:inline-block; width: 14px; height: 14px; background: url('../img/common/list_icon.svg') no-repeat center/auto 100%; vertical-align: middle; margin-right: 8px; margin-bottom: 1px;}
+.main .box1 .list{padding: 0;}
 
-.patient_main .list li .birth{font-size: 0.8em; font-weight: 200; margin-left: 6px;}
-.patient_main .list li .time{}
-.patient_main .list li .date_time{font-size: 0.8em; font-weight: 200; margin-left: 6px;}
+.latest .box2{padding:30px 24px; width: 100%;}
 
-.register .form{display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 6px;}
-.register .form label{width: 85px; padding-right: 10px;}
-.register .form input{width: calc(100% - 85px); min-width: auto; padding: 6px 15px; margin-bottom: 2px;}
-
-.request .list{font-size: 0.95em;}
+.form > dl{display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;}
+.form > dl > dt{width: 84px;}
+.form > dl > dd{width: calc(100% - 84px)}
+.form .ref{ margin-top: 4px;}
+.form .flex{display: flex; justify-content: space-between; align-items: center;}
+.form .flex input{width: 100%; margin-bottom: 0; margin-right: 4px}
 
 @media screen and (max-width:1400px) {
-    .patient_main{flex-wrap: wrap;}
-    .patient_main > div{width: calc((100% / 2) - 9px); margin-bottom: 30px;}
-    .patient_main > div:nth-child(2n){margin-right: 0;}
+    .main{flex-wrap: wrap;}
+    .main > div{width: calc((100% / 2) - 9px); margin-bottom: 30px;}
+    .main > div:nth-child(2n){margin-right: 0;}
 }
 
-.patient_latest .box2{padding:  30px 24px; width: 100%;}
-.patient_latest .table th:nth-child(1),
-.patient_latest .table th:nth-child(2),
-.patient_latest .table td:nth-child(1),
-.patient_latest .table td:nth-child(2){text-align: center;}
+@media screen and (max-width:750px) {
+    .main > div{width: calc(100%); margin-bottom: 30px; margin-right: 0;}
+}
+
+
+/** 환자진료 - 메인 **/
+.treat.main .list{padding: 20px 20px;}
+.treat.main .list li{display: flex; align-items: center; justify-content: space-between; font-size: 1.1em; color: #373844; line-height: 25px; padding: 4px 0;}
+.treat.main .list li .state.ing{color: #36A102; font-weight: 600;}
+.treat.main .list li .state.standby{color: #373844; font-weight: 400;}
+.treat.main .list li .btn{margin: 0 0 0 5px;}
+
+.treat.main .list li .birth{font-size: 0.8em; font-weight: 200; margin-left: 6px;}
+.treat.main .list li .time{}
+.treat.main .list li .date_time{font-size: 0.8em; font-weight: 200; margin-left: 6px;}
+
+.treat.main .latest .table td:nth-child(3){text-align: left;}
+
+.tm_register .form{display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 6px;}
+.tm_register .form label{width: 85px; padding-right: 10px;}
+.tm_register .form input{width: calc(100% - 85px); min-width: auto; padding: 6px 15px; margin-bottom: 2px;}
+
+.tm_request .list{font-size: 0.95em;}
+
+/* 환자관리 */
+.t_patient{display: flex; justify-content: space-between;}
+.t_patient .register{min-width:464px; margin-right:25px;}
+.t_patient .register .form{padding: 34px 22px}
+.t_patient .list{width: 100%;}
+.t_patient .list .box2{padding: 30px 25px; width: 100%;}
+
+.t_patient .list .area_top{display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;}
+.t_patient .list .area_top h3{margin-bottom: 0; margin-right: 10px;}
+.t_patient .list .area_top .red {color: #BC2D1E; font-weight: 800}
+.t_patient .list .area_top .left{display: flex; align-items: center;}
+.t_patient .list .search{display: flex; align-items: center; margin: 0 10px}
+.t_patient .list .search select{margin-bottom: 0; margin-right: 4px}
+
+
+
+
+
+/**처방하기-메인**/
+.px.main .box_title input[type=date]{line-height:30px; height: 30px; background-color: rgba(255,255,255,0.14); color: #fff; border: 0; padding: 0 10px;}
+
+.px.main li span{display: inline-block; margin-right: 4px;}
+.px.main li strong{font-weight: 600; font-size: 1.2em; margin-right: 4px}
+
+.px.main .list{padding: 20px 20px; color: #373844;}
+.px.main .list li{display: flex; align-items: center; justify-content: space-between; font-size: 1.1em; color: #373844; line-height: 25px; padding: 4px 0;}
+.px.main .list li span{ width: 16px;}
+
+.pm_total li{display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid #EFEFEF; padding: 14px 0; font-size: 1.15em; color: #78787B;}
+.pm_total li span{width: 30px;}
+.pm_total li:first-child{}
+.pm_total li:last-child{border-bottom: 0;}
+
+.pm_notice li{display: flex; align-items: center; justify-content: space-between;
+    line-height: 25px; padding: 4px 0;}
+.pm_notice .date_time{}

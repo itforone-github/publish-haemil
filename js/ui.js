@@ -1,8 +1,9 @@
 
 $(document).ready(function(){
-  //체크박스디자인 div추가
+  /*/체크박스디자인 div추가
   $('input[type=checkbox] + label').prepend('<div></div>');
   $('input[type=radio] + label').prepend('<div></div>');
+  */
 
   //사이드바
   $(function(){
@@ -48,10 +49,7 @@ $(document).ready(function(){
   //사이드바 
   var w = $(window).width();
 	if(w < 950){
-		$(document).ready(function() {
-			$(".page-wrapper").removeClass("toggled");
-		});
-
+      $(".page-wrapper").removeClass("toggled");
 	}
   //이미지 업로드
   function readURL(input) {

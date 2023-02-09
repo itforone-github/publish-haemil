@@ -31,8 +31,15 @@ switch ($pid) {
         $header_name = "환자 메인";
         $exp = "환자 관리, 진료 접수, 예약 관리가 가능합니다.";
         break;
+    case "treat_patient" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 1;
+        $header_name = "환자 관리";
+        $exp = "신규 환자 등록, 기존 환자 정보 수정이 가능합니다.";
+        break;
     //3. 처방하기
-    case "treat_main" :
+    case "px_main" :
         $header_type = 1;
         $footer_type = 1;
         $lnb_type = 2;

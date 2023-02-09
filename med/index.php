@@ -2,11 +2,10 @@
 $pid = "index";
 include_once("../include/header.php");
 //환자메인
-//테스트
 ?>
 
-<section class="patient_main">
-    <div class="register">
+<section class="treat main">
+    <div class="tm_register">
         <h3>간편 환자등록</h3>
         <div class="box1">
             <div class="form">
@@ -18,7 +17,7 @@ include_once("../include/header.php");
             <a class="btn btn_middle btn_red">등록</a>
         </div>
     </div>
-    <div class="real_time">
+    <div class="tm_real_time">
         <div class="box2">
             <div class="box_title">
                 <strong>실시간 진료 명단</strong>
@@ -71,7 +70,7 @@ include_once("../include/header.php");
             </div>
         </div>
     </div>
-    <div class="today">
+    <div class="tm_today">
         <div class="box2">
             <div class="box_title bg_red">
                 <strong>금일 진료 예약건</strong>
@@ -133,7 +132,7 @@ include_once("../include/header.php");
             </div>
         </div>
     </div>
-    <div class="request">
+    <div class="tm_request">
         <h3>진료 예약 요청</h3>
         <div class="box1">
             <ul class="list">
@@ -177,7 +176,7 @@ include_once("../include/header.php");
     </div>
 </section>
 
-<section class="patient_latest">
+<section class="patient latest">
     <h3>최근 진료 리뷰</h3>
     <div class="box2">
         <div class="table">

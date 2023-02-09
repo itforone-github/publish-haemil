@@ -31,7 +31,7 @@
                     <img src="../img/common/sidebar_icon01.svg"/>
                     <p>환자진료</p>
                 </a>
-                <a href="../med/treat.main.php" <?php if($lnb_type == 2){ echo "class='active'"; } ?>>
+                <a href="../med/px.main.php" <?php if($lnb_type == 2){ echo "class='active'"; } ?>>
                     <img src="../img/common/sidebar_icon02.svg"/>
                     <p>처방하기</p>
                 </a>
@@ -52,7 +52,7 @@
                         <span>진료실</span>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#" <?php if($pid == "index") { echo "class='active'"; }?>>
+                        <a href="../med/treat.patient.php" <?php if($pid == "treat_patient") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu01_01.svg"/>
                             <span>환자 관리</span>
                         </a>
