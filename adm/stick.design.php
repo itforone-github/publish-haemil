@@ -1,10 +1,10 @@
 <?php
 $pid = "a_stickdsg";
 include_once("../include/header.php");
-//ADM 스틱 포장 관리
+//ADM 스틱 디자인 관리
 ?>
 
-    <section class="a_stickdsg">
+    <section class="stickdsg">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
@@ -16,7 +16,7 @@ include_once("../include/header.php");
             </div>
             <span>
             <button type="button" class="btn btn_whiteline" >선택 삭제</button>
-            <button type="button" class="btn btn_red" data-toggle="modal" data-target="#a_stickdsgmodal01">포장 등록</button>
+            <button type="button" class="btn btn_red" data-toggle="modal" data-target="#stickdsgmodal01">디자인 등록</button>
             </span>
         </div>
         <div class="tagbox">
@@ -58,7 +58,7 @@ include_once("../include/header.php");
                         <th><input type="checkbox" name="chkall" value="1" id="chkall"/></th>
                         <th>번호</th>
                         <th>이미지</th>
-                        <th>인쇄명</th>
+                        <th>디자인명</th>
                         <th>대상</th>
                         <th>그룹</th>
                         <th>금액</th>
@@ -73,7 +73,7 @@ include_once("../include/header.php");
                         <td><input type="checkbox" name="chk[]" value="0" id="chk_0" /></td>
                         <td>1</td>
                         <td><div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div></td>
-                        <td>1.무인쇄</td>
+                        <td>흰색(핑크한약)포지</td>
                         <td>그룹</td>
                         <td>15개 그룹</td>
                         <td>0원</td>

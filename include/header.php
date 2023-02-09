@@ -44,6 +44,7 @@ switch ($pid) {
     case "a_index" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "통합 메인";
         $exp = "";
         break;
@@ -51,12 +52,14 @@ switch ($pid) {
     case "a_point" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "포인트 내역";
         $exp = "";
         break;
     case "a_pointset" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "선결제 금액 관리";
         $exp = "";
         break;
@@ -64,18 +67,21 @@ switch ($pid) {
     case "a_clinicmem" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "한의원 직원 관리";
         $exp = "";
         break;
     case "a_clinic" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "한의원 관리";
         $exp = "";
         break;
     case "a_clinicgrp" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "그룹 관리";
         $exp = "";
         break;
@@ -83,6 +89,7 @@ switch ($pid) {
     case "a_patient" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "환자 관리";
         $exp = "";
         break;
@@ -90,12 +97,14 @@ switch ($pid) {
     case "a_product" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "상품 관리";
         $exp = "";
         break;
     case "a_productupd" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "상품 등록";
         $exp = "";
         break;
@@ -103,12 +112,14 @@ switch ($pid) {
     case "a_order1" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "주문 배송 관리";
         $exp = "처방주문";
         break;
     case "a_order2" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "주문 배송 관리";
         $exp = "약속처방";
         break;
@@ -116,6 +127,7 @@ switch ($pid) {
     case "a_medicine" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "약재 관리";
         $exp = "해밀원원외탕전실 전체 약재 리스트 입니다.";
         break;
@@ -123,6 +135,7 @@ switch ($pid) {
     case "a_texture" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "제형 관리";
         $exp = "";
         break;
@@ -130,25 +143,73 @@ switch ($pid) {
     case "a_plastic" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "비닐 포장 관리";
         $exp = "";
         break;
     case "a_stick" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "스틱 포장 관리";
         $exp = "";
         break;
     case "a_stickprt" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "스틱 인쇄 관리";
         $exp = "";
         break;
     case "a_stickdsg" :
         $header_type = 2;
         $footer_type = 2;
+        $lnb_type = 1;
         $header_name = "스틱 디자인 관리";
+        $exp = "";
+        break;
+    case "a_onetouch" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "원터치통 관리";
+        $exp = "";
+        break;
+    case "a_sticklist" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "환스틱 관리";
+        $exp = "";
+        break;
+    //10.기성처방관리
+    case "a_readymade" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "기성처방 관리";
+        $exp = "";
+        break;
+    case "a_readymadeupd" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "기성처방 등록";
+        $exp = "";
+        break;
+    //11.포장관리
+    case "a_box" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "전용박스 관리";
+        $exp = "";
+        break;
+    case "a_pouch" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "파우치 관리";
         $exp = "";
         break;
 }

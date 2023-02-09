@@ -1,10 +1,10 @@
 <?php
-$pid = "a_stickprt";
+$pid = "a_sticklist";
 include_once("../include/header.php");
 //ADM 스틱 인쇄 관리
 ?>
 
-    <section class="stickprt">
+    <section class="sticklist">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
@@ -16,7 +16,7 @@ include_once("../include/header.php");
             </div>
             <span>
             <button type="button" class="btn btn_whiteline" >선택 삭제</button>
-            <button type="button" class="btn btn_red" data-toggle="modal" data-target="#stickprtmodal01">인쇄 등록</button>
+            <button type="button" class="btn btn_red" data-toggle="modal" data-target="#sticklistmodal01">인쇄 등록</button>
             </span>
         </div>
         <div class="tagbox">

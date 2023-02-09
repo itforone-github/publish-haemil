@@ -1,10 +1,11 @@
 <?php
-$pid = "a_clinicgrp";
+$pid = "a_readymade";
 include_once("../include/header.php");
-//ADM 한의원 그룹관리
+//ADM 기성처방 관리
 ?>
 
-<section class="clinic">
+
+<section class="readymade">
     <div class="panel">
         <p>총 <span class="red">4</span>개 </p>
         <div>
@@ -14,43 +15,40 @@ include_once("../include/header.php");
             <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
         </div>
-        <button type="button" class="btn btn_red" data-toggle="modal" data-target="#groupmodal01">등록하기</button>
+        <span>
+            <button type="button" class="btn btn_blue btn_sdw"  >엑셀 업로드</button>
+            <button type="button" class="btn btn_gray2 btn_sdw"  >엑셀 다운</button>
+            <button type="button" class="btn btn_whiteline" >선택 삭제</button>
+            <button type="button" class="btn btn_red"   onclick="location.href='./readymade.update.php'">처방 등록</button>
+        </span>
     </div>
     <div class="box3">
         <div class="table adm">
             <table>
-                <colgroup>
-                    <col width="5%"/>
-                    <col width="*"/>
-                    <col width="*"/>
-                    <col width="50px"/>
-                    <col width="50px"/>
-                    <col width="120px"/>
-                    <col width="100px"/>
-                    <col width="120px"/>
-                </colgroup>
                 <thead>
                 <tr>
+                    <th><input type="checkbox" name="checkbox"/></th>
                     <th>No.</th>
-                    <th>그룹명</th>
-                    <th>등록 한의원 수</th>
-                    <th>조제비</th>
-                    <th>포장비</th>
-                    <th>마감시간</th>
-                    <th>등록일</th>
+                    <th>처방집명</th>
+                    <th>처방전명</th>
+                    <th>산출물</th>
+                    <th>참고사항</th>
+                    <th>약재수</th>
+                    <th>누락수</th>
                     <th></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
+                    <td><input type="checkbox" name="checkbox"/></td>
                     <td>1</td>
-                    <td>기본</td>
-                    <td>5</td>
-                    <td>5,000</td>
-                    <td>5,000</td>
-                    <td>05:50~18:00</td>
-                    <td>23-01-16</td>
-                    <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
+                    <td>동의보감</td>
+                    <td>쌍기탕가녹용</td>
+                    <td>탕전처방</td>
+                    <td>잉부의 감한에 한열이 학질과 같은 증을 다스린다.</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td><button type="button" class="btn btn_whiteline">보기</button><button type="button" class="btn btn_redline">삭제</button></td>
                 </tr>
                 </tbody>
             </table>
@@ -72,5 +70,5 @@ include_once("../include/header.php");
 </section>
 
 
-    <!--푸터 인클루드-->
+<!--푸터 인클루드-->
 <?php include '../include/footer.php'; ?>
