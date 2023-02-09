@@ -48,10 +48,7 @@ $(document).ready(function(){
   //사이드바 
   var w = $(window).width();
 	if(w < 950){
-		$(document).ready(function() {
-			$(".page-wrapper").removeClass("toggled");
-		});
-
+      $(".page-wrapper").removeClass("toggled");
 	}
   //이미지 업로드
   function readURL(input) {
