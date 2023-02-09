@@ -41,7 +41,7 @@ select {margin:0; border-radius:4px;}
 p {margin:0;padding:0;word-break:keep-all}
 hr {display:none}
 pre {overflow-x:scroll;font-size:1.1em}
-a, a:link, a:visited {color:inherit;text-decoration:none; cursor: pointer;}
+a, a:link, a:visited {color:#78787B;text-decoration:none; cursor: pointer;}
 a:hover, a:focus, a:active {text-decoration:none;}
 
 /*설정*/
@@ -66,41 +66,50 @@ a:hover, a:focus, a:active {text-decoration:none; color: #BC2D1E;}
 .btn_middle{width: 100%;}
 .btn_large{width: 100%; padding: 15px 0; font-size: 1.2em; font-weight: 600;}
 
+a.btn_red,
 .btn_red{background-color: #BC2D1E; color: #fff;}
 a.btn_red:hover,
 .btn_red:hover{background-color: #871509; color: #fff;}
-
-.btn_red:hover{background-color: #871509}
+a.btn_blue,
 .btn_blue{background-color: #1E48BC; color: #fff;}
+a.btn_blue,
 .btn_blue:hover{background-color: #153480}
+a.btn_redline,
 .btn_redline{background-color: none; color: #BC2D1E; border: 1px solid #BC2D1E;}
 a.btn_redline:hover,
 .btn_redline:hover{background-color: #BC2D1E;}
 
+a.btn_white,
 .btn_white{background-color: #fff; color: #484951;}
 a.btn_white:hover,
 .btn_white:hover{background-color: #484951; color: #fff;}
 
+a.btn_whiteline,
 .btn_whiteline{background-color: #fff; color: #484951; border: 1px solid #78787B;}
 a.btn_whiteline:hover,
 .btn_whiteline:hover{background-color: #fff; color: #484951; border: 1px solid #78787B;}
 
+a.btn_white2,
 .btn_white2{background-color: #fff; color: #BC2D1E;}
 a.btn_white2:hover,
 .btn_white2:hover{background-color: #BC2D1E; color: #fff}
 
+a.btn_black,
 .btn_black{background-color: #484951; color: #fff; border: 1px solid transparent;}
 a.btn_black:hover,
 .btn_black:hover{background-color: #fff; border: 1px solid rgba(0,0,0,0.2);}
 
+a.btn_gray,
 .btn_gray{background-color: #E8E8E8; color: #373844;}
 a.btn_gray:hover,
 .btn_gray:hover{background-color: #373844; color: #fff}
 
+a.btn_gray2,
 .btn_gray2{background-color: #78787B; color: #E8E8E8;}
 a.btn_gray2:hover,
 .btn_gray2:hover{background-color: #78787B;}
 
+a.btn_line,
 .btn_line{border: 1px solid #E8E8E8; background-color: #ffffff; color: #484951;}
 a.btn_line:hover,
 .btn_line:hover{background-color: #484951; border: 1px solid #484951; color: #fff}
