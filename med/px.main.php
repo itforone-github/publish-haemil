@@ -4,8 +4,8 @@ include_once("../include/header.php");
 //처방하기 메인
 ?>
 
-    <section class="treat main">
-        <div class="tm_total">
+    <section class="px main">
+        <div class="pm_total">
             <h3>처방요약</h3>
             <div class="box1">
                 <ul>
@@ -28,7 +28,7 @@ include_once("../include/header.php");
                 </ul>
             </div>
         </div>
-        <div class="tm_month">
+        <div class="pm_month">
             <div class="box2">
                 <div class="box_title">
                     <strong>2022년 11월 처방 요약</strong>
@@ -63,7 +63,7 @@ include_once("../include/header.php");
                 </div>
             </div>
         </div>
-        <div class="tm_today">
+        <div class="pm_today">
             <div class="box2">
                 <div class="box_title bg_red">
                     <strong>금일 처방 요약</strong>
@@ -97,7 +97,7 @@ include_once("../include/header.php");
                 </div>
             </div>
         </div>
-        <div class="tm_notice">
+        <div class="pm_notice">
             <h3>공지사항</h3>
             <div class="box1">
                 <ul>
