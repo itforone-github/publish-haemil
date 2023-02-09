@@ -97,7 +97,7 @@ a.btn_white2:hover,
 a.btn_black,
 .btn_black{background-color: #484951; color: #fff; border: 1px solid transparent;}
 a.btn_black:hover,
-.btn_black:hover{background-color: #fff; border: 1px solid rgba(0,0,0,0.2);}
+.btn_black:hover{background-color: #fff; color: #484951; border: 1px solid rgba(0,0,0,0.2);}
 
 a.btn_gray,
 .btn_gray{background-color: #E8E8E8; color: #373844;}
