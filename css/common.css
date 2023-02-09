@@ -77,7 +77,12 @@ a.btn_blue,
 a.btn_redline,
 .btn_redline{background-color: none; color: #BC2D1E; border: 1px solid #BC2D1E;}
 a.btn_redline:hover,
-.btn_redline:hover{background-color: #BC2D1E;}
+.btn_redline:hover{background-color: #BC2D1E; color: #fff;}
+
+a.btn_redline2,
+.btn_redline2{background-color: #FFD0CB; color: #BC2D1E; border: 1px solid #BC2D1E; font-weight: 600}
+a.btn_redline2:hover,
+.btn_redline2:hover{background-color: #BC2D1E; color: #fff;}
 
 a.btn_white,
 .btn_white{background-color: #fff; color: #484951;}
