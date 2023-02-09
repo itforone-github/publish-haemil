@@ -1,5 +1,5 @@
 <?php
-$pid = "treat_main";
+$pid = "px_main";
 include_once("../include/header.php");
 //처방하기 메인
 ?>
