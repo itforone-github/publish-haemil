@@ -126,19 +126,19 @@
                         </div>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/px.taking.php" <?php if($pid == "px_taking") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu02_02.svg"/>
                             <span>복용법 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/px.often.php" <?php if($pid == "px_often") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu02_03.svg"/>
                             <span>자주 쓰는 처방</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/px.order.php" <?php if($pid == "px_order") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu02_04.svg"/>
                             <span>주문 배송 관리</span>
                         </a>

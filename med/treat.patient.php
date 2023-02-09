@@ -1,7 +1,7 @@
 <?php
 $pid = "treat_patient";
 include_once("../include/header.php");
-//환자관리
+//2.2환자관리
 ?>
 
 <section class="t_patient">
@@ -73,7 +73,7 @@ include_once("../include/header.php");
         </div>
         <div class="list">
             <div class="area_top">
-                <div class="left">
+                <div class="total">
                     <h3>간편 환자 등록</h3>
                     <p>현재 총 <span class="red">4</span>명 </p>
                     <div class="search">
@@ -84,7 +84,7 @@ include_once("../include/header.php");
                         <button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
                     </div>
                 </div>
-                <span class="right">
+                <span class="btn_wrap">
                     <button type="button" class="btn btn_gray2 btn_sdw">엑셀 다운</button>
                     <button type="button" class="btn btn_whiteline btn_sdw">선택 삭제</button>
                 </span>
@@ -116,7 +116,7 @@ include_once("../include/header.php");
                             <td>부산시 해운대구 센텀동로</td>
                             <td>소양인</td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#patientmodal01">보기</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#patientmodal01">수정</button>
                                 <button type="button" class="btn btn_mini btn_redline">삭제</button>
                             </td>
                         </tr>

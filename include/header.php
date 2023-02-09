@@ -46,6 +46,27 @@ switch ($pid) {
         $header_name = "처방메인";
         $exp = "처방 및 환재, 복용법 관리가 가능합니다.";
         break;
+    case "px_taking" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "복용법 관리";
+        $exp = "복용법 등록, 수정, 관리가 가능합니다.";
+        break;
+    case "px_often" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "자주 쓰는 처방";
+        $exp = "자주 쓰는 처방 등록, 수정, 관리가 가능합니다.";
+        break;
+    case "px_order" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "주문 배송 관리";
+        $exp = "처방 완료된 건의 상태 조회가 가능합니다.";
+        break;
     ////adm
     //1. 통합관리
     case "a_index" :
