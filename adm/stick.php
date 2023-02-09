@@ -1,10 +1,10 @@
 <?php
-$pid = "a_texture";
+$pid = "a_stick";
 include_once("../include/header.php");
-//ADM 제형관리
+//ADM 스틱 포장 관리
 ?>
 
-    <section class="texture">
+    <section class="stick">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
@@ -16,8 +16,43 @@ include_once("../include/header.php");
             </div>
             <span>
             <button type="button" class="btn btn_whiteline" >선택 삭제</button>
-            <button type="button" class="btn btn_red" data-toggle="modal" data-target="#texturemodal01">제형 등록</button>
+            <button type="button" class="btn btn_red" data-toggle="modal" data-target="#stickmodal01">포장 등록</button>
             </span>
+        </div>
+        <div class="tagbox">
+            <div>
+                <p><strong>대상 분류</strong></p>
+            </div>
+            <div>
+                <p><a><span class="tag active">전체</span></a></p>
+                <p><a><span class="tag">개인</span></a></p>
+                <p><a><span class="tag">그룹</span></a></p>
+            </div>
+            <div><!--위 그룹 선택시 노출-->
+                <p><strong>그룹 분류</strong></p>
+            </div>
+            <div>
+                <p><a><span class="tag active">전체</span></a></p>
+                <p><a><span class="tag">해밀</span></a></p>
+                <p><a><span class="tag">하늘체</span></a></p>
+            </div><!--위 그룹 선택시 노출-->
+            <div>
+                <p><strong>박스 분류</strong></p>
+            </div>
+            <div>
+                <p><a><span class="tag active">전체</span></a></p>
+                <p><a><span class="tag">인박스</span></a></p>
+                <p><a><span class="tag">아웃박스</span></a></p>
+                <p><a><span class="tag">인+아웃박스</span></a></p>
+            </div>
+            <div>
+                <p><strong>사용 분류</strong></p>
+            </div>
+            <div>
+                <p><a><span class="tag active">전체</span></a></p>
+                <p><a><span class="tag">사용</span></a></p>
+                <p><a><span class="tag">사용안함</span></a></p>
+            </div>
         </div>
         <div class="box3">
             <div class="table adm">
@@ -25,6 +60,11 @@ include_once("../include/header.php");
                     <colgroup>
                         <col width="15px"/>
                         <col width="40px"/>
+                        <col width="*"/>
+                        <col width="*"/>
+                        <col width="*"/>
+                        <col width="*"/>
+                        <col width="*"/>
                         <col width="*"/>
                         <col width="100px"/>
                         <col width="40px"/>
@@ -35,8 +75,13 @@ include_once("../include/header.php");
                     <tr>
                         <th><input type="checkbox" name="chkall" value="1" id="chkall"/></th>
                         <th>번호</th>
-                        <th>제형명</th>
-                        <th>1g 당 가격</th>
+                        <th>이미지</th>
+                        <th>포장명</th>
+                        <th>대상</th>
+                        <th>박스</th>
+                        <th>그룹</th>
+                        <th>금액</th>
+                        <th>사용</th>
                         <th>순서</th>
                         <th>등록일</th>
                         <th></th>
@@ -46,8 +91,13 @@ include_once("../include/header.php");
                     <tr>
                         <td><input type="checkbox" name="chk[]" value="0" id="chk_0" /></td>
                         <td>1</td>
-                        <td>밀환 - 앵두대 [30원/g]</td>
-                        <td>100</td>
+                        <td><div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div></td>
+                        <td>인+아웃(흰색)-30포</td>
+                        <td>그룹</td>
+                        <td>인+아웃박스</td>
+                        <td>15개 그룹</td>
+                        <td>0원</td>
+                        <td>사용</td>
                         <td>1</td>
                         <td>2022-10-31</td>
                         <td>

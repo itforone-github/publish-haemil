@@ -165,7 +165,6 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .medicine .box3 {    padding: 30px 24px;    width: 100%;}
 .medicine .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .medicine select {  width: 100%; margin-bottom: 12px; }
-.medicine .thumb_img {width: 100%;height: 35px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #medicinemodal01 select {width: 100%}
 #medicinemodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
 @media screen and (max-width: 1400px){
@@ -176,5 +175,58 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .texture select {  width: 100%; margin-bottom: 12px; }
 #texturenemodal01 select {width: 100%}
 #textureemodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
+}
+
+/*plastic*/
+.plastic .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.plastic .tagbox > div:nth-child(odd) {width: 50px}
+.plastic .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.plastic .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.plastic .box3 {    padding: 30px 24px;    width: 100%;}
+.plastic .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.plastic select {  width: 100%; margin-bottom: 12px; }
+.plastic .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#plasticemodal01 select {width: 100%}
+#plasticmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
+}
+/*stick*/
+.stick .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.stick .tagbox > div:nth-child(odd) {width: 50px}
+.stick .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.stick .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.stick .box3 {    padding: 30px 24px;    width: 100%;}
+.stick .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.stick select {  width: 100%; margin-bottom: 12px; }
+.stick .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#stickmodal01 select {width: 100%}
+#stickmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
+}
+/*stickprt*/
+.stickprt .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.stickprt .tagbox > div:nth-child(odd) {width: 50px}
+.stickprt .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.stickprt .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.stickprt .box3 {    padding: 30px 24px;    width: 100%;}
+.stickprt .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.stickprt select {  width: 100%; margin-bottom: 12px; }
+.stickprt .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#stickprtmodal01 select {width: 100%}
+#stickprtmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
+}
+/*stickdsg*/
+.stickdsg .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.stickdsg .tagbox > div:nth-child(odd) {width: 50px}
+.stickdsg .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.stickdsg .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.stickdsg .box3 {    padding: 30px 24px;    width: 100%;}
+.stickdsg .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.stickdsg select {  width: 100%; margin-bottom: 12px; }
+.stickdsg .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#stickdsgmodal01 select {width: 100%}
+#stickdsgmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
 @media screen and (max-width: 1400px){
 }

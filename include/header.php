@@ -126,6 +126,31 @@ switch ($pid) {
         $header_name = "제형 관리";
         $exp = "";
         break;
+    //9. 환제관리
+    case "a_plastic" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "비닐 포장 관리";
+        $exp = "";
+        break;
+    case "a_stick" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "스틱 포장 관리";
+        $exp = "";
+        break;
+    case "a_stickprt" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "스틱 인쇄 관리";
+        $exp = "";
+        break;
+    case "a_stickdsg" :
+        $header_type = 2;
+        $footer_type = 2;
+        $header_name = "스틱 디자인 관리";
+        $exp = "";
+        break;
 }
 ?>
 <?php if ($header_type == 0) { ?>

@@ -76,8 +76,8 @@
         </div>
     </div>
 </div>
-<!-- patient -->
-<div class="modal fade" id="productupmodal01" tabindex="-1" aria-labelledby="productupmodal01Label" aria-hidden="true">
+<!-- 한의원 검색 -->
+<div class="modal fade" id="productupmodal01" tabindex="-1" aria-labelledby="productupmodal01Label" aria-hidden="true" style="z-index:99999;">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -122,18 +122,6 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <!--label>약재 이미지 업로드</label><br/>
-                    <div class="newpic-upload w100">
-                        <div class="newpic-edit">
-                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-                            <label for="imageUpload"></label>
-                        </div>
-                        <div class="newpic-preview">
-                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button><br/><br/-->
                     <label>약재명</label><input type="text" placeholder="약재명을 입력해주세요"/>
                     <label>원산지</label><input type="text" placeholder="원산지를 입력해주세요"/>
                     <label>1g당 가격</label><input type="text" placeholder="숫자만 입력"/>
@@ -175,6 +163,198 @@
                     <label>제형명</label><input type="text" placeholder="약재명을 입력해주세요"/>
                     <label>1g당 가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>순서</label><input type="text" placeholder="순서를 입력해주세요"/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- plastic -->
+<div class="modal fade" id="plasticmodal01" tabindex="-1" aria-labelledby="plasticmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="plasticemodal01Label">비닐 포장 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>이미지 업로드</label><br/>
+                    <div class="newpic-upload w100">
+                        <div class="newpic-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="newpic-preview">
+                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button><br/><br/>
+
+                    <label>대상</label><select><option>그룹</option><option>개별</option></select>
+                    <!--개별 시 노출-->
+                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+                    <!--그룹 시 노출-->
+                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
+                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <!---->
+                    <label>박스</label><select><option>진공팩</option><option>스탠드지퍼백</option><option>60팩</option><option>소박스</option></select>
+                    <label>가격</label><input type="text" placeholder="숫자만 입력"/>
+                    <label>노출여부</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select2-1" name="select2"/><label for="select2-1">사용</label></div>
+                        <div class="w50"><input type="radio" id="select2-2" name="select2"/><label for="select2-2">사용안함</label></div>
+                    </div>
+                    <br/>
+                    <label>노출 순서</label><input type="text" placeholder="숫자만 입력"/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- stick -->
+<div class="modal fade" id="stickmodal01" tabindex="-1" aria-labelledby="stickmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="stickmodal01Label">스틱 포장 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>이미지 업로드</label><br/>
+                    <div class="newpic-upload w100">
+                        <div class="newpic-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="newpic-preview">
+                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button><br/><br/>
+
+                    <label>대상</label><select><option>그룹</option><option>개별</option></select>
+                    <!--개별 시 노출-->
+                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+                    <!--그룹 시 노출-->
+                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
+                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <!---->
+                    <label>박스</label><select><option>인박스</option><option>아웃박스</option><option>인+아웃박스</option></select>
+                    <label>포장명</label><input type="text" placeholder="포장명을 입력하세요"/>
+                    <label>가격</label><input type="text" placeholder="숫자만 입력"/>
+                    <label>노출여부</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select2-1" name="select2"/><label for="select2-1">사용</label></div>
+                        <div class="w50"><input type="radio" id="select2-2" name="select2"/><label for="select2-2">사용안함</label></div>
+                    </div>
+                    <br/>
+                    <label>노출 순서</label><input type="text" placeholder="숫자만 입력"/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- stickprt -->
+<div class="modal fade" id="stickprtmodal01" tabindex="-1" aria-labelledby="stickprtmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="stickprtmodal01Label">스틱 인쇄 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>이미지 업로드</label><br/>
+                    <div class="newpic-upload w100">
+                        <div class="newpic-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="newpic-preview">
+                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button><br/><br/>
+
+                    <label>대상</label><select><option>그룹</option><option>개별</option></select>
+                    <!--개별 시 노출-->
+                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+                    <!--그룹 시 노출-->
+                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
+                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <!---->
+                    <label>인쇄명</label><input type="text" placeholder="인쇄명을 입력하세요"/>
+                    <label>가격</label><input type="text" placeholder="숫자만 입력"/>
+                    <label>노출여부</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select2-1" name="select2"/><label for="select2-1">사용</label></div>
+                        <div class="w50"><input type="radio" id="select2-2" name="select2"/><label for="select2-2">사용안함</label></div>
+                    </div>
+                    <br/>
+                    <label>노출 순서</label><input type="text" placeholder="숫자만 입력"/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- stickdsg -->
+<div class="modal fade" id="stickdsgmodal01" tabindex="-1" aria-labelledby="stickdsgmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="stickdsgmodal01Label">스틱 인쇄 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>이미지 업로드</label><br/>
+                    <div class="newpic-upload w100">
+                        <div class="newpic-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="newpic-preview">
+                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button><br/><br/>
+
+                    <label>대상</label><select><option>그룹</option><option>개별</option></select>
+                    <!--개별 시 노출-->
+                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+                    <!--그룹 시 노출-->
+                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
+                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <!---->
+                    <label>인쇄명</label><input type="text" placeholder="인쇄명을 입력하세요"/>
+                    <label>가격</label><input type="text" placeholder="숫자만 입력"/>
+                    <label>노출여부</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select2-1" name="select2"/><label for="select2-1">사용</label></div>
+                        <div class="w50"><input type="radio" id="select2-2" name="select2"/><label for="select2-2">사용안함</label></div>
+                    </div>
+                    <br/>
+                    <label>노출 순서</label><input type="text" placeholder="숫자만 입력"/>
                 </form>
             </div>
             <div class="modal-footer">

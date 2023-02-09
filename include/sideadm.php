@@ -15,24 +15,25 @@
         <div class="sidebar-menu">
             <!-- sidebar-content  -->
             <div class="side-icon">
-                <a href="#side-icon1" class="active">
+                <a href="../adm/index.php" <?php if($lnb_type == 1){ echo "class='active'"; } ?>>
                     <!-- <span class="badge badge-pill badge-warning notification">3</span> -->
                     <img src="../img/common/sideadm_icon01.svg"/>
                     <p>통합 관리자</p>
                 </a>
-                <a href="#side-icon2">
+                <a href="../adm/index.app.php"  <?php if($lnb_type == 2){ echo "class='active'"; } ?>>
                     <img src="../img/common/sideadm_icon02.svg"/>
                     <p>어플 관리자</p>
                 </a>
             </div>
             <div class="lnb">
+                <?php if ($lnb_type == 1) { ?>
                 <div id="side-icon1">
                     <ul>
                     <li class="header-menu">
                         <span>관리자</span>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="#" <?php if($pid == "point") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm01_02.svg"/>
                             <span>포인트 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
@@ -201,6 +202,7 @@
                     </li>
                     </ul>
                 </div>
+                <?php }  else if ($lnb_type == 2) { ?>
                 <div id="side-icon2">
                     <ul>
                     <li class="header-menu">
@@ -245,6 +247,7 @@
 
                     </ul>
                 </div>
+                <?php } ?>
             </div>
         </div>
         <!-- sidebar-menu  -->
