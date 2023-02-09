@@ -1,10 +1,10 @@
 <?php
-$pid = "a_order1";
+$pid = "a_notice";
 include_once("../include/header.php");
-//ADM 주문 배송 관리 (처방주문)
+//ADM 공지 관리
 ?>
 
-    <section class="order1">
+    <section class="notice">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
@@ -22,7 +22,7 @@ include_once("../include/header.php");
             </div>
             <span>
             <button type="button" class="btn btn_whiteline"  >선택 삭제</button>
-            <button type="button" class="btn btn_red" >공지 등록</button>
+            <button type="button" class="btn btn_red"  onclick="location.href='./notice.update.php'">공지 등록</button>
             </span>
         </div>
 
@@ -51,8 +51,8 @@ include_once("../include/header.php");
                     <tr>
                         <td>1</td>
                         <td>모두</td>
-                        <td>메탈청병 변경</td>
-                        <td>공지사항 내용입니다</td>
+                        <td><a href="../adm/notice.view.php">메탈청병 변경</a></td>
+                        <td><a href="../adm/notice.view.php">공지사항 내용입니다</a></td>
                         <td>2022-10-31</td>
                         <td><button type="button" class="btn btn_whiteline" >수정</button><button type="button" class="btn btn_redline">삭제</button></td>
                     </tr>

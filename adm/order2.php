@@ -33,14 +33,12 @@ include_once("../include/header.php");
         </div>
         <div class="tagbox">
             <div>
-                <p><strong>처방 분류</strong></p>
+                <p><strong>상품 분류</strong></p>
             </div>
             <div>
                 <p><a><span class="tag active">전체</span></a></p>
-                <p><a><span class="tag">탕전처방</span></a></p>
-                <p><a><span class="tag">환제처방</span></a></p>
-                <p><a><span class="tag">산제처방</span></a></p>
-                <p><a><span class="tag">서술식</span></a></p>
+                <p><a><span class="tag">약속처방</span></a></p>
+                <p><a><span class="tag">한의학몰</span></a></p>
             </div>
             <div>
                 <p><strong>결제 분류</strong></p>
@@ -79,7 +77,7 @@ include_once("../include/header.php");
                         <th class="" rowspan="2">번호</th>
                         <th class="" rowspan="2">주문일</th>
                         <th class="" rowspan="2">업체명</th>
-                        <th class="" rowspan="2">주문상태</th>
+                        <th class="" rowspan="1">주문상태</th>
                         <th class="" rowspan="1">주문번호</th>
                         <th class="" colspan="1">환자명</th>
                         <th class="" colspan="1">배송지</th>
@@ -89,6 +87,7 @@ include_once("../include/header.php");
                         <th class="" rowspan="2">관리</th>
                     </tr>
                     <tr>
+                        <th class="" colspan="1">상품 분류</th>
                         <th class="" colspan="1">상품/처방명</th>
                         <th class="" colspan="1">연락처</th>
                         <th class="" colspan="1">배송정보</th>
@@ -102,7 +101,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">8862</td>
                         <td class="" rowspan="2">23-02-08</td>
                         <td class="" rowspan="2">한의원</td>
-                        <td class="" rowspan="2">
+                        <td class="" rowspan="1">
                             <select class="">
                                 <option value="주문접수" selected="">주문접수</option>
                                 <option value="작업중">작업중</option>
@@ -120,6 +119,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">보기</button><button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
+                        <td class="" rowspan="1">한의학몰</td>
                         <td class="" rowspan="1">쑥뜸</td>
                         <td class="" rowspan="1">010-0000-0000</td>
                         <td class="" rowspan="1">
@@ -148,7 +148,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">8862</td>
                         <td class="" rowspan="2">23-02-08</td>
                         <td class="" rowspan="2">한의원</td>
-                        <td class="" rowspan="2">
+                        <td class="" rowspan="1">
                             <select class="">
                                 <option value="주문접수" selected="">주문접수</option>
                                 <option value="작업중">작업중</option>
@@ -166,7 +166,8 @@ include_once("../include/header.php");
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">보기</button><button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
-                        <td class="" rowspan="1">쑥뜸</td>
+                        <td class="" rowspan="1">약속처방</td>
+                        <td class="" rowspan="1">경옥고</td>
                         <td class="" rowspan="1">010-0000-0000</td>
                         <td class="" rowspan="1">
                             <div class="flex delivery">

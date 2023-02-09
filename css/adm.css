@@ -143,6 +143,9 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .order1 .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .order1 select {  width: 100%; margin-bottom: 12px; }
 .order1 .delivery input,.order1 .delivery select {  margin-bottom: 0px; }
+.order1 .table tr:nth-child(odd) td{background-color: transparent}
+.order1 .table tr:nth-child(4n+1) td{background-color: #EEEEEE}
+.order1 .table tr:nth-child(4n+2) td{background-color: #EEEEEE}
 @media screen and (max-width: 1400px){
     .order1 .delivery {flex-wrap: wrap}
     .order1 .delivery input,.order1 .delivery select {  margin-bottom: 0px; min-width: 100px }
@@ -156,6 +159,9 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .order2 .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .order2 select {  width: 100%; margin-bottom: 12px; }
 .order2 .delivery input,.order2 .delivery select {  margin-bottom: 0px; }
+.order2 .table tr:nth-child(odd) td{background-color: transparent}
+.order2 .table tr:nth-child(4n+1) td{background-color: #EEEEEE}
+.order2 .table tr:nth-child(4n+2) td{background-color: #EEEEEE}
 @media screen and (max-width: 1400px){
     .order2 .delivery {flex-wrap: wrap}
     .order2 .delivery input,.order2 .delivery select {  margin-bottom: 0px; min-width: 100px }
@@ -284,5 +290,25 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .pouch .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #pouchmodal01 select {width: 100%}
 #pouchmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
+}
+
+
+/*notice*/
+.notice .box3 {    padding: 30px 24px;    width: 100%;}
+.notice select {  width: 100%; margin-bottom: 12px; }
+
+.noticeupd .box3 {    padding: 30px 24px;    width: 100%;}
+.noticeupd select { display: inline-block; width: 50%; max-width: 150px;margin-bottom: 12px; }
+.noticeupd .box3 > div { padding-bottom: 10px;margin-bottom: 20px;border-bottom: 1px solid #E8E8E8;}
+.noticeupd .box3 div.select > label {line-height: 40px; margin: 0 10px 12px 0;}
+.noticeupd textarea { min-height: 100px; }
+.noticeupd .filebox { width: 80%; }
+
+.notice.view .box3 div.select > label {line-height: 40px; margin: 0 10px 12px 0;}
+.notice.view input:read-only { display: inline-block; width: 50%; max-width: 150px;margin-bottom: 12px; }
+.notice.view .box3 > div { padding-bottom: 10px;margin-bottom: 20px;border-bottom: 1px solid #E8E8E8;}
+.notice.view .title { font-weight:  800; font-size: 1.2em; margin-bottom: 12px}
+.notice.view .download { font-weight:  800; text-decoration: underline; padding-top:10px ;margin-bottom: 12px}
 @media screen and (max-width: 1400px){
 }

@@ -219,6 +219,37 @@ switch ($pid) {
         $header_name = "파우치 관리";
         $exp = "";
         break;
+    //12.공지 관리
+    case "a_notice" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "공지 관리";
+        $exp = "";
+        break;
+    case "a_noticeupd" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "공지 관리";
+        $exp = "";
+        break;
+    //13.문의요청 관리
+    case "a_request" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "문의요청 관리";
+        $exp = "";
+        break;
+    //14.팝업 관리
+    case "a_popup" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "팝업 관리";
+        $exp = "";
+        break;
 }
 ?>
 <?php if ($header_type == 0) { ?>
@@ -257,13 +288,13 @@ switch ($pid) {
             <!-- sidebar-wrapper  -->
             <header>
                 <div class="tnb">
-                    <a heft="../adm/index.php">
+                    <a href="../adm/index.php">
                         <img src="../img/common/top_menu01.svg"/><span>메인</span>
                     </a>
                     <a>
                         <img src="../img/common/top_menu03.svg"/><span>마이페이지</span>
                     </a>
-                    <a heft="../med/index.php">
+                    <a href="../med/index.php">
                         <img src="../img/common/top_menu04.svg"/><span>홈페이지</span>
                     </a>
                     <a>

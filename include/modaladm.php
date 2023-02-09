@@ -112,6 +112,29 @@
     </div>
 </div>
 
+<!-- 한의원 검색 -->
+<div class="modal fade" id="productupmodal02" tabindex="-1" aria-labelledby="productupmodal02Label" aria-hidden="true" style="z-index:99999;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productupmodal02Label">가격 적용 한의원 선택</h5>
+            </div>
+            <div class="modal-body">
+                <p>1개는 필수로 적용해야합니다.</p><br/>
+                <span class="select"><input type="checkbox" id="groups1" name="groupselect"/><label for="groups1">기본</label>
+                                 <input type="checkbox" id="groups2" name="groupselect"/><label for="groups2">하늘체</label>
+                                 <input type="checkbox" id="groups3" name="groupselect" disabled/><label for="groups4">하늘체</label>
+                                 <input type="checkbox" id="groups4" name="groupselect"/><label for="groups4">하늘체</label>
+                </span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-primary">적용</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- medicine -->
 <div class="modal fade" id="medicinemodal01" tabindex="-1" aria-labelledby="medicinemodal01Label" aria-hidden="true">

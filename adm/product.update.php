@@ -3,8 +3,8 @@ $pid = "a_productupd";
 include_once("../include/header.php");
 //ADM 상품 등록
 ?>
-
-    <section class="productupd">
+    <style>body.modal-open{overflow: unset;}</style>
+    <section class="productupd" xmlns="http://www.w3.org/1999/html">
         <div class="panel">
             <label class="title">상품명</label><input type="text" placeholder="상품명을 입력하세요" class="title" />
             <button type="button" class="btn btn_red">등록하기</button>
@@ -21,8 +21,15 @@ include_once("../include/header.php");
             <p class="line indiv"><label>개별 한의원</label><input type="text"  placeholder="한의원명을 입력하세요"/>
                                 <button type="button" class="btn_whiteline" data-toggle="modal" data-target="#productupmodal01">검색</button></p>
             <!--노출 한의원 개별 설정-->
+
+            <!--그룹시 가격노출-->
             <div class="price">
-                <p class="name">ㅇㅇ한의원 가격 정보</p>
+                <p class="name">개별 설정 #1</p>
+                <p class="line"><button type="button" class="btn_whiteline">추가</button><button type="button" class="btn_line">삭제</button></p>
+                <p class="name">적용 그룹 </p>
+                <p class="line"><button type="button" class="btn_whiteline" data-toggle="modal" data-target="#productupmodal02">적용 그룹 선택 </button></p>
+                <p class="line"><span style="margin-right: 10px">적용 한의원</span> <span class="txt_red txt_bold">기본</span> | <span class="txt_red txt_bold">선택된 거</span></p>
+                <p class="name">가격 정보</p>
                 <p class="line"><label>판매가</label><input type="text" placeholder="판매가를 입력하세요"/><button type="button" class="btn_whiteline">옵션 추가</button></p>
                 <p class="name">옵션 정보</p>
                 <p class="line"><label>옵션명</label><input type="text" placeholder="옵션명을 입력하세요"/>
