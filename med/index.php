@@ -1,7 +1,7 @@
 <?php
 $pid = "index";
 include_once("../include/header.php");
-//환자메인
+//2.1환자메인
 ?>
 
 <section class="treat main">

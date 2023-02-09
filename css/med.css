@@ -1,6 +1,7 @@
 /** 공통 - 메인 **/
 .table th,
 .table td{text-align: center; font-size: 1.1em;}
+.table td a.underline{text-decoration: underline}
 
 .main{display: flex; align-items: flex-end;}
 .main .box1{padding: 24px 20px; width: 100%; height: 100%;}
@@ -23,6 +24,15 @@
 .main .box1 .list{padding: 0;}
 
 .latest .box2{padding:30px 24px; width: 100%;}
+.list .box2{padding: 30px 25px; width: 100%;}
+.form .box2{padding: 30px 25px; width: 100%;}
+
+.area_top{display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;}
+.area_top .total{display: flex; align-items: center;}
+.area_top .red {color: #BC2D1E; font-weight: 800}
+.area_top .search{display: flex; align-items: center; margin: 0 10px}
+.area_top .search select{margin-bottom: 0; margin-right: 4px}
+.area_top .btn_wrap{padding-bottom: 0;}
 
 .form > dl{display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;}
 .form > dl > dt{width: 84px;}
@@ -30,6 +40,7 @@
 .form .ref{ margin-top: 4px;}
 .form .flex{display: flex; justify-content: space-between; align-items: center;}
 .form .flex input{width: 100%; margin-bottom: 0; margin-right: 4px}
+
 
 @media screen and (max-width:1400px) {
     .main{flex-wrap: wrap;}
@@ -66,14 +77,10 @@
 .t_patient .register{min-width:464px; margin-right:25px;}
 .t_patient .register .form{padding: 34px 22px}
 .t_patient .list{width: 100%;}
-.t_patient .list .box2{padding: 30px 25px; width: 100%;}
 
-.t_patient .list .area_top{display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;}
 .t_patient .list .area_top h3{margin-bottom: 0; margin-right: 10px;}
-.t_patient .list .area_top .red {color: #BC2D1E; font-weight: 800}
-.t_patient .list .area_top .left{display: flex; align-items: center;}
-.t_patient .list .search{display: flex; align-items: center; margin: 0 10px}
-.t_patient .list .search select{margin-bottom: 0; margin-right: 4px}
+
+
 
 
 
@@ -98,3 +105,40 @@
 .pm_notice li{display: flex; align-items: center; justify-content: space-between;
     line-height: 25px; padding: 4px 0;}
 .pm_notice .date_time{}
+
+/*복용법 관리*/
+.select_wrap{display: flex; align-items: center; border-bottom: 1px solid #E8E8E8; margin-bottom: 20px; padding-bottom: 20px;}
+.select_wrap select{margin-right: 4px;}
+.select_wrap select:last-child{margin-right: 0;}
+
+/*주문배송관리*/
+.panel  {   display: flex;    flex-wrap: wrap; background-color: transparent}
+.panel > div  {    margin: 0 5px;display: flex; max-width: 300px}
+.panel > span  {    margin-left: auto}
+.panel > .btn_red {   margin-left: auto}
+.panel > .btn {  height: 27px}
+.panel p {line-height: 40px;padding: 0 10px;}
+.panel > p:first-child {line-height: 40px;padding-left: 0px;}
+.panel input {    border-radius: 0px;}
+.panel input[type=text] {border-right: 0px;}
+.panel .red {color: #BC2D1E; font-weight: 800}
+
+.p_order .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.p_order .tagbox > div:nth-child(odd) {width: 50px}
+.p_order .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.p_order .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.p_order .tagbox.box2 {  padding: 20px 24px;  /*background: #F6F6F6;*/ border-radius:
+5px; margin-bottom: 15px}
+.p_order .tagbox .red{color: #BC2D1E;}
+.p_order select {  width: 100%; margin-bottom: 12px; }
+.p_order .delivery input,.p_order .delivery select {  margin-bottom: 0px; }
+@media screen and (max-width: 1400px){
+    .p_order .delivery {flex-wrap: wrap}
+    .p_order .delivery input,.p_order .delivery select {  margin-bottom: 0px; min-width: 100px }
+}
+
+.p_order .table tr:nth-child(odd) td{background-color: #fff}
+.p_order .table tr:nth-child(4n+1) td{background-color: #FBFBFB}
+.p_order .table tr:nth-child(4n+2) td{background-color: #FBFBFB}
+
+

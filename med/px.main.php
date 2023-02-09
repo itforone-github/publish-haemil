@@ -1,7 +1,7 @@
 <?php
 $pid = "px_main";
 include_once("../include/header.php");
-//처방하기 메인
+//3.01처방하기 메인
 ?>
 
     <section class="px main">
