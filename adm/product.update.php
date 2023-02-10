@@ -4,10 +4,14 @@ include_once("../include/header.php");
 //ADM 상품 등록
 ?>
     <style>body.modal-open{overflow: unset;}</style>
-    <section class="productupd" xmlns="http://www.w3.org/1999/html">
+    <section class="productupd">
         <div class="panel">
             <label class="title">상품명</label><input type="text" placeholder="상품명을 입력하세요" class="title" />
-            <button type="button" class="btn btn_red">등록하기</button>
+
+            <span>
+            <button type="button" class="btn btn_whiteline"  onclick="location.href='../adm/product.php'">목록</button>
+            <button type="button" class="btn btn_red">등록</button>
+            </span>
         </div>
         <div class="box3">
             <p class="name">기본 분류</p>

@@ -252,7 +252,7 @@ switch ($pid) {
         $header_type = 2;
         $footer_type = 2;
         $lnb_type = 1;
-        $header_name = "공지 관리";
+        $header_name = "공지 등록";
         $exp = "";
         break;
     //13.문의요청 관리
@@ -270,6 +270,38 @@ switch ($pid) {
         $lnb_type = 1;
         $header_name = "팝업 관리";
         $exp = "";
+        break;
+    case "a_popupupd" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "팝업 등록";
+        $exp = "";
+        break;
+    ////어플관리자
+    // 1.메인
+    case "a_indexapp" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "어플 관리";
+        $exp = "";
+        break;
+    // 2.회원 관리
+    case "a_user" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "회원 관리";
+        $exp = "";
+        break;
+    // 4.신고리뷰 관리
+    case "a_review" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "신고리뷰 관리";
+        $exp = "관리자 확인 후 블라인드 처리됩니다.";
         break;
 }
 ?>

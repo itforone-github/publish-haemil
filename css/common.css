@@ -260,7 +260,7 @@ textarea{width: 100%; background-color: #FFFFFF; border: 1px solid #E8E8E8; colo
 .table.adm tr:nth-child(odd) td{ background-color: #EEEEEE;}
 
 /*모달*/
-.modal-content {    box-shadow: none;}
+.modal-content {    box-shadow: none;    background: #FAFBFD;}
 .modal .btn-primary {background-color: #BC2D1E; color: #fff; width: 48%; height: 35px}
 .modal .btn-secondary {background-color: #78787B; color: #fff; width: 48%; height: 35px}
 .modal-title {color: #373844; opacity: 0.55; font-size: 1.7em;}

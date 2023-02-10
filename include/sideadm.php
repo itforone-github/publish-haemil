@@ -215,7 +215,8 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="../adm/event.php" <?php if($pid == "a_event") { echo "class='active'"; }?>>
+                        <!--a href="../adm/event.php" <?php if($pid == "a_event") { echo "class='active'"; }?>-->
+                        <a href="javascript:alert('준비중입니다.')" <?php if($pid == "a_event") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm02_01.svg"/>
                             <span>이벤트 관리</span>
                         </a>

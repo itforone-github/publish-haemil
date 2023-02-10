@@ -509,3 +509,35 @@
         </div>
     </div>
 </div>
+<!-- review -->
+<div class="modal fade" id="reviewmodal01" tabindex="-1" aria-labelledby="reviewmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewmodal01Label">리뷰 상세 보기</h5>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <p>작성일 <span class="sub">2022-00-00</span><span class="sub2">예약인증건</span>구분 <span class="sub">고객신고</span></p>
+                    <p>김환자 <span class="sub">id</span></p>
+                </div>
+                <p>리뷰내용 <span class="count">누적신고 <span class="txt_red txt_bold">4</span></span></p>
+                <div>
+                    <textarea readonly>예약했는데 1분이나 기다림 ㅡㅡ; </textarea>
+                </div>
+                <p>신고사유</p>
+                <div>
+                    <textarea readonly> 사유입니다 </textarea>
+                </div>
+                <p>제재선택</p>
+                <div>
+                    <label></label><select><option>게시글 삭제</option><option>게시글 삭제 + 해당 한의원 리뷰 금지</option></select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">제재</button>
+            </div>
+        </div>
+    </div>
+</div>
