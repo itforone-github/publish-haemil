@@ -1,7 +1,6 @@
 /** 공통 - 메인 **/
 .table th,
 .table td{text-align: center; font-size: 1.1em;}
-.table td a.underline{text-decoration: underline}
 
 .main{display: flex; align-items: flex-end;}
 .main .box1{padding: 24px 20px; width: 100%; height: 100%;}
@@ -123,15 +122,21 @@
 .panel input[type=text] {border-right: 0px;}
 .panel .red {color: #BC2D1E; font-weight: 800}
 
-.p_order .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.p_order .tagbox  {    display: flex;    flex-direction: row; }
 .p_order .tagbox > div:nth-child(odd) {width: 50px}
 .p_order .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
 .p_order .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
-.p_order .tagbox.box2 {  padding: 20px 24px;  /*background: #F6F6F6;*/ border-radius:
-5px; margin-bottom: 15px}
-.p_order .tagbox .red{color: #BC2D1E;}
+.p_order .tagbox.box2 { border-radius:5px; margin-bottom: 15px; padding-bottom: 8px;}
+.p_order .tagbox > p.txt_red{line-height: 40px;}
+.p_order .tagbox > p > strong{ display: inline-block; width:60px; line-height: 40px; }
+.p_order .tagbox > select{margin-right: 20px; width: auto;}
+
+
 .p_order select {  width: 100%; margin-bottom: 12px; }
 .p_order .delivery input,.p_order .delivery select {  margin-bottom: 0px; }
+
+.p_order .state{display:inline-block;font-weight: 600; color: #373844; font-size: 1.1em; background-color: #E8E8E8; border-radius: 5px; padding: 4px 6px }
+
 @media screen and (max-width: 1400px){
     .p_order .delivery {flex-wrap: wrap}
     .p_order .delivery input,.p_order .delivery select {  margin-bottom: 0px; min-width: 100px }

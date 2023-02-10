@@ -49,7 +49,7 @@ include_once("../include/header.php");
                             <td>5회</td>
                             <td>복용법1</td>
                             <td>복용안내 : 최대한 시간에 맞춰 드셔야 효능이 좃습니다. 약을 몰아서 드시지...</td>
-                            <td><a class="underline">사진.png</a></td>
+                            <td><span class="txt_under"><a>사진.png</a></span></td>
                             <td>2022-01-01</td>
                             <td>
                                 <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='px.taking.update.php'">수정</button>
