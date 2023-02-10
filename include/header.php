@@ -303,6 +303,37 @@ switch ($pid) {
         $header_name = "신고리뷰 관리";
         $exp = "관리자 확인 후 블라인드 처리됩니다.";
         break;
+    // 5.한약재 관리
+    case "a_appmedi" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "한약재 관리";
+        $exp = "";
+        break;
+    // 6.faq 관리
+    case "a_faq" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "FAQ 관리";
+        $exp = "";
+        break;
+    // 7.질병음식 관리
+    case "a_food" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "질병음식 관리";
+        $exp = "";
+        break;
+    case "a_foodupd" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "질병음식 등록";
+        $exp = "";
+        break;
 }
 ?>
 <?php if ($header_type == 0) { ?>

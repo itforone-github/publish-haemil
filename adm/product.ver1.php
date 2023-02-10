@@ -14,10 +14,7 @@ include_once("../include/header.php");
                 <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
             </div>
-            <span>
-                <button type="button" class="btn btn_blue"  data-toggle="modal" data-target="#productmodal03">기본 배송비 설정</button>
-                <button type="button" class="btn btn_red"  onclick="location.href='./product.update.php'">등록하기</button>
-            </span>
+            <button type="button" class="btn btn_red"  onclick="location.href='./product.update.php'">등록하기</button>
         </div>
         <div class="tagbox">
             <div>
@@ -45,60 +42,48 @@ include_once("../include/header.php");
                 <p><a><span class="tag">그외처방</span></a></p>
             </div>
         </div>
-        <div class="box3">
-            <div class="table adm">
-                <table>
-                    <colgroup>
-                        <col width="15px"/>
-                        <col width="40px"/>
-                        <col width="*"/>
-                        <col width="*"/>
-                        <col width="*"/>
-                        <col width="*"/>
-                        <col width="*"/>
-                        <col width="*"/>
-                        <col width="*"/>
-                        <col width="*"/>
-                        <col width="40px"/>
-                        <col width="120px"/>
-                        <col width="120px"/>
-                    </colgroup>
-                    <thead>
-                    <tr>
-                        <th>번호</th>
-                        <th>카테고리</th>
-                        <th>이미지</th>
-                        <th>상품명</th>
-                        <th>대상</th>
-                        <th>그룹</th>
-                        <th>배송비</th>
-                        <th>처방상태</th>
-                        <th>노출상태</th>
-                        <th>결제수단</th>
-                        <th>순서</th>
-                        <th>등록일</th>
-                        <th></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>기획전</td>
-                        <td><div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div></td>
-                        <td>상품</td>
-                        <td>그룹</td>
-                        <td>15개 그룹</td>
-                        <td>0원</td>
-                        <td>처방불가</td>
-                        <td>노출</td>
-                        <td>카드, 현금</td>
-                        <td>1</td>
-                        <td>2022-10-31</td>
-                        <td>
-                            <button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
-                    </tr>
-                    </tbody>
-                </table>
+        <div class="box5">
+            <div>
+                <div class="pro_item">
+                    <img src="../img/common/noimg.png"/>
+                    <div class="item_txt">
+                        <p><span class="item_cate">기획전</span></p>
+                        <p class="item_name">경옥고S스틱박스</p>
+                        <p class="item_price">10,000원</p>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <img src="../img/common/noimg.png"/>
+                    <div class="item_txt">
+                        <p><span class="item_cate">기획전</span></p>
+                        <p class="item_name">경옥고S스틱박스</p>
+                        <p class="item_price">10,000원</p>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <img src="../img/common/noimg.png"/>
+                    <div class="item_txt">
+                        <p><span class="item_cate">기획전</span></p>
+                        <p class="item_name">경옥고S스틱박스</p>
+                        <p class="item_price">10,000원</p>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <img src="../img/common/noimg.png"/>
+                    <div class="item_txt">
+                        <p><span class="item_cate">기획전</span></p>
+                        <p class="item_name">경옥고S스틱박스</p>
+                        <p class="item_price">10,000원</p>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <img src="../img/common/noimg.png"/>
+                    <div class="item_txt">
+                        <p><span class="item_cate">기획전</span></p>
+                        <p class="item_name">경옥고S스틱박스</p>
+                        <p class="item_price">10,000원</p>
+                    </div>
+                </div>
             </div>
             <div class="b-pagination-outer ">
                 <ul id="border-pagination">

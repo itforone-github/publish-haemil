@@ -79,6 +79,15 @@ header {    background-color: #F6F6F6;}
 .product .box5 {   width: 100%;}
 .product .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .product select {  width: 100%; margin-bottom: 12px; }
+
+.product .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.product .tagbox > div:nth-child(odd) {width: 50px}
+.product .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.product .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.product .box3 {    padding: 30px 24px;    width: 100%;}
+.product .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.product select {  width: 100%; margin-bottom: 12px; }
+.product .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    display: inline-block;    margin-right: 7px;}
 .pro_item:last-child {    margin-right: 0px;}
 .pro_item img{     border-radius: 5px;  width: 100%;}
@@ -429,4 +438,46 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 #reviewmodal01 span.sub {   color: #78787B;}
 #reviewmodal01 span.sub2 { background: #FFD0CB; padding: 5px; font-size: 0.8em; color: #BC2D1E; margin: 0 10px; border-radius: 5px;}
 @media screen and (max-width: 1400px){
+}
+
+/*appmedi*/
+.appmedi .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.appmedi .tagbox > div:nth-child(odd) {width: 50px}
+.appmedi .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.appmedi .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.appmedi .box3 {    padding: 30px 24px;    width: 100%;}
+.appmedi .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.appmedi select {  width: 100%; margin-bottom: 12px; }
+.appmedi .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#appmedimodal01 select {width: 100%}
+#appmedimodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
+}
+
+/*faq*/
+.faq .box3 {    padding: 30px 24px;    width: 100%;}
+.faq select {  width: 100%; margin-bottom: 12px; }
+#faqmodal01 select {width: 100%}
+#faqmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+@media screen and (max-width: 1400px){
+}
+
+/*food*/
+.food .box3 {    padding: 30px 24px;    width: 100%;}
+.food select {  width: 100%; margin-bottom: 12px; }
+.foodupd .box3 {    padding: 30px 24px;    width: 100%;}
+.foodupd select {  width: 100%; margin-bottom: 12px; }
+.foodupd label.title {   line-height: 40px;}
+.foodupd input.title {    display: inline-block;    max-width: 400px; margin-left: 10px;   margin-bottom: 0; border:1px solid #2A2A2A; box-shadow: 5px 5px 15px #0000001A;}
+.foodupd p.name {margin-bottom: 10px; padding-top: 10px;border-top:1px solid #ececec;color: #BC2D1E; font-size: 1.1em; font-weight: bold;}
+.foodupd p.line {margin-bottom: 10px;}
+.foodupd p.line button {height: 40px; padding: 0 15px;  margin-bottom: 10px; font-size: 1em }}
+.foodupd p.line > label { margin-bottom: 10px;    font-weight: 400;}
+.foodupd .newpic { width: 130px;}
+@media screen and (max-width: 400px){
+    .foodupd input {width: 100%; max-width: 300px;  margin:0px;  display: block;  }
+    .foodupd label.title {   margin-bottom: 20px;}
+    .foodupd input.title {   margin:0 10px; margin-bottom: 20px;}
+    .foodupd p.line > select { width: 100%; max-width: 300px; margin:0px; display: block; }
+    .foodupd p.line button {height: 40px; padding: 0 15px;  margin: 10px 0; font-size: 1em }
 }
