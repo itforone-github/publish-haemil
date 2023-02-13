@@ -29,7 +29,7 @@ include_once("../include/header.php");
 
             <!--그룹시 가격노출-->
             <div class="price">
-                <p class="name">개별 설정 #1</p>
+                <p class="name">그룹 판매가 설정 #1</p>
                 <p class="line"><button type="button" class="btn_whiteline">추가</button><button type="button" class="btn_line">삭제</button></p>
                 <p class="name">적용 그룹 </p>
                 <p class="line"><button type="button" class="btn_whiteline" data-toggle="modal" data-target="#productupmodal02">적용 그룹 선택 </button></p>
@@ -57,9 +57,10 @@ include_once("../include/header.php");
                             <br class="visible-lg2"/><label>약재량</label><input type="text" placeholder="약재량을 입력하세요"/>
                             <button type="button" class="btn_whiteline"><i class="fa-solid fa-xmark"></i></button></p>
             <p class="name">상품 정보</p>
-            <p class="line"><label>포장 방법</label><select class="st-sm"><option>환/ea</option><option>g/ea</option><option>개/상자</option><option>팩/ea</option></select>
+            <p class="line"><label>포장 방법</label><!--select class="st-sm"><option>환/ea</option><option>g/ea</option><option>개/상자</option><option>팩/ea</option></select>
                             <input type="text" placeholder="0" class="ip-sm"/><label>환</label><input type="text" placeholder="0" class="ip-sm"/><label>ea</label>
-                            <br class="visible-md2"/><input type="text" placeholder="포장 방법을 입력하세요"/></p>
+                            <br class="visible-md2"/--><input type="text" placeholder="포장 방법을 입력하세요"/></p>
+            <p class="line"><label>상품 구성</label><input type="text" placeholder="상품 구성을 입력하세요"/></p>
             <p class="name">배송 정보</p>
             <p class="line"><label>배송 비용</label><select class="st-sm"><option>유료</option><option>무료</option></select>
                             <!--input type="text" placeholder="최소 조건 비용을 입력하세요"/

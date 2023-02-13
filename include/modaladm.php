@@ -615,3 +615,31 @@
         </div>
     </div>
 </div>
+<!-- event -->
+<div class="modal fade" id="eventmodal01" tabindex="-1" aria-labelledby="eventmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="eventmodal01Label">이벤트 문의/신청</h5>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <p>작성일 <span class="sub">2022-00-00</span> 구분 <span class="sub">문의</span></p>
+                    <p>김환자 <span class="sub">id | 1900-00-00 | 010-0000-0000 | 소음인</span></p>
+                </div>
+                <p>내용</p>
+                <div>
+                    <textarea readonly>꼭 내원해야해요? </textarea>
+                </div>
+                <p>답변작성</p>
+                <form>
+                    <textarea placeholder="답변을 입력하세요."/></textarea>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>

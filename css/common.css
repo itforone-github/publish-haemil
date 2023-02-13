@@ -125,6 +125,11 @@ a.btn_line,
 a.btn_line:hover,
 .btn_line:hover{background-color: #484951; border: 1px solid #484951; color: #fff}
 
+a.btn_line2,
+.btn_line2{border: 1px solid #2A2A2A; background-color: #D4D4D4; color: #484951;}
+a.btn_line2:hover,
+.btn_line2:hover{background-color: #7e7e7e; border: 1px solid #2A2A2A; color: #fff}
+
 .btn_sdw{box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);}
 .btn_h40 {height: 40px}
 .btn_wrap{ text-align: center; padding:28px 0;}
