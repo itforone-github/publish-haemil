@@ -453,6 +453,48 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 #appmedimodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
 @media screen and (max-width: 1400px){
 }
+/*event*/
+.event .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.event .tagbox > div:nth-child(odd) {width: 50px}
+.event .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.event .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.event .box3 {    padding: 30px 24px;    width: 100%;}
+.event .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.event select {  width: 100%; margin-bottom: 12px; }
+.event .ev1pr1 { font-weight:800;color: #373844 }
+.event .ev1pr2 { font-weight:800;color: #3442F1 }
+.event .ev1pr3 { font-weight:800;color:  #BC2D1E}
+.event .ev2pr1 { font-weight:800;color: #373844 }
+.event .ev2pr2 { font-weight:800;color: #2CA516 }
+.event .ev2pr3 { font-weight:800;color: #707070 }
+.event .thumb_img {width:270px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+
+.event.view .box3 div.select > label {line-height: 40px; margin: 0 10px 12px 0;}
+.event.view input:read-only { display: inline-block; width: 50%; max-width: 150px;margin-bottom: 12px; }
+.event.view .box3 > div { padding-bottom: 10px;margin-bottom: 20px;border-bottom: 1px solid #E8E8E8;}
+.event.view .sub {     line-height: 30px;}
+.event.view .flex > span {     margin-left: auto;}
+.event.view .title { font-weight:  800; font-size: 1.2em; margin: 12px 0; color: #484951}
+.event.view .sub span { margin:0  12px; color: #484951}
+.event.view .cont { padding-top: 10px;background: #ffffff;margin-top:10px;border-top: 1px solid #E8E8E8;    box-shadow: 0 3px 15px 1px #acacac1a;}
+.event.view .download { font-weight:  800; text-decoration: underline; padding-top:10px ;margin-bottom: 12px}
+.event.view textarea { border: 0px}
+.event.view .rqselect label { color: #484951; font-size: 1.3em; margin-right: 12px;  line-height: 40px}
+.event.view .rqselect select { display: inline-block; width: 30%;  margin-bottom: 0px;max-width: 100px}
+.event.view .reply { margin:10px 0; color: #484951}
+.event.view .answer { background: #ffffff; border: 0px!important;    padding: 10px!important;}
+.event.view .answer textarea { border: 1px solid #E8E8E8}
+.event.view .answer > div { padding-bottom: 10px;margin-bottom: 20px;border-bottom: 1px solid #E8E8E8;}
+#eventmodal01 select {width: 100%}
+#eventmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+#eventmodal01 .modal-body > div {width: 100%; background: #ffffff; padding: 15px}
+#eventmodal01 p {    margin: 15px 0; font-size: 1.2em; color:#373844;}
+#eventmodal01 p {    margin: 15px 0; font-size: 1.2em; color:#373844;}
+#eventmodal01 span {   font-size: 0.8em;}
+#eventmodal01 span.sub {   color: #78787B;}
+#eventmodal01 span.sub2 { background: #FFD0CB; padding: 5px; font-size: 0.8em; color: #BC2D1E; margin: 0 10px; border-radius: 5px;}
+@media screen and (max-width: 1400px){
+}
 
 /*faq*/
 .faq .box3 {    padding: 30px 24px;    width: 100%;}

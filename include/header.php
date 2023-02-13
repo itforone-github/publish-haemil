@@ -359,6 +359,21 @@ switch ($pid) {
         $header_name = "회원 관리";
         $exp = "";
         break;
+    // 3.이벤트 관리
+    case "a_event" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "이벤트 관리";
+        $exp = "";
+        break;
+    case "a_eventupd" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 2;
+        $header_name = "이벤트 등록";
+        $exp = "";
+        break;
     // 4.신고리뷰 관리
     case "a_review" :
         $header_type = 2;

@@ -161,6 +161,9 @@ include_once("../include/header.php");
 
         </div>
     </section>
+    <section class="ready">
+        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
+    </section>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

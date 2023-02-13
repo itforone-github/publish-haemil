@@ -77,7 +77,9 @@ include_once("../include/header.php");
             </div>
         </div>
     </section>
-
+    <section class="ready">
+        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
+    </section>
 
     <!--푸터 인클루드-->
 <?php include '../include/footer.php'; ?>
