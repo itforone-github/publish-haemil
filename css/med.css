@@ -6,6 +6,7 @@
 
 .flex{display: flex; align-items: flex-start;}
 .flex.js{justify-content: space-between;}
+.flex.ac{align-items: center;}
 .flex > div{margin-right: 18px; width: 100%;}
 .flex > div:last-child{margin-right: 0;}
 
@@ -184,7 +185,8 @@
 
 
 
-
+/** 4.한의학몰 - 메인 **/
+.mall.main .swiper{border-radius: 5px; overflow: hidden;}
 
 
 
@@ -284,3 +286,22 @@
 .s_point_charge .table th:nth-child(2),
 .s_point_charge .table td:nth-child(2){color: #BC2D1E;}
 .s_point_charge .table td:nth-child(2){font-size: 1em;}
+
+/*홈페이지 제작관리*/
+.s_homepage .s_type ul{display: flex; align-items: center;}
+.s_homepage .s_type li{border-radius: 5px; margin-right: 27px; background-color: #fff; text-align: center; border: 2px solid transparent;}
+.s_homepage .s_type li:last-child{margin-right: 0;}
+.s_homepage .s_type li > p{display: inline-block; background-color: #FFD0CB; color: #BC2D1E; border-radius: 5px;
+    padding: 0px 8px; font-size: 1em; font-weight: 800; margin-top: 20px; margin-bottom: 8px; filter: grayscale(100%)}
+.s_homepage .s_type li > span{display: block; font-size: 1.3em; font-weight: 800; color: #373844; margin-bottom: 20px;}
+.s_homepage .s_type li:hover{border: 2px solid #BC2D1E; box-shadow: 3px 3px 15px rgb(0 0 0 / 6%); transition: all 0.3s;}
+.s_homepage .s_type li:hover > p{filter: grayscale(0%);}
+.s_homepage .s_sample dl{color: #373844;}
+.s_homepage .s_sample dt{font-size: 1.2em; font-weight: 800; margin-bottom: 6px}
+.s_homepage .s_sample .btn > p{margin-top: 5px;}
+.s_homepage .s_sample .btn:hover{background-color: #fff;}
+.s_homepage .s_sample .btn:hover > p{color: #BC2D1E;}
+.s_homepage .form_wrap{flex-wrap: wrap;}
+.s_homepage .form_wrap > div{width: calc(50% - 15px);}
+.s_homepage .form_wrap > div:nth-child(2){padding-right: 0; margin-right: 0; border: 0;}
+.s_homepage .form_wrap textarea{margin-top: 20px}

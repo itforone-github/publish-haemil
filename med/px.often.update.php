@@ -6,15 +6,15 @@ include_once("../include/header.php");
 
 
     <section class="p_often">
-        <div class="form">
-            <div class="area_top">
-                <div>
-                </div>
-                <span class="btn_wrap">
-                    <button type="button" class="btn btn_white btn_sdw" onclick="location.href='../med/px.often.php'">목록</button>
-                    <button type="button" class="btn btn_red btn_sdw">등록</button>
-                </span>
+        <div class="area_top">
+            <div>
             </div>
+            <span class="btn_wrap">
+                <button type="button" class="btn btn_white btn_sdw" onclick="location.href='../med/px.often.php'">목록</button>
+                <button type="button" class="btn btn_red btn_sdw">등록</button>
+            </span>
+        </div>
+        <div class="form">
             <div class="box2">
 
 

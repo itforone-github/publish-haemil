@@ -9,7 +9,7 @@ include_once("../include/header.php");
         <div class="list">
             <div class="area_top">
                 <div class="total">
-                    <p>총 <span class="red">4</span>명 </p>
+                    <p>총 <span class="red">4</span>개 </p>
                     <div class="search">
                         <select name="search">
                             <option value="">전체</option>

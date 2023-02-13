@@ -219,22 +219,35 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/setting.member.php" <?php if($pid == "setting_member") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu04_05.svg"/>
                             <span>직원 계정 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/setting.qna.php" <?php if($pid == "setting_qna") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu04_06.svg"/>
                             <span>요청·문의하기</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
                         <a href="#">
-                        <img src="../img/common/sidemenu04_07.svg"/>
+                            <img src="../img/common/sidemenu04_07.svg"/>
                             <span>홈페이지 제작·관리</span>
                         </a>
+                        <div class="sidebar-submenu">
+                            <ul>
+                                <li>
+                                    <a href="../med/setting.homepage.php" <?php if($pid == "setting_homepage") { echo "class='active'"; }?>>제작문의하기</a>
+                                </li>
+                                <li>
+                                    <a href="#">샘플보기</a>
+                                </li>
+                                <li>
+                                    <a href="#">기본정보 및 CS</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
 
                     </ul>

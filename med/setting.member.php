@@ -1,14 +1,14 @@
 <?php
-$pid = "setting_event";
+$pid = "setting_member";
 include_once("../include/header.php");
-//5.4이벤트관리(준비중)
+//5.6.2	직원계정관리 > 계정생성
 ?>
 
-    <section class="s_event">
+    <section class="s_member">
         <div class="list">
             <div class="area_top">
                 <div class="total">
-                    <p>총 <span class="red">4</span>개 </p>
+                    <p>총 <span class="red">4</span>명 </p>
                     <div class="search">
                         <select name="search">
                             <option value="">전체</option>
@@ -19,7 +19,7 @@ include_once("../include/header.php");
                 </div>
                 <span class="btn_wrap">
                     <button type="button" class="btn btn_white btn_sdw">선택 삭제</button>
-                    <button type="button" class="btn btn_red btn_sdw" onclick="location.href='px.event.update.php'">이벤트 등록</button>
+                    <button type="button" class="btn btn_red btn_sdw" data-toggle="modal" data-target="#memberupmodal">계정 생성</button>
                 </span>
             </div>
             <div class="box2">
@@ -29,11 +29,10 @@ include_once("../include/header.php");
                         <tr>
                             <th><input type="checkbox" name="checkbox" /></th>
                             <th>No.</th>
-                            <th>상태</th>
-                            <th>기간</th>
-                            <th>대표 이미지</th>
-                            <th>제목</th>
-                            <th>신청/문의</th>
+                            <th>담당자 성함</th>
+                            <th>연락처</th>
+                            <th>아이디</th>
+                            <th>권한</th>
                             <th></th>
                         </tr>
                         </thead>
@@ -41,49 +40,49 @@ include_once("../include/header.php");
                         <tr>
                             <td><input type="checkbox" name="checkbox" /></td>
                             <td>4</td>
-                            <td>승인 중</td>
-                            <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
-                            <td>무료 사상체질 검사 & 맛보기 한약</td>
-                            <td>0명</td>
+                            <td>김유신</td>
+                            <td>010-0000-0000</td>
+                            <td>yoshin01</td>
+                            <td>최고관리자</td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_redline">보기</button>
+                                <button type="button" class="btn btn_mini btn_line">수정</button>
+                                <button type="button" class="btn btn_mini btn_redline">삭제</button>
                             </td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="checkbox" /></td>
                             <td>3</td>
-                            <td>승인거절</td>
-                            <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
-                            <td>맞춤 다이어트 한약</td>
-                            <td>0명</td>
+                            <td>김유신</td>
+                            <td>010-0000-0000</td>
+                            <td>yoshin01</td>
+                            <td>최고관리자</td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_redline">보기</button>
+                                <button type="button" class="btn btn_mini btn_line">수정</button>
+                                <button type="button" class="btn btn_mini btn_redline">삭제</button>
                             </td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="checkbox" /></td>
                             <td>2</td>
-                            <td>승인완료</td>
-                            <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
-                            <td>무료 인바디</td>
-                            <td>36명</td>
+                            <td>김유신</td>
+                            <td>010-0000-0000</td>
+                            <td>yoshin01</td>
+                            <td>최고관리자</td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_redline">보기</button>
+                                <button type="button" class="btn btn_mini btn_line">수정</button>
+                                <button type="button" class="btn btn_mini btn_redline">삭제</button>
                             </td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="checkbox" /></td>
                             <td>1</td>
-                            <td>승인완료</td>
-                            <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
-                            <td>1:1 맞춤처방 다이어트</td>
-                            <td>124명</td>
+                            <td>김유신</td>
+                            <td>010-0000-0000</td>
+                            <td>yoshin01</td>
+                            <td>최고관리자</td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_redline">보기</button>
+                                <button type="button" class="btn btn_mini btn_line">수정</button>
+                                <button type="button" class="btn btn_mini btn_redline">삭제</button>
                             </td>
                         </tr>
                         </tbody>
@@ -107,8 +106,5 @@ include_once("../include/header.php");
 
     </section>
 
-    <section class="ready">
-        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
-    </section>
     <!--푸터 인클루드-->
 <?php include '../include/footer.php'; ?>

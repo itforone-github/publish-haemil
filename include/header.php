@@ -67,6 +67,14 @@ switch ($pid) {
         $header_name = "주문 배송 관리";
         $exp = "처방 완료된 건의 상태 조회가 가능합니다.";
         break;
+    //4. 한의학몰
+    case "mall_main" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 3;
+        $header_name = "한의학몰 메인";
+        $exp = "약속처방 외 한의학 제품 구매가 가능합니다.";
+        break;
     //5. 기본설정
     case "setting_main" :
         $header_type = 1;
@@ -101,6 +109,27 @@ switch ($pid) {
         $lnb_type = 4;
         $header_name = "포인트 관리";
         $exp = "포인트 내역 확인, 충전, 관리가 가능합니다.";
+        break;
+    case "setting_member" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "직원계정 관리";
+        $exp = "직원계정 관리";
+        break;
+    case "setting_qna" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "요청·문의하기";
+        $exp = "요청·문의가 가능합니다.";
+        break;
+    case "setting_homepage" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "홈페이지 제작·관리";
+        $exp = "한의원 홈페이지 제작·관리가 가능합니다.";
         break;
     ////adm
     //1. 통합관리

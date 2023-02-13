@@ -21,6 +21,7 @@
     </div>
 </footer>
 </div>
+    <?php include '../include/modal.php'; ?>
 
 <!-- page-wrapper -->
 <?php } else if ($footer_type == 2) { ?>
@@ -46,6 +47,7 @@
 </div>
 
     <?php include '../include/modaladm.php'; ?>
+
 <!-- page-wrapper -->
 <?php } else { ?>
 <?php } ?>
