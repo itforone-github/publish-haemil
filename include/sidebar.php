@@ -195,25 +195,25 @@
                         <span>기본설정</span>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/setting.clinic.php" <?php if($pid == "setting_clinic") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu04_01.svg"/>
                             <span>한의원 정보</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/setting.appointment.php" <?php if($pid == "setting_appointment") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu04_02.svg"/>
                             <span>진료 예약 설정</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/setting.event.php" <?php if($pid == "setting_event") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu04_03.svg"/>
                             <span>이벤트 관리</span>
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/setting.point.php" <?php if($pid == "setting_point") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu04_04.svg"/>
                             <span>포인트 관리</span>
                         </a>

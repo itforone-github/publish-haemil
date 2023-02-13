@@ -100,30 +100,30 @@ include_once("../include/header.php");
         <div class="pm_notice">
             <h3>공지사항</h3>
             <div class="box1">
-                <ul>
+                <ul class="list">
                     <li>
                         <p>공지사항입니다.</p>
-                        <p calss="date_time">2022-11-02</p>
+                        <p class="date_time">2022-11-02</p>
                     </li>
                     <li>
                         <p>공지사항입니다.</p>
-                        <p calss="date_time">2022-11-02</p>
+                        <p class="date_time">2022-11-02</p>
                     </li>
                     <li>
                         <p>공지사항입니다.</p>
-                        <p calss="date_time">2022-11-02</p>
+                        <p class="date_time">2022-11-02</p>
                     </li>
                     <li>
                         <p>공지사항입니다.</p>
-                        <p calss="date_time">2022-11-02</p>
+                        <p class="date_time">2022-11-02</p>
                     </li>
                     <li>
                         <p>공지사항입니다.</p>
-                        <p calss="date_time">2022-11-02</p>
+                        <p class="date_time">2022-11-02</p>
                     </li>
                     <li>
                         <p>공지사항입니다.</p>
-                        <p calss="date_time">2022-11-02</p>
+                        <p class="date_time">2022-11-02</p>
                     </li>
 
                 </ul>
@@ -131,7 +131,7 @@ include_once("../include/header.php");
         </div>
     </section>
 
-    <section class="treat latest">
+    <section class="latest">
         <h3>최근 처방 내역</h3>
         <div class="box2">
             <div class="table">

@@ -67,6 +67,41 @@ switch ($pid) {
         $header_name = "주문 배송 관리";
         $exp = "처방 완료된 건의 상태 조회가 가능합니다.";
         break;
+    //5. 기본설정
+    case "setting_main" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "기본설정 메인";
+        $exp = "한의원 정보 관리가 가능합니다.";
+    case "setting_clinic" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "한의원 정보";
+        $exp = "한의원 정보 관리가 가능합니다.";
+        break;
+    case "setting_appointment" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "진료 예약 설정";
+        $exp = "진료 예약 시간, 인원 관리가 가능합니다.";
+        break;
+    case "setting_event" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "이벤트 관리";
+        $exp = "이벤트 신청, 목록 등 관리가 가능합니다.";
+        break;
+    case "setting_point" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "포인트 관리";
+        $exp = "포인트 내역 확인, 충전, 관리가 가능합니다.";
+        break;
     ////adm
     //1. 통합관리
     case "a_index" :

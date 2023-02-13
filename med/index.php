@@ -34,7 +34,7 @@ include_once("../include/header.php");
                         <strong class="patient_name">김환자</strong>
                         <p>
                             <span class="state ing">진료중</span>
-                            <!-- 진료중일 때 calss : ing, 대기중일 때 calss : standby -->
+                            <!-- 진료중일 때 class : ing, 대기중일 때 class : standby -->
                             <a class="btn btn_mini btn_line">완료</a>
                         </p>
                     </li>
@@ -139,35 +139,35 @@ include_once("../include/header.php");
                 <li>
                     <p>김환자</p>
                     <p>
-                        <span calss="date_time">2022-11-02 11:00</span>
+                        <span class="date_time">2022-11-02 11:00</span>
                         <a class="btn btn_mini btn_line">확인</a>
                     </p>
                 </li>
                 <li>
                     <p>김환자</p>
                     <p>
-                        <span calss="date_time">2022-11-02 11:00</span>
+                        <span class="date_time">2022-11-02 11:00</span>
                         <a class="btn btn_mini btn_line">확인</a>
                     </p>
                 </li>
                 <li>
                     <p>김환자</p>
                     <p>
-                        <span calss="date_time">2022-11-02 11:00</span>
+                        <span class="date_time">2022-11-02 11:00</span>
                         <a class="btn btn_mini btn_line">확인</a>
                     </p>
                 </li>
                 <li>
                     <p>김환자</p>
                     <p>
-                        <span calss="date_time">2022-11-02 11:00</span>
+                        <span class="date_time">2022-11-02 11:00</span>
                         <a class="btn btn_mini btn_line">확인</a>
                     </p>
                 </li>
                 <li>
                     <p>김환자</p>
                     <p>
-                        <span calss="date_time">2022-11-02 11:00</span>
+                        <span class="date_time">2022-11-02 11:00</span>
                         <a class="btn btn_mini btn_line">확인</a>
                     </p>
                 </li>
@@ -176,7 +176,7 @@ include_once("../include/header.php");
     </div>
 </section>
 
-<section class="patient latest">
+<section class="latest">
     <h3>최근 진료 리뷰</h3>
     <div class="box2">
         <div class="table">
