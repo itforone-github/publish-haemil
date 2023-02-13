@@ -4,14 +4,19 @@ include_once("../include/header.php");
 //ADM 상품 등록
 ?>
     <style>body.modal-open{overflow: unset;}</style>
-    <section class="productupd" xmlns="http://www.w3.org/1999/html">
+    <section class="productupd">
         <div class="panel">
             <label class="title">상품명</label><input type="text" placeholder="상품명을 입력하세요" class="title" />
-            <button type="button" class="btn btn_red">등록하기</button>
+
+            <span>
+            <button type="button" class="btn btn_whiteline"  onclick="location.href='../adm/product.php'">목록</button>
+            <button type="button" class="btn btn_red">등록</button>
+            </span>
         </div>
         <div class="box3">
             <p class="name">기본 분류</p>
             <p class="line"><label>카테고리</label><select><option>기획전</option><option>빈용방</option></select></p>
+            <p class="line"><label>우선순위</label><input type="text" placeholder="0"/>큰 순서로 노출</p>
             <p class="name">그룹 분류</p>
             <p class="line"><label>선택</label><select><option>그룹</option><option>개별</option></select></p>
             <!--그룹시 노출-->
@@ -57,7 +62,8 @@ include_once("../include/header.php");
                             <br class="visible-md2"/><input type="text" placeholder="포장 방법을 입력하세요"/></p>
             <p class="name">배송 정보</p>
             <p class="line"><label>배송 비용</label><select class="st-sm"><option>유료</option><option>무료</option></select>
-                            <input type="text" placeholder="배송비를 입력하세요"/>
+                            <!--input type="text" placeholder="최소 조건 비용을 입력하세요"/
+                            <input type="text" placeholder="배송비를 입력하세요"/-->
                             <br class="visible-md2"/><input type="text" placeholder="배송 안내 예) 주문 후 2~3일 내"/></p>
             <p class="name">구매 분류</p>
             <p class="line"><label>처방 상태</label><input type="radio" id="select1-1" name="select1" checked/><label for="select1-1">처방가능</label>
@@ -66,6 +72,7 @@ include_once("../include/header.php");
                                  <input type="radio" id="select2-2" name="select2"/><label for="select2-2">노출안함</label></p>
             <p class="line"><label>결제 수단</label><input type="checkbox" id="select3-1" name="select3" /><label for="select3-1">카드</label>
                                  <input type="checkbox" id="select3-2" name="select3"/><label for="select3-2">현금</label></p>
+            <p class="line"><label>적립 포인트</label><input type="text" placeholder="적립 포인트를 입력하세요"/>
             <div class="editor">
                 <!--스마트 에디터 설치-->
                 <textarea placeholder="상세 설명을 작성하세요"></textarea>

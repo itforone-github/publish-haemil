@@ -1,17 +1,12 @@
 <?php
-$pid = "a_notice";
+$pid = "a_review";
 include_once("../include/header.php");
 //ADM 공지 관리
 ?>
 
-    <section class="notice">
+    <section class="review">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
-            <div>
-                <span class="select"><input type="radio" id="select1" name="select" class="red" checked/><label for="select1">전체</label>
-                <input type="radio" id="select2" name="select" class="red"/><label for="select2">한의원</label>
-                <input type="radio" id="select3" name="select" class="red"/><label for="select3">APP</label>
-            </div>
             <div>
 
                 <select name="search">
@@ -22,7 +17,6 @@ include_once("../include/header.php");
             </div>
             <span>
             <button type="button" class="btn btn_whiteline"  >선택 삭제</button>
-            <button type="button" class="btn btn_red"  onclick="location.href='./notice.update.php'">공지 등록</button>
             </span>
         </div>
 
@@ -32,7 +26,9 @@ include_once("../include/header.php");
                     <colgroup>
                         <col width="15px"/>
                         <col width="15px"/>
-                        <col width="40px"/>
+                        <col width="*"/>
+                        <col width="*"/>
+                        <col width="*"/>
                         <col width="*"/>
                         <col width="*"/>
                         <col width="120px"/>
@@ -42,8 +38,10 @@ include_once("../include/header.php");
                     <tr>
                         <th><input type="checkbox" name="chkall" value="1" id="chkall"/></th>
                         <th>No.</th>
-                        <th>노출</th>
-                        <th>제목</th>
+                        <th>한의원명</th>
+                        <th>구분</th>
+                        <th>아이디</th>
+                        <th>신고구분</th>
                         <th>내용</th>
                         <th>일자</th>
                         <th></th>
@@ -53,11 +51,13 @@ include_once("../include/header.php");
                     <tr>
                         <td><input type="checkbox" name="chk[]" value="0" id="chk_0" /></td>
                         <td>1</td>
-                        <td>모두</td>
-                        <td><a href="../adm/notice.view.php">메탈청병 변경</a></td>
-                        <td><a href="../adm/notice.view.php">공지사항 내용입니다</a></td>
+                        <td>유신한의원</td>
+                        <td>예약인증</td>
+                        <td>sonnim1</td>
+                        <td>고객</td>
+                        <td>예약했는데 1분이나 기다림 ㅡㅡ;</td>
                         <td>2022-10-31</td>
-                        <td><button type="button" class="btn btn_whiteline" >수정</button><button type="button" class="btn btn_redline">삭제</button></td>
+                        <td><button type="button" class="btn btn_whiteline" data-toggle="modal" data-target="#reviewmodal01">제재</button><button type="button" class="btn btn_redline">삭제</button></td>
                     </tr>
                     </tbody>
                 </table>

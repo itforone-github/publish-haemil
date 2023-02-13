@@ -112,7 +112,7 @@
     </div>
 </div>
 
-<!-- 한의원 검색 -->
+<!-- 한의원 검색2 -->
 <div class="modal fade" id="productupmodal02" tabindex="-1" aria-labelledby="productupmodal02Label" aria-hidden="true" style="z-index:99999;">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -126,6 +126,26 @@
                                  <input type="checkbox" id="groups3" name="groupselect" disabled/><label for="groups4">하늘체</label>
                                  <input type="checkbox" id="groups4" name="groupselect"/><label for="groups4">하늘체</label>
                 </span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-primary">적용</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 배송비 -->
+<div class="modal fade" id="productmodal03" tabindex="-1" aria-labelledby="productmodal03Label" aria-hidden="true" style="z-index:99999;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productmodal03Label">기본 배송비 설정</h5>
+            </div>
+            <div class="modal-body">
+                <label>기본 배송비</label>
+                <input type="text" placeholder="배송비를 입력하세요"/>
+                <label>무료 배송 조건</label>
+                <input type="text" placeholder="최소 조건 비용을 입력하세요"/>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -500,6 +520,92 @@
                         </div>
                     </div>
                     <button type="button" class="btn btn_gray2 w100">이미지 업로드</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- review -->
+<div class="modal fade" id="reviewmodal01" tabindex="-1" aria-labelledby="reviewmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewmodal01Label">리뷰 상세 보기</h5>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <p>작성일 <span class="sub">2022-00-00</span><span class="sub2">예약인증건</span>구분 <span class="sub">고객신고</span></p>
+                    <p>김환자 <span class="sub">id</span></p>
+                </div>
+                <p>리뷰내용 <span class="count">누적신고 <span class="txt_red txt_bold">4</span></span></p>
+                <div>
+                    <textarea readonly>예약했는데 1분이나 기다림 ㅡㅡ; </textarea>
+                </div>
+                <p>신고사유</p>
+                <div>
+                    <textarea readonly> 사유입니다 </textarea>
+                </div>
+                <p>제재선택</p>
+                <div>
+                    <label></label><select><option>게시글 삭제</option><option>게시글 삭제 + 해당 한의원 리뷰 금지</option></select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">제재</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- appmedi -->
+<div class="modal fade" id="appmedimodal01" tabindex="-1" aria-labelledby="appmedimodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="appmedimodal01Label">한약재 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>한약재명</label><input type="text" placeholder="한약재명을 입력하세요"/>
+                    <label>설명</label><textarea placeholder="한약재 설명을 입력하세요"/></textarea>
+                    <br/>
+                    <label>태그</label><input type="text" placeholder="태그를 입력하세요. ,(쉼표) 로 구분합니다."/>
+                    <label>이미지 업로드</label><br/>
+                    <div class="newpic-upload w100">
+                        <div class="newpic-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="newpic-preview">
+                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FAQ -->
+<div class="modal fade" id="faqmodal01" tabindex="-1" aria-labelledby="faqmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="faqmodal01Label">FAQ 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>질문</label><input type="text" placeholder="질문을 입력하세요"/>
+                    <label>답변</label><textarea placeholder="답변을 입력하세요."/></textarea>
                 </form>
             </div>
             <div class="modal-footer">

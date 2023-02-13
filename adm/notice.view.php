@@ -1,5 +1,5 @@
 <?php
-$pid = "a_noticeupd";
+$pid = "a_notice";
 include_once("../include/header.php");
 //ADM 공지 등록
 ?>
@@ -15,11 +15,13 @@ include_once("../include/header.php");
 
         <div class="box3">
             <div>
-                <p>노출 구분 <span class="txt_red">전체</span></p>
+                <p class="sub">노출 구분 <span class="txt_bold">전체</span> 작성일 <span class="txt_bold">2023-00-00</span></p>
             </div>
-            <p class="title txt_red">제목입니다.</p>
+            <p class="title">제목입니다.</p>
+            <div class="cont">
             <div class="editor">
-                <textarea class="w100" readonly></textarea>
+                <textarea class="w100" readonly>내용입니다</textarea>
+            </div>
             </div>
             <div>
                 <label>첨부 파일</label>

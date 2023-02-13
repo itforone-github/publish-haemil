@@ -1,10 +1,10 @@
 <?php
-$pid = "a_clinicmem";
+$pid = "a_user";
 include_once("../include/header.php");
-//ADM 한의원 직원관리
+//ADM 회원관리
 ?>
 
-<section class="clinicmem">
+<section class="user">
     <div class="panel">
         <p>총 <span class="red">4</span>명 </p>
         <div>
@@ -14,41 +14,30 @@ include_once("../include/header.php");
             <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
         </div>
-        <button type="button" class="btn btn_red" onclick="location.href='./clinic.memupdate.php'">등록하기</button>
-    </div>
-    <div class="tagbox">
-        <div>
-            <p><strong>한의원명</strong></p>
-        </div>
-        <div>
-            <p><a><span class="tag active">전체</span></a></p>
-            <p><a><span class="tag">전체</span></a></p>
-        </div>
+        <button type="button" class="btn btn_red" onclick="location.href='./user.update.php'">회원 등록</button>
     </div>
     <div class="box3">
         <div class="table adm">
             <table>
                 <thead>
                 <tr>
-                    <th><input type="checkbox" name="checkbox"></th>
                     <th>No.</th>
-                    <th>한의원명</th>
-                    <th>담당자</th>
+                    <th>성명</th>
                     <th>연락처</th>
+                    <th>주소</th>
                     <th>아이디</th>
-                    <th>권한</th>
+                    <th>OS</th>
                     <th></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td><input type="checkbox" name="checkbox"></td>
                     <td>1</td>
-                    <td>유신한의원</td>
                     <td>김유신</td>
                     <td>010-0000-0000</td>
+                    <td>부산시 해운대구 센텀동로 7</td>
                     <td>yoshin01</td>
-                    <td>최고관리자</td>
+                    <td>AOS</td>
                     <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
                 </tr>
                 </tbody>
