@@ -185,10 +185,21 @@
 
 
 
+
+
+
+
 /** 4.한의학몰 - 메인 **/
 .mall.main .swiper{border-radius: 5px; overflow: hidden;}
+.mall.latest{align-items: flex-start;}
+.mm_event h3 > span{font-size: 13px; color:#BC2D1E ; background-color:#FFD0CB ; display: inline-block; border-radius: 5px; padding: 0 6px; margin-left: 4px; vertical-align: middle;}
+.mm_event ul{display: flex;}
+.mm_event ul li{margin-right: 26px; background: #FFFFFF;   box-shadow: 0px 0px 15px #0000000D; border-radius: 5px; overflow: hidden;}
+.mm_event ul li img{border-radius: 0 0 5px 5px;}
+.mm_event ul li > p{margin: 10px 20px 0}
+.mm_event ul li > span{color: #BC2D1E; margin: 5px 20px 10px 20px; display: block; text-align: right; font-size: 1.1em}
 
-
+.mm_notice .box1{height: 217px;}
 
 /** 5.기본설정 - 메인 **/
 .sm_info{min-width: 320px}
