@@ -38,13 +38,16 @@ header {    background-color: #F6F6F6;}
 .point .box3 {padding: 24px 20px; width: 100%; height: 100%;}
 .point .table .red {color: #BC2D1E}
 .point .table .blue {color: #2531B7}
+.pointcfm .box3 {padding: 24px 20px; width: 100%; height: 100%;}
+.pointcfm .table .red {color: #BC2D1E}
+.pointcfm .table .blue {color: #2531B7}
 .pointset {display: flex;flex-wrap: wrap;  justify-content: space-between;}
 .pointset > div {width: calc((100% / 2) - 9px); margin-bottom: 30px;}
 .pointset .box3 {padding: 24px 20px; width: 100%; height: 100%;}
 .pointset .box3 > .title{ display: flex;    flex-wrap: wrap; justify-content: space-between;}
 .pointset .box3 > p{text-align: right}
 .pointset .table .red {color: #BC2D1E}
-
+#pointmodal02 input:read-only {  }
 @media screen and (max-width: 1400px){
     .pointset > div {width: 100%;}
 }
@@ -243,16 +246,13 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .stickdsg .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #stickdsgmodal01 select {width: 100%}
 #stickdsgmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
-@media screen and (max-width: 1400px){
-}
+
 /*onetouch*/
 .onetouch .box3 {    padding: 30px 24px;    width: 100%;}
 .onetouch select {  width: 100%; margin-bottom: 12px; }
 .onetouch .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #onetouchmodal01 select {width: 100%}
 #onetouchmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
-@media screen and (max-width: 1400px){
-}
 
 /*stickdsg*/
 .stickdsg .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
@@ -265,8 +265,6 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .stickdsg .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #stickdsgmodal01 select {width: 100%}
 #stickdsgmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
-@media screen and (max-width: 1400px){
-}
 
 /*readymade*/
 .readymade .box3 {    padding: 30px 24px;    width: 100%;}
@@ -286,8 +284,7 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .box .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #boxmodal01 select {width: 100%}
 #boxmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
-@media screen and (max-width: 1400px){
-}
+
 /*pouch*/
 .pouch .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
 .pouch .tagbox > div:nth-child(odd) {width: 70px}
@@ -299,8 +296,27 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .pouch .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #pouchmodal01 select {width: 100%}
 #pouchmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
-@media screen and (max-width: 1400px){
-}
+
+/*smallpill*/
+.smallpill .box3 {    padding: 30px 24px;    width: 100%;}
+.smallpill .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.smallpill .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.smallpill select {  width: 100%; margin-bottom: 12px; }
+.smallpill .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#smallpillmodal01 select {width: 100%}
+#smallpillmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
+
+/*case*/
+.case .box3 {    padding: 30px 24px;    width: 100%;}
+.case .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
+.case .tagbox > div:nth-child(odd) {width: 70px}
+.case .tagbox > div:nth-child(even) {width: calc( 100% - 70px ) }
+.case .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.case .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
+.case select {  width: 100%; margin-bottom: 12px; }
+.case .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
+#casemodal01 select {width: 100%}
+#casemodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
 
 /*notice*/
 .notice .box3 {    padding: 30px 24px;    width: 100%;}
@@ -319,8 +335,6 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .notice.view .cont { padding-top: 10px;background: #ffffff;margin-top:10px;border-top: 1px solid #E8E8E8;    box-shadow: 0 3px 15px 1px #acacac1a;}
 .notice.view .download { font-weight:  800; text-decoration: underline; padding-top:10px ;margin-bottom: 12px}
 .notice.view textarea { border: 0px}
-@media screen and (max-width: 1400px){
-}
 
 /*request*/
 .request .box3 {    padding: 30px 24px;    width: 100%;}
@@ -348,8 +362,6 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .request.view .answer { background: #ffffff; border: 0px!important;    padding: 10px!important;}
 .request.view .answer textarea { border: 1px solid #E8E8E8}
 .request.view .answer > div { padding-bottom: 10px;margin-bottom: 20px;border-bottom: 1px solid #E8E8E8;}
-@media screen and (max-width: 1400px){
-}
 
 /*popup*/
 .popup .box3 {    padding: 30px 24px;    width: 100%;}
@@ -437,8 +449,6 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 #reviewmodal01 span {   font-size: 0.8em;}
 #reviewmodal01 span.sub {   color: #78787B;}
 #reviewmodal01 span.sub2 { background: #FFD0CB; padding: 5px; font-size: 0.8em; color: #BC2D1E; margin: 0 10px; border-radius: 5px;}
-@media screen and (max-width: 1400px){
-}
 
 /*appmedi*/
 .appmedi .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
@@ -451,8 +461,7 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .appmedi .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9;    border-radius: 5px;}
 #appmedimodal01 select {width: 100%}
 #appmedimodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
-@media screen and (max-width: 1400px){
-}
+
 /*event*/
 .event .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
 .event .tagbox > div:nth-child(odd) {width: 50px}
@@ -493,16 +502,12 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 #eventmodal01 span {   font-size: 0.8em;}
 #eventmodal01 span.sub {   color: #78787B;}
 #eventmodal01 span.sub2 { background: #FFD0CB; padding: 5px; font-size: 0.8em; color: #BC2D1E; margin: 0 10px; border-radius: 5px;}
-@media screen and (max-width: 1400px){
-}
 
 /*faq*/
 .faq .box3 {    padding: 30px 24px;    width: 100%;}
 .faq select {  width: 100%; margin-bottom: 12px; }
 #faqmodal01 select {width: 100%}
 #faqmodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
-@media screen and (max-width: 1400px){
-}
 
 /*food*/
 .food .box3 {    padding: 30px 24px;    width: 100%;}

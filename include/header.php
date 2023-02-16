@@ -148,6 +148,13 @@ switch ($pid) {
         $header_name = "포인트 내역";
         $exp = "";
         break;
+    case "a_pointcfm" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "포인트 지급 관리";
+        $exp = "";
+        break;
     case "a_pointset" :
         $header_type = 2;
         $footer_type = 2;
@@ -272,6 +279,20 @@ switch ($pid) {
         $footer_type = 2;
         $lnb_type = 1;
         $header_name = "환스틱 관리";
+        $exp = "";
+        break;
+    case "a_smallpill" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "탄자대 포장 관리";
+        $exp = "";
+        break;
+    case "a_case" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "케이스 관리";
         $exp = "";
         break;
     //10.기성처방관리

@@ -25,6 +25,29 @@
         </div>
     </div>
 </div>
+<!-- point2 -->
+<div class="modal fade" id="pointmodal02" tabindex="-1" aria-labelledby="pointmodal02Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="pointmodal02Label">포인트 지급/차감</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>요청일자</label><input type="text" placeholder="2022-10-31" readonly/>
+                    <label>대상 한의원</label><input type="text" placeholder="한의원" readonly/>
+                    <label>대상 ID</label><input type="text" placeholder="ID" readonly/>
+                    <label>입금 금액</label><input type="text" placeholder="30,000,000" readonly/>
+                    <label>지급 예정 포인트</label><input type="text" placeholder="32,100,000" readonly/>
+                    <p class="txt_red">※ 입금확인 클릭시 즉시 포인트가 제공됩니다.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">입금확인</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- clinic.group -->
 <div class="modal fade" id="groupmodal01" tabindex="-1" aria-labelledby="groupmodal01Label" aria-hidden="true">
     <div class="modal-dialog">
@@ -501,6 +524,86 @@
                     <!---->
                     <label>구분</label><select><option>스탠딩파우치</option><option>스파우트파우치(45팩1박스)</option></select>
                     <label>파우치명</label><input type="text" placeholder="파우치명을 입력하세요"/>
+                    <label>가격</label><input type="text" placeholder="숫자만 입력"/>
+                    <label>사용여부</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select2-1" name="select2"/><label for="select2-1">사용</label></div>
+                        <div class="w50"><input type="radio" id="select2-2" name="select2"/><label for="select2-2">사용안함</label></div>
+                    </div>
+                    <br/>
+                    <label>노출 순서</label><input type="text" placeholder="숫자만 입력"/><label>이미지 업로드</label><br/>
+                    <div class="newpic-upload w100">
+                        <div class="newpic-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="newpic-preview">
+                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- smallpill -->
+<div class="modal fade" id="smallpillmodal01" tabindex="-1" aria-labelledby="smallpillmodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="smallpillmodal01Label">탄자대 포장 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>포장 분류</label><select><option>금박</option><option>씰링</option>
+                        <option>청병</option><option>사탕포장</option></select>
+                    <label>포장명</label><input type="text" placeholder="포장명을 입력하세요"/>
+                    <label>가격</label><input type="text" placeholder="숫자만 입력"/>
+                    <label>사용여부</label>
+                    <div class="flex jc-sb ">
+                        <div class="w50"><input type="radio" id="select2-1" name="select2"/><label for="select2-1">사용</label></div>
+                        <div class="w50"><input type="radio" id="select2-2" name="select2"/><label for="select2-2">사용안함</label></div>
+                    </div>
+                    <br/>
+                    <label>노출 순서</label><input type="text" placeholder="숫자만 입력"/><label>이미지 업로드</label><br/>
+                    <div class="newpic-upload w100">
+                        <div class="newpic-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload"></label>
+                        </div>
+                        <div class="newpic-preview">
+                            <div id="imagePreview" style="background-image: url('../img/common/noimg.png');">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn_gray2 w100">이미지 업로드</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- case -->
+<div class="modal fade" id="casemodal01" tabindex="-1" aria-labelledby="casemodal01Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="casemodal01Label">케이스 등록</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>케이스 분류</label><select><option>원목 케이스</option><option>함지 케이스</option></select>
+                    <label>인쇄 분류</label><select><option>인쇄</option><option>무인쇄</option></select>
+                    <label>케이스명</label><input type="text" placeholder="케이스명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>사용여부</label>
                     <div class="flex jc-sb ">

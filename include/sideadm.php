@@ -33,7 +33,7 @@
                         <span>관리자</span>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#" <?php if($pid == "a_point" || $pid == "a_pointset") { echo "class='active'"; }?>>
+                        <a href="#" <?php if($pid == "a_point" || $pid == "a_pointcfm" || $pid == "a_pointset") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm01_02.svg"/>
                             <span>포인트 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
@@ -47,6 +47,9 @@
                                 </li>
                                 <li>
                                     <a href="../adm/point.set.php">선결제 금액 관리</a>
+                                </li>
+                                <li>
+                                    <a href="../adm/point.confirm.php">포인트 지급 관리</a>
                                 </li>
                             </ul>
                         </div>
@@ -121,7 +124,7 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#" <?php if($pid == "a_texture" || $pid == "a_plastic"  || $pid == "a_stick"  || $pid == "a_stickprt"  || $pid == "a_stickdsg"  || $pid == "a_onetouch") { echo "class='active'"; }?>>
+                        <a href="#" <?php if($pid == "a_texture" || $pid == "a_plastic"  || $pid == "a_stick"  || $pid == "a_stickprt"  || $pid == "a_stickdsg"  || $pid == "a_onetouch"  || $pid == "a_smallpill"  || $pid == "a_case") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm01_08.svg"/>
                             <span>환제 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
@@ -150,13 +153,13 @@
                                 </li>
                                 <!--li>
                                     <a href="#">환스틱 포장 관리</a>
-                                </li>
-                                <li>
-                                    <a href="#">탄자대 포장 관리</a>
-                                </li>
-                                <li>
-                                    <a href="#">케이스 관리</a>
                                 </li-->
+                                <li>
+                                    <a href="../adm/smalllpill.php">탄자대 포장 관리</a>
+                                </li>
+                                <li>
+                                    <a href="../adm/case.php">케이스 관리</a>
+                                </li>
                             </ul>
                         </div>
                     </li>
