@@ -28,11 +28,12 @@ include_once("../include/header.php");
             <!--노출 한의원 개별 설정-->
 
             <!--그룹시 가격노출-->
+
+            <p class="name">그룹 판매가</p>
+                <p class="line"><button type="button" class="btn_whiteline">추가</button></p>
             <div class="price">
                 <p class="name">그룹 판매가 설정 #1</p>
-                <p class="line"><button type="button" class="btn_whiteline">추가</button><button type="button" class="btn_line">삭제</button></p>
-                <p class="name">적용 그룹 </p>
-                <p class="line"><button type="button" class="btn_whiteline" data-toggle="modal" data-target="#productupmodal02">적용 그룹 선택 </button></p>
+                <p class="line"><button type="button" class="btn_whiteline" data-toggle="modal" data-target="#productupmodal02">적용 그룹 선택 </button> <button type="button" class="btn_line">삭제</button></p>
                 <p class="line"><span style="margin-right: 10px">적용 한의원</span> <span class="txt_red txt_bold">기본</span> | <span class="txt_red txt_bold">선택된 거</span></p>
                 <p class="name">가격 정보</p>
                 <p class="line"><label>판매가</label><input type="text" placeholder="판매가를 입력하세요"/><button type="button" class="btn_whiteline">옵션 추가</button></p>
@@ -71,8 +72,8 @@ include_once("../include/header.php");
                                  <input type="radio" id="select1-2" name="select1"/><label for="select1-2">처방불가</label></p>
             <p class="line"><label>노출 상태</label><input type="radio" id="select2-1" name="select2" checked/><label for="select2-1">노출</label>
                                  <input type="radio" id="select2-2" name="select2"/><label for="select2-2">노출안함</label></p>
-            <p class="line"><label>결제 수단</label><input type="checkbox" id="select3-1" name="select3" /><label for="select3-1">카드</label>
-                                 <input type="checkbox" id="select3-2" name="select3"/><label for="select3-2">현금</label></p>
+            <!--p class="line"><label>결제 수단</label><input type="checkbox" id="select3-1" name="select3" /><label for="select3-1">카드</label>
+                                 <input type="checkbox" id="select3-2" name="select3"/><label for="select3-2">현금</label></p-->
             <p class="line"><label>적립 포인트</label><input type="text" placeholder="적립 포인트를 입력하세요"/>
             <div class="editor">
                 <!--스마트 에디터 설치-->

@@ -58,7 +58,6 @@ include_once("../include/header.php");
                         <col width="*"/>
                         <col width="*"/>
                         <col width="*"/>
-                        <col width="*"/>
                         <col width="40px"/>
                         <col width="120px"/>
                         <col width="120px"/>
@@ -74,7 +73,7 @@ include_once("../include/header.php");
                         <th>배송비</th>
                         <th>처방상태</th>
                         <th>노출상태</th>
-                        <th>결제수단</th>
+                        <!--th>결제수단</th-->
                         <th>순서</th>
                         <th>등록일</th>
                         <th></th>
@@ -91,7 +90,7 @@ include_once("../include/header.php");
                         <td>0원</td>
                         <td>처방불가</td>
                         <td>노출</td>
-                        <td>카드, 현금</td>
+                        <!--td>카드, 현금</td-->
                         <td>1</td>
                         <td>2022-10-31</td>
                         <td>

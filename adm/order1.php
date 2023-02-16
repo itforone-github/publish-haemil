@@ -55,7 +55,7 @@ include_once("../include/header.php");
                 <p><a><span class="tag">배송완료</span></a></p>
                 <p><a><span class="tag">주문취소</span></a></p>
             </div>
-            <div>
+            <!--div>
                 <p><strong>결제 분류</strong></p>
             </div>
             <div>
@@ -64,14 +64,13 @@ include_once("../include/header.php");
                 <p><a><span class="tag">카드결제</span></a></p>
                 <p><a><span class="tag">가상계좌</span></a></p>
                 <p><a><span class="tag">전액포인트</span></a></p>
-            </div>
+            </div-->
         </div>
         <div class="box3">
             <div  class="table adm">
                 <table class="">
                     <colgroup>
                         <col width="20px"/>
-                        <col width=""/>
                         <col width=""/>
                         <col width=""/>
                         <col width=""/>
@@ -99,7 +98,7 @@ include_once("../include/header.php");
                         <th class="" colspan="1">환자명</th>
                         <th class="" colspan="1">배송지</th>
                         <th class="" rowspan="2">수량</th>
-                        <th class="" rowspan="2">결제수단</th>
+                        <!--th class="" rowspan="2">결제수단</th-->
                         <th class="" rowspan="2">주문금액</th>
                         <th class="" rowspan="2">조제 지시서</th>
                         <th class="" rowspan="2">복용법</th>
@@ -133,7 +132,7 @@ include_once("../include/header.php");
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
-                        <td class="" rowspan="2">현금결제</td>
+                        <!--td class="" rowspan="2">현금결제</td-->
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_blue btn_sdw btn_h40">발행</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_sdw btn_h40">발행</button></td>
@@ -182,7 +181,7 @@ include_once("../include/header.php");
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
-                        <td class="" rowspan="2">현금결제</td>
+                        <!--td class="" rowspan="2">현금결제</td-->
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_sdw btn_h40">재발행</button> </td>
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_sdw btn_h40">발행</button></td>
