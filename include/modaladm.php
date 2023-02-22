@@ -5,7 +5,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="pointmodal01Label">포인트 지급/차감</h5>
+                <h5 class="modal-title" id="pointmodal01Label">포인트 추가/차감</h5>
             </div>
             <div class="modal-body">
                 <form>
@@ -13,7 +13,7 @@
                     <label>포인트 금액</label><input type="text" placeholder="포인트 금액을 입력해주세요"/>
                     <label>포인트 내용</label><input type="text" placeholder="포인트 내용을 입력해주세요"/>
                     <div class="flex jc-sb">
-                        <div class="w50"><input type="radio" name="point"/><label>포인트 지급</label></div>
+                        <div class="w50"><input type="radio" name="point"/><label>포인트 추가</label></div>
                         <div class="w50"><input type="radio" name="point/"><label>포인트 차감</label></div>
                     </div>
                 </form>
@@ -291,7 +291,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="stickmodal01Label">스틱 포장 등록</h5>
+                <h5 class="modal-title" id="stickmodal01Label">박스 포장 등록</h5>
             </div>
             <div class="modal-body">
                 <form>

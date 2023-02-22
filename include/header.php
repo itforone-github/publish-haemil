@@ -145,7 +145,7 @@ switch ($pid) {
         $header_type = 2;
         $footer_type = 2;
         $lnb_type = 1;
-        $header_name = "포인트 내역";
+        $header_name = "전체 포인트 내역";
         $exp = "";
         break;
     case "a_pointcfm" :
@@ -250,7 +250,7 @@ switch ($pid) {
         $header_type = 2;
         $footer_type = 2;
         $lnb_type = 1;
-        $header_name = "스틱 포장 관리";
+        $header_name = "박스 포장 관리";
         $exp = "";
         break;
     case "a_stickprt" :

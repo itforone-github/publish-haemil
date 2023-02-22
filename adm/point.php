@@ -14,7 +14,7 @@ include_once("../include/header.php");
             <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
         </div>
-        <button type="button" class="btn btn_red" data-toggle="modal" data-target="#pointmodal01">지급/차감</button>
+        <button type="button" class="btn btn_red" data-toggle="modal" data-target="#pointmodal01">추가/차감</button>
     </div>
     <div class="box3">
         <div class="table adm">
@@ -26,8 +26,8 @@ include_once("../include/header.php");
                     <th>소속</th>
                     <th>아이디</th>
                     <th>내용</th>
-                    <th>사용 포인트</th>
-                    <th>지급 포인트</th>
+                    <th>포인트 추가</th>
+                    <th>포인트 차감</th>
                     <th>잔여 포인트</th>
                     <th></th>
                 </tr>

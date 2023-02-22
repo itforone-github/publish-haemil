@@ -41,7 +41,7 @@
                             <div class="sidebar-submenu">
                             <ul>
                                 <li>
-                                    <a href="../adm/point.php">포인트 내역
+                                    <a href="../adm/point.php">전체 포인트 내역
                                         <!-- <span class="badge badge-pill badge-success">on</span> -->
                                     </a>
                                 </li>
@@ -124,9 +124,28 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
+                        <a href="#" <?php if($pid == "a_box" || $pid == "a_pouch") { echo "class='active'"; }?>>
+                            <img src="../img/common/sideadm01_10.svg"/>
+                            <span>탕전 포장 관리</span>
+                            <!-- <span class="badge badge-pill badge-danger">3</span> -->
+                        </a>
+                        <div class="sidebar-submenu">
+                            <ul>
+                                <li>
+                                    <a href="../adm/box.php">전용박스 관리
+                                        <!-- <span class="badge badge-pill badge-success">on</span> -->
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../adm/pouch.php">파우치 관리</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="sidebar-dropdown">
                         <a href="#" <?php if($pid == "a_texture" || $pid == "a_plastic"  || $pid == "a_stick"  || $pid == "a_stickprt"  || $pid == "a_stickdsg"  || $pid == "a_onetouch"  || $pid == "a_smallpill"  || $pid == "a_case") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm01_08.svg"/>
-                            <span>환제 관리</span>
+                            <span>환제 포장 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
                         </a>
                         <div class="sidebar-submenu">
@@ -140,7 +159,7 @@
                                     <a href="../adm/plastic.php">비닐 포장 관리</a>
                                 </li>
                                 <li>
-                                    <a href="../adm/stick.php">스틱 포장 관리</a>
+                                    <a href="../adm/stick.php">박스 포장 관리</a>
                                 </li>
                                 <li>
                                     <a href="../adm/stick.print.php">스틱 인쇄 관리</a>
@@ -159,25 +178,6 @@
                                 </li>
                                 <li>
                                     <a href="../adm/case.php">케이스 관리</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="sidebar-dropdown">
-                        <a href="#" <?php if($pid == "a_box" || $pid == "a_pouch") { echo "class='active'"; }?>>
-                            <img src="../img/common/sideadm01_10.svg"/>
-                            <span>포장 관리</span>
-                            <!-- <span class="badge badge-pill badge-danger">3</span> -->
-                        </a>
-                        <div class="sidebar-submenu">
-                            <ul>
-                                <li>
-                                    <a href="../adm/box.php">전용박스 관리
-                                        <!-- <span class="badge badge-pill badge-success">on</span> -->
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../adm/pouch.php">파우치 관리</a>
                                 </li>
                             </ul>
                         </div>
