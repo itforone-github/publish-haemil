@@ -101,26 +101,26 @@
                         <span>탕진실</span>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
-                            <img src="../img/common/sidemenu02_01.svg"/>
+                        <a href="#"  <?php if($pid == "px_prescribe1" || $pid == "px_prescribe2"  || $pid == "px_prescribe3"  || $pid == "px_prescribe4"  || $pid == "px_prescribe5") { echo "class='active'"; }?>>
+                            <img src="../img/common/sidemenu02_01.svg" />
                             <span>처방하기</span>
                         </a>
                         <div class="sidebar-submenu">
                             <ul>
                                 <li>
-                                    <a href="#">탕전처방</a>
+                                    <a href="../med/px.prescribe1.php">탕전처방</a>
                                 </li>
                                 <li>
-                                    <a href="#">환제처방</a>
+                                    <a href="../med/px.prescribe2.php">환제처방</a>
                                 </li>
                                 <li>
-                                    <a href="#">산제처방</a>
+                                    <a href="../med/px.prescribe3.php">산제처방</a>
                                 </li>
                                 <li>
-                                    <a href="#">약속처방</a>
+                                    <a href="../med/px.prescribe4.php">약속처방</a>
                                 </li>
                                 <li>
-                                    <a href="#">서술식</a>
+                                    <a href="../med/px.prescribe5.php">서술식</a>
                                 </li>
                             </ul>
                         </div>

@@ -66,6 +66,34 @@ $(document).ready(function(){
   $("#imageUpload").change(function() {
     readURL(this);
   });
+  //닫기
+  $('button.slideup1').click( function() {
+    $('div.slideform1').slideToggle();
+    if( $(this).html() == '닫기' ) {
+      $(this).html('열기');
+    }
+    else {
+      $(this).html('닫기');
+    }
+  } );
+  $('button.slideup2').click( function() {
+    $('div.slideform2').slideToggle();
+    if( $(this).html() == '닫기' ) {
+      $(this).html('열기');
+    }
+    else {
+      $(this).html('닫기');
+    }
+  } );
+  $('button.slideup3').click( function() {
+    $('div.slideform3').slideToggle();
+    if( $(this).html() == '닫기' ) {
+      $(this).html('열기');
+    }
+    else {
+      $(this).html('닫기');
+    }
+  } );
 
 });
 

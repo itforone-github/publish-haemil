@@ -46,6 +46,41 @@ switch ($pid) {
         $header_name = "처방메인";
         $exp = "처방 및 환재, 복용법 관리가 가능합니다.";
         break;
+    case "px_prescribe1" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "탕전처방";
+        $exp = "환자에 따른 처방이 가능합니다.";
+        break;
+    case "px_prescribe2" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "환제처방";
+        $exp = "환자에 따른 처방이 가능합니다.";
+        break;
+    case "px_prescribe3" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "산전처방";
+        $exp = "환자에 따른 처방이 가능합니다.";
+        break;
+    case "px_prescribe4" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "약속처방";
+        $exp = "환자에 따른 처방이 가능합니다.";
+        break;
+    case "px_prescribe5" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "서술식";
+        $exp = "환자에 따른 처방이 가능합니다.";
+        break;
     case "px_taking" :
         $header_type = 1;
         $footer_type = 1;

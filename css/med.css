@@ -24,7 +24,7 @@
     padding: 15px 20px; line-height: 30px;}
 .box_title strong{font-size: 1.2em; font-weight: 400;;}
 .box_title.bg_red{background-color: #BC2D1E;}
-
+.box_title.bg_white {    background-color: #fff; color:#373844 }
 .title_btn span,
 .title_btn a{display: inline-block; margin-left: 4px;}
 .title_btn span{font-size: 1.1em;}
@@ -141,6 +141,93 @@
 .pm_total li:last-child{border-bottom: 0;}
 
 .pm_notice .date_time{opacity: 0.5;}
+
+/*처방*/
+.px.pre1 .box_title strong:first-child {margin-right: 15px}
+.px.pre1 .preform {padding: 20px}
+.px.pre1 .preform > div {padding: 0px}
+.px.pre1 .preform div.flex input[type=text]{    display: inline-block;  float: right;  width: 74%;}
+.px.pre1 .preform div.flex p {    height: 40px;    line-height: 40px;  margin-bottom: 15px;}
+.px.pre1 .preform div.flex p > label{    width: 100px;}
+.px.pre1 .preform div.flex p .circle label {        height: 40px;    line-height: 40px;}
+.px.pre1 .preform div.flex input[type=text].input-sm2 {width: 37%;    margin-bottom: 0;}
+.px.pre1 .preform  span.circle {    color: #78787B;    float: right;    max-height: 40px;   }
+.px.pre1 .preform p.flex label{    width: 100px;}
+.px.pre1 .preform p.flex textarea{  display: inline-block;    width: 87.2%; margin-bottom: 0;}
+.px.pre1 .preform h6{  margin-bottom: 15px; height: 40px;    line-height: 40px;   font-weight: 900; font-weight: 1.1em; color: #373844}
+
+.px.pre2 {display: flex}
+.px.pre2 .box_title strong:first-child {margin-right: 15px}
+.px.pre2 .box_title input {border:2px solid; text-align: left}
+.px.pre2 .box_line {   padding: 15px 20px;}
+.px.pre2 .box_line1 {display: flex;    padding: 15px 20px; border-top:1px solid #707070}
+.px.pre2 .box_line2 { padding: 15px 20px; border-top:1px solid #E8E8E8}
+.px.pre2 .box_line2 .table {margin-bottom: 0px}
+.px.pre2 .search {  position: relative}
+.px.pre2 .search input.search-bar {    width: 350px; border-radius: 5px 0 0 5px}
+.px.pre2 .search button { border-radius: 0 5px 5px 0 }
+.px.pre2 .left {width: 70%; margin-right: 15px; }
+.px.pre2 .right {width: 30%;    height: auto;}
+.px.pre2 .right .sticky {position: sticky;    top: 0; padding: 0}
+.px.pre2 .right .box5 {padding: 20px}
+.px.pre2 .right .btn_order {padding: 20px;font-size: 1.5em;  font-weight: 800;}
+.px.pre2 dl {color: #fff; font-size: 1.15em }
+.px.pre2 dt strong {margin-right: 15px }
+.px.pre2 dt:not(:last-child) {padding-bottom: 15px;}
+.px.pre2 dt span {float: right }
+.px.pre2 dt span.yellow {font-size: 1.35em;  font-weight: 800;color: #FFDE5A}
+.px.pre2 dd {font-size: 1.35em; font-weight: 800; text-align: right }
+.px.pre2 dl:not(:first-child) {padding-top: 20px;}
+.px.pre2 dl:not(:last-child) {padding-bottom: 20px; border-bottom: 1px solid #5e5e5e}
+.px.pre2 .number select {width: 70px; margin-right: 10px}
+.px.pre2 select.plus2 {width: 150px; margin-left: 10px; margin-top: 10px}
+@media screen and (max-width: 1200px){
+    .px.pre1 .flex > div {    margin-right: 0;}
+    .px.pre1 .flex {flex-wrap: wrap}
+    .px.pre1 .preform p.flex textarea{  display: block;  margin-top: 10px;  width: 100%;}
+    .px.pre2 .box_line1 {        flex-wrap: wrap;}
+    .px.pre2 {        flex-wrap: wrap;}
+    .px.pre2 .left {width: 100%; margin-right: 0px; }
+    .px.pre2 .right {width: 100%;    height: auto;}
+    .px.pre2 .btn_box {    margin-top: 10px;}
+    .px.pre2 .search {    margin-top: 10px;}
+    .px.pre2 .box_line2.number {flex-wrap: wrap}
+}
+@media screen and (max-width: 500px){
+    .px.pre1 .preform div.flex p > label{    width: 100%;}
+    .px.pre1 .preform div.flex input[type=text]{   width: 100%;}
+    .px.pre1 .preform div.flex input[type=text].input-sm2 {width: 50%; }
+    .px.pre1 .preform div.flex p {height: auto;}
+    .px.pre2 .search {    width: 100%;}
+    .px.pre2 .search input.search-bar {        width: calc( 100% - 40px );}
+
+}
+/*한약재검색*/
+#medi_sch_field{  border: 1px solid #ced4da;    border-top:0px;    border-radius:0px 0px 10px 10px;   display: none;    z-index: 4;    width:100.15%;    left:-1px;    position: absolute;    background:white;}
+#medi_sch_tb{    width:100%;       border-collapse: inherit;}
+#medi_sch_tb tr{    cursor:pointer;}
+#medi_sch_tb tr:nth-child(odd){    cursor:pointer;    background-color:#f6f6f6}
+#medi_sch_tb tr:hover {    background-color: #dedede;}
+.form_select,.pt_form_select{    background-color: #E0E8E7;}
+#medi_sch_tb td{    padding:10px;}
+@media screen and (max-width: 500px){
+    #medi_sch_field {        overflow-y: auto;}
+    #medi_sch_field table { width: 200%;}
+}
+
+    /*폼증가감소*/
+.input_no {    padding: 10px;    line-height: 1.5;    color: #495057;    background-color: #fff;    background-clip: padding-box;    border: 1px solid #ced4da;    border-radius: 0.25rem;
+    margin: 0 10px;}
+.input_no input[type=text] {    width: 50%;    border: 0;    background: none;    text-align: center;}
+.input_no button {    background: none;    border: 0 !important;    cursor: pointer;}
+.input_no button i {    font-size: 1.05em;}
+.input_no button.arrowUp {    border: 0 !important;    border-radius: .25em;    background: #ff7e00 !important;}
+.input_no button.arrowDown {    border: 0 !important;    border-radius: .25em;    background: #313d53 !important;    margin: 0 20px 0 0;}
+.input_no button.arrowUp i, .table td.in_de button.arrowDown i {    color: #fff;}
+.input_no button.dele{ background:#f7b924}
+.input_no input[type=text] {    margin: 0;    display: inline-block;   width: 50px !important;    border: 0;    background: none;    text-align: center;    line-height: 38px;    border-radius: .25rem;}
+@media screen and (max-width: 500px){
+}
 
 /*복용법 관리*/
 .select_wrap{display: flex; align-items: center; border-bottom: 1px solid #E8E8E8; margin-bottom: 20px; padding-bottom: 20px;}
