@@ -4,7 +4,7 @@ include_once("../include/header.php");
 //3.9.1	주문 배송 관리 > 목록
 ?>
 
-    <section class="p_order">
+    <section class="order">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
@@ -148,21 +148,8 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">맞춤처방</td>
                         <td class="" rowspan="1">010-0000-0000</td>
                         <td class="" rowspan="1">
-                            <div class="flex delivery">
-                            <div>
-                                <select>
-                                    <option value="">택배사선택</option>
-                                    <option value="10054">직접배송</option>
-                                    <option value="10056">CJ택배</option>
-                                    <option value="10057">로젠택배</option>
-                                    <option value="10058">퀵서비스</option>
-                                    <option value="10059">기타(직접수령)</option>
-                                    <option value="10065">우체국택배</option>
-                                </select>
-                            </div>
-                            <div><input type="text" value="" placeholder="운송장번호를 입력해주세요.">
-                            </div>
-                                <button type="button"  class="btn btn_red">저장</button>
+                            <div class="delivery text_center">
+                                <p class="txt_under"><a>CJ택배 151351581354</a></p>
                             </div>
                         </td>
                     </tr>
@@ -192,21 +179,8 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">맞춤처방</td>
                         <td class="" rowspan="1">010-0000-0000</td>
                         <td class="" rowspan="1">
-                            <div class="flex delivery">
-                                <div>
-                                    <select>
-                                        <option value="">택배사선택</option>
-                                        <option value="10054">직접배송</option>
-                                        <option value="10056">CJ택배</option>
-                                        <option value="10057">로젠택배</option>
-                                        <option value="10058">퀵서비스</option>
-                                        <option value="10059">기타(직접수령)</option>
-                                        <option value="10065">우체국택배</option>
-                                    </select>
-                                </div>
-                                <div><input type="text" value="" placeholder="운송장번호를 입력해주세요.">
-                                </div>
-                                <button type="button"  class="btn btn_red">저장</button>
+                            <div class="delivery text_center">
+                                <p class="txt_under"><a>CJ택배 151351581354</a></p>
                             </div>
                         </td>
                     </tr>

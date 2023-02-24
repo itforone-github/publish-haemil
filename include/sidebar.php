@@ -101,25 +101,25 @@
                         <span>탕진실</span>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#"  <?php if($pid == "px_prescribe1" || $pid == "px_prescribe2"  || $pid == "px_prescribe3"  || $pid == "px_prescribe4"  || $pid == "px_prescribe5") { echo "class='active'"; }?>>
+                        <a href="#" >
                             <img src="../img/common/sidemenu02_01.svg" />
                             <span>처방하기</span>
                         </a>
-                        <div class="sidebar-submenu">
+                        <div class="sidebar-submenu" <?php if($pid == "px_prescribe1" || $pid == "px_prescribe2"  || $pid == "px_prescribe3"  || $pid == "px_prescribe4"  || $pid == "px_prescribe5") { echo "style='display: block'"; }?>>
                             <ul>
-                                <li>
+                                <li <?php if($pid == "px_prescribe1") { echo "class='active'"; }?>>
                                     <a href="../med/px.prescribe1.php">탕전처방</a>
                                 </li>
-                                <li>
+                                <li <?php if($pid == "px_prescribe2") { echo "class='active'"; }?>>
                                     <a href="../med/px.prescribe2.php">환제처방</a>
                                 </li>
-                                <li>
+                                <li <?php if($pid == "px_prescribe3") { echo "class='active'"; }?>>
                                     <a href="../med/px.prescribe3.php">산제처방</a>
                                 </li>
-                                <li>
+                                <li <?php if($pid == "px_prescribe4") { echo "class='active'"; }?>>
                                     <a href="../med/px.prescribe4.php">약속처방</a>
                                 </li>
-                                <li>
+                                <li <?php if($pid == "px_prescribe5") { echo "class='active'"; }?>>
                                     <a href="../med/px.prescribe5.php">서술식</a>
                                 </li>
                             </ul>
@@ -149,13 +149,18 @@
                             <span>처방 기본 설정</span>
                         </a>
                     </li>
-
+                    <li class="sidebar-dropdown">
+                        <a href="../med/px.coded.php" <?php if($pid == "px_coded") { echo "class='active'"; }?>>
+                            <img src="../img/common/sidemenu03_01.svg"/>
+                            <span>약속 처방재</span>
+                        </a>
+                    </li>
                     </ul>
                 </div>
                 <?php } else if ($lnb_type == 3) { ?>
                 <div id="side-icon3">
                     <ul>
-                    <li class="header-menu">
+                    <!--<li class="header-menu">
                         <span>카테고리</span>
                     </li>
                     <li class="sidebar-dropdown">
@@ -169,7 +174,7 @@
                             <img src="../img/common/sidemenu03_02.svg"/>
                             <span>기획전</span>
                         </a>
-                    </li>
+                    </li>-->
                     <li class="header-menu">
                         <span>주문관리</span>
                     </li>
@@ -180,7 +185,7 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/mall.order.php" <?php if($pid == "mall_order") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu03_04.svg"/>
                             <span>주문·배송 조회</span>
                         </a>
@@ -235,16 +240,13 @@
                             <img src="../img/common/sidemenu04_07.svg"/>
                             <span>홈페이지 제작·관리</span>
                         </a>
-                        <div class="sidebar-submenu">
+                        <div class="sidebar-submenu" <?php if($pid == "setting_homepage" || $pid == "setting_homepage") { echo "style='display: block'"; }?>>
                             <ul>
-                                <li>
-                                    <a href="../med/setting.homepage.php" <?php if($pid == "setting_homepage") { echo "class='active'"; }?>>제작문의하기</a>
+                                <li <?php if($pid == "setting_homepage") { echo "class='active'"; }?>>
+                                    <a href="../med/setting.homepage.php">제작문의하기</a>
                                 </li>
-                                <li>
-                                    <a href="#">샘플보기</a>
-                                </li>
-                                <li>
-                                    <a href="#">기본정보 및 CS</a>
+                                <li <?php if($pid == "setting_homepage") { echo "class='active'"; }?>>
+                                    <a href="../med/setting.homepage.cs.php">기본정보 및 CS</a>
                                 </li>
                             </ul>
                         </div>

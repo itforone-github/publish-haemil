@@ -43,7 +43,7 @@ include_once("../include/header.php");
                             <td>4</td>
                             <td>승인 중</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
                             <td>무료 사상체질 검사 & 맛보기 한약</td>
                             <td>0명</td>
                             <td>
@@ -55,7 +55,7 @@ include_once("../include/header.php");
                             <td>3</td>
                             <td>승인거절</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
                             <td>맞춤 다이어트 한약</td>
                             <td>0명</td>
                             <td>
@@ -67,7 +67,7 @@ include_once("../include/header.php");
                             <td>2</td>
                             <td>승인완료</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
                             <td>무료 인바디</td>
                             <td>36명</td>
                             <td>
@@ -79,7 +79,7 @@ include_once("../include/header.php");
                             <td>1</td>
                             <td>승인완료</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
                             <td>1:1 맞춤처방 다이어트</td>
                             <td>124명</td>
                             <td>

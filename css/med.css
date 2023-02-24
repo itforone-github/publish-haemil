@@ -243,33 +243,48 @@
 .panel p {line-height: 40px;padding: 0 10px;}
 .panel > p:first-child {line-height: 40px;padding-left: 0px;}
 .panel input {    border-radius: 0px;}
+.panel input[type=date] {margin-bottom: 0; height: 40px;}
 .panel input[type=text] {border-right: 0px;}
 .panel .red {color: #BC2D1E; font-weight: 800}
 
-.p_order .tagbox  {    display: flex;    flex-direction: row; }
-.p_order .tagbox > div:nth-child(odd) {width: 50px}
-.p_order .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
-.p_order .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
-.p_order .tagbox.box2 { border-radius:5px; margin-bottom: 15px; padding-bottom: 8px;}
-.p_order .tagbox > p.txt_red{line-height: 40px;}
-.p_order .tagbox > p > strong{ display: inline-block; width:60px; line-height: 40px; }
-.p_order .tagbox > select{margin-right: 20px; width: auto;}
+.order .tagbox  {    display: flex;    flex-direction: row; }
+.order .tagbox > div:nth-child(odd) {width: 50px}
+.order .tagbox > div:nth-child(even) {width: calc( 100% - 50px ) }
+.order .tagbox > div:after {    content: "";    flex-basis: 100%;    height: 1px;}
+.order .tagbox.box2 { border-radius:5px; margin-bottom: 15px; padding-bottom: 8px;}
+.order .tagbox > p.txt_red{line-height: 40px;}
+.order .tagbox > p > strong{ display: inline-block; width:60px; line-height: 40px; }
+.order .tagbox > select{margin-right: 20px; width: auto;}
 
 
-.p_order select {  width: 100%; margin-bottom: 12px; }
-.p_order .delivery input,.p_order .delivery select {  margin-bottom: 0px; }
+.order select {  width: 100%; margin-bottom: 12px; }
+.order .delivery{align-items: center;}
+.order .delivery input,
+.order .delivery select {  margin-bottom: 0px; }
 
-.p_order .state{display:inline-block;font-weight: 600; color: #373844; font-size: 1.1em; background-color: #E8E8E8; border-radius: 5px; padding: 4px 6px }
+.order .state{display:inline-block;font-weight: 600; color: #373844; font-size: 1.1em; background-color: #E8E8E8; border-radius: 5px; padding: 4px 6px }
 
 @media screen and (max-width: 1400px){
-    .p_order .delivery {flex-wrap: wrap}
-    .p_order .delivery input,.p_order .delivery select {  margin-bottom: 0px; min-width: 100px }
+    .order .delivery {flex-wrap: wrap}
+    .order .delivery input,
+    .prder .delivery select {  margin-bottom: 0px; min-width: 100px }
 }
 
-.p_order .table tr:nth-child(odd) td{background-color: #fff}
-.p_order .table tr:nth-child(4n+1) td{background-color: #FBFBFB}
-.p_order .table tr:nth-child(4n+2) td{background-color: #FBFBFB}
+.order .table tr:nth-child(odd) td{background-color: #fff}
+.order .table tr:nth-child(4n+1) td{background-color: #FBFBFB}
+.order .table tr:nth-child(4n+2) td{background-color: #FBFBFB}
 
+
+
+/*약속처방재*/
+.mall_list > ul{display: flex; margin-bottom: 30px;}
+.mall_list > ul li{margin-right: 26px; background: #FFFFFF;   box-shadow: 0px 0px 15px #0000000D; border-radius: 5px; overflow: hidden;}
+.mall_list > ul li .img{width: 280px; height: 150px;}
+.mall_list > ul li img{border-radius: 0 0 5px 5px; width: 100%; height: 100%; object-fit: cover;}
+.mall_list > ul li .text{padding: 16px 20px}
+.mall_list > ul li .text > strong{display: inline-block; background: #E8E8E8; padding: 4px 6px; border-radius: 5px; line-height: 1em; margin-bottom: 5px; }
+.mall_list > ul li .text > p{margin-bottom: 5px;}
+.mall_list > ul li .text > span{color: #BC2D1E; display: block; text-align: right; font-size: 1.1em}
 
 
 
@@ -279,14 +294,15 @@
 /** 4.한의학몰 - 메인 **/
 .mall.main .swiper{border-radius: 5px; overflow: hidden;}
 .mall.latest{align-items: flex-start;}
-.mm_event h3 > span{font-size: 13px; color:#BC2D1E ; background-color:#FFD0CB ; display: inline-block; border-radius: 5px; padding: 0 6px; margin-left: 4px; vertical-align: middle;}
-.mm_event ul{display: flex;}
-.mm_event ul li{margin-right: 26px; background: #FFFFFF;   box-shadow: 0px 0px 15px #0000000D; border-radius: 5px; overflow: hidden;}
-.mm_event ul li img{border-radius: 0 0 5px 5px;}
-.mm_event ul li > p{margin: 10px 20px 0}
-.mm_event ul li > span{color: #BC2D1E; margin: 5px 20px 10px 20px; display: block; text-align: right; font-size: 1.1em}
+.mall_list h3 > span{font-size: 13px; color:#BC2D1E ; background-color:#FFD0CB ; display: inline-block; border-radius: 5px; padding: 0 6px; margin-left: 4px; vertical-align: middle;}
 
 .mm_notice .box1{height: 217px;}
+
+
+
+
+
+
 
 /** 5.기본설정 - 메인 **/
 .sm_info{min-width: 320px}
@@ -403,3 +419,61 @@
 .s_homepage .form_wrap > div{width: calc(50% - 15px);}
 .s_homepage .form_wrap > div:nth-child(2){padding-right: 0; margin-right: 0; border: 0;}
 .s_homepage .form_wrap textarea{margin-top: 20px}
+
+/*샘플보기*/
+.sample_bg{/*background: url("../img/med/homepage_sample_bg.jpg") repeat-x 50% 500px;*/
+    background: transparent linear-gradient(180deg, #FFD0CB 0%, #FFFFFF00 100%) no-repeat; background-position: 50% 500px; background-size:100% 480px  }
+.sample .type_title{ text-align: center; margin-bottom: 100px;}
+.sample .type_name{opacity: 0.8; color: #707070; margin-bottom: 70px }
+.sample .type_name p{font-size: 2em; margin-bottom: 20px}
+.sample .type_name span{}
+
+
+.sample .type_point{padding: 0 180px;}
+.sample .type_point .flex{margin-bottom:20px; justify-content: flex-start; align-items: center;}
+.sample .type_point ul{width: 845px; margin-right: 35px;}
+.sample .type_point ul li{display: inline-block; width: calc((100% / 2) - 70px); margin-right: 75px; margin-bottom: 70px;}
+.sample .type_point ul li:nth-child(2n){margin-right: 0;}
+.sample .type_point .img{width: auto; margin-right: 120px;}
+
+.sample .type_point .portfolio h3{text-align: center; font-size: 2em; margin: 80px 0 40px 0; opacity: 0.38; color: #78787B;}
+.sample .type_point .portfolio ul{width: 100%;}
+.sample .type_point .portfolio li,
+.sample .type_point .portfolio li:nth-child(2n){width: calc((100% / 3) - 43px); margin-right: 60px;}
+.sample .type_point .portfolio li:last-child{margin-right: 0;}
+.sample .type_point .portfolio li img{width: 100%;}
+
+.sample .type_point .portfolio.app li{width: calc((100% / 4) - 53px); margin-right: 50px;}
+.sample .type_point .portfolio.app li img{width: auto;}
+
+.sample .type_point .point.flex{align-items: flex-start;}
+.sample .type_point .point.p_red{width: 300px;}
+.sample .type_point .point.p_red dt span{background: #BC2D1E;}
+.sample .type_point .point.p_red dt p{color: #BC2D1E;}
+
+.sample .type_point .point dl{width: 300px; margin-right: 120px;}
+.sample .type_point .point dt{margin-bottom: 40px}
+.sample .type_point .point dt span{display: inline-block; background: #78787B; font-weight: 600; line-height: 1em; padding: 6px 20px;
+    border-radius: 40px; color: #fff; margin-bottom: 15px;}
+.sample .type_point .point dt p{color: #78787B; font-size: 2em; font-weight: 600;}
+.sample .type_point .point dd{font-size: 1.1em; line-height: 1.6em;}
+.sample .type_point .point dd:before{content: ""; display: block; width: 62px; height: 1px; background:#707070; margin-bottom: 30px;}
+.sample .type_point .point dl:last-child{margin-right: 0;}
+
+.homepage_qna{padding: 100px 180px}
+.homepage_qna h3{text-align: center; font-size: 2.2em; color: #BC2D1E; margin-bottom: 35px; opacity: 1;}
+.homepage_qna .form_wrap{flex-wrap: wrap;}
+.homepage_qna .form_wrap > div{width: calc(50% - 15px);}
+.homepage_qna .form_wrap > div:nth-child(2){padding-right: 0; margin-right: 0; border: 0;}
+.homepage_qna .form_wrap textarea{margin-top: 20px}
+.homepage_qna .btn_red{font-size: 1.4em; font-weight: 600; padding:14px 35px; border-radius: 40px; display: block; margin: 30px auto;}
+
+/*홈페이지 CS*/
+.cs_info{min-width: 320px}
+.cs_info li > p:first-child{font-weight: 800;}
+.cs_info li > p span{display:inline-block; width: 20px!important;}
+.cs_info li > p:last-child{width: 180px; display:inline-block; white-space: nowrap;overflow: hidden; text-overflow: ellipsis; vertical-align:middle; text-align: right;}
+
+.cs_register .form{display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 6px;}
+.cs_register .form label{width: 85px; padding-right: 10px;}
+.cs_register .form input{width: calc(100% - 85px); min-width: auto; padding: 6px 15px; margin-bottom: 2px;}

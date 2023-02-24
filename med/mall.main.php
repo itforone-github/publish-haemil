@@ -8,8 +8,8 @@ include_once("../include/header.php");
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="../img/mall_slider01.jpg" /></div>
-                <div class="swiper-slide"><img src="../img/mall_slider02.jpg" /></div>
+                <div class="swiper-slide"><img src="../img//med/mall_slider01.jpg" /></div>
+                <div class="swiper-slide"><img src="../img//med/mall_slider02.jpg" /></div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -29,28 +29,36 @@ include_once("../include/header.php");
     </section>
 
     <section class="latest mall main">
-        <div class="mm_event">
+        <div class="mall_list">
             <h3>기획전 모아보기 <span>10/21~11/10</span></h3>
             <ul>
                 <li>
-                    <img src="../img/mall_event01.jpg" />
-                    <p>경옥고S스틱박스(15g)</p>
-                    <span>옵션가 확인</span>
+                    <div class="img"><img src="../img//med/mall_event01.jpg" /></div>
+                    <div class="text">
+                        <p>경옥고S스틱박스(15g)</p>
+                        <span>옵션가 확인</span>
+                    </div>
                 </li>
                 <li>
-                    <img src="../img/mall_event02.jpg" />
-                    <p>경옥고S스틱박스(15g)</p>
-                    <span>옵션가 확인</span>
+                    <div class="img"><img src="../img//med/mall_event02.jpg" /></div>
+                    <div class="text">
+                        <p>경옥고S스틱박스(15g)</p>
+                        <span>옵션가 확인</span>
+                    </div>
                 </li>
                 <li>
-                    <img src="../img/mall_event03.jpg" />
-                    <p>경옥고S스틱박스(15g)</p>
-                    <span>옵션가 확인</span>
+                    <div class="img"><img src="../img//med/mall_event03.jpg" /></div>
+                    <div class="text">
+                        <p>경옥고S스틱박스(15g)</p>
+                        <span>옵션가 확인</span>
+                    </div>
                 </li>
                 <li>
-                    <img src="../img/mall_event04.jpg" />
-                    <p>경옥고S스틱박스(15g)</p>
-                    <span>옵션가 확인</span>
+                    <div class="img"><img src="../img//med/mall_event04.jpg" /></div>
+                    <div class="text">
+                        <p>경옥고S스틱박스(15g)</p>
+                        <span>옵션가 확인</span>
+                    </div>
                 </li>
             </ul>
         </div>

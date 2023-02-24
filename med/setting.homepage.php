@@ -7,23 +7,23 @@ include_once("../include/header.php");
     <section class="s_homepage">
         <div class="s_type mb20">
             <ul>
-                <li>
-                    <img src="../img/homepage01.jpg" />
+                <li onclick="location.href='../med/homepage.sample1.php'">
+                    <img src="../img//med/homepage01.jpg" />
                     <p>홈페이지 제작 유형 01</p>
                     <span>템플릿 + 셀프 콘텐츠</span>
                 </li>
-                <li>
-                    <img src="../img/homepage02.jpg" />
+                <li onclick="location.href='../med/homepage.sample2.php'">
+                    <img src="../img//med/homepage02.jpg" />
                     <p>홈페이지 제작 유형 02</p>
                     <span>템플릿 + 콘텐츠 완성</span>
                 </li>
-                <li>
-                    <img src="../img/homepage03.jpg" />
+                <li onclick="location.href='../med/homepage.sample3.php'">
+                    <img src="../img//med/homepage03.jpg" />
                     <p>홈페이지 제작 유형 03</p>
                     <span>맞춤형 홈페이지</span>
                 </li>
-                <li>
-                    <img src="../img/homepage04.jpg" />
+                <li onclick="location.href='../med/homepage.sample4.php'">
+                    <img src="../img//med/homepage04.jpg" />
                     <p>홈페이지 제작 유형 04</p>
                     <span>맞춤형 어플리케이션</span>
                 </li>

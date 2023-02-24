@@ -114,9 +114,9 @@ a.btn_black:hover,
 .btn_black:hover{background-color: #fff; color: #484951; border: 1px solid rgba(0,0,0,0.2);}
 
 a.btn_gray,
-.btn_gray{background-color: #E8E8E8; color: #fff;}
+.btn_gray{background-color: #E8E8E8; color: #373844}
 a.btn_gray:hover,
-.btn_gray:hover{background-color: #373844; color: #373844}
+.btn_gray:hover{background-color: #373844; color: #fff;}
 
 a.btn_gray2,
 .btn_gray2{background-color: #78787B; color: #fff;}
@@ -151,7 +151,7 @@ a.btn_line2:hover,
 .box4{display: inline-block; border-radius: 5px; background-color: #F6F6F6; overflow: hidden;}
 
 /*폼형태*/
-input{    border-radius: 4px;: 40px;  background-color: #FFFFFF; border: 1px solid #c9c9c9; color: #78787B; padding: 10px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
+input{    border-radius: 4px; height: 40px;  background-color: #FFFFFF; border: 1px solid #c9c9c9; color: #78787B; padding: 10px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
 textarea {    border-radius: 4px;background-color: #FFFFFF; border: 1px solid #c9c9c9; color: #78787B; padding: 10px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
 input:last-child{margin-bottom: 0;}
 input::placeholder{opacity: 0.8;}
