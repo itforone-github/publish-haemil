@@ -23,6 +23,11 @@ switch ($pid) {
         $footer_type = 0;
         $header_name = "아이디/비밀번호 찾기";
         break;
+    case "pw_reset" :
+        $header_type = 0;
+        $footer_type = 0;
+        $header_name = "비밀번호 재설정";
+        break;
     //2. 환자진료
     case "index" :  
         $header_type = 1;

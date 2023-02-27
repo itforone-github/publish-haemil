@@ -24,7 +24,7 @@ include_once("../include/header.php");
               </ul>
 
               <!-- Tab panes -->
-              <div class="tab-content">
+              <div class="tab-content" style="display: block">
                 <div role="tabpanel" class="tab-pane active" id="find_id">
                     <!--아이디찾기-->
                     <input type="text" placeholder="직장/한의원명"/>
@@ -41,7 +41,7 @@ include_once("../include/header.php");
                     <input type="text" placeholder="사업자등록번호"/>
 
                     <div class="btn_wrap">
-                        <a href="login.php" class="btn btn_large btn_sdw btn_red">비밀번호 재설정</a>
+                        <a href="pw_reset.php" class="btn btn_large btn_sdw btn_red">비밀번호 재설정</a>
                     </div>
                 </div>
               </div>
