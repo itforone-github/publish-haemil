@@ -109,6 +109,13 @@ switch ($pid) {
         $header_name = "주문 배송 관리";
         $exp = "처방 완료된 건의 상태 조회가 가능합니다.";
         break;
+    case "px_setting" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "처방 기본 설정";
+        $exp = "처방의 기본값을 설정할 수 있습니다.";
+        break;
     //4. 한의학몰
     case "mall_main" :
         $header_type = 1;

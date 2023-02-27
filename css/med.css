@@ -279,6 +279,14 @@
 .select_wrap select{margin-right: 4px;}
 .select_wrap select:last-child{margin-right: 0;}
 
+
+/*자주쓰는처방*/
+.p_often .px.pre2{padding: 0;}
+.p_often .po_title{font-size: 1.2em;}
+.p_often .po_title label{margin-right: 6px;}
+.p_often .po_title input{ text-align:left;}
+.p_often .btn_wrap{padding: 0;}
+
 /*주문배송관리*/
 .panel  {   display: flex;    flex-wrap: wrap; background-color: transparent}
 .panel > div  {    margin: 0 5px;display: flex; max-width: 300px}
@@ -415,6 +423,27 @@
     .p_coded.view .pc_product .btn_wrap button{font-size: 1em; margin-right: 2px;}
 
 }
+/*처방기본설정*/
+.p_setting h4{font-size: 1.1em; font-weight: 600; color: #BC2D1E; margin-bottom: 10px;}
+.p_setting select{width: auto; margin-bottom: 0; line-height: 30px; height: 30px; padding-top: 0; padding-bottom: 0; border-radius: 5px}
+.p_setting .ic{margin-right: 4px;}
+.p_setting .form > div{padding: 0;}
+.p_setting .form > div.form_wrap{padding: 0; align-items: center; border-bottom: 1px solid #EFEFEF; padding-bottom:16px; margin-bottom: 16px;}
+.p_setting .form > div.form_wrap:last-child{border-bottom: 0; margin-bottom: 0; padding-bottom: 0;}
+.p_setting .form > div.form_wrap p{padding-bottom: 0; margin-right: 10px; font-size: 1em; font-weight: 400;}
+.p_setting .form > div.form_wrap img{display: block; height: 93px;}
+.p_setting .title .flex{align-items: center;}
+.p_setting .title .tagbox{margin: 0 0 0 10px;}
+.p_setting .tagbox{margin: 0; padding: 0; font-size: 1em;}
+.p_setting .tagbox > div > p span.tag{margin-right: 5px; margin-left: 0;}
+.p_setting .tagbox > div > p{margin-bottom: 0}
+
+
+
+
+
+
+
 
 /** 4.한의학몰 - 메인 **/
 .mall.main .swiper{border-radius: 5px; overflow: hidden;}

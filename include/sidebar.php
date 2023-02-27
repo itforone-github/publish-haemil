@@ -144,7 +144,7 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="#">
+                        <a href="../med/px.setting.php" <?php if($pid == "px_setting") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu02_05.svg"/>
                             <span>처방 기본 설정</span>
                         </a>
