@@ -150,7 +150,7 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="../med/px.coded.php" <?php if($pid == "px_coded") { echo "class='active'"; }?>>
+                        <a href="../med/px.prescribe4.php" <?php if($pid == "px_coded") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu03_01.svg"/>
                             <span>약속 처방재</span>
                         </a>

@@ -1,5 +1,5 @@
 <?php
-$pid = "px_coded";
+$pid = "px_prescribe4";
 include_once("../include/header.php");
 //3.11.1	약속 처방재 > 목록
 ?>
@@ -47,7 +47,7 @@ include_once("../include/header.php");
     <section>
         <div class="mall_list">
             <ul>
-                <li onclick="location.href='../med/px.coded.view.php'">
+                <li onclick="location.href='px.prescribe4.view.php'">
                     <div class="img"><img src="../img//med/mall_event01.jpg" /></div>
                     <div class="text">
                         <strong>기획전</strong>
