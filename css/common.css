@@ -282,15 +282,27 @@ textarea{width: 100%; background-color: #FFFFFF; border: 1px solid #c9c9c9; colo
 .table td > a {display: block}
 /*adm*/
 .table.adm tr:nth-child(odd) td{ background-color: #EEEEEE;}
+/*table2*/
+.table.table2 {margin-bottom: 0;  }
+.table.table2 table{border-bottom: 1px solid #707070;  }
+.table.table2 th:first-child { border-left: 1px solid #707070;}
+.table.table2 th:last-child { border-right: 1px solid #707070;}
+.table.table2 th:nth-child(2),
+.table.table2 td:nth-child(2){ border-right: 1px solid #707070;}
+.table.table2 th,
+.table.table2 td{  font-size: 1em;;}
+.table td{border-bottom: 0px }
 
 /*모달*/
+.modal-open {    overflow: unset;}
 .modal-content {    box-shadow: none;    background: #FAFBFD;}
 .modal .btn-primary {background-color: #BC2D1E; color: #fff; width: 48%; height: 35px}
 .modal .btn-secondary {background-color: #78787B; color: #fff; width: 48%; height: 35px}
 .modal-title {color: #373844; opacity: 0.55; font-size: 1.7em;}
 .modal-header {    border-bottom: 0;}
 .modal-footer {     border-top: 0;    display: flex;    justify-content: space-around;}
-
+.modal-dialog.modal-wide {    width: 90%;}
+.modal-box1 {  border-radius: 5px;    background-color: #ffffff;    padding: 20px; }
 /*페이지네이션*/
 
 /* border-pagination */
@@ -303,8 +315,6 @@ textarea{width: 100%; background-color: #FFFFFF; border: 1px solid #c9c9c9; colo
 #border-pagination li a:hover:not(.active) {    background: #ddd;}
 
 /*사진첨부*/
-
-
 .newpic {  display: inline-block;    margin-bottom: 10px;    margin-right: 10px;}
 .newpic.after {  margin-bottom: 10px;    margin-right: 0px;}
 .newpic-upload { display: inline-block;position: relative;    text-align: left;}
@@ -324,6 +334,15 @@ textarea{width: 100%; background-color: #FFFFFF; border: 1px solid #c9c9c9; colo
     .newpic-upload .newpic-edit input + label {  display: inline-block;    width: 100px;    height: 100px;    line-height: 110px;}
     .newpic-upload .newpic-preview {  width: 100px;  height: 100px;  position: relative;  border: 1px solid #F8F8F8;}
 }
+
+/*탭메뉴*/
+ul.tabs{    margin: 0px;    padding: 0px;    list-style: none;}
+ul.tabs li{    margin-right: 5px ;background: none;     display: inline-block;    cursor: pointer;}
+ul.tabs li.current{  font-weight: 800; }
+
+.tab-content{    display: none;}
+.tab-content.current{    display: inherit;}
+
 
 .page-content{position: relative;}
 .ready{position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; width: calc(100%); height: calc(100%); background-color: rgba(255,255,255,0.4); z-index: 1;}
