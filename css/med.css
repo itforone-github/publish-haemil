@@ -181,7 +181,9 @@
 .px.pre2 .box5 dd {font-size: 1.35em; font-weight: 800; text-align: right }
 .px.pre2 .box5 dl:not(:first-child) {padding-top: 20px;}
 .px.pre2 .box5 dl:not(:last-child) {padding-bottom: 20px; border-bottom: 1px solid #5e5e5e}
-.px.pre2 .number select {width: 70px; margin-right: 10px}
+.px.pre2 .number select {width: 70px; margin-bottom: 0;margin-right: 10px}
+.px.pre2 .number2 select {width: 250px; margin-bottom: 0;margin-right: 10px}
+.px.pre2 .number2 p {line-height: 40px}
 .px.pre2 select.plus2 {width: 150px; margin-left: 10px; margin-top: 10px}
 .px.pre2 div.count {padding: 20px; font-size: 1.15em;  color: #fff}
 .px.pre2 div.count p.tit {font-weight: 800;}
@@ -196,30 +198,30 @@
 .px.pre2 div.packing p.tit span {margin-left: 10px;font-size: 0.85em; font-weight: 400; color: #BC2D1E;}
 .px.pre2 div.packing .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9; margin-bottom: 15px;   border-radius: 5px;}
 @media screen and (max-width: 1200px){
-    .px.pre1 .flex > div {    margin-right: 0;}
+    .px.pre1 .flex > div {margin-right: 0;}
     .px.pre1 .flex {flex-wrap: wrap}
-    .px.pre1 .preform p.flex textarea{  display: block;  margin-top: 10px;  width: 100%;}
-    .px.pre2 .box_line1 {        flex-wrap: wrap;}
-    .px.pre2 .box_title {        flex-wrap: wrap;}
-    .px.pre2 {        flex-wrap: wrap;}
-    .px.pre2 div.count {        flex-wrap: wrap;}
+    .px.pre1 .preform p.flex textarea{display: block;  margin-top: 10px;  width: 100%;}
+    .px.pre2 .box_line1 {flex-wrap: wrap;}
+    .px.pre2 .box_title {flex-wrap: wrap;}
+    .px.pre2 {flex-wrap: wrap;}
+    .px.pre2 div.count {flex-wrap: wrap;}
     .px.pre2 div.count div:first-child {margin-bottom: 20px;    margin-right: 0px!important;}
     .px.pre2 .left {width: 100%; margin-right: 0px; }
     .px.pre2 .right {width: 100%;    height: auto;}
-    .px.pre2 .btn_box {    margin-top: 10px;}
-    .px.pre2 .search {    margin-top: 10px;}
+    .px.pre2 .btn_box {margin-top: 10px;}
+    .px.pre2 .search {margin-top: 10px;}
     .px.pre2 .box_line2.number {flex-wrap: wrap}
 }
 @media screen and (max-width: 500px){
 
-    .px.pre2 div.count .flex{        flex-wrap: wrap;}
-    .px.pre2 div.count .flex p.tit{   margin-bottom: 15px}
-    .px.pre1 .preform div.flex p > label{    width: 100%;}
-    .px.pre1 .preform div.flex input[type=text]{   width: 100%;}
+    .px.pre2 div.count .flex {flex-wrap: wrap;}
+    .px.pre2 div.count .flex p.tit {margin-bottom: 15px}
+    .px.pre1 .preform div.flex p > label {width: 100%;}
+    .px.pre1 .preform div.flex input[type=text] {width: 100%;}
     .px.pre1 .preform div.flex input[type=text].input-sm2 {width: 50%; }
     .px.pre1 .preform div.flex p {height: auto;}
-    .px.pre2 .search {    width: 100%;}
-    .px.pre2 .search input.search-bar {        width: calc( 100% - 40px );}
+    .px.pre2 .search {width: 100%;}
+    .px.pre2 .search input.search-bar {idth: calc( 100% - 40px );}
     .px.pre2 input[type=checkbox]  {margin-bottom: 15px!important}
     .px.pre2 input[type=radio]  {margin-bottom: 15px!important}
     .px.pre2 input[type=checkbox] + label {margin-bottom: 15px}
@@ -228,17 +230,17 @@
 
 }
 /* 처방 모달*/
-#pxmembermodal .search{    width: 100%}
-#pxmembermodal .search input {    width: calc( 100% - 40px ); border-color : #BC2D1E}
-#pxmembermodal .search button {   border-color : #BC2D1E}
-#pxlistmodal .tabletit {   margin-bottom: 15px}
-#pxlistmodal .tabletit p {  font-size: 1.2em; }
+#pxmembermodal .search{width: 100%}
+#pxmembermodal .search input {width: calc( 100% - 40px ); border-color : #BC2D1E}
+#pxmembermodal .search button {border-color : #BC2D1E}
+#pxlistmodal .tabletit {margin-bottom: 15px}
+#pxlistmodal .tabletit p {font-size: 1.2em; }
 #pxlistmodal .table tr:nth-child(odd) td{background-color: #fff;}
 #pxlistmodal .table tr:nth-child(4n-1) td{background-color: #FBFBFB;}
 #pxlistmodal .modal-title{opacity: 1;}
 #pxlistmodal ul.tabs li{color: rgba(55, 56, 68, 0.5);}
 #pxlistmodal ul.tabs li.current{border-bottom: 3px solid #1E33BC;   color: #1E33BC;}
-#pxlistmodal .collapse td {    background: #f6f6f6;}
+#pxlistmodal .collapse td {background: #f6f6f6;}
 
 /*한약재검색*/
 #medi_sch_field{  border: 1px solid #ced4da;    border-top:0px;    border-radius:0px 0px 10px 10px;   display: none;    z-index: 4;    width:100.15%;    left:-1px;    position: absolute;    background:white;}
