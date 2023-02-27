@@ -159,6 +159,13 @@ switch ($pid) {
         $header_name = "포인트 관리";
         $exp = "포인트 내역 확인, 충전, 관리가 가능합니다.";
         break;
+    case "setting_point_charge" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 4;
+        $header_name = "포인트 충전";
+        $exp = "포인트 선결제가 가능합니다.";
+        break;
     case "setting_member" :
         $header_type = 1;
         $footer_type = 1;

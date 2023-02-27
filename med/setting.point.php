@@ -1,7 +1,7 @@
 <?php
 $pid = "setting_point";
 include_once("../include/header.php");
-//5.4이벤트관리(준비중)
+//5.5.1	포인트 > 목록
 ?>
 
     <section class="s_point">

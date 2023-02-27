@@ -279,6 +279,7 @@ textarea{width: 100%; background-color: #FFFFFF; border: 1px solid #c9c9c9; colo
 .table th{font-weight: 800; font-size: 1.1em; text-align: left; border-bottom: 1px solid #707070; color: #373844;}
 .table .text_center{text-align: center;}
 .table .text_left{text-align: left;}
+.table .text_right{text-align: right;}
 .table td > a {display: block}
 /*adm*/
 .table.adm tr:nth-child(odd) td{ background-color: #EEEEEE;}
