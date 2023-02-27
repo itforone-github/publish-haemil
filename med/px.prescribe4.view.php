@@ -1,5 +1,5 @@
 <?php
-$pid = "px_coded";
+$pid = "px_prescribe4";
 include_once("../include/header.php");
 //3.11.2	약속 처방재 > 상세
 ?>
