@@ -274,6 +274,14 @@
 .select_wrap select{margin-right: 4px;}
 .select_wrap select:last-child{margin-right: 0;}
 
+
+/*자주쓰는처방*/
+.p_often .px.pre2{padding: 0;}
+.p_often .po_title{font-size: 1.2em;}
+.p_often .po_title label{margin-right: 6px;}
+.p_often .po_title input{ text-align:left;}
+.p_often .btn_wrap{padding: 0;}
+
 /*주문배송관리*/
 .panel  {   display: flex;    flex-wrap: wrap; background-color: transparent}
 .panel > div  {    margin: 0 5px;display: flex; max-width: 300px}
