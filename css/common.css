@@ -267,7 +267,7 @@ textarea{width: 100%; background-color: #FFFFFF; border: 1px solid #c9c9c9; colo
 .tagbox {    padding: 20px 24px 0;    display: flex;  width: 100%;}
 .tagbox > div {    display: flex;    flex-wrap: wrap;   }
 .tagbox > div > p {display: inline-block;    margin-bottom: 20px;}
-.tagbox > div > p span.tag {border-radius: 5px; border: 1px solid #C8C8CB;color: #484951; padding: 5px;margin-left: 5px;}
+.tagbox > div > p span.tag {border-radius: 5px; border: 1px solid #C8C8CB;color: #484951; padding: 5px;margin-left: 5px; display: inline-block; line-height: 1em;}
 .tagbox > div > p span.tag.active {background: #FFD0CB;    border: 1px solid #BC2D1E;    color: #BC2D1E;}
 
 /*테이블*/
