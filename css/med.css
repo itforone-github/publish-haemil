@@ -277,7 +277,7 @@
 
 
 /*약속처방재*/
-.mall_list > ul{display: flex; margin-bottom: 30px;}
+.mall_list > ul{display: flex; margin-bottom: 30px; margin-right: -26px;}
 .mall_list > ul li{margin-right: 26px; background: #FFFFFF;   box-shadow: 0px 0px 15px #0000000D; border-radius: 5px; overflow: hidden;}
 .mall_list > ul li .img{width: 280px; height: 150px;}
 .mall_list > ul li img{border-radius: 0 0 5px 5px; width: 100%; height: 100%; object-fit: cover;}
@@ -286,10 +286,90 @@
 .mall_list > ul li .text > p{margin-bottom: 5px;}
 .mall_list > ul li .text > span{color: #BC2D1E; display: block; text-align: right; font-size: 1.1em}
 
+@media screen and (max-width:1500px) {
+    .mall_list > ul{flex-wrap: wrap;}
+    .mall_list > ul li{margin-bottom: 26px;}
+}
+
+@media screen and (max-width:750px) {
+    .mall_list > ul li{width: calc((100% / 2) - 26px);}
+    .mall_list > ul li .img{width: 100%;}
+}
+
+@media screen and (max-width:450px) {
+    .mall_list > ul li{width:100%;}
+    .mall_list > ul li .img{height: 200px;}
+}
 
 
+/*약속처방재-상세*/
+.p_coded.view {color:#373844}
+.p_coded.view .box2{padding: 45px;}
+.p_coded.view h5{font-size: 1.2em; font-weight: 600; margin-bottom: 10px;}
 
+.p_coded.view .area_top .btn_wrap{padding-top: 0;}
 
+.p_coded.view .pc_slider{width: 500px; margin-right: 100px;}
+.p_coded.view .swiper-slide img{width: 100%; height: 100%; object-fit: cover;}
+.p_coded.view .swiper-slide{width:500px;height: 500px;}
+.p_coded.view .swiper-free-mode{margin-top: 40px;}
+.p_coded.view .swiper-free-mode>.swiper-wrapper{justify-content: center;}
+.p_coded.view .swiper-free-mode>.swiper-wrapper .swiper-slide{width: 90px; height: 90px;}
+.p_coded.view .mySwiper .swiper-slide-thumb-active{border: 2px solid #BC2D1E;}
+
+.p_coded.view .pc_title{margin-bottom: 16px;}
+.p_coded.view .pc_title h4{font-weight: 600; }
+.p_coded.view .pc_title p{font-weight: 800; line-height: 1.2em;}
+.p_coded.view .pc_title .pc_name{ font-size: 2em; margin-bottom: 6px;}
+.p_coded.view .pc_title .pc_price{ font-size: 1.4em;}
+
+.p_coded.view .pc_info,
+.p_coded.view .pc_medicine{background:#FAFBFD; margin-bottom: 16px; padding: 24px;}
+
+.p_coded.view .pc_info dl{border-right: 1px solid #ddd; padding-right: 24px; margin-right: 24px; display: flex; flex-wrap: wrap; width: 50%;}
+.p_coded.view .pc_info dl:last-child{border-right: 0; padding-right: 0; margin-right: 0;}
+.p_coded.view .pc_info dl dt{width: 55px; font-weight: 600;}
+.p_coded.view .pc_info dl dd{width: calc(100% - 55px);}
+
+.p_coded.view .pc_medicine .table{font-size: 0.9em;}
+.p_coded.view .pc_medicine .table tr:nth-child(odd) td{background: #fff;}
+.p_coded.view .pc_medicine .table th,
+.p_coded.view .pc_medicine .table td{padding: 14px 22px}
+
+.p_coded.view .pc_qty dt p{margin-bottom: 4px;}
+.p_coded.view .pc_qty dd{display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ddd; padding: 14px 0;}
+.p_coded.view .pc_qty dd p{font-weight: 600; font-size: 1.2em;}
+
+.p_coded.view .pc_product .pc_total{text-align: right; font-size: 1.2em; font-weight: 400; color: #373844; margin-top: 20px;}
+.p_coded.view .pc_product .pc_total strong{font-size: 1.2em;}
+.p_coded.view .pc_product .btn_wrap{display: flex;}
+.p_coded.view .pc_product .btn_wrap .btn_wish{display: block; font-size: 2em; line-height: 50px; text-align: center; padding: 0 10px; margin-right: 10px;}
+.p_coded.view .pc_product .btn_wrap button{width: 100%; padding: 15px; font-size: 1.25em; margin-right: 10px; font-weight: 600}
+.p_coded.view .pc_product .btn_wrap button:last-child{margin-right: 0;}
+
+.p_coded.view .pc_details{border-top:1px solid #C8C8CB; padding-top:35px; }
+
+@media screen and (max-width:1500px) {
+    .p_coded.view .pc_info.flex{display: block;}
+    .p_coded.view .pc_info dl{width:100%; border: 0;}
+
+}
+
+@media screen and (max-width:1300px) {
+    .p_coded.view .box2>.flex{display: block;}
+    .p_coded.view .pc_slider{width: 100%; margin-right:0px; margin-bottom: 40px;}
+    .p_coded.view .swiper-slide{width:100%;height: 500px;}
+
+}
+
+@media screen and (max-width:550px) {
+    .p_coded.view .box2{padding: 20px;}
+    .p_coded.view .swiper-slide{height: 300px;}
+    .p_coded.view .swiper-free-mode>.swiper-wrapper .swiper-slide{height: 60px;}
+
+    .p_coded.view .pc_product .btn_wrap button{font-size: 1em; margin-right: 2px;}
+
+}
 
 /** 4.한의학몰 - 메인 **/
 .mall.main .swiper{border-radius: 5px; overflow: hidden;}
@@ -401,9 +481,15 @@
 .s_point_charge .table td:nth-child(2){color: #BC2D1E;}
 .s_point_charge .table td:nth-child(2){font-size: 1em;}
 
+/*포인트 충전*/
+.s_point_charge.list .table th:nth-child(2),
+.s_point_charge.list .table td:nth-child(2){text-align: left; color: #373844;}
+
+
 /*홈페이지 제작관리*/
 .s_homepage .s_type ul{display: flex; align-items: center;}
-.s_homepage .s_type li{border-radius: 5px; margin-right: 27px; background-color: #fff; text-align: center; border: 2px solid transparent;}
+.s_homepage .s_type li{border-radius: 5px; margin-right: 27px; background-color: #fff; text-align: center; border: 2px solid transparent; max-width: 360px;}
+.s_homepage .s_type li img{width: 100%; height: auto;}
 .s_homepage .s_type li:last-child{margin-right: 0;}
 .s_homepage .s_type li > p{display: inline-block; background-color: #FFD0CB; color: #BC2D1E; border-radius: 5px;
     padding: 0px 8px; font-size: 1em; font-weight: 800; margin-top: 20px; margin-bottom: 8px; filter: grayscale(100%)}
@@ -419,6 +505,22 @@
 .s_homepage .form_wrap > div{width: calc(50% - 15px);}
 .s_homepage .form_wrap > div:nth-child(2){padding-right: 0; margin-right: 0; border: 0;}
 .s_homepage .form_wrap textarea{margin-top: 20px}
+
+
+@media screen and (max-width:1900px) {
+    .s_homepage .s_type ul{flex-wrap: wrap;}
+    .s_homepage .s_type li{margin-bottom: 20px;}
+}
+
+@media screen and (max-width:1150px) {
+    .s_homepage .s_type ul{flex-wrap: wrap;}
+    .s_homepage .s_type li{width: calc((100% / 2) - 14px);}
+    .s_homepage .s_type li:nth-child(2n){margin-right: 0;}
+}
+
+@media screen and (max-width:900px) {
+    .s_homepage .form_wrap > div{width: 100%;}
+}
 
 /*샘플보기*/
 .sample_bg{/*background: url("../img/med/homepage_sample_bg.jpg") repeat-x 50% 500px;*/
@@ -468,6 +570,47 @@
 .homepage_qna .form_wrap textarea{margin-top: 20px}
 .homepage_qna .btn_red{font-size: 1.4em; font-weight: 600; padding:14px 35px; border-radius: 40px; display: block; margin: 30px auto;}
 
+@media screen and (max-width:1900px) {
+    .sample .type_title img{width: 80%;}
+    .sample .type_point{padding: 0 50px;}
+    .sample .type_point .point dl{margin-right: 40px;}
+    .sample .type_point ul li{margin-right: 20px; width: calc((100% / 2) - 12px)}
+    .sample .type_point ul li img{width: 100%;}
+
+    .homepage_qna{padding: 50px 50px}
+}
+
+@media screen and (max-width:990px) {
+    .sample .type_point .flex{flex-wrap: wrap;}
+    .sample .type_point ul{width: 100%; margin-right: 0;}
+    .sample .type_point .point.p_red,
+    .sample .type_point .point.p_red dl:last-child{width: 100%;}
+    .sample .type_point .point.flex{flex-wrap: wrap;}
+    .sample .type_point .point dl{margin-bottom: 40px; width: calc((100% / 2) - 20px);}
+    .sample .type_point .point dl:nth-child(2n){margin-right: 0;}
+
+    .sample .type_point .img{width: 100%; margin-right: 0; margin-bottom: 40px;}
+    .sample .type_point .img img{width: 100%;}
+    .sample .type_point .portfolio li,
+    .sample .type_point .portfolio li:nth-child(2n){margin-right: 10px; width: calc((100% / 3) - 9px);}
+
+    .sample .type_point .portfolio.app li{width: calc((100% / 2) - 12px); margin-right: 10px;}
+    .sample .type_point .portfolio.app li img{width: 100%}
+
+    .homepage_qna .form_wrap > div{width: 100%;}
+}
+
+@media screen and (max-width:550px) {
+    .sample .type_point{padding: 0 25px;}
+    .sample .type_point ul li{margin-bottom: 40px;}
+    .sample .type_point .point dl,
+    .sample .type_point .point dl:nth-child(2n){margin-right: 0; width: 100%}}
+
+    .homepage_qna{padding: 25px}
+
+
+}
+
 /*홈페이지 CS*/
 .cs_info{min-width: 320px}
 .cs_info li > p:first-child{font-weight: 800;}
@@ -477,3 +620,10 @@
 .cs_register .form{display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 6px;}
 .cs_register .form label{width: 85px; padding-right: 10px;}
 .cs_register .form input{width: calc(100% - 85px); min-width: auto; padding: 6px 15px; margin-bottom: 2px;}
+
+@media screen and (max-width:750px) {
+
+
+    .setting.main > div{width: 100%;}
+
+}

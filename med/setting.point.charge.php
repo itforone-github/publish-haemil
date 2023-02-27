@@ -1,10 +1,13 @@
 <?php
-$pid = "setting_point";
+$pid = "setting_point_charge";
 include_once("../include/header.php");
 //5.4이벤트관리(준비중)
 ?>
 
     <section class="s_point_charge">
+        <div class="text-right mb20">
+            <a class="btn btn_sdw btn_mini btn_red" href="setting.point.charge.list.php">충전내역</a>
+        </div>
         <div class="flex js">
             <div class="box2">
                 <div class="inr">
