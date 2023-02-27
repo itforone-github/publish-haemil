@@ -162,6 +162,7 @@
 .px.pre2 .box_title input {border:2px solid; text-align: left}
 .px.pre2 .box_line {   padding: 15px 20px;}
 .px.pre2 .box_line1 {display: flex;    padding: 15px 20px; border-top:1px solid #707070}
+.px.pre2 .px5 .box_line1 {display: block; }
 .px.pre2 .packing .box_line1 {display: block; }
 .px.pre2 .box_line2 { padding: 15px 20px; border-top:1px solid #E8E8E8}
 .px.pre2 .box_line2 .table {margin-bottom: 0px}
@@ -172,6 +173,10 @@
 .px.pre2 .right {width: 30%;    height: auto;}
 .px.pre2 .right .sticky {position: sticky;    top: 0; padding: 0}
 .px.pre2 .right .box5 {padding: 20px}
+.px.pre2 .right .box2 .preform {padding: 20px}
+.px.pre2 .right .box2 .preform p {margin-bottom: 15px}
+.px.pre2 .right  .preform h6{  margin-bottom: 15px; height: 40px;    line-height: 40px;   font-weight: 900; font-size: 1.1em; color: #373844}
+.px.pre2 .right  .preform h6 span{ font-size: 0.9em}
 .px.pre2 .right .btn_order {padding: 20px;font-size: 1.5em;  font-weight: 800;}
 .px.pre2 .box5 dl {color: #fff; font-size: 1.15em }
 .px.pre2 .box5 dt strong {margin-right: 15px }

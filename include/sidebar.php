@@ -120,7 +120,7 @@
                                     <a href="../med/px.prescribe4.php">약속처방</a>
                                 </li>
                                 <li <?php if($pid == "px_prescribe5") { echo "class='active'"; }?>>
-                                    <a href="../med/px.prescribe5.php">서술식</a>
+                                    <a href="../med/px.prescribe5.list.php">서술식</a>
                                 </li>
                             </ul>
                         </div>
