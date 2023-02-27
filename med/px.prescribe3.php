@@ -1,7 +1,7 @@
 <?php
-$pid = "px_prescribe2";
+$pid = "px_prescribe3";
 include_once("../include/header.php");
-//3.0. 환제처방
+//3.0. 산제처방
 ?>
 
  <section class="px pre1">
@@ -171,16 +171,7 @@ include_once("../include/header.php");
                             <button type="button" onclick=""><i class="far fa-plus"></i><!-- 수량증가 --></button>
                         </span>
                     </p>
-                    <p><strong>제형</strong>
-                    <select name="option">
-                        <option value="">수환 - 소녹두대 [15원/g]-4mm</option>
-                        <option value="">-</option>
-                    </select>
-                    </p>
-                    <p class="male-auto">예상 출고량
-                        <span class="input_no">
-                            <input type="text" value="0"/>
-                        </span> g
+                    <p><strong>제형</strong> 초미립제분(10원/g)-비닐포장만 가능 합니다.
                     </p>
                 </div>
                 <div class="box_line">
@@ -207,151 +198,13 @@ include_once("../include/header.php");
                     </div>
                 </div>
                 <div class="box_line1">
-                    <p class="tit">대분류 <span>포장 대분류를 선택해주세요.</span></p>
-                    <ul class="flex flexwrap circle">
-                        <li> <!--밀환 탄자대/앵두대-->
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-0" name="pack0" /> <label for="pack1-0"> 지퍼백</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-1" name="pack1" /> <label for="pack1-1"> 진공팩</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-2" name="pack1" /> <label for="pack1-2"> 스탠드 지퍼백</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-3" name="pack1" /> <label for="pack1-3"> 원터치통 포장</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-4" name="pack1" /> <label for="pack1-4"> 스틱 포장</label>
-                        </li>
-                        <li>  <!--밀환 탄자대-->
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-5" name="pack1" /> <label for="pack1-5"> 청병</label>
-                        </li>
-                        <li> <!--밀환 탄자대-->
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-6" name="pack1" /> <label for="pack1-6"> 사탕 포장</label>
-                        </li>
-                    <div class="warning">
-                        <p>스틱 포장 시 유의사항</p>
-                        <p class="txt_red">포장 출고 수량에 따라 추가비용 발생 될 수 있습니다. 주문약재 무게가 3kg 이상일 경우만 스틱포장 가능합니다.</p>
-                    </div>
-                </div>
-                <!--대분류:청병 -밀환 탄자대-->
-                <div class="box_line2">
-                    <p class="tit">금박 선택 <span></span></p>
-                    <span class="circle">
-                    <input type="radio" id="gold1" name="gold" /> <label for="gold1"> 금박</label>
-                    <input type="radio" id="gold2" name="gold" /> <label for="gold2"> 무금박</label>
-                    </span>
-                </div>
-                <div class="box_line2">
-                    <p class="tit">씰링 선택 <span></span></span></p>
-                    <span class="circle">
-                    <input type="radio" id="ceil1" name="ceil" /> <label for="ceil1"> 씰링</label>
-                    <input type="radio" id="ceil2" name="ceil" /> <label for="ceil2"> 씰링안함</label>
-                    </span>
-                </div>
-                <div class="box_line2">
-                    <p class="tit">케이스 선택 <span></span></p>
-                    <div class="tagbox">
-                        <div>
-                            <p><a><span class="tag active">원목 (인쇄)</span></a></p>
-                            <p><a><span class="tag">함지 (인쇄)</span></a></p>
-                            <p><a><span class="tag">함지 (무인쇄)</span></a></p>
-                        </div>
-                    </div>
+                    <p class="tit">대분류</p>
                     <ul class="flex flexwrap circle">
                         <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="case-1" name="case" /> <label for="case-1"> 이름 </label>
+                            <input type="radio" id="pack1-0" name="pack0" checked/> <label for="pack1-0"> 비닐 포장</label>
                         </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="case-2" name="case" /> <label for="case-2"> 이름 </label>
-                        </li>
-                    </ul>
-                </div>
-                <!--대분류:원터치통포장-->
-                <div class="box_line2">
-                    <p class="tit">원터치통 포장 <span>원터치통 포장을 선택해 주세요.</span></p>
-                    <ul class="flex flexwrap circle">
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="one-1" name="one" /> <label for="one-1"> 70cc(약50g) </label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="one-2" name="one" /> <label for="one-2"> 220cc(약145g) </label>
-                        </li>
-                    </ul>
-                </div>
-                <!--대분류:원터치통포장-->
-                <!--대분류:스틱포장-->
-                <div class="box_line2">
-                    <p class="tit">스틱 포장 <span></span></p>
-                    <span class="circle">
-                    <input type="radio" id="g1" name="g" /> <label for="g1"> 3g</label>
-                    <input type="radio" id="g2" name="g" /> <label for="g2"> 4g</label>
-                    <input type="radio" id="g3" name="g" /> <label for="g3"> 5g</label>
-                    </span>
-                </div>
-                <div class="box_line2 circle">
-                    <p class="tit">스틱 인쇄 <span>스틱 인쇄 타입을 선택해주세요</span></p>
-                    <input type="radio" id="print1" name="print" /> <label for="print1"> 없음</label>
-                    <input type="radio" id="print2" name="print" /> <label for="print2"> 환명</label>
-                    <input type="radio" id="print5" name="print" /> <label for="print5"> 환명+한의원명</label>
-                    <input type="radio" id="print3" name="print" /> <label for="print3"> 환명+한의원명+연락처</label>
-                    <input type="text" class="btn btn_redline btn_sdw" placeholder="환명을 입력하세요."/>
                 </div>
 
-                <div class="box_line2">
-                    <p class="tit">스틱 디자인 <span>스틱 디자인 선택을 선택해주세요</span></p>
-                    <ul class="flex flexwrap circle">
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-1" name="pack2" /> <label for="pack2-1"> 스틱 디자인 </label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-2" name="pack2" /> <label for="pack2-2"> 스틱 디자인 </label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-3" name="pack2" /> <label for="pack2-3"> 스틱 디자인 </label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="box_line2">
-                    <p class="tit">스틱 포장 <span>스틱 포장을 선택해 주세요.</span></p>
-                    <div class="tagbox">
-                        <div>
-                            <p><a><span class="tag active">인박스</span></a></p>
-                            <p><a><span class="tag">아웃박스</span></a></p>
-                            <p><a><span class="tag">인박스+아웃박스</span></a></p>
-                        </div>
-                    </div>
-                    <ul class="flex flexwrap circle">
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-1" name="pack2" /> <label for="pack2-1"> 포장 이름</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-2" name="pack2" /> <label for="pack2-2"> 포장 이름</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-3" name="pack2" /> <label for="pack2-3"> 포장 이름</label>
-                        </li>
-                    </ul>
-                </div>
-                <!--대분류:스틱포장-->
             </div>
     </div>
     <div class="right">

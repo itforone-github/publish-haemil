@@ -183,6 +183,7 @@
 .px.pre2 .box5 dl:not(:last-child) {padding-bottom: 20px; border-bottom: 1px solid #5e5e5e}
 .px.pre2 .number select {width: 70px; margin-bottom: 0;margin-right: 10px}
 .px.pre2 .number2 select {width: 250px; margin-bottom: 0;margin-right: 10px}
+.px.pre2 .number2 p {line-height: 40px}
 .px.pre2 select.plus2 {width: 150px; margin-left: 10px; margin-top: 10px}
 .px.pre2 div.count {padding: 20px; font-size: 1.15em;  color: #fff}
 .px.pre2 div.count p.tit {font-weight: 800;}

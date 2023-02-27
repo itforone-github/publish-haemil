@@ -64,7 +64,7 @@ switch ($pid) {
         $header_type = 1;
         $footer_type = 1;
         $lnb_type = 2;
-        $header_name = "산전처방";
+        $header_name = "산제처방";
         $exp = "환자에 따른 처방이 가능합니다.";
         break;
     case "px_prescribe4" :
