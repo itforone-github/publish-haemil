@@ -202,6 +202,18 @@
 .px.pre2 div.packing p.tit {font-size: 1.1em; font-weight: 800; color: #373844; margin-bottom: 15px}
 .px.pre2 div.packing p.tit span {margin-left: 10px;font-size: 0.85em; font-weight: 400; color: #BC2D1E;}
 .px.pre2 div.packing .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9; margin-bottom: 15px;   border-radius: 5px;}
+
+.px .message:not(:last-child) {margin-bottom: 10px; }
+.px .message {color: #373844}
+.px .message p {margin-bottom: 10px;}
+.px .message div {padding: 10px; border-radius: 5px; border:1px solid;    width: fit-content; max-width: 80%}
+.px .message.adm div {border-color:#BABABA; background: #F9F9F9}
+.px .message.mine {text-align: right}
+.px .message.mine div {border-color:#BC2D1E;    float: right;}
+.px .message.mine::after {    content: '';    display: block;    clear: both;}
+.px .messagewrap {   margin-bottom: 20px; max-height: 250px;    overflow-y: auto; padding-right: 10px}
+.px .message  {    content: '';    display: block;    clear: both;}
+.px input.message {margin-bottom: 0px!important; border-color:#BC2D1E;  width: 100%!important;}
 @media screen and (max-width: 1200px){
     .px.pre1 .flex > div {margin-right: 0;}
     .px.pre1 .flex {flex-wrap: wrap}
@@ -332,7 +344,7 @@
 /*약속처방재*/
 .mall_list > ul{display: flex; margin-bottom: 30px; margin-right: -26px;}
 .mall_list > ul li{margin-right: 26px; background: #FFFFFF;   box-shadow: 0px 0px 15px #0000000D; border-radius: 5px; overflow: hidden;}
-.mall_list > ul li .img{width: 280px;    height: auto;    aspect-ratio: 1 / 1;}
+.mall_list > ul li .img{height: auto;    aspect-ratio: 1 / 1;}
 .mall_list > ul li img{border-radius: 0 0 5px 5px; width: 100%; height: 100%; object-fit: cover;}
 .mall_list > ul li .text{padding: 16px 20px}
 .mall_list > ul li .text > strong{display: inline-block; background: #E8E8E8; padding: 4px 6px; border-radius: 5px; line-height: 1em; margin-bottom: 5px; }

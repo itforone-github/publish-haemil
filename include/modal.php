@@ -17,8 +17,28 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
                 <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 서술식 결제 -->
+<div class="modal fade" id="pxpr5modal" tabindex="-1" aria-labelledby="pxpr5modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-narrow">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="pxpr5modalLabel">서술식 주문건 최종 결제</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>최종 금액</label><input type="text" class="txt_bold txt_red" value="000원" readonly/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-primary">결제</button>
             </div>
         </div>
     </div>

@@ -533,6 +533,9 @@ switch ($pid) {
                 <a>
                     <img src="../img/common/top_menu05.svg"/><span>로그아웃</span>
                 </a>
+                <a> <!--알림 있을 때만-->
+                    <img src="../img/common/top_menu06.svg"/><span class="txt_red txt_bold">새 메세지가 도착했습니다!</span>
+                </a>
             </div>
         </header>
         <main class="page-content">

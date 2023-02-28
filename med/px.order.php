@@ -132,7 +132,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">
                             <span class="state">주문접수</span>
                         </td>
-                        <td class="" colspan="1"><span class="txt_blue txt_under"><a>202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.view.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -140,7 +140,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">수정</button>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe1.view.php'">수정</button>
                             <button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
@@ -163,7 +163,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">
                             <span class="state">주문접수</span>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a>202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../med/px.prescribe2.view.php">202302081123-2</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -171,11 +171,73 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td>
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">수정</button>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe2.view.php'">수정</button>
                             <button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
-                        <td class="" rowspan="1">탕전처방</td>
+                        <td class="" rowspan="1">환제처방</td>
+                        <td class="" rowspan="1">맞춤처방</td>
+                        <td class="" rowspan="1">010-0000-0000</td>
+                        <td class="" rowspan="1">
+                            <div class="delivery text_center">
+                                <p class="txt_under"><a>CJ택배 151351581354</a></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="" scope="col" rowspan="2">
+                            <input type="checkbox" name="chk[]" value="0" id="chk_0" />
+                        </td>
+                        <td class="" rowspan="2">8862</td>
+                        <td class="" rowspan="2">23-02-08</td>
+
+                        <td class="" rowspan="1">
+                            <span class="state">주문접수</span>
+                        </td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../med/px.prescribe3.view.php">202302081123-3</a></span></td>
+                        <td class="" colspan="1">김환자</td>
+                        <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
+                        <td scope="col" rowspan="2" class="">1</td>
+                        <td class="" rowspan="2">현금결제</td>
+                        <td class="" rowspan="2">119,400원</td>
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe3.view.php'">수정</button>
+                            <button type="button" class="btn btn_redline">취소</button></td>
+                    </tr>
+                    <tr>
+                        <td class="" rowspan="1">산제처방</td>
+                        <td class="" rowspan="1">맞춤처방</td>
+                        <td class="" rowspan="1">010-0000-0000</td>
+                        <td class="" rowspan="1">
+                            <div class="delivery text_center">
+                                <p class="txt_under"><a>CJ택배 151351581354</a></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="" scope="col" rowspan="2">
+                            <input type="checkbox" name="chk[]" value="0" id="chk_0" />
+                        </td>
+                        <td class="" rowspan="2">8862</td>
+                        <td class="" rowspan="2">23-02-08</td>
+
+                        <td class="" rowspan="1">
+                            <span class="state">주문접수</span>
+                        </td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a  href="../med/px.prescribe5.view.php">202302081123-5</a></span></td>
+                        <td class="" colspan="1">김환자</td>
+                        <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
+                        <td scope="col" rowspan="2" class="">1</td>
+                        <td class="" rowspan="2">현금결제</td>
+                        <td class="" rowspan="2">119,400원</td>
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">수정</button>
+                            <button type="button" class="btn btn_redline">취소</button></td>
+                    </tr>
+                    <tr>
+                        <td class="" rowspan="1">서술식</td>
                         <td class="" rowspan="1">맞춤처방</td>
                         <td class="" rowspan="1">010-0000-0000</td>
                         <td class="" rowspan="1">
