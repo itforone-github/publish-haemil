@@ -25,6 +25,16 @@ include_once("../include/header.php");
             <div class="box2">
                 <div class="table">
                     <table>
+                        <colgroup>
+                            <col width="50px">
+                            <col width="120px">
+                            <col width="70px">
+                            <col width="120px">
+                            <col width="*">
+                            <col width="*">
+                            <col width="70px">
+                            <col width="140px">
+                        </colgroup>
                         <thead>
                         <tr>
                             <th>No.</th>
@@ -44,7 +54,7 @@ include_once("../include/header.php");
                             <td>김환자</td>
                             <td>90-01-01</td>
                             <td>010-0000-0000</td>
-                            <td>처방 내용</td>
+                            <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_red2">주문접수</button></td>
                             <td>
                                 <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href=''">수정</button>
@@ -57,11 +67,10 @@ include_once("../include/header.php");
                             <td>김환자</td>
                             <td>90-01-01</td>
                             <td>010-0000-0000</td>
-                            <td>처방 내용</td>
+                            <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_red">견적사항</button></td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href=''">수정</button>
-                                <button type="button" class="btn btn_mini btn_redline">삭제</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href=''">상세</button>
                             </td>
                         </tr>
                         <tr>
@@ -70,11 +79,10 @@ include_once("../include/header.php");
                             <td>김환자</td>
                             <td>90-01-01</td>
                             <td>010-0000-0000</td>
-                            <td>처방 내용</td>
+                            <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_gray">결제완료</button></td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href=''">수정</button>
-                                <button type="button" class="btn btn_mini btn_redline">삭제</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href=''">상세</button>
                             </td>
                         </tr>
                         <tr>
@@ -83,11 +91,10 @@ include_once("../include/header.php");
                             <td>김환자</td>
                             <td>90-01-01</td>
                             <td>010-0000-0000</td>
-                            <td>처방 내용</td>
+                            <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_gray3">주문취소</button></td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href=''">수정</button>
-                                <button type="button" class="btn btn_mini btn_redline">삭제</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href=''">상세</button>
                             </td>
                         </tr>
                         </tbody>

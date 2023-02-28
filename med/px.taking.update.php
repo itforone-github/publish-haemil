@@ -6,15 +6,14 @@ include_once("../include/header.php");
 
 
     <section class="p_taking">
-        <div class="form">
-            <div class="area_top">
-                <div>
-                </div>
-                <span class="btn_wrap">
+
+        <div class="panel">
+                <span>
                     <button type="button" class="btn btn_white btn_sdw" onclick="location.href='../med/px.taking.php'">목록</button>
                     <button type="button" class="btn btn_red btn_sdw">등록</button>
                 </span>
-            </div>
+        </div>
+        <div class="form">
             <div class="box2">
                 <div class="select_wrap">
                     <select>
