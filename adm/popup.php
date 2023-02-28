@@ -16,7 +16,7 @@ include_once("../include/header.php");
 
             <span>
             <button type="button" class="btn btn_whiteline"  >선택 삭제</button>
-            <button type="button" class="btn btn_red"  onclick="location.href='./popup.update.php'">공지 등록</button>
+            <button type="button" class="btn btn_red"  onclick="location.href='./popup.update.php'">팝업 등록</button>
             </span>
         </div>
 

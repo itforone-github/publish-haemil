@@ -44,10 +44,10 @@
                                     <a href="../adm/point.php">전체 포인트 내역
                                     </a>
                                 </li>
-                                <li  <?php if($pid == "a_pointcfm") { echo "class='active'"; }?>>
+                                <li  <?php if($pid == "a_pointset") { echo "class='active'"; }?>>
                                     <a href="../adm/point.set.php">선결제 금액 관리</a>
                                 </li>
-                                <li  <?php if($pid == "a_pointset") { echo "class='active'"; }?>>
+                                <li  <?php if($pid == "a_pointcfm") { echo "class='active'"; }?>>
                                     <a href="../adm/point.confirm.php">포인트 지급 관리</a>
                                 </li>
                             </ul>
@@ -60,11 +60,11 @@
                         </a>
                             <div class="sidebar-submenu" <?php if($pid == "a_clinic" || $pid == "a_clinicmem" || $pid == "a_clinicgrp") { echo "style='display: block'"; }?>>
                             <ul>
-                                <li  <?php if($pid == "a_clinic") { echo "class='active'"; }?>>
+                                <li  <?php if($pid == "a_clinicmem") { echo "class='active'"; }?>>
                                     <a href="../adm/clinic.member.php">한의원 직원 관리
                                     </a>
                                 </li>
-                                <li  <?php if($pid == "a_clinicmem") { echo "class='active'"; }?>>
+                                <li  <?php if($pid == "a_clinic") { echo "class='active'"; }?>>
                                     <a href="../adm/clinic.php">한의원 관리</a>
                                 </li>
                                 <li  <?php if($pid == "a_clinicgrp") { echo "class='active'"; }?>>
