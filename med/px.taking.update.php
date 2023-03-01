@@ -27,10 +27,10 @@ include_once("../include/header.php");
                     </select>
                 </div>
                 <div>
-                    <input type="text" placeholder="복용법 제목을 입력하세요." />
+                    <input type="text" placeholder="복용법명을 입력하세요." />
                     <div>
                         <!--에디터-->
-                        <textarea placeholder="복용법을 입력하세요."></textarea>
+                        <textarea placeholder="복용법명을 입력하세요."></textarea>
                     </div>
                 </div>
                 <div>

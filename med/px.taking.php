@@ -33,7 +33,7 @@ include_once("../include/header.php");
                             <th>복용시기</th>
                             <th>복용시간</th>
                             <th>복용횟수</th>
-                            <th>제목</th>
+                            <th>복용법명</th>
                             <th>내용</th>
                             <th>첨부파일</th>
                             <th>등록일</th>
