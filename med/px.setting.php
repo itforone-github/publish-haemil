@@ -15,43 +15,48 @@ include_once("../include/header.php");
                     <div class="form">
                         <h4>기본처방</h4>
                         <div class="form_wrap">
-                            <p>첩수</p>
-                            <p class="number_controller">
+                            <p>첩수
+                            <span class="number_controller">
                                 <button><i class="fa-regular fa-minus"></i></button>
                                 <input type="number" value="1"/>
                                 <button><i class="fa-regular fa-plus"></i></button>
+                            </span>
                             </p>
                             <p>
                             <select>
                                 <option>압력</option>
                             </select>
                             </p>
-                            <p>팩수</p>
-                            <p class="number_controller">
+                            <p>팩수
+                            <span class="number_controller">
                                 <button><i class="fa-regular fa-minus"></i></button>
                                 <input type="number" value="1"/>
                                 <button><i class="fa-regular fa-plus"></i></button>
+                            </span>
                             </p>
-                            <p>팩용량</p>
-                            <p class="number_controller">
+                            <p>팩용량
+                            <span class="number_controller">
                                 <button><i class="fa-regular fa-minus"></i></button>
                                 <input type="number" value="1"/>
                                 <button><i class="fa-regular fa-plus"></i></button>
+                            </span>
                             </p>
                         </div>
                         <h4>재탕 선택시</h4>
                         <div class="form_wrap">
-                            <p>팩수</p>
-                            <p class="number_controller">
+                            <p>팩수
+                            <span class="number_controller">
                                 <button><i class="fa-regular fa-minus"></i></button>
                                 <input type="number" value="1"/>
                                 <button><i class="fa-regular fa-plus"></i></button>
+                            </span>
                             </p>
-                            <p>팩용량</p>
-                            <p class="number_controller">
+                            <p>팩용량
+                            <span class="number_controller">
                                 <button><i class="fa-regular fa-minus"></i></button>
                                 <input type="number" value="1"/>
                                 <button><i class="fa-regular fa-plus"></i></button>
+                            </span>
                             </p>
                         </div>
                     </div>

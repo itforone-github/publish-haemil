@@ -137,11 +137,11 @@ include_once("../include/header.php");
                                             <th class="" rowspan="2">주문금액</th>
                                             <th class="" rowspan="2">조제 지시서</th>
                                             <th class="" rowspan="2">복용법</th>
+                                            <th class="" rowspan="2">관리</th>
                                         </tr>
                                         <tr>
                                             <th class="" rowspan="1">처방방식</th>
                                             <th class="" colspan="1">상품/처방명</th>
-
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -159,7 +159,8 @@ include_once("../include/header.php");
                                             <td class="" rowspan="2">119,400원</td>
                                             <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
                                             <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-
+                                            <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">수정</button>
+                                                <button type="button" class="btn btn_redline">취소</button></td>
                                         </tr>
                                         <tr>
                                             <td class="" rowspan="1">탕전처방</td>
@@ -180,7 +181,8 @@ include_once("../include/header.php");
                                             <td class="" rowspan="2">119,400원</td>
                                             <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
                                             <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-
+                                            <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">수정</button>
+                                                <button type="button" class="btn btn_redline">취소</button></td>
                                         </tr>
                                         <tr>
                                             <td class="" rowspan="1">탕전처방</td>

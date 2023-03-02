@@ -132,6 +132,20 @@
 .t_patient .past_list table td{background: #fff;}
 .t_patient .past_list table .state{color:#BC2D1E }
 
+@media screen and (max-width: 1200px){
+    .t_patient{flex-wrap: wrap;}
+    .t_patient .register{width: 100%; margin-right: 0; margin-bottom: 40px;}
+}
+@media screen and (max-width: 750px){
+    .t_patient .list .area_top{flex-wrap: wrap;}
+    .t_patient .list .area_top .total{flex-wrap: wrap;}
+    .t_patient .list .area_top .search{margin-left: 0;}
+}
+
+@media screen and (max-width: 500px){
+    .t_patient .list .area_top .search{margin-top: 20px;}
+}
+
 /*예약진료관리*/
 .latest h3{display: inline-block;}
 
@@ -447,7 +461,7 @@
     .p_coded.view .pc_product .btn_wrap button{font-size: 1em; margin-right: 2px;}
 
 }
-/*처방기본설정*/
+/*처방 기본 설정*/
 .p_setting h4{font-size: 1.1em; font-weight: 600; color: #BC2D1E; margin-bottom: 10px;}
 .p_setting select{width: auto; margin-bottom: 0; line-height: 30px; height: 30px; padding-top: 0; padding-bottom: 0; border-radius: 5px}
 .p_setting .ic{margin-right: 4px;}
@@ -462,7 +476,12 @@
 .p_setting .tagbox > div > p span.tag{margin-right: 5px; margin-left: 0;}
 .p_setting .tagbox > div > p{margin-bottom: 0}
 
-
+@media screen and (max-width:1000px) {
+    .p_setting .form > div.form_wrap{display: flex;}
+}
+@media screen and (max-width:650px) {
+    .p_setting .form > div.form_wrap{flex-wrap: wrap;}
+}
 
 
 
