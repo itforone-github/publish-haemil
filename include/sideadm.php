@@ -201,37 +201,37 @@
                     <li class="header-menu">
                         <span>관리자</span>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../adm/user.php" <?php if($pid == "a_user") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm01_01.svg"/>
                             <span>회원 관리</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../adm/event.php" <?php if($pid == "a_event") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm02_01.svg"/>
                             <span>이벤트 관리</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../adm/review.php" <?php if($pid == "a_review") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm02_02.svg"/>
                             <span>신고리뷰 관리</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../adm/appmedi.php" <?php if($pid == "a_appmedi") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm02_03.svg"/>
                             <span>한약재 관리</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../adm/faq.php" <?php if($pid == "a_faq") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm02_04.svg"/>
                             <span>FAQ 관리</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../adm/food.php" <?php if($pid == "a_food") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm02_05.svg"/>
                             <span>질병음식 관리</span>

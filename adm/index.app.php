@@ -3,8 +3,9 @@ $pid = "a_indexapp";
 include_once("../include/header.php");
 //ADM 어플 관리 메인
 ?>
-
-    <section class="app_main">
+    <section class="ready">
+    </section>
+    <section class="app_main ready_page">
         <div class="event">
             <h3>현재 진행 중인 이벤트</h3>
             <div class="box4">
@@ -161,9 +162,7 @@ include_once("../include/header.php");
 
         </div>
     </section>
-    <section class="ready">
-        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
-    </section>
+
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

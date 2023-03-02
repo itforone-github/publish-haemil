@@ -3,8 +3,9 @@ $pid = "a_user";
 include_once("../include/header.php");
 //ADM 회원관리
 ?>
-
-<section class="user">
+<section class="ready">
+</section>
+<section class="user ready_page">
     <div class="panel">
         <p>총 <span class="red">4</span>명 </p>
         <div>
@@ -59,8 +60,5 @@ include_once("../include/header.php");
     </div>
 </section>
 
-    <section class="ready">
-        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
-    </section>
     <!--푸터 인클루드-->
 <?php include '../include/footer.php'; ?>

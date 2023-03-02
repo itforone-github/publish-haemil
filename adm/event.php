@@ -3,8 +3,9 @@ $pid = "a_event";
 include_once("../include/header.php");
 //ADM 이벤트 관리
 ?>
-
-    <section class="event">
+    <section class="ready">
+    </section>
+    <section class="event ready_page">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
@@ -109,9 +110,6 @@ include_once("../include/header.php");
                 </div>
             </div>
         </div>
-    </section>
-    <section class="ready">
-        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
     </section>
 
     <!--푸터 인클루드-->

@@ -57,7 +57,7 @@
                             <span>환자 관리</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu01_02.svg"/>
                             <span>예약·진료 관리</span>
@@ -85,7 +85,7 @@
                             <span>원격 진료</span>
                         </a>
                     </li> -->
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                         <img src="../img/common/sidemenu01_04.svg"/>
                             <span>진료 리뷰 관리</span>
@@ -246,13 +246,13 @@
                             <span>한의원 정보</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../med/setting.appointment.php" <?php if($pid == "setting_appointment") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu04_02.svg"/>
                             <span>진료 예약 설정</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../med/setting.event.php" <?php if($pid == "setting_event") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu04_03.svg"/>
                             <span>이벤트 관리</span>

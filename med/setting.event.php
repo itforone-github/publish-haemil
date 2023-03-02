@@ -4,7 +4,7 @@ include_once("../include/header.php");
 //5.4이벤트관리(준비중)
 ?>
 
-    <section class="s_event">
+    <section class="s_event ready_page">
         <div class="list">
             <div class="area_top">
                 <div class="total">
@@ -43,7 +43,7 @@ include_once("../include/header.php");
                             <td>4</td>
                             <td>승인 중</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><div class="thumb_img" style="background-image: url(../img/common/noimg2.png)"></div></td>
                             <td>무료 사상체질 검사 & 맛보기 한약</td>
                             <td>0명</td>
                             <td>
@@ -55,7 +55,7 @@ include_once("../include/header.php");
                             <td>3</td>
                             <td>승인거절</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><div class="thumb_img" style="background-image: url(../img/common/noimg2.png)"></div></td>
                             <td>맞춤 다이어트 한약</td>
                             <td>0명</td>
                             <td>
@@ -67,7 +67,7 @@ include_once("../include/header.php");
                             <td>2</td>
                             <td>승인완료</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><div class="thumb_img" style="background-image: url(../img/common/noimg2.png)"></div></td>
                             <td>무료 인바디</td>
                             <td>36명</td>
                             <td>
@@ -79,7 +79,7 @@ include_once("../include/header.php");
                             <td>1</td>
                             <td>승인완료</td>
                             <td>2022-10-13 ~ 2022-11-30</td>
-                            <td><img src="../img//med/event_test.jpg" title="이벤트 테스트이미지" /></td>
+                            <td><div class="thumb_img" style="background-image: url(../img/common/noimg2.png)"></div></td>
                             <td>1:1 맞춤처방 다이어트</td>
                             <td>124명</td>
                             <td>
@@ -108,7 +108,6 @@ include_once("../include/header.php");
     </section>
 
     <section class="ready">
-        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
     </section>
     <!--푸터 인클루드-->
 <?php include '../include/footer.php'; ?>

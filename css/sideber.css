@@ -273,6 +273,7 @@
     animation: swing ease-in-out 0.5s 1 alternate;
 }
 
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown{position: relative;}
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown > a:after {
     font-family: "Font Awesome 5 Pro";
     font-weight: 300;
@@ -288,7 +289,7 @@
     background: 0 0;
     position: absolute;
     right: 30px;
-    top: 14px;
+    top: 11px;
 }
 
 

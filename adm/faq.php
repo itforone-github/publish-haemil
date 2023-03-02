@@ -3,8 +3,9 @@ $pid = "a_faq";
 include_once("../include/header.php");
 //ADM faq 관리
 ?>
-
-    <section class="faq">
+    <section class="ready">
+    </section>
+    <section class="faq ready_page">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
@@ -64,9 +65,7 @@ include_once("../include/header.php");
             </div>
         </div>
     </section>
-    <section class="ready">
-        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
-    </section>
+
 
     <!--푸터 인클루드-->
 <?php include '../include/footer.php'; ?>

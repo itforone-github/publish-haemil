@@ -3,8 +3,9 @@ $pid = "setting_appointment";
 include_once("../include/header.php");
 //5.3진료예약설정(준비중)
 ?>
-
-    <section class="s_appointment">
+    <section class="ready">
+    </section>
+    <section class="s_appointment ready_page">
         <div class="box2">
             <div class="inr">
                 <div class="list">
@@ -77,9 +78,6 @@ include_once("../include/header.php");
                 </div>
             </div>
         </div>
-    </section>
-    <section class="ready">
-        <p><i class="fa-regular fa-hourglass"></i> 준비중입니다.</p>
     </section>
 
     <!--푸터 인클루드-->
