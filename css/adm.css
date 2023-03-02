@@ -76,7 +76,17 @@ header {    background-color: #F6F6F6;}
 /*patient*/
 .patient .box3 {    padding: 30px 24px;    width: 100%;}
 .patient .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
-.patient select {  width: 100%; margin-bottom: 12px; }
+.patient select {  width: 100%; margin-bottom: 0px; }
+
+/*환자과거처방기록 -zen추가*/
+.patient .table.adm .past_btn.selected td{background:#fff; font-weight: 600}
+.patient .past_list{font-size: 1em; background:#fff;}
+.patient .past_list > td{padding: 4px;}
+.patient .table.adm  .past_list table th,
+.patient .table.adm  .past_list table td{border-bottom: 1px solid #ddd; padding: 6px; text-align: center;}
+.patient .table.adm  .past_list table th{background:RGBA(72, 73, 81,0.7); color: #fff; font-weight: 400;}
+.patient .table.adm  .past_list table td{background: #FBFBFB;}
+.patient .past_list table .state{color:#BC2D1E }
 
 /*product*/
 .product .box5 {   width: 100%;}
