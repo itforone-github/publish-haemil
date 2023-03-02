@@ -122,9 +122,15 @@
 
 .t_patient .list .area_top h3{margin-bottom: 0; margin-right: 10px;}
 
-
-
-
+/*환자과거처방기록*/
+.t_patient .past_btn.over td{background:RGBA(72, 73, 81,0.05); font-weight: 600}
+.t_patient .past_list{font-size: 0.8em; background:RGBA(72, 73, 81,0.05);}
+.t_patient .past_list > td{padding: 4px;}
+.t_patient .past_list table th,
+.t_patient .past_list table td{border-bottom: 1px solid #ddd; padding: 4px}
+.t_patient .past_list table th{background:RGBA(72, 73, 81,0.1);}
+.t_patient .past_list table td{background: #fff;}
+.t_patient .past_list table .state{color:#BC2D1E }
 
 
 
