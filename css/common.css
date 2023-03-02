@@ -364,3 +364,23 @@ ul.tabs li.current{  font-weight: 800; }
     position: absolute; top: 12px; right: 45px; font-size: 11px; line-height: 1em; font-weight: 400;}
 
 .empty{padding: 40px 0; text-align: center; font-size: 1.2em;}
+
+
+/*조제지시서*/
+#order_print_wrapper {width: 205mm;min-height: 292mm;border: 1px solid #000000;box-sizing: border-box;padding: 40px 50px;margin: 10px auto;cursor: pointer;}
+#order_print_wrapper h3 {padding-bottom: 10px;border-bottom: 1px solid #000000;color: #000000; opacity: 1;}
+
+
+.orderprint .flex{justify-content: flex-start; align-items: flex-start;}
+.orderprint table{margin-right: 10px;}
+.orderprint table:last-child{margin-right: 0;}
+.orderprint .table th,
+.orderprint .table td{padding: 14px 4; text-align: center; font-size: 1.1em; border-bottom: 1px solid #707070;}
+
+.info{padding: 40px 0; color: #000000}
+.info dl{display: flex; font-size: 1.2em; padding: 2px 0}
+.info dt{width: 20%; font-weight: 600;}
+.info dd{width: 80%;}
+.info dd span{font-size: 0.9em;}
+
+.pay_frm{font-size: 1.1em;}

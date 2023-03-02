@@ -138,7 +138,7 @@ include_once("../include/header.php");
                         <td scope="col" rowspan="2" class="">1</td>
                         <td class="" rowspan="2">현금결제</td>
                         <td class="" rowspan="2">119,400원</td>
-                        <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40" onclick="window.open('order.print.php','조제지시서 발행','width=900px,height=1000px,left=0,top=0');">확인</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe1.view.php'">수정</button>
                             <button type="button" class="btn btn_redline">취소</button></td>
