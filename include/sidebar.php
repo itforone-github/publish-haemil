@@ -58,7 +58,7 @@
                         </a>
                     </li>
                     <li class="sidebar-dropdown ready_bubble">
-                        <a href="#">
+                        <a href="../med/treat.reserv.php" <?php if($pid == "treat_reserv") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu01_02.svg"/>
                             <span>예약·진료 관리</span>
                             <!-- <span class="badge badge-pill badge-danger">3</span> -->
@@ -86,7 +86,7 @@
                         </a>
                     </li> -->
                     <li class="sidebar-dropdown ready_bubble">
-                        <a href="#">
+                        <a href="../med/treat.review.php" <?php if($pid == "treat_review") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu01_04.svg"/>
                             <span>진료 리뷰 관리</span>
                         </a>

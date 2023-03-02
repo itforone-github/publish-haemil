@@ -32,7 +32,7 @@
 .title_btn .arrow.off{opacity: 0.5;}
 
 .main .box2 {height: 100%;}
-.main .box2 .list li .name::before{content: ""; display:inline-block; width: 14px; height: 14px; background: url('../img/common/list_icon.svg') no-repeat center/auto 100%; vertical-align: middle; margin-right: 8px; margin-bottom: 1px;}
+.main .box2 .list li .patient_name::before{content: ""; display:inline-block; width: 14px; height: 14px; background: url('../img/common/list_icon.svg') no-repeat center/auto 100%; vertical-align: middle; margin-right: 8px; margin-bottom: 1px;}
 .main .box1 .list{padding: 0;}
 
 .box2 .title{border-bottom: 1px solid #EFEFEF; display: flex; justify-content: space-between; align-items: center; padding-bottom: 16px; margin-bottom: 16px;}
@@ -110,7 +110,7 @@
 
 .tm_register .form{display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 6px;}
 .tm_register .form label{width: 85px; padding-right: 10px;}
-.tm_register .form input{width: calc(100% - 85px); min-width: auto; padding: 6px 15px; margin-bottom: 2px;}
+.tm_register .form input{width: calc(100% - 85px); min-width: auto; height: auto; padding: 6px 15px; margin-bottom: 2px;}
 
 .tm_request .list{font-size: 0.95em;}
 
@@ -131,6 +131,12 @@
 .t_patient .past_list table th{background:RGBA(72, 73, 81,0.1);}
 .t_patient .past_list table td{background: #fff;}
 .t_patient .past_list table .state{color:#BC2D1E }
+
+/*예약진료관리*/
+.latest h3{display: inline-block;}
+
+/*진료리뷰*/
+.t_review.latest h3 span{font-size:0.7em; font-weight: 600; opacity: 0.8; margin-left: 4px;}
 
 
 

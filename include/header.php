@@ -43,6 +43,20 @@ switch ($pid) {
         $header_name = "환자 관리";
         $exp = "신규 환자 등록, 기존 환자 정보 수정이 가능합니다.";
         break;
+    case "treat_reserv" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 1;
+        $header_name = "예약·진료 관리";
+        $exp = "진료 접수, 예약 관리가 가능합니다.";
+        break;
+    case "treat_review" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 1;
+        $header_name = "진료 리뷰";
+        $exp = "해밀원 어플로 작성된 리뷰를 관리할 수 있습니다.";
+        break;
     //3. 처방하기
     case "px_main" :
         $header_type = 1;
