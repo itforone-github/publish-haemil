@@ -27,7 +27,10 @@ include_once("../include/header.php");
             <div>
 
                 <select name="search">
-                    <option value="">선택</option>
+                    <option value="">약재명</option>
+                    <option value="">키워드</option>
+                    <option value="">원산지</option>
+                    <option value="">상세설명</option>
                 </select>
                 <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
