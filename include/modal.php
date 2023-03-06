@@ -72,7 +72,7 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
+                            <tr class="past_btn">
                                 <td>00000001</td>
                                 <td>김환자</td>
                                 <td>1990-01-01</td>
@@ -82,6 +82,84 @@
                                 <td>1건</td>
                                 <td>
                                     <button type="button" class="btn btn_mini btn_red2" >수정</button>
+                                </td>
+                            </tr>
+
+                            <tr class="past_list">
+                                <td colspan="9">
+                                    <!--과거처방내역-->
+                                    <table class="">
+
+                                        <thead>
+                                        <tr>
+                                            <th class="" rowspan="2">번호</th>
+                                            <th class="" rowspan="2">주문일</th>
+                                            <th class="" rowspan="1">주문상태</th>
+                                            <th class="" rowspan="1">주문번호</th>
+
+                                            <th class="" rowspan="2">수량</th>
+                                            <th class="" rowspan="2">주문금액</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="" rowspan="1">처방방식</th>
+                                            <th class="" colspan="1">상품/처방명</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="" rowspan="2">8862</td>
+                                            <td class="" rowspan="2">23-02-08</td>
+
+                                            <td class="" rowspan="1">
+                                                <span class="state">주문접수</span>
+                                            </td>
+                                            <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.view.php">202302081123-1</a></span></td>
+
+                                            <td scope="col" rowspan="2" class="">1</td>
+                                            <td class="" rowspan="2">119,400원</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="" rowspan="1">탕전처방</td>
+                                            <td class="" rowspan="1">맞춤처방</td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="" rowspan="2">8862</td>
+                                            <td class="" rowspan="2">23-02-08</td>
+
+                                            <td class="" rowspan="1">
+                                                <span class="state">주문접수</span>
+                                            </td>
+                                            <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.view.php">202302081123-1</a></span></td>
+
+                                            <td scope="col" rowspan="2" class="">1</td>
+                                            <td class="" rowspan="2">119,400원</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="" rowspan="1">탕전처방</td>
+                                            <td class="" rowspan="1">맞춤처방</td>
+                                            </td>
+                                        </tr>                                        </tbody>
+                                    </table>
+
+                                </td>
+                            </tr>
+                            <tr class="past_btn">
+                                <td>00000001</td>
+                                <td>김환자</td>
+                                <td>1990-01-01</td>
+                                <td>010-0000-0000</td>
+                                <td>부산시 해운대구 센텀동로</td>
+                                <td>소양인</td>
+                                <td>1건</td>
+                                <td>
+                                    <button type="button" class="btn btn_mini btn_red2" >수정</button>
+                                </td>
+                            </tr>
+
+                            <tr class="past_list">
+                                <td colspan="9">
+                                    <div class="empty">과거처방내역이 없습니다.</div>
                                 </td>
                             </tr>
                             </tbody>
@@ -583,3 +661,23 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(function(){
+        $(".past_list").css("display","none");
+        $(".past_list:first").addClass("selected")
+        $(".past_btn").click(function(){
+            if($("+.past_list", this).css("display")=="none"){
+                $(".past_list").slideUp(0);
+                $("+.past_list", this).slideDown(0);
+                $(".past_btn").removeClass("selected");
+                $(this).addClass("selected");
+            }
+        }).mouseover(function(){
+            $(this).addClass("over")
+        }).mouseout(function(){
+            $(this).removeClass("over")
+        })
+        //$("dt").click().mouseover().mouseout()
+    })
+</script>
