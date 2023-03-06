@@ -80,7 +80,7 @@ include_once("../include/header.php");
                     <div class="search">
                         <select name="search">
                             <option value="">이름</option>
-                            <option value="">연락처</option>
+                            <option value="">휴대폰번호</option>
                             <option value="">생년월일</option>
                             <option value="">차트번호</option>
                         </select>
