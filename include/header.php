@@ -143,6 +143,28 @@ switch ($pid) {
         $header_name = "한의학몰 메인";
         $exp = "약속처방 외 한의학 제품 구매가 가능합니다.";
         break;
+    case "mall_list" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 3;
+        $header_name = "기획전";
+        $exp = "";
+        break;
+    case "mall_view" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 3;
+        $header_name = "기획전";
+        $exp = "약속처방 외 한의학 제품 구매가 가능합니다.";
+        break;
+
+    case "mall_cart" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 3;
+        $header_name = "장바구니";
+        $exp = "제품 장바구니 관리가 가능합니다.";
+        break;
     case "mall_order" :
         $header_type = 1;
         $footer_type = 1;

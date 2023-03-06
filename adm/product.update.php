@@ -6,7 +6,15 @@ include_once("../include/header.php");
     <style>body.modal-open{overflow: unset;}</style>
     <section class="productupd">
         <div class="panel">
-            <label class="title">상품명</label><input type="text" placeholder="상품명을 입력하세요" class="title" />
+            <p>
+                <label class="title">상품명</label><input type="text" placeholder="상품명을 입력하세요" class="title" />
+                <span>
+                <input type="checkbox" id="" name="" checked><label for="">없음</label>
+                <input type="checkbox" id="" name=""><label for="">NEW</label>
+                <input type="checkbox" id="" name=""><label for="">기획전</label>
+                <input type="checkbox" id="" name=""><label for="">임시품절</label>
+                </span>
+            </p>
 
             <span>
             <button type="button" class="btn btn_whiteline"  onclick="location.href='../adm/product.php'">목록</button>
