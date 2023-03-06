@@ -164,7 +164,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_blue btn_sdw btn_h40">발행</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_sdw btn_h40">발행</button></td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../adm/order_view.php'">수정</button><button type="button" class="btn btn_redline">취소</button></td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='order.view.php'">수정</button><button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
                         <td class="" rowspan="1">탕전처방</td>
