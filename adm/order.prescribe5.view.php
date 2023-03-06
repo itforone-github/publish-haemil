@@ -3,6 +3,32 @@ $pid = "a_order1";
 include_once("../include/header.php");
 //3.0 서술식
 ?>
+    <section class="px pre1">
+        <div class="box2">
+            <div class="box_title">
+                <strong>경과</strong>
+                <div class="title_btn">
+                    <button type="button" class="btn btn_white slideup3">닫기</button>
+                </div>
+            </div>
+            <div class="preform slideform3">
+                <div class="messagewrap">
+                    <div class="message adm">
+                        <p><strong>yoshin01</strong> 23-02-28 09:26</p>
+                        <div>주소변경 : 경기도 성남시 분당구 미금일로86번길 12-7 1층 -> 부산광역시 기장군 정관읍 용수공단1길 36</div>
+                    </div>
+                    <div class="message adm">
+                        <p><strong>yoshin02</strong> 23-02-28 09:28</p>
+                        <div>한약재2 제외하여 48,000원 추가 입금확인완료</div>
+                    </div>
+                </div>
+                <div class="flex w100">
+                    <input type="text" placeholder="경과 메세지를 작성하세요" class="btn_sdw message"/>
+                    <button type="button" class="btn btn_red txt_bold btn_h40">등록</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
  <section class="px pre1">
             <div class="box4">
