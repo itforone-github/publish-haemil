@@ -3,8 +3,7 @@ $pid = "setting_clinic";
 include_once("../include/header.php");
 //5.2한의원 정보
 ?>
-    <section class="ready"></section>
-    <section class="s_clinic ready_page">
+    <section class="s_clinic">
         <div class="s_info mb20">
             <div class="box2">
                 <div class="box_title bg_red">
@@ -63,11 +62,13 @@ include_once("../include/header.php");
                 </div>
             </div>
         </div>
-        <div class="box2">
+        <!-- 준비중 삭제시, class : ready_page ready_bubble2 삭제 ready div 삭제 -->
+        <div class="box2 ready_page">
+            <div class="ready"></div>
             <div class="inr">
                 <div class="list">
                     <div class="title">
-                        <p><img src="../img/common/ic_setting07.svg" /> 진료시간 <span class="txt_red">※ 18:00 시 이후 진료는 야간 진료로 분류됩니다.</span> </p>
+                        <p><span class="ready_bubble2"></span> <img src="../img/common/ic_setting07.svg" /> 진료시간 <span class="txt_red">※ 18:00 시 이후 진료는 야간 진료로 분류됩니다.</span> </p>
                         <p><a class="btn btn_mini btn_gray">저장하기</a></p>
                     </div>
                     <div class="form">

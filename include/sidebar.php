@@ -240,7 +240,7 @@
                     <li class="header-menu">
                         <span>기본설정</span>
                     </li>
-                    <li class="sidebar-dropdown ready_bubble">
+                    <li class="sidebar-dropdown">
                         <a href="../med/setting.clinic.php" <?php if($pid == "setting_clinic") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu04_01.svg"/>
                             <span>한의원 정보</span>
