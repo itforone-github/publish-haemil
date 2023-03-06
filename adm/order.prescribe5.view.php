@@ -167,7 +167,6 @@ include_once("../include/header.php");
                         </div>
                     </div>
                 </div>
-                <!--a class="btn w100 btn_red btn_order">주문하기</a-->
             </div>
     </div>
 </section>

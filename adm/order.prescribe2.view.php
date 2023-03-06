@@ -391,7 +391,6 @@ include_once("../include/header.php");
                         <dt><strong>총금액</strong> <span class="yellow">0 원</span></span></dt>
                     </dl>
                 </div>
-                <a class="btn w100 btn_red btn_order">결제하기</a>
             </div>
     </div>
 </section>
