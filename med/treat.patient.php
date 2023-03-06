@@ -21,18 +21,19 @@ include_once("../include/header.php");
                         </dd>
                     </dl>
                     <dl>
-                        <dt><label>이름</label></dt>
+                        <dt><label>이름*</label></dt>
                         <dd>
                             <input type="text" placeholder="이름"/>
                         </dd>
                     </dl>
                     <dl>
-                        <dt><label>주민등록번호</label></dt>
+                        <dt><label>주민등록번호*</label></dt>
                         <dd>
                             <p class="flex">
                             <input type="text" placeholder="주민번호 앞자리"/>
                             <input type="text" placeholder="주민번호 뒷자리"/>
                             </p>
+                            <p class="ref">주민번호 앞자리 필수</p>
                             <p class="ref">주민번호는 최초 1회만 수집 가능합니다.</p>
                         </dd>
                     </dl>
@@ -44,7 +45,7 @@ include_once("../include/header.php");
                         </dd>
                     </dl>
                     <dl>
-                        <dt><label>휴대폰 번호</label></dt>
+                        <dt><label>휴대폰 번호*</label></dt>
                         <dd>
                             <input type="text" placeholder="휴대폰 번호"/>
                         </dd>
@@ -78,7 +79,10 @@ include_once("../include/header.php");
                     <p>현재 총 <span class="red">4</span>명 </p>
                     <div class="search">
                         <select name="search">
-                            <option value="">전체</option>
+                            <option value="">이름</option>
+                            <option value="">휴대폰번호</option>
+                            <option value="">생년월일</option>
+                            <option value="">차트번호</option>
                         </select>
                         <input class="search-bar" type="search" placeholder="검색어를 입력하세요" />
                         <button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
@@ -97,7 +101,7 @@ include_once("../include/header.php");
                             <th><input type="checkbox" name="checkbox" /></th>
                             <th>No.</th>
                             <th>차트번호</th>
-                            <th>성함</th>
+                            <th>이름</th>
                             <th>생년월일</th>
                             <th>연락처</th>
                             <th>주소지</th>
