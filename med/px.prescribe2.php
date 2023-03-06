@@ -258,10 +258,10 @@ include_once("../include/header.php");
                     </span>
                 </div>
                 <div class="box_line2">
-                    <p class="tit">케이스 선택 <span></span></p>
+                    <p class="tit">케이스 선택 <span><input type="checkbox" id="nocase" name="nocase"><label for="nocase">선택안함</label></span></p>
                     <div class="tagbox">
                         <div>
-                            <p><a><span class="tag active">원목 (인쇄)</span></a></p>
+                            <p><a><span class="tag">원목 (인쇄)</span></a></p>
                             <p><a><span class="tag">함지 (인쇄)</span></a></p>
                             <p><a><span class="tag">함지 (무인쇄)</span></a></p>
                         </div>
@@ -294,12 +294,14 @@ include_once("../include/header.php");
                 <!--대분류:원터치통포장-->
                 <!--대분류:스틱포장-->
                 <div class="box_line2">
-                    <p class="tit">스틱 포장 <span></span></p>
+                    <p class="tit">스틱 포장 <span>약재 무게 3kg 미만 시 주문불가</span></p>
+                    <!--"처방하기 > 환제처방, 환스틱 포장은 약재 무게 3kg 미만 시에 아예 선택이 안 되도록(주문불가 메시지도 같이 띄워주면 좋음)"-->
                     <span class="circle">
                     <input type="radio" id="g1" name="g" /> <label for="g1"> 3g</label>
                     <input type="radio" id="g2" name="g" /> <label for="g2"> 4g</label>
                     <input type="radio" id="g3" name="g" /> <label for="g3"> 5g</label>
                     </span>
+
                 </div>
                 <div class="box_line2 circle">
                     <p class="tit">스틱 인쇄 <span>스틱 인쇄 타입을 선택해주세요</span></p>
