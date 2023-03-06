@@ -746,3 +746,47 @@
         </div>
     </div>
 </div>
+
+
+<!-- event -->
+<div class="modal fade" id="batchmodal" tabindex="-1" aria-labelledby="batchmodalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="batchmodalLabel">주문/배송 일괄수정</h5>
+            </div>
+            <div class="modal-body">
+                주문상태
+                <select class="">
+                    <option value="주문접수" selected="">주문접수</option>
+                    <option value="작업중">작업중</option>
+                    <option value="배송중">배송중</option>
+                    <option value="배송완료">배송완료</option>
+                    <option value="주문취소">주문취소</option>
+                </select>
+                배송정보
+                <div class="flex delivery">
+                    <div>
+                        <select>
+                            <option value="">택배사선택</option>
+                            <option value="10054">직접배송</option>
+                            <option value="10056">CJ택배</option>
+                            <option value="10057">로젠택배</option>
+                            <option value="10058">퀵서비스</option>
+                            <option value="10059">기타(직접수령)</option>
+                            <option value="10065">우체국택배</option>
+                        </select>
+                    </div>
+                    <div><input type="text" value="" placeholder="운송장번호를 입력해주세요.">
+                    </div>
+                    <button type="button"  class="btn btn_red btn_h40">저장</button>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+                <button type="button" class="btn btn-primary">수정</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -172,6 +172,9 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
     .order1 .delivery {flex-wrap: wrap}
     .order1 .delivery input,.order1 .delivery select {  margin-bottom: 0px; min-width: 100px }
 }
+
+#batchmodal .modal-dialog{width: 350px;}
+
 /*order2*/
 .order2 .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}
 .order2 .tagbox > div:nth-child(odd) {width: 50px}

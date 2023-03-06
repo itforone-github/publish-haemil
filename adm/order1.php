@@ -36,6 +36,7 @@ include_once("../include/header.php");
             <button type="button" class="btn btn_red btn_sdw"  >선택 지시서 발행</button>
             <button type="button" class="btn btn_gray2 btn_sdw"  >엑셀 다운</button>
             <button type="button" class="btn btn_whiteline" >엑셀 업로드</button>
+            <button type="button" class="btn btn_whiteline"  data-toggle="modal" data-target="#batchmodal">일괄 수정</button>
             </span>
         </div>
         <div class="tagbox">
