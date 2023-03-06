@@ -239,7 +239,7 @@
 .px .message.mine::after {    content: '';    display: block;    clear: both;}
 .px .messagewrap {   margin-bottom: 20px; max-height: 250px;    overflow-y: auto; padding-right: 10px}
 .px .message  {    content: '';    display: block;    clear: both;}
-.px input.message {margin-bottom: 0px!important; border-color:#BC2D1E;  width: calc(100% - 40px)!important;}
+.px input.message {margin-bottom: 0px!important; border-color:#BC2D1E;  width: 100%!important;}
 @media screen and (max-width: 1200px){
     .px.pre1 .flex > div {margin-right: 0;}
     .px.pre1 .flex {flex-wrap: wrap}
