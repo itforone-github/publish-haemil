@@ -21,18 +21,19 @@ include_once("../include/header.php");
                         </dd>
                     </dl>
                     <dl>
-                        <dt><label>이름</label></dt>
+                        <dt><label>이름*</label></dt>
                         <dd>
                             <input type="text" placeholder="이름"/>
                         </dd>
                     </dl>
                     <dl>
-                        <dt><label>주민등록번호</label></dt>
+                        <dt><label>주민등록번호*</label></dt>
                         <dd>
                             <p class="flex">
                             <input type="text" placeholder="주민번호 앞자리"/>
                             <input type="text" placeholder="주민번호 뒷자리"/>
                             </p>
+                            <p class="ref">주민번호 앞자리 필수</p>
                             <p class="ref">주민번호는 최초 1회만 수집 가능합니다.</p>
                         </dd>
                     </dl>
@@ -44,7 +45,7 @@ include_once("../include/header.php");
                         </dd>
                     </dl>
                     <dl>
-                        <dt><label>휴대폰 번호</label></dt>
+                        <dt><label>휴대폰 번호*</label></dt>
                         <dd>
                             <input type="text" placeholder="휴대폰 번호"/>
                         </dd>
