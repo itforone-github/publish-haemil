@@ -78,7 +78,10 @@ include_once("../include/header.php");
                     <p>현재 총 <span class="red">4</span>명 </p>
                     <div class="search">
                         <select name="search">
-                            <option value="">전체</option>
+                            <option value="">이름</option>
+                            <option value="">연락처</option>
+                            <option value="">생년월일</option>
+                            <option value="">차트번호</option>
                         </select>
                         <input class="search-bar" type="search" placeholder="검색어를 입력하세요" />
                         <button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
@@ -97,7 +100,7 @@ include_once("../include/header.php");
                             <th><input type="checkbox" name="checkbox" /></th>
                             <th>No.</th>
                             <th>차트번호</th>
-                            <th>성함</th>
+                            <th>이름</th>
                             <th>생년월일</th>
                             <th>연락처</th>
                             <th>주소지</th>
