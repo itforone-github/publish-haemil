@@ -534,7 +534,7 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .request.view .sub span { margin:0  12px; color: #484951}
 .request.view .cont { padding-top: 10px;background: #ffffff;margin-top:10px;border-top: 1px solid #E8E8E8;    box-shadow: 0 3px 15px 1px #acacac1a;}
 .request.view .download { font-weight:  800; text-decoration: underline; padding-top:10px ;margin-bottom: 12px}
-.request.view textarea { border: 0px}
+.request.view textarea {    background: #fff; border: 0px}
 .request.view .rqselect label { color: #484951; font-size: 1.3em; margin-right: 12px;  line-height: 40px}
 .request.view .rqselect select { display: inline-block; width: 30%;  margin-bottom: 0px;max-width: 100px}
 .request.view .reply { margin:10px 0; color: #484951}
