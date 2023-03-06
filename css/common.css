@@ -58,12 +58,6 @@ a:hover, a:focus, a:active {text-decoration:none; color: #BC2D1E;}
 .mari-auto {margin-right: auto}
 .male-auto {margin-left: auto}
 .search {display: flex; display: inline-block}
-.mb20{margin-bottom: 20px}
-.flex{display: flex; align-items: flex-start;}
-.flex.js{justify-content: space-between;}
-.flex.ac{align-items: center;}
-.flex > div{margin-right: 18px; width: 100%;}
-.flex > div:last-child{margin-right: 0;}
 
 /*버튼*/
 .btn{height: 27px;all:unset; background: #fff; display: inline-block ; text-align:center;  border-radius: 5px; padding: 7px; line-height: 1em; cursor: pointer; font-weight: 400; position: relative; box-sizing: border-box; margin: 1px}
@@ -160,14 +154,14 @@ a.btn_line2:hover,
 .box2{display: inline-block; border-radius: 5px; box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.06); background-color: #FFFFFF; overflow: hidden; width: 100%;}
 .box5{display: inline-block; border-radius: 5px; box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.06); background-color: #484951; overflow: hidden; width: 100%;}
 /*adm*/
-.box3{display: inline-block; border-radius: 5px; background-color: #F6F6F6; overflow: hidden;width: 100%;}
-.box4{display: inline-block; border-radius: 5px; background-color: #F6F6F6; overflow: hidden;width: 100%;}
+.box3{display: inline-block; border-radius: 5px; background-color: #F6F6F6; overflow: hidden;}
+.box4{display: inline-block; border-radius: 5px; background-color: #F6F6F6; overflow: hidden;}
 
 /*폼형태*/
 input{    border-radius: 4px; height: 40px;  background-color: #FFFFFF; border: 1px solid #c9c9c9; color: #78787B; padding: 10px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
-input:read-only {   background-color: #eeeeee; border: 0px ;}
+input:read-only {   background-color: #f3f3f3; border: 0px ;}
 textarea {    border-radius: 4px;background-color: #FFFFFF; border: 1px solid #c9c9c9; color: #78787B; padding: 10px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
-textarea:read-only {   background-color: #eeeeee; border: 0px ;}
+textarea:read-only {   background-color: #f3f3f3; border: 0px ;}
 input:last-child{margin-bottom: 0;}
 input::placeholder{opacity: 0.8;}
 
@@ -188,7 +182,7 @@ input::placeholder{opacity: 0.8;}
  .filebox input[type="file"] {     position: absolute;     width: 0;     height: 0;     padding: 0;     overflow: hidden;     border: 0; }
 
 select {    margin-bottom: 12px;padding: 10px;border-radius: 0;width: 100%;color: #78787B;     height: 40px;    background: #FFFFFF;    border: 1px solid #c9c9c9;}
-select[readonly] {   background-color: #eeeeee; border: 0px ;}
+select[readonly] {   background-color: #f3f3f3; border: 0px ;}
 input[type="search"] {border-radius: 0;width: 150px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #c9c9c9;    border-right: 0;display: inline-block; margin-bottom: 0;}
 .btn_search {border-radius: 0;width: 40px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #c9c9c9;    border-left: 0;display: inline-block;    padding: 0 10px;}
 
@@ -396,150 +390,3 @@ ul.tabs li.current{  font-weight: 800; }
 .info dd span{font-size: 0.9em;}
 
 .pay_frm{font-size: 1.1em;}
-
-/*처방*/
-
-.px.pre1 .box_title strong:first-child {margin-right: 15px}
-.px.pre1 .preform {padding: 20px}
-.px.pre1 .preform > div {padding: 0px}
-.px.pre1 .preform div.flex input[type=text]{    display: inline-block;  float: right;  width: 74%;}
-.px.pre1 .preform div.flex p {    height: 40px;    line-height: 40px;  margin-bottom: 15px;}
-.px.pre1 .preform div.flex p > label{    width: 100px;}
-.px.pre1 .preform div.flex p .circle label {        height: 40px;    line-height: 40px;}
-.px.pre1 .preform div.flex input[type=text].input-sm2 {width: 37%;    margin-bottom: 0;}
-.px.pre1 .preform  span.circle {    color: #78787B;    float: right;    max-height: 40px;   }
-.px.pre1 .preform p.flex label{    width: 100px;}
-.px.pre1 .preform p.flex textarea{  display: inline-block;    width: 87.2%; margin-bottom: 0;}
-.px.pre1 .preform h6{  margin-bottom: 15px; height: 40px;    line-height: 40px;   font-weight: 900; font-size: 1.1em; color: #373844}
-.px.pre1 .preform h6 span{ font-size: 0.9em}
-
-.px.pre2 {display: flex}
-.px.pre2 .box_title strong:first-child {margin-right: 15px}
-.px.pre2 .box_title input {border:2px solid; text-align: left}
-.px.pre2 .box_line {   padding: 15px 20px;}
-.px.pre2 .box_line1 {display: flex;    padding: 15px 20px; border-top:1px solid #707070}
-.px.pre2 .px5 .box_line1 {display: block; }
-.px.pre2 .packing .box_line1 {display: block; }
-.px.pre2 .box_line2 { padding: 15px 20px; border-top:1px solid #E8E8E8}
-.px.pre2 .box_line2 .table {margin-bottom: 0px}
-.px.pre2 .search {  position: relative}
-.px.pre2 .search input.search-bar {    width: 350px; border-radius: 5px 0 0 5px}
-.px.pre2 .search button { border-radius: 0 5px 5px 0 }
-.px.pre2 .left {width: 70%; margin-right: 15px; }
-.px.pre2 .right {width: 30%;    height: auto;}
-.px.pre2 .right .sticky {position: sticky;    top: 0; padding: 0}
-.px.pre2 .right .box5 {padding: 20px}
-.px.pre2 .right div .preform {padding: 20px}
-.px.pre2 .right div .preform p {margin-bottom: 15px}
-.px.pre2 .right  .preform h6{  margin-bottom: 15px; height: 40px;    line-height: 40px;   font-weight: 900; font-size: 1.1em; color: #373844}
-.px.pre2 .right  .preform h6 span{ font-size: 0.9em}
-.px.pre2 .right .btn_order {padding: 20px;font-size: 1.5em;  font-weight: 800;}
-.px.pre2 .box5 dl {color: #fff; font-size: 1.15em }
-.px.pre2 .box5 dt strong {margin-right: 15px }
-.px.pre2 .box5 dt:not(:last-child) {padding-bottom: 15px;}
-.px.pre2 .box5 dt span {float: right }
-.px.pre2 .box5 dt span.yellow {font-size: 1.35em;  font-weight: 800;color: #FFDE5A}
-.px.pre2 .box5 dd {font-size: 1.35em; font-weight: 800; text-align: right }
-.px.pre2 .box5 dl:not(:first-child) {padding-top: 20px;}
-.px.pre2 .box5 dl:not(:last-child) {padding-bottom: 20px; border-bottom: 1px solid #5e5e5e}
-.px.pre2 .number select {width: 70px; margin-bottom: 0;margin-right: 10px}
-.px.pre2 .number2 select {width: 250px; margin-bottom: 0;margin-right: 10px}
-.px.pre2 .number2 p {line-height: 40px}
-.px.pre2 select.plus2 {width: 150px; margin-left: 10px; margin-top: 10px}
-.px.pre2 div.count {padding: 20px; font-size: 1.15em;  color: #fff}
-.px.pre2 div.count p.tit {font-weight: 800;}
-.px.pre2 div.count p span.number {background: #fff; color: #BC2D1E; padding: 2px 5px; margin: 0px 5px; font-weight: 800;border-radius: 4px}
-.px.pre2 div.taking select {margin-bottom: 0px}
-.px.pre2 div.packing label {margin-right: 10px; cursor:pointer}
-.px.pre2 div.packing li {margin-right: 10px;}
-.px.pre2 div.packing .tagbox {padding:0px;}
-.px.pre2 div.packing .warning {padding:10px; background: #f5f5f5; margin-top: 15px; border-radius: 5px}
-.px.pre2 div.packing .warning p:first-child{font-weight: 800; color: #373844; }
-.px.pre2 div.packing p.tit {font-size: 1.1em; font-weight: 800; color: #373844; margin-bottom: 15px}
-.px.pre2 div.packing p.tit span {margin-left: 10px;font-size: 0.85em; font-weight: 400; color: #BC2D1E;}
-.px.pre2 div.packing .thumb_img {width:100px; height: 100px; background-size: cover!important; background-position: center center!important;border: 1px solid #D9D9D9; margin-bottom: 15px;   border-radius: 5px;}
-
-.px .message:not(:last-child) {margin-bottom: 10px; }
-.px .message {color: #373844}
-.px .message p {margin-bottom: 10px;}
-.px .message div {padding: 10px; border-radius: 5px; border:1px solid;    width: fit-content; max-width: 80%}
-.px .message.adm div {border-color:#BABABA; background: #F9F9F9}
-.px .message.mine {text-align: right}
-.px .message.mine div {border-color:#BC2D1E;    float: right;}
-.px .message.mine::after {    content: '';    display: block;    clear: both;}
-.px .messagewrap {   margin-bottom: 20px; max-height: 250px;    overflow-y: auto; padding-right: 10px}
-.px .message  {    content: '';    display: block;    clear: both;}
-.px input.message {margin-bottom: 0px!important; border-color:#BC2D1E;  width: 100%!important;}
-@media screen and (max-width: 1200px){
-    .px.pre1 .flex > div {margin-right: 0;}
-    .px.pre1 .flex {flex-wrap: wrap}
-    .px.pre1 .preform p.flex textarea{display: block;  margin-top: 10px;  width: 100%;}
-    .px.pre2 .box_line1 {flex-wrap: wrap;}
-    .px.pre2 .box_title {flex-wrap: wrap;}
-    .px.pre2 {flex-wrap: wrap;}
-    .px.pre2 div.count {flex-wrap: wrap;}
-    .px.pre2 div.count div:first-child {margin-bottom: 20px;    margin-right: 0px!important;}
-    .px.pre2 .left {width: 100%; margin-right: 0px; }
-    .px.pre2 .right {width: 100%;    height: auto;}
-    .px.pre2 .btn_box {margin-top: 10px;}
-    .px.pre2 .search {margin-top: 10px;}
-    .px.pre2 .box_line2.number {flex-wrap: wrap}
-}
-@media screen and (max-width: 500px){
-
-    .px.pre2 div.count .flex {flex-wrap: wrap;}
-    .px.pre2 div.count .flex p.tit {margin-bottom: 15px}
-    .px.pre1 .preform div.flex p > label {width: 100%;}
-    .px.pre1 .preform div.flex input[type=text] {width: 100%;}
-    .px.pre1 .preform div.flex input[type=text].input-sm2 {width: 50%; }
-    .px.pre1 .preform div.flex p {height: auto;}
-    .px.pre2 .search {width: 100%;}
-    .px.pre2 .search input.search-bar {width: calc( 100% - 40px );}
-    .px.pre2 input[type=checkbox]  {margin-bottom: 15px!important}
-    .px.pre2 input[type=radio]  {margin-bottom: 15px!important}
-    .px.pre2 input[type=checkbox] + label {margin-bottom: 15px}
-    .px.pre2 input[type=radio] + label {margin-bottom: 15px}
-    .px.pre2 div.taking select {width: 100%!important;}
-
-}
-
-/*폼증가감소*/
-.input_no {  display: inline-block;    height: 40px;  padding:0 10px;    line-height: 1.5;    color: #495057;    background-color: #fff;    background-clip: padding-box;    border: 1px solid #ced4da;    border-radius: 0.25rem;
-    margin: 0 10px;}
-.input_no input[type=text] {    width: 50%;    border: 0;    background: none;    text-align: center;}
-.input_no button {    background: none;    border: 0 !important;    cursor: pointer;}
-.input_no button i {    font-size: 1.05em;}
-.input_no button.arrowUp {    border: 0 !important;    border-radius: .25em;    background: #ff7e00 !important;}
-.input_no button.arrowDown {    border: 0 !important;    border-radius: .25em;    background: #313d53 !important;    margin: 0 20px 0 0;}
-.input_no button.arrowUp i, .table td.in_de button.arrowDown i {    color: #fff;}
-.input_no button.dele{ background:#f7b924}
-.input_no input[type=text] {    margin: 0;    display: inline-block;   width: 50px !important;    border: 0;    background: none;    text-align: center;    line-height: 38px;    border-radius: .25rem;}
-@media screen and (max-width: 500px){
-}
-
-/* 처방 모달*/
-#pxmembermodal .search{width: 100%}
-#pxmembermodal .search input {width: calc( 100% - 40px ); border-color : #BC2D1E}
-#pxmembermodal .search button {border-color : #BC2D1E}
-#pxlistmodal .tabletit {margin-bottom: 15px}
-#pxlistmodal .tabletit p {font-size: 1.2em; }
-#pxlistmodal .table tr:nth-child(odd) td{background-color: #fff;}
-#pxlistmodal .table tr:nth-child(4n-1) td{background-color: #FBFBFB;}
-#pxlistmodal .modal-title{opacity: 1;}
-#pxlistmodal ul.tabs li{color: rgba(55, 56, 68, 0.5);}
-#pxlistmodal ul.tabs li.current{border-bottom: 3px solid #1E33BC;   color: #1E33BC;}
-#pxlistmodal .collapse td {background: #f6f6f6;}
-
-
-/*한약재검색*/
-#medi_sch_field{  border: 1px solid #ced4da;    border-top:0px;    border-radius:0px 0px 10px 10px;   display: none;   z-index: 4;    width:100.15%;    left:-1px;    position: absolute;    background:white;}
-#medi_sch_tb{    width:100%;       border-collapse: inherit;}
-#medi_sch_tb tr{    cursor:pointer;}
-#medi_sch_tb tr:nth-child(odd){    cursor:pointer;    background-color:#f6f6f6}
-#medi_sch_tb tr:hover {    background-color: #dedede;}
-.form_select,.pt_form_select{    background-color: #E0E8E7;}
-#medi_sch_tb td{    padding:10px;}
-@media screen and (max-width: 500px){
-    #medi_sch_field {        overflow-y: auto;}
-    #medi_sch_field table { width: 200%;}
-}

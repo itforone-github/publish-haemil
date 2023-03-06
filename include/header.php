@@ -333,6 +333,14 @@ switch ($pid) {
         $header_name = "주문 배송 관리";
         $exp = "약속처방";
         break;
+    case "a_order_view" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "주문 배송 관리 수정";
+        $exp = "처방주문";
+        break;
+
     //7. 약재관리
     case "a_medicine" :
         $header_type = 2;

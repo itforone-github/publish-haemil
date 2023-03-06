@@ -1,5 +1,5 @@
 <?php
-$pid = "px_order";
+$pid = "px_prescribe1";
 include_once("../include/header.php");
 //3.02 탕전처방
 ?>

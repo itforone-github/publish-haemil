@@ -1,5 +1,5 @@
 <?php
-$pid = "px_order";
+$pid = "px_prescribe5";
 include_once("../include/header.php");
 //3.0 서술식
 ?>
