@@ -198,7 +198,7 @@ include_once("../include/header.php");
                     <td>00000001</td>
                     <td>유신한의원</td>
                     <td>김환자</td>
-                    <td>kim900101</td>
+                    <!--<td>kim900101</td>-->
                     <td>1990-01-01</td>
                     <td>010-0000-0000</td>
                     <td>소양인</td>
