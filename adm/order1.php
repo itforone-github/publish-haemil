@@ -98,7 +98,7 @@ include_once("../include/header.php");
                         </th>
                         <th class="" rowspan="2">번호</th>
                         <th class="" rowspan="2">주문일</th>
-                        <th class="" rowspan="2">업체명</th>
+                        <th class="" rowspan="2">업체명(원장)</th>
                         <th class="" rowspan="1">주문상태</th>
                         <th class="" rowspan="1">주문번호</th>
                         <th class="" colspan="1">환자명</th>
@@ -124,7 +124,7 @@ include_once("../include/header.php");
                         </td>
                         <td class="" rowspan="2">8862</td>
                         <td class="" rowspan="2">23-02-08</td>
-                        <td class="" rowspan="2">한의원</td>
+                        <td class="" rowspan="2">한의원(김원장)</td>
                         <td class="" rowspan="1">
                             <select class="">
                                 <option value="주문접수" selected="">주문접수</option>
@@ -173,7 +173,7 @@ include_once("../include/header.php");
                         </td>
                         <td class="" rowspan="2">8862</td>
                         <td class="" rowspan="2">23-02-08</td>
-                        <td class="" rowspan="2">한의원</td>
+                        <td class="" rowspan="2">한의원(김원장)</td>
                         <td class="" rowspan="1">
                             <select class="">
                                 <option value="주문접수" selected="">주문접수</option>
