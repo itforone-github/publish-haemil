@@ -163,49 +163,49 @@
                             <span>약속 처방재</span>
                         </a>
                     </li>-->
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_02.svg"/>
                             <span>기획전</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_05.svg"/>
                             <span>인기품목</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_06.svg"/>
                             <span>마야구</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_06.svg"/>
                             <span>배기설기</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_06.svg"/>
                             <span>과립쑥봉</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_06.svg"/>
                             <span>울트라 통뜸</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_06.svg"/>
                             <span>뜸쑥 및 쑥봉</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_06.svg"/>
                             <span>기타 소모품</span>
@@ -219,13 +219,13 @@
                         <li class="header-menu">
                         <span>주문관리</span>
                     </li>
-                    <li class="sidebar-dropdown">
-                        <a href="#">
+                    <li class="sidebar-dropdown ready_bubble">
+                        <a href="../med/mall.cart.php" <?php if($pid == "mall_cart") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu03_03.svg"/>
                             <span>장바구니</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown">
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../med/mall.order.php" <?php if($pid == "mall_order") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu03_04.svg"/>
                             <span>주문·배송 조회</span>

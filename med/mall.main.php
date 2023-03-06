@@ -3,8 +3,8 @@ $pid = "mall_main";
 include_once("../include/header.php");
 //4.01	한의학몰 메인
 ?>
-
-    <section class="mall main">
+    <section class="ready"></section>
+    <section class="mall main ready_page">
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -28,7 +28,7 @@ include_once("../include/header.php");
         </script>
     </section>
 
-    <section class="latest mall main">
+    <section class="latest mall main ready_page">
         <div class="mall_list">
             <h3>기획전 모아보기 <span>10/21~11/10</span></h3>
             <ul>

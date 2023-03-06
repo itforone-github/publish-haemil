@@ -3,8 +3,8 @@ $pid = "mall_order";
 include_once("../include/header.php");
 //4.03	주문 배송 조회
 ?>
-
-    <section class="order">
+    <section class="ready"></section>
+    <section class="order ready_page">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
             <div>
