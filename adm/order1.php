@@ -41,6 +41,28 @@ include_once("../include/header.php");
         </div>
         <div class="tagbox">
             <div>
+                <p><strong>그룹 분류</strong></p>
+            </div>
+            <div>
+                <p><a><span class="tag active">전체</span></a></p>
+                <p><a><span class="tag">설명</span></a></p>
+                <p><a><span class="tag">하늘애</span></a></p>
+                <p><a><span class="tag">몸앤장한의원</span></a></p>
+                <p><a><span class="tag">인애</span></a></p>
+                <p><a><span class="tag">부천</span></a></p>
+                <p><a><span class="tag">자연안에</span></a></p>
+                <p><a><span class="tag">마야구(뜸)</span></a></p>
+                <p><a><span class="tag">네트워크일반</span></a></p>
+                <p><a><span class="tag">용인한방</span></a></p>
+                <p><a><span class="tag">대구</span></a></p>
+                <p><a><span class="tag">대구(잘보는)</span></a></p>
+                <p><a><span class="tag">경희	3750</span></a></p>
+                <p><a><span class="tag">다이어트</span></a></p>
+                <p><a><span class="tag">후한의원</span></a></p>
+                <p><a><span class="tag">하늘체</span></a></p>
+                <p><a><span class="tag">해밀</span></a></p>
+            </div>
+            <div>
                 <p><strong>처방 분류</strong></p>
             </div>
             <div>
