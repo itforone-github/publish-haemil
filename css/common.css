@@ -353,7 +353,7 @@ ul.tabs{    margin: 0px;    padding: 0px;    list-style: none;}
 ul.tabs li{    margin-right: 5px ;background: none;     display: inline-block;    cursor: pointer;}
 ul.tabs li.current{  font-weight: 800; }
 
-.tab-content{    display: none;}
+.tab-content{    display: block;}
 .tab-content.current{    display: inherit;}
 
 
