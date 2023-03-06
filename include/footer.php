@@ -46,6 +46,7 @@
 </footer>
 </div>
 
+    <?php include '../include/modal.php'; ?>
     <?php include '../include/modaladm.php'; ?>
 
 <!-- page-wrapper -->

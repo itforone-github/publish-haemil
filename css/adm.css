@@ -284,7 +284,36 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 .readymade select {  width: 100%; margin-bottom: 12px; }
 
 .readymadeupd .box3 {    padding: 30px 24px;    width: 100%;}
+.readymadeupd label.title {   line-height: 40px; margin-right: 10px}
+.readymadeupd input.title {    display: inline-block;    max-width: 400px;    margin-bottom: 0; border:1px solid #2A2A2A; box-shadow: 5px 5px 15px #0000001A;}
 .readymadeupd select {  width: 100%; margin-bottom: 12px; }
+.readymadeupd .btn_box {    text-align: right;}
+.readymadeupd .box_line2 { padding: 15px 20px; border-top:1px solid #E8E8E8}
+.readymadeupd .box_line2 .table {margin-bottom: 0px}
+.readymadeupd .search {  position: relative}
+.readymadeupd .search input.search-bar {    width: 350px; border-radius: 5px 0 0 5px}
+.readymadeupd .search button { border-radius: 0 5px 5px 0 }
+.readymadeupd .search {  position: relative}
+.readymadeupd .search input.search-bar {    width: 350px; border-radius: 5px 0 0 5px}
+.readymadeupd .search button { border-radius: 0 5px 5px 0 }
+@media screen and (max-width: 1200px){
+    .readymadeupd .box_line1 {flex-wrap: wrap;}
+    .readymadeupd .box_title {flex-wrap: wrap;}
+    .readymadeupd .btn_box {margin-top: 10px;}
+    .readymadeupd .search {margin-top: 10px;}
+    .readymadeupd .box_line2.number {flex-wrap: wrap}
+}
+@media screen and (max-width: 500px){
+
+    .readymadeupd .search {width: 100%;}
+    .readymadeupd .search input.search-bar {width: calc( 100% - 40px );}
+    .readymadeupd input[type=checkbox]  {margin-bottom: 15px!important}
+    .readymadeupd input[type=radio]  {margin-bottom: 15px!important}
+    .readymadeupd input[type=checkbox] + label {margin-bottom: 15px}
+    .readymadeupd input[type=radio] + label {margin-bottom: 15px}
+    .readymadeupd div.taking select {width: 100%!important;}
+
+}
 
 /*box*/
 .box .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}

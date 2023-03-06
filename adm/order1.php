@@ -120,7 +120,7 @@ include_once("../include/header.php");
                         </th>
                         <th class="" rowspan="2">번호</th>
                         <th class="" rowspan="2">주문일</th>
-                        <th class="" rowspan="2">업체명(원장)</th>
+                        <th class="" rowspan="2">업체명<br/>(원장)</th>
                         <th class="" rowspan="1">주문상태</th>
                         <th class="" rowspan="1">주문번호</th>
                         <th class="" colspan="1">환자명</th>
@@ -156,7 +156,7 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_blue txt_under"><a>202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../adm/order.prescribe1.view.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -205,7 +205,7 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a>202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../adm/order.prescribe2.view.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -216,7 +216,105 @@ include_once("../include/header.php");
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
-                        <td class="" rowspan="1">탕전처방</td>
+                        <td class="" rowspan="1">환제처방</td>
+                        <td class="" rowspan="1">맞춤처방</td>
+                        <td class="" rowspan="1">010-0000-0000</td>
+                        <td class="" rowspan="1">
+                            <div class="flex delivery">
+                                <div>
+                                    <select>
+                                        <option value="">택배사선택</option>
+                                        <option value="10054">직접배송</option>
+                                        <option value="10056">CJ택배</option>
+                                        <option value="10057">로젠택배</option>
+                                        <option value="10058">퀵서비스</option>
+                                        <option value="10059">기타(직접수령)</option>
+                                        <option value="10065">우체국택배</option>
+                                    </select>
+                                </div>
+                                <div><input type="text" value="" placeholder="운송장번호를 입력해주세요.">
+                                </div>
+                                <button type="button"  class="btn btn_red">저장</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="" scope="col" rowspan="2">
+                            <input type="checkbox" name="chk[]" value="0" id="chk_0" />
+                        </td>
+                        <td class="" rowspan="2">8862</td>
+                        <td class="" rowspan="2">23-02-08</td>
+                        <td class="" rowspan="2">한의원(김원장)</td>
+                        <td class="" rowspan="1">
+                            <select class="">
+                                <option value="주문접수" selected="">주문접수</option>
+                                <option value="작업중">작업중</option>
+                                <option value="배송중">배송중</option>
+                                <option value="배송완료">배송완료</option>
+                                <option value="주문취소">주문취소</option>
+                            </select>
+                        </td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../adm/order.prescribe3.view.php">202302081123-1</a></span></td>
+                        <td class="" colspan="1">김환자</td>
+                        <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
+                        <td scope="col" rowspan="2" class="">1</td>
+                        <!--td class="" rowspan="2">현금결제</td-->
+                        <td class="" rowspan="2">119,400원</td>
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_sdw btn_h40">재발행</button> </td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_sdw btn_h40">발행</button></td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">취소</button></td>
+                    </tr>
+                    <tr>
+                        <td class="" rowspan="1">산제처방</td>
+                        <td class="" rowspan="1">맞춤처방</td>
+                        <td class="" rowspan="1">010-0000-0000</td>
+                        <td class="" rowspan="1">
+                            <div class="flex delivery">
+                                <div>
+                                    <select>
+                                        <option value="">택배사선택</option>
+                                        <option value="10054">직접배송</option>
+                                        <option value="10056">CJ택배</option>
+                                        <option value="10057">로젠택배</option>
+                                        <option value="10058">퀵서비스</option>
+                                        <option value="10059">기타(직접수령)</option>
+                                        <option value="10065">우체국택배</option>
+                                    </select>
+                                </div>
+                                <div><input type="text" value="" placeholder="운송장번호를 입력해주세요.">
+                                </div>
+                                <button type="button"  class="btn btn_red">저장</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="" scope="col" rowspan="2">
+                            <input type="checkbox" name="chk[]" value="0" id="chk_0" />
+                        </td>
+                        <td class="" rowspan="2">8862</td>
+                        <td class="" rowspan="2">23-02-08</td>
+                        <td class="" rowspan="2">한의원(김원장)</td>
+                        <td class="" rowspan="1">
+                            <select class="">
+                                <option value="주문접수" selected="">주문접수</option>
+                                <option value="작업중">작업중</option>
+                                <option value="배송중">배송중</option>
+                                <option value="배송완료">배송완료</option>
+                                <option value="주문취소">주문취소</option>
+                            </select>
+                        </td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../adm/order.prescribe5.view.php">202302081123-1</a></span></td>
+                        <td class="" colspan="1">김환자</td>
+                        <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
+                        <td scope="col" rowspan="2" class="">1</td>
+                        <!--td class="" rowspan="2">현금결제</td-->
+                        <td class="" rowspan="2">119,400원</td>
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_sdw btn_h40">재발행</button> </td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_sdw btn_h40">발행</button></td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">취소</button></td>
+                    </tr>
+                    <tr>
+                        <td class="" rowspan="1">서술식</td>
                         <td class="" rowspan="1">맞춤처방</td>
                         <td class="" rowspan="1">010-0000-0000</td>
                         <td class="" rowspan="1">

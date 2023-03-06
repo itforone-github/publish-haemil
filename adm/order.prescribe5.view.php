@@ -1,11 +1,11 @@
 <?php
-$pid = "px_order";
+$pid = "a_order1";
 include_once("../include/header.php");
 //3.0 서술식
 ?>
 
  <section class="px pre1">
-            <div class="box2">
+            <div class="box4">
                 <div class="box_title">
                     <strong>견적 진행</strong>
                     <div class="title_btn">
@@ -38,7 +38,7 @@ include_once("../include/header.php");
             </div>
 </section>
  <section class="px pre1">
-            <div class="box2">
+            <div class="box3">
                 <div class="box_title bg_red">
                     <strong>환자 정보</strong>
                     <!--div class="title_btn mari-auto">
@@ -78,7 +78,7 @@ include_once("../include/header.php");
 </section>
 <section class="px pre2">
     <div class="left">
-            <div class="box2 px5">
+            <div class="box3 px5">
                 <div class="box_title bg_white">
                     <strong>처방 내용</strong>
                     <div class="title_btn mari-auto">
@@ -88,7 +88,7 @@ include_once("../include/header.php");
                         <button type="button" class="btn btn_red">처방 저장</button>
                     </div-->
                 </div>
-                <div class="box_line1 px5">
+                <div class="box_line px5">
                     <div class="editor"><!--에디터 적용-->
                         <textarea type="text" placeholder="처방을 입력하세요" class="" readonly>처방을 입력하세요</textarea>
                     </div>
@@ -97,7 +97,7 @@ include_once("../include/header.php");
                     </dl>
                 </div>
             </div>
-            <div class="box2 taking">
+            <div class="box3 taking">
                 <div class="box_title bg_white">
                     <strong>복용법</strong>
                     <div class="title_btn mari-auto">
@@ -110,7 +110,7 @@ include_once("../include/header.php");
                         <button type="button" class="btn btn_black">초기화</button>
                     </div-->
                 </div>
-                <div class="box_line1">
+                <div class="box_line">
                     <div class="flex w100">
                         <select readonly>
                             <option value="">식전</option>
@@ -135,7 +135,7 @@ include_once("../include/header.php");
     </div>
     <div class="right">
             <div class="sticky">
-                <div class="box2">
+                <div class="box3">
                     <div class="box_title bg_red">
                         <strong>배송 정보</strong>
                         <div class="title_btn">

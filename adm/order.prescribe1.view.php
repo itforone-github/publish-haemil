@@ -1,17 +1,17 @@
 <?php
-$pid = "px_order";
+$pid = "a_order1";
 include_once("../include/header.php");
-//3.0. 환제처방
+//3.02 탕전처방
 ?>
 
  <section class="px pre1">
-            <div class="box2">
+            <div class="box3">
                 <div class="box_title bg_red">
                     <strong>환자 정보</strong>
-                    <!--div class="title_btn mari-auto">
-                        <button type="button" class="btn btn_white">한의원으로 주문하기</button>
-                        <button type="button" class="btn btn_black"  data-toggle="modal" data-target="#pxmembermodal">환자 목록 보기</button>
-                    </div-->
+                    <div class="title_btn mari-auto">
+                        <!--button type="button" class="btn btn_white">한의원으로 주문하기</button>
+                        <button type="button" class="btn btn_black"  data-toggle="modal" data-target="#pxmembermodal">환자 목록 보기</button-->
+                    </div>
                     <div class="title_btn">
                         <!--button type="button" class="btn btn_white txt_red">신규 환자 저장</button-->
                         <button type="button" class="btn btn_white slideup1">닫기</button>
@@ -28,23 +28,23 @@ include_once("../include/header.php");
                         <div>
                             <p><label>체질구분</label>
                             <span class="circle">
-                                <input type="radio" id="type5" name="type" checked  onClick="return false;"/><label for="type5">없음</label>
-                                <input type="radio" id="type1" name="type"  onClick="return false;"/><label for="type1">태양인</label>
-                                <input type="radio" id="type2" name="type"  onClick="return false;"/><label for="type2">태음인</label>
-                                <input type="radio" id="type3" name="type"  onClick="return false;"/><label for="type3">소양인</label>
-                                <input type="radio" id="type4" name="type"  onClick="return false;"/><label for="type4">소음인</label>
+                                <input type="radio" id="type5" name="type" checked onClick="return false;"/><label for="type5">없음</label>
+                                <input type="radio" id="type1" name="type" onClick="return false;"/><label for="type1">태양인</label>
+                                <input type="radio" id="type2" name="type" onClick="return false;"/><label for="type2">태음인</label>
+                                <input type="radio" id="type3" name="type" onClick="return false;"/><label for="type3">소양인</label>
+                                <input type="radio" id="type4" name="type" onClick="return false;"/><label for="type4">소음인</label>
                             </span></p>
                             <p><label>기본주소</label><input type="text" value="기본주소" readonly/></p>
                             <p><label>상세주소</label><input type="text" value="상세주소" readonly/></p>
                             <p><label>기타번호</label><input type="text" value="기타번호" readonly/></p>
                         </div>
                     </div>
-                    <p class="flex"><label class="mari-auto">처방 메모</label><textarea type="text" placeholder="처방 메모" readonly>처방 메모</textarea></p>
+                    <p class="flex"><label class="mari-auto">처방 메모</label><textarea type="text" placeholder="처방 메모" readonly></textarea></p>
                 </div>
             </div>
 </section>
 <section class="px pre1">
-            <div class="box2">
+            <div class="box3">
                 <div class="box_title bg_red">
                     <strong>배송 정보</strong>
                     <div class="title_btn">
@@ -80,20 +80,26 @@ include_once("../include/header.php");
 </section>
 <section class="px pre2">
     <div class="left">
-            <div class="box2">
+            <div class="box3">
                 <div class="box_title bg_white">
                     <strong>처방 내용</strong>
                     <div class="title_btn mari-auto">
-                        <input type="text" class="btn btn_redline btn_sdw" value="처방명을 입력하세요."/>
+                        <input type="text" class="btn btn_redline btn_sdw" value="처방명을 입력하세요." readonly/>
                     </div>
                     <div class="title_btn">
-                        <button type="button" class="btn btn_red">처방 저장</button>
+                        <!--button type="button" class="btn btn_red">처방 저장</button-->
                         <button type="button" class="btn btn_black">초기화</button>
                     </div>
                 </div>
                 <div class="box_line1">
                     <div class="mari-auto" style="line-height: 40px;">
-                        <p class="txt_red txt_bold">※ 1kg 이상만 주문가능</p>
+                        <input type="checkbox" id="check3" name="type"  readonly/> <label for="check3"> 첩약보험탕전</label>
+                        <!--첩약보험탕전 시 노출>
+                        <br><span class="circle">
+                            <input type="radio" id="check3-1" name="check3" /> <label for="check3-1"> 10일분(20첩)-31,250원</label>
+                            <input type="radio" id="check3-2" name="check3" /> <label for="check3-2"> 5일분(10첩)-15,630원</label>
+                        </span>
+                        <첩약보험탕전 시 노출-->
                     </div>
                     <div class="btn_box">
                         <button type="button" class="btn btn_blue"  data-toggle="modal" data-target="#pxlistmodal">기성처방/나의처방</button>
@@ -163,28 +169,68 @@ include_once("../include/header.php");
                         </table>
                     </div>
                 </div>
-                <div class="box_line2 number2 flex">
+                <div class="box_line2 number flex">
                     <p>첩수
                         <span class="input_no">
                             <button type="button" onclick=""><i class="far fa-minus"></i><!-- 수량감소 --></button>
-                            <input type="text" name="cheup_cnt" value="2">
+                            <input type="text" name="cheup_cnt" value="2" readonly>
                             <button type="button" onclick=""><i class="far fa-plus"></i><!-- 수량증가 --></button>
                         </span>
                     </p>
-                    <p><strong>제형</strong>
-                    <select name="option" readonly>
-                        <option value="">수환 - 소녹두대 [15원/g]-4mm</option>
-                        <option value="">-</option>
+                    <select name="option">
+                        <option value="">일반</option>
+                        <option value="">증류</option>
                     </select>
-                    </p>
-                    <p class="male-auto">예상 출고량
+                    <p>팩수
                         <span class="input_no">
-                            <input type="text" value="0" readonly/>
-                        </span> g
+                            <button type="button" onclick=""><i class="far fa-minus"></i><!-- 수량감소 --></button>
+                            <input type="text" name="cheup_cnt" value="45" readonly>
+                            <button type="button" onclick=""><i class="far fa-plus"></i><!-- 수량증가 --></button>
+                        </span>
                     </p>
+                    <p>팩용량
+                        <span class="input_no">
+                            <button type="button" onclick=""><i class="far fa-minus"></i><!-- 수량감소 --></button>
+                            <input type="text" name="cheup_cnt" value="120" readonly>
+                            <button type="button" onclick=""><i class="far fa-plus"></i><!-- 수량증가 --></button>
+                        </span>
+                    </p>
+                    <button type="button" class="btn btn_gray2 btn_h40">기본설정</button>
+                </div>
+                <div class="box_line2">
+                    <span>
+                        <input type="checkbox" id="plus1" name="type"  readonly/> <label for="plus1"> 재탕</label>
+                        <input type="checkbox" id="plus2" name="type"  readonly/> <label for="plus2"> 주수상반</label>
+                    </span>
+                    <!--주수상반시 노출 */
+                    <p><strong>주수상반</strong>
+                        <select name="option" class="plus2">
+                            <option value="">전부 적용</option>
+                            <option value="">탕전비만 적용</option>
+                        </select>
+                    </p>
+                   /* 주수상반시 -->
+                    <!--재탕시 노출 */
+                    <div class="flex">
+                        <p><strong>재탕</strong> 팩수
+                            <span class="input_no">
+                                <button type="button" onclick=""><i class="far fa-minus"></i></button>
+                                <input type="text" name="cheup_cnt" value="45">
+                                <button type="button" onclick=""><i class="far fa-plus"></i></button>
+                            </span>
+                        </p>
+                        <p>팩용량
+                            <span class="input_no">
+                                <button type="button" onclick=""><i class="far fa-minus"></i></button>
+                                <input type="text" name="cheup_cnt" value="120">
+                                <button type="button" onclick=""><i class="far fa-plus"></i></button>
+                            </span>
+                        </p>
+                    </div>
+                    /*-재탕시 -->
                 </div>
                 <div class="box_line">
-                    <textarea type="text" placeholder="처방 비고를 입력하세요.(탕전실에 전달됩니다.)" readonly>처방 비고를 입력하세요.</textarea>
+                    <textarea type="text" placeholder="처방 비고를 입력하세요.(탕전실에 전달됩니다.)" readonly>처방 비고를 입력하세요.(탕전실에 전달됩니다.)</textarea>
                 </div>
             </div>
             <div class="box5">
@@ -199,7 +245,42 @@ include_once("../include/header.php");
                     </div>
                 </div>
             </div>
-            <div class="box2 packing">
+            <div class="box3 taking">
+                <div class="box_title bg_white">
+                    <strong>복용법</strong>
+                    <div class="title_btn mari-auto">
+                        <input type="text" class="btn btn_line" value="복용법명을 입력하세요." readonly/>
+                        <button type="button" class="btn btn_black">복용법 저장</button>
+                        <button type="button" class="btn btn_red"  data-toggle="modal" data-target="#pxtakemodal">복용법 목록</button>
+                    </div>
+                    <div class="title_btn">
+                        <button type="button" class="btn btn_gray">복용법 없음</button>
+                        <button type="button" class="btn btn_black">초기화</button>
+                    </div>
+                </div>
+                <div class="box_line">
+                    <div class="flex w100">
+                        <select readonly>
+                            <option value="">식전</option>
+                        </select>
+                        <select readonly>
+                            <option value="">10분</option>
+                        </select>
+                        <select readonly>
+                            <option value="">1회</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="box_line2">
+                    <div class="editor"><!--에디터 적용-->
+                        <textarea type="text" placeholder="복용법을 입력하세요." readonly>복용법을 입력하세요.</textarea>
+                    </div>
+                    <dl class="file_wrap">
+                        <dd><a class="btn btn_blue">복용법 파일 첨부</a> 파일을 선택하세요..</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="box3 packing">
                 <div class="box_title bg_white">
                     <strong>포장</strong>
                     <div class="title_btn">
@@ -207,151 +288,61 @@ include_once("../include/header.php");
                     </div>
                 </div>
                 <div class="box_line1">
-                    <p class="tit">대분류 <span>포장 대분류를 선택해주세요.</span></p>
+                    <p class="tit">전용 박스 <span>탕박스+에어셀박스</span></p>
                     <ul class="flex flexwrap circle">
-                        <li> <!--밀환 탄자대/앵두대-->
+                        <li>
                             <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-0" name="pack0"  onClick="return false;"/> <label for="pack1-0"> 지퍼백</label>
+                            <input type="radio" id="pack1-1" name="pack1" onClick="return false;"/> <label for="pack1-1"> 45팩 박스</label>
                         </li>
                         <li>
                             <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-1" name="pack1"  onClick="return false;"/> <label for="pack1-1"> 진공팩</label>
+                            <input type="radio" id="pack1-2" name="pack1" onClick="return false;"/> <label for="pack1-2"> 60팩 박스</label>
                         </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-2" name="pack1"  onClick="return false;"/> <label for="pack1-2"> 스탠드 지퍼백</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-3" name="pack1"  onClick="return false;"/> <label for="pack1-3"> 원터치통 포장</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-4" name="pack1"  onClick="return false;"/> <label for="pack1-4"> 스틱 포장</label>
-                        </li>
-                        <li>  <!--밀환 탄자대-->
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-5" name="pack1"  onClick="return false;"/> <label for="pack1-5"> 청병</label>
-                        </li>
-                        <li> <!--밀환 탄자대-->
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack1-6" name="pack1"  onClick="return false;"/> <label for="pack1-6"> 사탕 포장</label>
-                        </li>
-                    <div class="warning">
-                        <p>스틱 포장 시 유의사항</p>
-                        <p class="txt_red">포장 출고 수량에 따라 추가비용 발생 될 수 있습니다. 주문약재 무게가 3kg 이상일 경우만 스틱포장 가능합니다.</p>
-                    </div>
-                </div>
-                <!--대분류:청병 -밀환 탄자대-->
-                <div class="box_line2">
-                    <p class="tit">금박 선택 <span></span></p>
-                    <span class="circle">
-                    <input type="radio" id="gold1" name="gold"  onClick="return false;"/> <label for="gold1"> 금박</label>
-                    <input type="radio" id="gold2" name="gold"  onClick="return false;"/> <label for="gold2"> 무금박</label>
-                    </span>
+                    </ul>
                 </div>
                 <div class="box_line2">
-                    <p class="tit">씰링 선택 <span></span></span></p>
-                    <span class="circle">
-                    <input type="radio" id="ceil1" name="ceil"  onClick="return false;"/> <label for="ceil1"> 씰링</label>
-                    <input type="radio" id="ceil2" name="ceil"  onClick="return false;"/> <label for="ceil2"> 씰링안함</label>
-                    </span>
-                </div>
-                <div class="box_line2">
-                    <p class="tit">케이스 선택 <span></span></p>
+                    <p class="tit">파우치 타입 <span>파우치 타입을 선택해 주세요.</span></p>
                     <div class="tagbox">
                         <div>
-                            <p><a><span class="tag active">원목 (인쇄)</span></a></p>
-                            <p><a><span class="tag">함지 (인쇄)</span></a></p>
-                            <p><a><span class="tag">함지 (무인쇄)</span></a></p>
+                            <p><a><span class="tag active">스탠딩 파우치</span></a></p>
+                            <p><a><span class="tag">스파우트 파우치(45팩 1박스)</span></a></p>
                         </div>
                     </div>
                     <ul class="flex flexwrap circle">
                         <li>
                             <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="case-1" name="case"  onClick="return false;"/> <label for="case-1"> 이름 </label>
+                            <input type="radio" id="pack2-1" name="pack2" onClick="return false;"/> <label for="pack2-1"> 포장 이름</label>
                         </li>
                         <li>
                             <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="case-2" name="case"  onClick="return false;"/> <label for="case-2"> 이름 </label>
+                            <input type="radio" id="pack2-2" name="pack2" onClick="return false;"/> <label for="pack2-2"> 포장 이름</label>
+                        </li>
+                        <li>
+                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
+                            <input type="radio" id="pack2-3" name="pack2" onClick="return false;"/> <label for="pack2-3"> 포장 이름</label>
                         </li>
                     </ul>
+                    <div class="warning"> <!--스파우트 선택시 노출-->
+                        <p>스파우트 주문 시 유의사항</p>
+                        <p class="txt_red">스파우트 탕전시, 완벽한 멸균처리가 어려워 다소 문제가 발생할 수 있음을 미리 양해 부탁드립니다.</p>
+                    </div>
                 </div>
-                <!--대분류:원터치통포장-->
                 <div class="box_line2">
-                    <p class="tit">원터치통 포장 <span>원터치통 포장을 선택해 주세요.</span></p>
-                    <ul class="flex flexwrap circle">
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="one-1" name="one"  onClick="return false;"/> <label for="one-1"> 70cc(약50g) </label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="one-2" name="one"  onClick="return false;"/> <label for="one-2"> 220cc(약145g) </label>
-                        </li>
-                    </ul>
+                    <p class="tit">파우치 인쇄 <span>중복선택 가능 | 파우치 인쇄 타입을 선택해주세요</span></p>
+                    <input type="checkbox" id="print1" name="print" onClick="return false;"/> <label for="print1"> 없음</label>
+                    <input type="checkbox" id="print2" name="print" onClick="return false;"/> <label for="print2"> 한의원명</label>
+                    <input type="checkbox" id="print3" name="print" onClick="return false;"/> <label for="print3"> 환자명</label>
+                    <input type="checkbox" id="print4" name="print" onClick="return false;"/> <label for="print4"> 조제일자</label>
+                    <input type="checkbox" id="print5" name="print" onClick="return false;"/> <label for="print5"> 연락처</label>
                 </div>
-                <!--대분류:원터치통포장-->
-                <!--대분류:스틱포장-->
                 <div class="box_line2">
-                    <p class="tit">스틱 포장 <span></span></p>
+                    <p class="tit">달이는 시간 <span>달이는 시간을 선택해 주세요.</span></p>
                     <span class="circle">
-                    <input type="radio" id="g1" name="g"  onClick="return false;"/> <label for="g1"> 3g</label>
-                    <input type="radio" id="g2" name="g"  onClick="return false;"/> <label for="g2"> 4g</label>
-                    <input type="radio" id="g3" name="g"  onClick="return false;"/> <label for="g3"> 5g</label>
+                    <input type="radio" id="time1" name="time" onClick="return false;"/> <label for="time1"> 1시간 30분</label>
+                    <input type="radio" id="time2" name="time" onClick="return false;"/> <label for="time2"> 2시간</label>
+                    <input type="radio" id="time3" name="time" onClick="return false;"/> <label for="time3"> 3시간</label>
                     </span>
                 </div>
-                <div class="box_line2 circle">
-                    <p class="tit">스틱 인쇄 <span>스틱 인쇄 타입을 선택해주세요</span></p>
-                    <input type="radio" id="print1" name="print"  onClick="return false;"/> <label for="print1"> 없음</label>
-                    <input type="radio" id="print2" name="print"  onClick="return false;"/> <label for="print2"> 환명</label>
-                    <input type="radio" id="print5" name="print"  onClick="return false;"/> <label for="print5"> 환명+한의원명</label>
-                    <input type="radio" id="print3" name="print"  onClick="return false;"/> <label for="print3"> 환명+한의원명+연락처</label>
-                    <input type="text" class="btn btn_redline btn_sdw" placeholder="환명을 입력하세요."/>
-                </div>
-
-                <div class="box_line2">
-                    <p class="tit">스틱 디자인 <span>스틱 디자인 선택을 선택해주세요</span></p>
-                    <ul class="flex flexwrap circle">
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-1" name="pack2"  onClick="return false;"/> <label for="pack2-1"> 스틱 디자인 </label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-2" name="pack2"  onClick="return false;"/> <label for="pack2-2"> 스틱 디자인 </label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-3" name="pack2"  onClick="return false;"/> <label for="pack2-3"> 스틱 디자인 </label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="box_line2">
-                    <p class="tit">스틱 포장 <span>스틱 포장을 선택해 주세요.</span></p>
-                    <div class="tagbox">
-                        <div>
-                            <p><a><span class="tag active">인박스</span></a></p>
-                            <p><a><span class="tag">아웃박스</span></a></p>
-                            <p><a><span class="tag">인박스+아웃박스</span></a></p>
-                        </div>
-                    </div>
-                    <ul class="flex flexwrap circle">
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-1" name="pack2"  onClick="return false;"/> <label for="pack2-1"> 포장 이름</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-2" name="pack2"  onClick="return false;"/> <label for="pack2-2"> 포장 이름</label>
-                        </li>
-                        <li>
-                            <div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div>
-                            <input type="radio" id="pack2-3" name="pack2"  onClick="return false;"/> <label for="pack2-3"> 포장 이름</label>
-                        </li>
-                    </ul>
-                </div>
-                <!--대분류:스틱포장-->
             </div>
     </div>
     <div class="right">
@@ -359,7 +350,7 @@ include_once("../include/header.php");
                 <div class="box5">
                     <dl>
                         <dt><strong>제품명</strong> 제품명</dt>
-                        <dd>환(丸)</dd>
+                        <dd>탕(湯)</dd>
                     </dl>
                     <dl>
                         <dt><strong>약재비</strong> 0원 X 0첩</dt>
@@ -370,11 +361,11 @@ include_once("../include/header.php");
                         <dd>0 원</dd>
                     </dl>
                     <dl>
-                        <dt><strong>제환비</strong> 0원 X 3,000g(기본 무게)</dt>
+                        <dt><strong>탕전비</strong> 0원 X 0팩 [주수상반]</dt>
                         <dd>0 원</dd>
                     </dl>
                     <dl>
-                        <dt><strong>포장비</strong> 0원 X 1 ( 10kg 당 계산 )</dt>
+                        <dt><strong>포장비</strong> 0원 X 0ea</dt>
                         <dd>0 원</dd>
                     </dl>
                     <dl>
@@ -382,12 +373,12 @@ include_once("../include/header.php");
                         <dd>0 원</dd>
                     </dl>
                     <dl>
-                        <dt><strong>배송비</strong> 0원 X  1 ( 10kg 당 계산 )</dt>
+                        <dt><strong>배송비</strong> 0원 X 0ea</dt>
                         <dd>0 원</dd>
                     </dl>
                     <dl>
                         <dt><strong>약재비</strong> <span>0 원</span></dt>
-                        <dt><strong>제환비</strong> <span>0 원</span></dt>
+                        <dt><strong>탕전비</strong> <span>0 원</span></dt>
                         <dt><strong>총금액</strong> <span class="yellow">0 원</span></span></dt>
                     </dl>
                 </div>

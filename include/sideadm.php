@@ -103,7 +103,7 @@
                         </div>
                     </li>
                     <li class="sidebar-dropdown">
-                        <a href="../adm/readymade.php" <?php if($pid == "a_redaymade" || $pid == "a_readymadeupd") { echo "class='active'"; }?>>
+                        <a href="../adm/readymade.php" <?php if($pid == "a_readymade" || $pid == "a_readymadeupd") { echo "class='active'"; }?>>
                             <img src="../img/common/sideadm01_09.svg"/>
                             <span>기성처방 관리</span>
                         </a>

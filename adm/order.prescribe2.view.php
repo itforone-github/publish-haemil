@@ -1,11 +1,11 @@
 <?php
-$pid = "px_order";
+$pid = "a_order1";
 include_once("../include/header.php");
 //3.0. 환제처방
 ?>
 
  <section class="px pre1">
-            <div class="box2">
+            <div class="box3">
                 <div class="box_title bg_red">
                     <strong>환자 정보</strong>
                     <!--div class="title_btn mari-auto">
@@ -44,7 +44,7 @@ include_once("../include/header.php");
             </div>
 </section>
 <section class="px pre1">
-            <div class="box2">
+            <div class="box3">
                 <div class="box_title bg_red">
                     <strong>배송 정보</strong>
                     <div class="title_btn">
@@ -80,7 +80,7 @@ include_once("../include/header.php");
 </section>
 <section class="px pre2">
     <div class="left">
-            <div class="box2">
+            <div class="box3">
                 <div class="box_title bg_white">
                     <strong>처방 내용</strong>
                     <div class="title_btn mari-auto">
@@ -91,7 +91,7 @@ include_once("../include/header.php");
                         <button type="button" class="btn btn_black">초기화</button>
                     </div>
                 </div>
-                <div class="box_line1">
+                <div class="box_line">
                     <div class="mari-auto" style="line-height: 40px;">
                         <p class="txt_red txt_bold">※ 1kg 이상만 주문가능</p>
                     </div>
@@ -199,14 +199,14 @@ include_once("../include/header.php");
                     </div>
                 </div>
             </div>
-            <div class="box2 packing">
+            <div class="box3 packing">
                 <div class="box_title bg_white">
                     <strong>포장</strong>
                     <div class="title_btn">
                         <button type="button" class="btn btn_black">기본설정</button>
                     </div>
                 </div>
-                <div class="box_line1">
+                <div class="box_line">
                     <p class="tit">대분류 <span>포장 대분류를 선택해주세요.</span></p>
                     <ul class="flex flexwrap circle">
                         <li> <!--밀환 탄자대/앵두대-->
