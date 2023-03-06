@@ -3,8 +3,8 @@ $pid = "setting_clinic";
 include_once("../include/header.php");
 //5.2한의원 정보
 ?>
-
-    <section class="s_clinic">
+    <section class="ready"></section>
+    <section class="s_clinic ready_page">
         <div class="s_info mb20">
             <div class="box2">
                 <div class="box_title bg_red">
@@ -35,6 +35,35 @@ include_once("../include/header.php");
             </div>
         </div>
         <div class="box2 mb20">
+            <div class="inr">
+                <div class="list">
+                    <div class="title">
+                        <p>추가정보</p>
+                        <p><a class="btn btn_mini btn_gray">저장하기</a></p>
+                    </div>
+                    <div class="form">
+                        <div class="form_wrap">
+                            <div>
+                                <p><label>진료과목</label><input type="text" placeholder="진료과목"/></p>
+                                <p><label>편의정보</label><input type="text" placeholder="편의정보"/></p>
+                                <p><label>업태</label><input type="text" placeholder="업태"/></p>
+                            </div>
+                            <div>
+                                <p><label>홈페이지</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
+                                <p><label>블로그</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
+                                <p><label>유튜브</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
+                            </div>
+                            <div>
+                                <p><label>인스타그램</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
+                                <p><label>페이스북</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
+                                <p><label>기타 URL</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
             <div class="inr">
                 <div class="list">
                     <div class="title">
@@ -104,35 +133,6 @@ include_once("../include/header.php");
                                         <input type="time" /> ~ <input type="time" />
                                     </dd>
                                 </dl>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box2">
-            <div class="inr">
-                <div class="list">
-                    <div class="title">
-                        <p>추가정보</p>
-                        <p><a class="btn btn_mini btn_gray">저장하기</a></p>
-                    </div>
-                    <div class="form">
-                        <div class="form_wrap">
-                            <div>
-                                <p><label>진료과목</label><input type="text" placeholder="진료과목"/></p>
-                                <p><label>편의정보</label><input type="text" placeholder="편의정보"/></p>
-                                <p><label>업태</label><input type="text" placeholder="업태"/></p>
-                            </div>
-                            <div>
-                                <p><label>홈페이지</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
-                                <p><label>블로그</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
-                                <p><label>유튜브</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
-                            </div>
-                            <div>
-                                <p><label>인스타그램</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
-                                <p><label>페이스북</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
-                                <p><label>기타 URL</label><input type="text" placeholder="링크주소를 입력하세요"/></p>
                             </div>
                         </div>
                     </div>
