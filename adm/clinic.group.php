@@ -9,7 +9,7 @@ include_once("../include/header.php");
         <p>총 <span class="red">4</span>개 </p>
         <div>
             <select name="search">
-                <option value="">선택</option>
+                <option value="">그룹명</option>
             </select>
             <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
@@ -44,12 +44,12 @@ include_once("../include/header.php");
                 <tbody>
                 <tr>
                     <td>1</td>
-                    <td>기본</td>
+                    <td>해밀</td>
                     <td>5</td>
                     <td>5,000</td>
                     <td>5,000</td>
                     <td>05:50~18:00</td>
-                    <td>23-01-16</td>
+                    <td>23.01.16</td>
                     <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
                 </tr>
                 </tbody>
