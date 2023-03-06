@@ -135,7 +135,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">
                             <span class="state">주문접수</span>
                         </td>
-                        <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.view.php">202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_blue txt_under"><a href="px.prescribe1.done.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -143,7 +143,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40" onclick="window.open('order.print.php','조제지시서 발행','width=900px,height=1000px,left=0,top=0');">확인</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe1.view.php'">수정</button>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='px.prescribe1.done.php'">수정</button>
                             <button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
@@ -166,7 +166,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">
                             <span class="state">주문접수</span>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../med/px.prescribe2.view.php">202302081123-2</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="px.prescribe2.done.php">202302081123-2</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -174,7 +174,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td>
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe2.view.php'">수정</button>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='px.prescribe2.done.php'">수정</button>
                             <button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
@@ -197,7 +197,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">
                             <span class="state">주문접수</span>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../med/px.prescribe3.view.php">202302081123-3</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="px.prescribe3.done.php">202302081123-3</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -205,7 +205,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td>
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe3.view.php'">수정</button>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='px.prescribe3.done.php'">수정</button>
                             <button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
@@ -228,7 +228,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">
                             <span class="state">주문접수</span>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a  href="../med/px.prescribe5.view.php">202302081123-5</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a  href="px.prescribe5.done.php">202302081123-5</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -236,7 +236,7 @@ include_once("../include/header.php");
                         <td class="" rowspan="2">119,400원</td>
                         <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40">확인</button> </td>
                         <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">수정</button>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='px.prescribe5.done.php'">수정</button>
                             <button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>

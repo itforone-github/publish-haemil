@@ -156,7 +156,7 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../adm/order.prescribe1.view.php">202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_blue txt_under"><a href="order.prescribe1.done.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -205,7 +205,7 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../adm/order.prescribe2.view.php">202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="order.prescribe2.done.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -254,7 +254,7 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../adm/order.prescribe3.view.php">202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="order.prescribe3.done.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
@@ -303,7 +303,7 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="../adm/order.prescribe5.view.php">202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a href="order.prescribe5.done.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>

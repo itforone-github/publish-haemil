@@ -113,7 +113,7 @@
                                             <td class="" rowspan="1">
                                                 <span class="state">주문접수</span>
                                             </td>
-                                            <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.view.php">202302081123-1</a></span></td>
+                                            <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.done.php">202302081123-1</a></span></td>
 
                                             <td scope="col" rowspan="2" class="">1</td>
                                             <td class="" rowspan="2">119,400원</td>
@@ -130,7 +130,7 @@
                                             <td class="" rowspan="1">
                                                 <span class="state">주문접수</span>
                                             </td>
-                                            <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.view.php">202302081123-1</a></span></td>
+                                            <td class="" colspan="1"><span class="txt_blue txt_under"><a href="../med/px.prescribe1.done.php">202302081123-1</a></span></td>
 
                                             <td scope="col" rowspan="2" class="">1</td>
                                             <td class="" rowspan="2">119,400원</td>

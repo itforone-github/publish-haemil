@@ -57,7 +57,7 @@ include_once("../include/header.php");
                             <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_red2">주문접수</button></td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">수정</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='px.prescribe5.done.php'">수정</button>
                                 <button type="button" class="btn btn_mini btn_redline">삭제</button>
                             </td>
                         </tr>
@@ -70,7 +70,7 @@ include_once("../include/header.php");
                             <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_red">견적사항</button></td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">상세</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='px.prescribe5.done.php'">상세</button>
                             </td>
                         </tr>
                         <tr>
@@ -82,7 +82,7 @@ include_once("../include/header.php");
                             <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_gray">결제완료</button></td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">상세</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='px.prescribe5.done.php'">상세</button>
                             </td>
                         </tr>
                         <tr>
@@ -94,7 +94,7 @@ include_once("../include/header.php");
                             <td>처방 내용 앞부분이 이렇게 보입니다</td>
                             <td><button type="button" class="btn btn_gray3">주문취소</button></td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='../med/px.prescribe5.view.php'">상세</button>
+                                <button type="button" class="btn btn_mini btn_whiteline" onclick="location.href='px.prescribe5.done.php'">상세</button>
                             </td>
                         </tr>
                         </tbody>
