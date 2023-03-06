@@ -24,7 +24,7 @@ include_once("../include/header.php");
               </ul>
 
               <!-- Tab panes -->
-              <div class="tab-content" style="display: block">
+              <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="find_id">
                     <!--아이디찾기-->
                     <input type="text" placeholder="직장/한의원명"/>
