@@ -22,15 +22,16 @@ include_once("../include/header.php");
                 <label>한의원명</label><input type="text" placeholder="한의원명"/>
                 <label>사업자등록번호</label><input type="text" placeholder="사업자등록번호"/>
                 <label>대표자명</label><input type="text" placeholder="대표자명"/>
+                <label>원장아이디(주계정)</label><input type="text" placeholder="원장아이디(주계정)"/>
             </div>
             <div>
                 <label>기본주소</label><input type="text" placeholder="기본주소"/>
                 <label>상세주소</label><input type="text" placeholder="상세주소"/>
                 <label>업태</label><input type="text" placeholder="업태"/>
                 <label>대표전화</label><input type="text" placeholder="대표전화"/>
+                <label>팩스번호</label><input type="text" placeholder="팩스번호"/>
             </div>
             <div>
-                <label>팩스번호</label><input type="text" placeholder="팩스번호"/>
                 <label>이메일</label><input type="email" placeholder="이메일"/>
                 <dl class="file_wrap">
                     <dt>사업자등록증(면허증)</dt>

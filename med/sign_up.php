@@ -20,10 +20,7 @@ include_once("../include/header.php");
                       <div>
                         <input type="text" placeholder="아이디"/>
                         <input type="text" placeholder="성명"/>
-                      </div>
-                      <div>
                         <input type="password" placeholder="비밀번호"/>
-                        <input type="password" placeholder="비밀번호 확인"/>
                       </div>
                       <div>
                           <input type="date" data-placeholder="생년월일" required aria-required="true"/>
