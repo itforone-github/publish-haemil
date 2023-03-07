@@ -100,6 +100,13 @@ switch ($pid) {
         $header_name = "서술식";
         $exp = "환자에 따른 처방이 가능합니다.";
         break;
+    case "px_wish" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 2;
+        $header_name = "약속처방 보관함";
+        $exp = "약속처방을 저장하여 확인 가능합니다.";
+        break;
     case "px_taking" :
         $header_type = 1;
         $footer_type = 1;
@@ -171,6 +178,13 @@ switch ($pid) {
         $lnb_type = 3;
         $header_name = "주문·배송 조회";
         $exp = "주문·배송 조회가 가능합니다.";
+        break;
+    case "mall_wish" :
+        $header_type = 1;
+        $footer_type = 1;
+        $lnb_type = 3;
+        $header_name = "찜상품 보관함";
+        $exp = "저장하신 상품들을 확인 가능합니다.";
         break;
     //5. 기본설정
     case "setting_main" :

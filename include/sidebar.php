@@ -143,6 +143,12 @@
                             <span>주문 배송 관리</span>
                         </a>
                     </li>
+                        <li class="sidebar-dropdown">
+                            <a href="../med/px.wish.php" <?php if($pid == "px_wish") { echo "class='active'"; }?>>
+                                <img src="../img/common/sidemenu02_06.svg"/>
+                                <span>약속처방 보관함</span>
+                            </a>
+                        </li>
                     <li class="sidebar-dropdown">
                         <a href="../med/px.setting.php" <?php if($pid == "px_setting") { echo "class='active'"; }?>>
                             <img src="../img/common/sidemenu02_05.svg"/>
@@ -164,12 +170,12 @@
                         </a>
                     </li>-->
                     <li class="sidebar-dropdown ready_bubble">
-                        <a href="#">
+                        <a href="../med/mall.list.php">
                             <img src="../img/common/sidemenu03_02.svg"/>
                             <span>기획전</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown ready_bubble">
+                    <!--<li class="sidebar-dropdown ready_bubble">
                         <a href="#">
                             <img src="../img/common/sidemenu03_05.svg"/>
                             <span>인기품목</span>
@@ -210,7 +216,7 @@
                             <img src="../img/common/sidemenu03_06.svg"/>
                             <span>기타 소모품</span>
                         </a>
-                    </li>
+                    </li>-->
 
 
 
@@ -218,6 +224,12 @@
 
                         <li class="header-menu">
                         <span>주문관리</span>
+                    </li>
+                    <li class="sidebar-dropdown ready_bubble">
+                        <a href="../med/mall.wish.php" <?php if($pid == "mall_wish") { echo "class='active'"; }?>>
+                            <img src="../img/common/sidemenu02_06.svg"/>
+                            <span>찜상품 보관함</span>
+                        </a>
                     </li>
                     <li class="sidebar-dropdown ready_bubble">
                         <a href="../med/mall.cart.php" <?php if($pid == "mall_cart") { echo "class='active'"; }?>>
@@ -231,6 +243,7 @@
                             <span>주문·배송 조회</span>
                         </a>
                     </li>
+
 
                     </ul>
                 </div>
