@@ -226,6 +226,12 @@
                         <span>주문관리</span>
                     </li>
                     <li class="sidebar-dropdown ready_bubble">
+                        <a href="../med/mall.wish.php" <?php if($pid == "mall_wish") { echo "class='active'"; }?>>
+                            <img src="../img/common/sidemenu02_06.svg"/>
+                            <span>찜상품 보관함</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-dropdown ready_bubble">
                         <a href="../med/mall.cart.php" <?php if($pid == "mall_cart") { echo "class='active'"; }?>>
                         <img src="../img/common/sidemenu03_03.svg"/>
                             <span>장바구니</span>
@@ -237,12 +243,7 @@
                             <span>주문·배송 조회</span>
                         </a>
                     </li>
-                    <li class="sidebar-dropdown ready_bubble">
-                        <a href="../med/mall.wish.php" <?php if($pid == "mall_wish") { echo "class='active'"; }?>>
-                            <img src="../img/common/sidemenu02_06.svg"/>
-                            <span>찜상품 보관함</span>
-                        </a>
-                    </li>
+
 
                     </ul>
                 </div>
