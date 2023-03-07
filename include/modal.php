@@ -662,6 +662,31 @@
     </div>
 </div>
 
+
+
+<!-- 홈페이지 제작 관리 기본정보 변경 -->
+<div class="modal fade" id="homepagemodal" tabindex="-1" aria-labelledby="homepagemodalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="homepagemodalLabel">홈페이지 기본정보 변경</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>기본주소</label><input type="text" placeholder="기본주소"/>
+                    <label>상세주소</label><input type="text" placeholder="상세주소"/>
+                    <label>홈페이지 답당자</label><input type="text" placeholder="홈페이지 답당자"/>
+                    <label>담당자 전화번호</label><input type="text" placeholder="담당자 전화번호"/>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-primary">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
     $(function(){
         $(".past_list").css("display","none");

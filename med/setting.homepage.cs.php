@@ -9,7 +9,7 @@ include_once("../include/header.php");
             <div class="box2">
                 <div class="box_title bg_red">
                     <strong>홈페이지 기본 정보</strong>
-                    <button class="btn btn_mini btn_line">변경하기</button>
+                    <button class="btn btn_mini btn_line" data-toggle="modal" data-target="#homepagemodal">변경하기</button>
                 </div>
                 <div class="list">
                     <ul>
@@ -69,10 +69,11 @@ include_once("../include/header.php");
                         <tr>
                             <td>3</td>
                             <td>홈페이지</td>
-                            <td>게시판을 하나 더 만들고 싶어요</td>
+                            <td onclick="location.href='../med/setting.homepage.cs.view.php'">
+                                팝업수정부탁드립니다!</td>
                             <td>접수완료</td>
                             <td>2022-10-01</td>
-                            <td><button class="btn btn_mini btn_line">수정</button></td>
+                            <td><button class="btn btn_mini btn_line" onclick="location.href='../med/setting.homepage.cs.update.php'">수정</button></td>
                         </tr>
                         <tr>
                             <td>2</td>

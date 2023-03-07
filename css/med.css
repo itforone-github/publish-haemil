@@ -622,3 +622,15 @@
     .setting.main > div{width: 100%;}
 
 }
+/*cs 상세*/
+.cs_view .view_info{padding-bottom: 10px;margin-bottom: 20px;}
+.cs_view .view_info .sub span { margin:0  12px; color: #484951}
+.cs_view .view_title{font-size: 1.4em; font-weight: 800; padding-bottom: 20px; margin-bottom: 30px; border-bottom: 1px solid #E8E8E8;}
+.cs_view .view_title strong{display: inline-block; background-color: #ddd; font-size: 0.8em; line-height: 1.4em; padding: 2px 12px; border-radius: 20px; margin-right: 6px;}
+
+.cs_view dl{margin-bottom: 20px;}
+.cs_view dl dt{font-size: 1.2em; font-weight: 800; margin-bottom: 10px;}
+.cs_view dl dd{background-color: #F6F6F6; padding: 20px;}
+.cs_view .download { font-weight:  800; text-decoration: underline; margin-bottom: 12px}
+
+.cs_update textarea{min-height: 300px;}

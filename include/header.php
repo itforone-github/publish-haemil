@@ -582,7 +582,7 @@ switch ($pid) {
                 <a>
                     <img src="../img/common/top_menu02.svg"/><span>계좌정보</span>
                 </a>
-                <a>
+                <a href="../med/setting.clinic.php">
                     <img src="../img/common/top_menu03.svg"/><span>마이페이지</span>
                 </a>
                 <a>
