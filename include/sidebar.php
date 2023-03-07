@@ -15,7 +15,7 @@
             <div class="user-info">
                 <span class="user-name">유신한의원</span>
                 <span class="user-role"><img src="../img/common/user_icon01.svg"/>김유신 담당자</span>
-                <span class="user-point">
+                <span class="user-point" onclick="location.href='../med/setting.point.php'">
                 <img src="../img/common/user_icon02.svg">1,000점
                 </span>
             </div>
