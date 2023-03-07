@@ -60,7 +60,7 @@ include_once("../include/header.php");
                     <td>051-000-0000</td>
                     <td>4</td>
                     <td>해밀</td>
-                    <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
+                    <td><button type="button" class="btn btn_whiteline" onclick="location.href='./clinic.update.php'">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
                 </tr>
                 </tbody>
             </table>

@@ -13,24 +13,70 @@ include_once("../include/header.php");
     <div class="box3">
         <div class="flex jc-sb">
             <div>
-                <label>그룹</label><select name="search">
-                    <option value="">그룹 선택</option>
-                </select>
+                <div class="group_select">
+                    <label>그룹</label>
+                    <select name="search">
+                        <option value="">그룹 선택</option>
+                    </select>
+                </div>
                 <label>한의원명</label><input type="text" placeholder="한의원명"/>
                 <label>사업자등록번호</label><input type="text" placeholder="사업자등록번호"/>
+                <label>대표자명</label><input type="text" placeholder="대표자명"/>
             </div>
             <div>
+                <label>기본주소</label><input type="text" placeholder="기본주소"/>
+                <label>상세주소</label><input type="text" placeholder="상세주소"/>
                 <label>업태</label><input type="text" placeholder="업태"/>
-                <label>대표자명</label><input type="text" placeholder="대표자명"/>
                 <label>대표전화</label><input type="text" placeholder="대표전화"/>
             </div>
             <div>
-                <label>대표이메일</label><input type="text" placeholder="대표이메일"/>
-                <label>기본주소</label><input type="text" placeholder="기본주소"/>
-                <label>상세주소</label><input type="text" placeholder="상세주소"/>
+                <label>팩스번호</label><input type="text" placeholder="팩스번호"/>
+                <label>이메일</label><input type="email" placeholder="이메일"/>
+                <dl class="file_wrap">
+                    <dt>사업자등록증(면허증)</dt>
+                    <dd><a class="btn btn_black">파일첨부</a> 파일을 선택하세요..</dd>
+                </dl>
+                <dl class="file_wrap">
+                    <dt>원외탕전실 계약서</dt>
+                    <dd><a class="btn btn_black">파일첨부</a> 파일을 선택하세요..</dd>
+                </dl>
+                <a class="btn btn_large btn_red">계약서 파일 다운로드</a>
+
             </div>
         </div>
     </div>
+
+    <!--수정시 직원계정목록-->
+    <div class="box3">
+
+        <div class="table adm">
+            <table>
+                <thead>
+                <tr>
+                    <th><input type="checkbox" name="checkbox"></th>
+                    <th>No.</th>
+                    <th>아이디</th>
+                    <th>담당자</th>
+                    <th>연락처</th>
+                    <th>권한</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="checkbox" name="checkbox"></td>
+                    <td>1</td>
+                    <td>yoshin01</td>
+                    <td>김유신</td>
+                    <td>010-0000-0000</td>
+                    <td>최고관리자</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <!--//수정시 직원계정목록 -->
+
 </section>
 
 
