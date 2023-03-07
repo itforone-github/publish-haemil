@@ -1,7 +1,7 @@
 <?php
 $pid = "a_order1";
 include_once("../include/header.php");
-//3.0. 산제처방
+//3.0.  산제처방
 ?>
     <section class="px pre1">
         <div class="box2">

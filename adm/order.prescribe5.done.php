@@ -1,7 +1,7 @@
 <?php
 $pid = "a_order1";
 include_once("../include/header.php");
-//3.0 서술식
+//3.0  서술식
 ?>
     <section class="px pre1">
         <div class="box2">
