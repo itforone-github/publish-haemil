@@ -129,7 +129,7 @@
 .past_list table th,
 .past_list table td{border-bottom: 1px solid #ddd; padding: 4px}
 .past_list table th{background:RGBA(72, 73, 81,0.1);}
-.past_list table td{background: #fff;}
+.past_list table td{background: #fff!important;}
 .past_list table .state{color:#BC2D1E }
 
 @media screen and (max-width: 1200px){
