@@ -8,7 +8,7 @@ include_once("../include/header.php");
         <div class="mall_list">
             <ul>
                 <li onclick="location.href='mall.view.php'">
-                    <div class="img"><img src="../img//med/mall_event01.jpg" /></div>
+                    <div class="img"><img src="../img/med/mall_event01.jpg" /></div>
                     <div class="text">
                         <strong>기획전</strong>
                         <p>경옥고S스틱박스(15g)</p>
@@ -16,7 +16,7 @@ include_once("../include/header.php");
                     </div>
                 </li>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event02.jpg" /></div>
+                    <div class="img"><img src="../img/med/mall_event02.jpg" /></div>
                     <div class="text">
                         <strong>NEW</strong>
                         <p>경옥고S스틱박스(15g)</p>
@@ -24,7 +24,7 @@ include_once("../include/header.php");
                     </div>
                 </li>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event03.jpg" /></div>
+                    <div class="img"><img src="../img/med/mall_event03.jpg" /></div>
                     <div class="text">
                         <strong>일시품절</strong>
                         <p>경옥고S스틱박스(15g)</p>
@@ -32,15 +32,7 @@ include_once("../include/header.php");
                     </div>
                 </li>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event04.jpg" /></div>
-                    <div class="text">
-                        <strong>기획전</strong>
-                        <p>경옥고S스틱박스(15g)</p>
-                        <span>옵션가 확인</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="img"><img src="../img//med/mall_event04.jpg" /></div>
+                    <div class="img"><img src="../img/med/mall_event04.jpg" /></div>
                     <div class="text">
                         <strong>기획전</strong>
                         <p>경옥고S스틱박스(15g)</p>

@@ -222,7 +222,7 @@
 .order .table tr:nth-child(4n+2) td{background-color: #FBFBFB}
 
 /*장바구니*/
-.m_cart .img{width: 227px; height:84px; display: inline-block; }
+.m_cart .img{width: 200px; height:140px; display: inline-block; }
 .m_cart .img img{width: 100%; height: 100%; border: 1px solid #E8E8E8; object-fit: cover;}
 .m_cart .mc_total {text-align: right; border-top:1px solid #ECECEC; padding-top: 30px; }
 .m_cart .mc_total .price {font-size:1.2em; color: #373844;}
@@ -231,9 +231,9 @@
 .m_cart .btn_wrap .btn{font-size:1.1em; width: 235px; text-align: center; padding: 15px; }
 
 /*한의학몰 리스트&약속처방재*/
-.mall_list > ul{display: flex; margin-bottom: 30px; margin-right: -26px;}
-.mall_list > ul li{margin-right: 26px; background: #FFFFFF;   box-shadow: 0px 0px 15px #0000000D; border-radius: 5px; overflow: hidden;}
-.mall_list > ul li .img{height: auto;    aspect-ratio: 1 / 1;}
+.mall_list > ul{display: flex; flex-wrap: wrap; margin-bottom: 30px; margin-right: -26px;}
+.mall_list > ul li{margin-right: 26px; width: calc((100% / 5) - 26px); margin-bottom: 26px; background: #FFFFFF;   box-shadow: 0px 0px 15px #0000000D; border-radius: 5px; overflow: hidden;}
+.mall_list > ul li .img{width:100%; height: auto;    aspect-ratio: 1 / 1;}
 .mall_list > ul li img{border-radius: 0 0 5px 5px; width: 100%; height: 100%; object-fit: cover;}
 .mall_list > ul li .text{padding: 16px 20px}
 .mall_list > ul li .text > strong{display: inline-block; background: #E8E8E8; padding: 4px 6px; border-radius: 5px; line-height: 1em; margin-bottom: 5px; }
@@ -353,16 +353,25 @@
 
 
 /** 4.한의학몰 - 메인 **/
-.mall.main .swiper{border-radius: 5px; overflow: hidden;}
+.mall.main .swiper{border-radius: 5px; overflow: hidden; width: 100%!important;}
+.mall.main .swiper img{object-fit: cover; width: 100%; height: 100%;}
 .mall.latest{align-items: flex-start;}
-.mall_list h3 > span{font-size: 13px; color:#BC2D1E ; background-color:#FFD0CB ; display: inline-block; border-radius: 5px; padding: 0 6px; margin-left: 4px; vertical-align: middle;}
+.mall.main .mall_list > ul{flex-wrap: nowrap;}
+.mall.main .mall_list > ul li{width: calc(100% / 4);}
+.mall.main .mall_list .img{width: calc(100%); height: 150px}
 
+.mall_list h3 > span{font-size: 13px; color:#BC2D1E ; background-color:#FFD0CB ; display: inline-block; border-radius: 5px; padding: 0 6px; margin-left: 4px; vertical-align: middle;}
 .mm_notice .box1{height: 217px;}
 
 
-
-
-
+@media screen and (max-width:1000px) {
+    .mall.main .swiper{height: 200px;}
+}
+@media screen and (max-width:750px) {
+    .mall.main .swiper{height: 150px;}
+    .mall.main .mall_list > ul{flex-wrap:wrap;}
+    .mall.main .mall_list > ul li{width: calc((100% / 2) - 26px);}
+}
 
 
 /** 5.기본설정 - 메인 **/
