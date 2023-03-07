@@ -7,7 +7,7 @@ include_once("../include/header.php");
     <section class="p_wish">
         <div class="mall_list">
             <ul>
-                <li onclick="location.href='px.prescribe4.php'">
+                <li onclick="location.href='px.prescribe4.view.php'">
                     <div class="img"><img src="../img//med/mall_event01.jpg" /></div>
                     <div class="text">
                         <strong>기획전</strong>
