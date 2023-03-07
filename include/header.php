@@ -585,7 +585,7 @@ switch ($pid) {
                 <a href="../med/setting.clinic.php">
                     <img src="../img/common/top_menu03.svg"/><span>마이페이지</span>
                 </a>
-                <a>
+                <a href="../med/setting.homepage.php">
                     <img src="../img/common/top_menu04.svg"/><span>홈페이지</span>
                 </a>
                 <a>
