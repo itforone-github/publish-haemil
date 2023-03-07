@@ -409,6 +409,16 @@ ul.tabs li.current{  font-weight: 800; }
 .px.pre1 .preform p.flex textarea{  display: inline-block;    width: 87.2%; margin-bottom: 0;}
 .px.pre1 .preform h6{  margin-bottom: 15px; height: 40px;    line-height: 40px;   font-weight: 900; font-size: 1.1em; color: #373844}
 .px.pre1 .preform h6 span{ font-size: 0.9em}
+.px.pre1 .box5 {padding:20px }
+.px.pre1 .box5 dl {color: #fff; font-size: 1.15em }
+.px.pre1 .box5 dt strong {margin-right: 15px }
+.px.pre1 .box5 dt:not(:last-child) {padding-bottom: 15px;}
+.px.pre1 .box5 dt span {float: right }
+.px.pre1 .box5 dt span.yellow {font-size: 1.35em;  font-weight: 800;color: #FFDE5A}
+.px.pre1 .box5 dd {font-size: 1.35em; font-weight: 800; text-align: right }
+.px.pre1 .box5 dl:not(:first-child) {padding-top: 20px;}
+.px.pre1 .box5 dl:not(:last-child) {padding-bottom: 20px; border-bottom: 1px solid #5e5e5e}
+.px.pre1 .btn_order {padding: 20px;font-size: 1.5em;  font-weight: 800;}
 
 .px.pre2 {display: flex}
 .px.pre2 .box_title strong:first-child {margin-right: 15px}
@@ -467,6 +477,12 @@ ul.tabs li.current{  font-weight: 800; }
 .px .messagewrap {   margin-bottom: 20px; max-height: 250px;    overflow-y: auto; padding-right: 10px}
 .px .message  {    content: '';    display: block;    clear: both;}
 .px input.message {margin-bottom: 0px!important; border-color:#BC2D1E;  width: 100%!important;}
+
+/*약속처방 주문*/
+.p_coded.order .thumb_img {    width: 100px;    height: 100px;    background-size: cover!important;    background-position: center center!important;    border: 1px solid #D9D9D9;    border-radius: 5px;}
+.p_coded.order > div { padding: 20px }
+.p_coded.order > div .table{ margin-bottom: 0px }
+
 @media screen and (max-width: 1200px){
     .px.pre1 .flex > div {margin-right: 0;}
     .px.pre1 .flex {flex-wrap: wrap}

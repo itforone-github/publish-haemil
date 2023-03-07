@@ -228,6 +228,37 @@ include_once("../include/header.php");
                         <td class="" rowspan="1">
                             <span class="state">주문접수</span>
                         </td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a  href="px.prescribe4.done.php">202302081123-4</a></span></td>
+                        <td class="" colspan="1">김환자</td>
+                        <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
+                        <td scope="col" rowspan="2" class="">1</td>
+                        <td class="" rowspan="2">현금결제</td>
+                        <td class="" rowspan="2">119,400원</td>
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_red btn_h40" onclick="window.open('order2.print.php','조제지시서 발행','width=900px,height=1000px,left=0,top=0');">확인</button> </td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline btn_h40">확인</button></td>
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline" onclick="location.href='px.prescribe5.done.php'">수정</button>
+                            <button type="button" class="btn btn_redline">취소</button></td>
+                    </tr>
+                    <tr>
+                        <td class="" rowspan="1">약속처방</td>
+                        <td class="" rowspan="1">맞춤처방</td>
+                        <td class="" rowspan="1">010-0000-0000</td>
+                        <td class="" rowspan="1">
+                            <div class="delivery text_center">
+                                <p class="txt_under"><a>CJ택배 151351581354</a></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="" scope="col" rowspan="2">
+                            <input type="checkbox" name="chk[]" value="0" id="chk_0" />
+                        </td>
+                        <td class="" rowspan="2">8862</td>
+                        <td class="" rowspan="2">23-02-08</td>
+
+                        <td class="" rowspan="1">
+                            <span class="state">주문접수</span>
+                        </td>
                         <td class="" colspan="1"><span class="txt_red txt_under"><a  href="px.prescribe5.done.php">202302081123-5</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>

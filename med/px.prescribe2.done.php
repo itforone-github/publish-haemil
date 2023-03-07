@@ -1,5 +1,5 @@
 <?php
-$pid = "px_prescribe2";
+$pid = "px_order";
 include_once("../include/header.php");
 //3.0. 환제처방
 ?>

@@ -111,6 +111,7 @@ include_once("../include/header.php");
                         <th class="" rowspan="2">수량</th>
                         <!--th class="" rowspan="2">결제수단</th-->
                         <th class="" rowspan="2">주문금액</th>
+                        <th class="" rowspan="2">조제지시서</th>
                         <th class="" rowspan="2">관리</th>
                     </tr>
                     <tr>
@@ -137,13 +138,14 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_blue txt_under"><a>202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_blue txt_under"><a  href="order.prescribe4.done.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
                         <!--td class="" rowspan="2">현금결제</td-->
                         <td class="" rowspan="2">119,400원</td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">보기</button><button type="button" class="btn btn_redline">취소</button></td>
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_blue btn_sdw btn_h40" onclick="window.open('order2.print.php','조제지시서 발행','width=900px,height=1000px,left=0,top=0');">발행</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline"  href="order.prescribe4.done.php">보기</button><button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
                         <td class="" rowspan="1">한의학몰</td>
@@ -184,13 +186,14 @@ include_once("../include/header.php");
                                 <option value="주문취소">주문취소</option>
                             </select>
                         </td>
-                        <td class="" colspan="1"><span class="txt_red txt_under"><a>202302081123-1</a></span></td>
+                        <td class="" colspan="1"><span class="txt_red txt_under"><a  href="order.prescribe4.done.php">202302081123-1</a></span></td>
                         <td class="" colspan="1">김환자</td>
                         <td class="" colspan="1">부산광역시 기장군 정관읍 용수공단 1길</td>
                         <td scope="col" rowspan="2" class="">1</td>
                         <!--td class="" rowspan="2">현금결제</td-->
                         <td class="" rowspan="2">119,400원</td>
-                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline">보기</button><button type="button" class="btn btn_redline">취소</button></td>
+                        <td class="" rowspan="2"><button type="button"  class="btn btn_blue btn_sdw btn_h40" onclick="window.open('order2.print.php','조제지시서 발행','width=900px,height=1000px,left=0,top=0');">발행</button> </td> <!--최초발행 btn_blue 재발행 btn_red-->
+                        <td class="" rowspan="2"><button type="button" class="btn btn_whiteline"  href="order.prescribe4.done.php">보기</button><button type="button" class="btn btn_redline">취소</button></td>
                     </tr>
                     <tr>
                         <td class="" rowspan="1">약속처방</td>
