@@ -1,5 +1,5 @@
 <?php
-$pid = "px_prescribe3";
+$pid = "px_order";
 include_once("../include/header.php");
 //3.0. 산제처방
 ?>

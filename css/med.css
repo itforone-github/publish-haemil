@@ -324,6 +324,7 @@
     .p_coded.view .pc_product .btn_wrap button{font-size: 1em; margin-right: 2px;}
 
 }
+
 /*처방 기본 설정*/
 .p_setting h4{font-size: 1.1em; font-weight: 600; color: #BC2D1E; margin-bottom: 10px;}
 .p_setting select{width: auto; margin-bottom: 0; line-height: 30px; height: 30px; padding-top: 0; padding-bottom: 0; border-radius: 5px}

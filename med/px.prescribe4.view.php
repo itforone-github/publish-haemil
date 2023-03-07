@@ -130,7 +130,7 @@ include_once("../include/header.php");
                         <a class="btn_wish"><i class="fa-thin fa-star"></i><!--찜하기--></a>
                         <button class="btn btn_red2">처방하기</button>
                         <button class="btn btn_black">장바구니</button>
-                        <button class="btn btn_red">구매하기</button>
+                        <button class="btn btn_red" onclick="location.href='px.prescribe4.order.php'">구매하기</button>
                     </div>
                 </div>
 
