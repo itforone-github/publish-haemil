@@ -4,7 +4,7 @@ include_once("../include/header.php");
 //5.8	홈페이지 제작·관리
 ?>
 
-    <section class="cs_update">
+    <section class="cs_update board_form">
 
         <div class="panel">
             <h3>CS 접수 등록</h3>

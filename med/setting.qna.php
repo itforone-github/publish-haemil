@@ -41,11 +41,11 @@ include_once("../include/header.php");
                             <td><input type="checkbox" name="checkbox" /></td>
                             <td>4</td>
                             <td>합배송 문의</td>
-                            <td>안녕하세요 1일자 주문 2건 합배송 부탁드립니다 ...</td>
+                            <td onclick="location.href='../med/setting.qna.view.php'">안녕하세요 1일자 주문 2건 합배송 부탁드립니다 ...</td>
                             <td><span>접수완료</span></td>
                             <td>2022-10-11</td>
                             <td>
-                                <button type="button" class="btn btn_mini btn_line">수정</button>
+                                <button type="button" class="btn btn_mini btn_line" onclick="location.href='../med/setting.qna.update.php'">수정</button>
                                 <button type="button" class="btn btn_mini btn_redline">삭제</button>
                             </td>
                         </tr>

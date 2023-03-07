@@ -5,7 +5,7 @@ include_once("../include/header.php");
 ?>
 
 
-    <section class="s_qna">
+    <section class="s_qna board_form">
         <div class="area_top">
             <div>
             </div>
@@ -17,7 +17,12 @@ include_once("../include/header.php");
         <div class="form">
             <div class="box2">
                 <div>
-                    <input type="text" placeholder="제목을 입력하세요." />
+                    <select>
+                        <option>합배송 문의</option>
+                        <option>포인트 결제 관련</option>
+                        <option>이벤트 내용 수정</option>
+                        <option>오류 문의</option>
+                    </select>
                     <div>
                         <!--에디터-->
                         <textarea placeholder="내용을 입력하세요."></textarea>
