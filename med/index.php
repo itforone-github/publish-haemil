@@ -3,8 +3,8 @@ $pid = "index";
 include_once("../include/header.php");
 //2.1환자메인
 ?>
-
-<section class="treat main">
+<section class="ready"></section>
+<section class="treat main ready_page">
     <div class="tm_register">
         <h3>간편 환자등록</h3>
         <div class="box1">
@@ -175,8 +175,7 @@ include_once("../include/header.php");
         </div>
     </div>
 </section>
-
-<section class="latest">
+<section class="latest ready_page">
     <h3>최근 진료 리뷰</h3>
     <div class="box2">
         <div class="table">

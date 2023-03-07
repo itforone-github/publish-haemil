@@ -367,7 +367,7 @@ ul.tabs li.current{  font-weight: 800; }
 
 .ready_bubble2{position: relative; display: inline-block;}
 .ready_bubble2:after{content: "준비중"; display: inline-block; background: #1e2229; border-radius: 40px; color: rgba(255,255,255,1); padding: 3px 10px;
-    font-size: 1em; line-height: 1em; font-weight: 400; z-index: 99;}
+    font-size: 12px; line-height: 1em; font-weight: 400; z-index: 99;}
 
 .empty{padding: 40px 0; text-align: center; font-size: 1.2em;}
 
