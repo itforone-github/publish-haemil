@@ -7,7 +7,7 @@ include_once("../include/header.php");
     <section class="p_coded order">
         <div class="panel">
             <span>
-            <button type="button" class="btn btn_whiteline"  >목록</button>
+            <button type="button" class="btn btn_whiteline" onclick="location.href='./order2.php'" >목록</button>
             </span>
         </div>
         <div class="box4">

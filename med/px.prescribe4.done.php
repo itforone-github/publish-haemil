@@ -7,7 +7,7 @@ include_once("../include/header.php");
     <section class="p_coded order">
         <div class="area_top">
             <div class="btn_wrap">
-                <a class="btn btn_sdw btn_mini btn_white">목록</a>
+                <a class="btn btn_sdw btn_mini btn_white" onclick="location.href='./px.order.php'">목록</a>
             </div>
         </div>
         <div class="box2">
