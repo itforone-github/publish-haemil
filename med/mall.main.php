@@ -3,13 +3,13 @@ $pid = "mall_main";
 include_once("../include/header.php");
 //4.01	한의학몰 메인
 ?>
-    <section class="ready"></section>
+
     <section class="mall main ready_page">
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="../img//med/mall_slider01.jpg" /></div>
-                <div class="swiper-slide"><img src="../img//med/mall_slider02.jpg" /></div>
+                <div class="swiper-slide"><img src="../img/med/mall_slider01.jpg" /></div>
+                <div class="swiper-slide"><img src="../img/med/mall_slider02.jpg" /></div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -33,7 +33,7 @@ include_once("../include/header.php");
             <h3>기획전 모아보기 <span>10/21~11/10</span></h3>
             <ul>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event01.jpg" /></div>
+                    <div class="img"><img src="../img/med/mall_event01.jpg" /></div>
                     <div class="text">
                         <p>경옥고S스틱박스(15g)</p>
                         <span>옵션가 확인</span>

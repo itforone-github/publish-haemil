@@ -48,42 +48,42 @@ include_once("../include/header.php");
         <div class="mall_list">
             <ul>
                 <li onclick="location.href='mall.view.php'">
-                    <div class="img"><img src="../img//med/mall_event01.jpg" /></div>
+                    <div class="img"><img src="../img/med/products_img06.jpg" /></div>
                     <div class="text">
                         <strong>기획전</strong>
-                        <p>경옥고S스틱박스(15g)</p>
+                        <p>황제공진단-블랙박스</p>
                         <span>옵션가 확인</span>
                     </div>
                 </li>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event02.jpg" /></div>
+                    <div class="img"><img src="../img/med/products_img02.png" /></div>
                     <div class="text">
                         <strong>NEW</strong>
-                        <p>경옥고S스틱박스(15g)</p>
+                        <p>백곡산(50g*20개)</p>
                         <span>옵션가 확인</span>
                     </div>
                 </li>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event03.jpg" /></div>
+                    <div class="img"><img src="../img/med/products_img03.jpg" /></div>
                     <div class="text">
                         <strong>일시품절</strong>
-                        <p>경옥고S스틱박스(15g)</p>
+                        <p>금룡경옥고스틱세트(17g)</p>
                         <span>옵션가 확인</span>
                     </div>
                 </li>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event04.jpg" /></div>
+                    <div class="img"><img src="../img/med/products_img04.png" /></div>
                     <div class="text">
                         <strong>기획전</strong>
-                        <p>경옥고S스틱박스(15g)</p>
+                        <p>황제공진단세트(원방공진단+케이스)</p>
                         <span>옵션가 확인</span>
                     </div>
                 </li>
                 <li>
-                    <div class="img"><img src="../img//med/mall_event04.jpg" /></div>
+                    <div class="img"><img src="../img/med/products_img05.jpg" /></div>
                     <div class="text">
                         <strong>기획전</strong>
-                        <p>경옥고S스틱박스(15g)</p>
+                        <p>체감환스틱(강)</p>
                         <span>옵션가 확인</span>
                     </div>
                 </li>

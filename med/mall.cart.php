@@ -53,14 +53,29 @@ include_once("../include/header.php");
                         </tr>
                         </thead>
                         <tbody>
+                        <!--<tr>
+                            <td class="" scope="col">
+                                <input type="checkbox" name="chk[]" value="0" id="chk_0" />
+                            </td>
+                            <td class="">3</td>
+                            <td class="">2023-02-08</td>
+                            <td class=""><div class="img thumb_img"><img src="../img/common/noimg2.png"/></div></td>
+                            <td class="">경옥고S스틱박스(15g)</td>
+                            <td class="">0원</td>
+                            <td class="">4</td>
+                            <td class="">0원</td>
+                            <td class="">
+                                <button type="button" class="btn btn_redline">삭제</button>
+                            </td>
+                        </tr>-->
                         <tr>
                             <td class="" scope="col">
                                 <input type="checkbox" name="chk[]" value="0" id="chk_0" />
                             </td>
-                            <td class="">1</td>
+                            <td class="">2</td>
                             <td class="">2023-02-08</td>
-                            <td class=""><div class="img thumb_img"><img src="../img/common/noimg2.png"></div></td>
-                            <td class="">밀환 - 앵두대 [30원/g]</td>
+                            <td class=""><div class="img"><img src="../img/med/products_img02.png" /></div></td>
+                            <td class="">백곡산(50g*20개)</td>
                             <td class="">0원</td>
                             <td class="">2</td>
                             <td class="">0원</td>
@@ -74,40 +89,10 @@ include_once("../include/header.php");
                             </td>
                             <td class="">1</td>
                             <td class="">2023-02-08</td>
-                            <td class=""><div class="img thumb_img"><img src="../img/common/noimg2.png"></div></td>
-                            <td class="">밀환 - 앵두대 [30원/g]</td>
+                            <td class=""><div class="img"><img src="../img/med/products_img07.jpg"/></div></td>
+                            <td class="">공진단(원방)4.5g(拱辰丹)</td>
                             <td class="">0원</td>
-                            <td class="">2</td>
-                            <td class="">0원</td>
-                            <td class="">
-                                <button type="button" class="btn btn_redline">삭제</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="" scope="col">
-                                <input type="checkbox" name="chk[]" value="0" id="chk_0" />
-                            </td>
                             <td class="">1</td>
-                            <td class="">2023-02-08</td>
-                            <td class=""><div class="img thumb_img"><img src="../img/common/noimg2.png"></div></td>
-                            <td class="">밀환 - 앵두대 [30원/g]</td>
-                            <td class="">0원</td>
-                            <td class="">2</td>
-                            <td class="">0원</td>
-                            <td class="">
-                                <button type="button" class="btn btn_redline">삭제</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="" scope="col">
-                                <input type="checkbox" name="chk[]" value="0" id="chk_0" />
-                            </td>
-                            <td class="">1</td>
-                            <td class="">2023-02-08</td>
-                            <td class=""><div class="img thumb_img"><img src="../img/common/noimg2.png"></div></td>
-                            <td class="">밀환 - 앵두대 [30원/g]</td>
-                            <td class="">0원</td>
-                            <td class="">2</td>
                             <td class="">0원</td>
                             <td class="">
                                 <button type="button" class="btn btn_redline">삭제</button>
