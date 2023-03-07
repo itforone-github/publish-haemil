@@ -41,10 +41,12 @@ include_once("../include/header.php");
             </div>
         </div>
         <div class="sm_treat">
-            <div class="box2">
+
+            <div class="box2 ready_page">
+                <div class="ready"></div>
                 <div class="list">
                     <div class="title">
-                        <p><img src="../img/common/ic_setting07.svg" /> 진료시간</p>
+                        <p><span class="ready_bubble2"></span> <img src="../img/common/ic_setting07.svg" /> 진료시간</p>
                         <p><a class="btn btn_mini btn_line">수정</a></p>
                     </div>
                     <ul>
@@ -86,10 +88,11 @@ include_once("../include/header.php");
             </div>
         </div>
         <div class="sm_reserve">
-            <div class="box2">
+            <div class="box2 ready_page">
+                <div class="ready"></div>
                 <div class="list">
                     <div class="title">
-                        <p><img src="../img/common/ic_setting08.svg" /> 예약 가능 시간</p>
+                        <p><span class="ready_bubble2"></span> <img src="../img/common/ic_setting08.svg" /> 예약 가능 시간</p>
                         <p><a class="btn btn_mini btn_line">수정</a></p>
                     </div>
                     <ul>
