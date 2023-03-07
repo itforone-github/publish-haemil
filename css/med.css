@@ -106,9 +106,15 @@
 .board_view dl{margin-bottom: 20px;}
 .board_view dl dt{font-size: 1.2em; font-weight: 800; margin-bottom: 10px;}
 .board_view dl dd{background-color: #F6F6F6; padding: 20px;}
-.board_view .download { font-weight:  800; text-decoration: underline; margin-bottom: 12px}
+.board_view .download { font-weight:  800; text-decoration: underline; margin-bottom: 12px; padding: 0; background-color: transparent}
 
 .board_form textarea{min-height: 300px;}
+
+.board_view .answer { background: #F6F6F6;  padding: 20px!important;}
+.board_view .answer textarea { border: 1px solid #E8E8E8}
+.board_view .answer > div { padding-bottom: 10px;margin-bottom: 20px;border-bottom: 1px solid #E8E8E8;}
+
+
 
 /** 1.환자진료 - 메인 **/
 .treat.main .list li .state.ing{color: #36A102; font-weight: 600;}

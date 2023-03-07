@@ -37,6 +37,21 @@ include_once("../include/header.php");
                     </dd>
                 </dl>
 
+                <div class="answer">
+                    <div>
+                        <p class="txt_bold">답변일 2023-00-00</p>
+                        <div class="reply">
+                            <p>답변 내용입니다.</p>
+                        </div>
+
+                    </div>
+                    <div class="editor">
+                        <label>답변 작성</label>
+                        <textarea placeholder="내용을 입력하세요" class="w100"></textarea><!--에디터-->
+                        <button type="button" class="btn btn_red">등록</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
