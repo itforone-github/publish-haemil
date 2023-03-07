@@ -109,10 +109,10 @@
             <div class="modal-body">
                 <input type="text"  placeholder="한의원명을 입력하세요"/>
                 <div class="list">
-                    <a><p>병원명 | 우상우한의원<br>담당자ID | premind00<br>담당자명 | 우상우</p></a>
+                    <a><p>병원명 | 우상우한의원<br>주소 | 부산시 해운대구 센텀동로 57<br>대표번호 | 051-000-0000<br>이름 | 우상우<br>아이디 | premind00</p></a>
                 </div>
                 <div class="list">
-                    <a><p>병원명 | 우상우한의원<br>담당자ID | premind00<br>담당자명 | 우상우</p></a>
+                    <a><p>병원명 | 우상우한의원<br>주소 | 부산시 해운대구 센텀동로 57<br>대표번호 | 051-000-0000<br>이름 | 우상우<br>아이디 | premind00</p></a>
                 </div>
                 <div class="b-pagination-outer ">
                     <ul id="border-pagination">
