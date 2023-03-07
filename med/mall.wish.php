@@ -1,50 +1,10 @@
 <?php
-$pid = "mall_list";
+$pid = "mall_wish";
 include_once("../include/header.php");
-//3.11.1	약속 처방재 > 목록
+//찜상품 보관함
 ?>
     <section class="ready"></section>
-    <section class="m_list ready_page">
-        <div class="panel">
-            <div>
-
-                <select name="search">
-                    <option value="">선택</option>
-                </select>&nbsp;
-                <input class="search-bar" type="search" placeholder="검색어를 입력하세요"><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
-
-            </div>
-        </div>
-        <div class="tagbox box2">
-            <div>
-                <p><strong>카테고리</strong></p>
-            </div>
-            <div>
-                <p><a><span class="tag active">전체</span></a></p>
-                <p><a><span class="tag">기획전</span></a></p>
-                <p><a><span class="tag">빈용방</span></a></p>
-                <p><a><span class="tag">경옥고</span></a></p>
-                <p><a><span class="tag">공진단</span></a></p>
-                <p><a><span class="tag">근골격</span></a></p>
-                <p><a><span class="tag">대사질환</span></a></p>
-                <p><a><span class="tag">부인과</span></a></p>
-                <p><a><span class="tag">보허약</span></a></p>
-                <p><a><span class="tag">소화기</span></a></p>
-                <p><a><span class="tag">순환기</span></a></p>
-                <p><a><span class="tag">신경과</span></a></p>
-                <p><a><span class="tag">피부과</span></a></p>
-                <p><a><span class="tag">해독약</span></a></p>
-                <p><a><span class="tag">호흡기</span></a></p>
-                <p><a><span class="tag">외용재</span></a></p>
-                <p><a><span class="tag">부자재</span></a></p>
-                <p><a><span class="tag">다이어트</span></a></p>
-                <p><a><span class="tag">그외처방</span></a></p>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="ready_page">
+    <section class="m_wish ready_page">
         <div class="mall_list">
             <ul>
                 <li onclick="location.href='mall.view.php'">

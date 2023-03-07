@@ -4,7 +4,7 @@ include_once("../include/header.php");
 //3.11.2	약속 처방재 > 상세
 ?>
 
-    <section class="p_coded view">
+    <section class="mall_view">
         <div class="area_top">
             <h3>제품 상세정보</h3>
             <div class="btn_wrap">
