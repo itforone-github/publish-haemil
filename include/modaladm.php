@@ -114,7 +114,8 @@
                 <div class="list">
                     <a><p>병원명 | 우상우한의원<br>주소 | 부산시 해운대구 센텀동로 57<br>대표번호 | 051-000-0000<br>이름 | 우상우<br>아이디 | premind00</p></a>
                 </div>
-                <div class="b-pagination-outer ">
+                <!-- 모달에서 페이징 제거하고, 길어지면 스크롤 처리하기 -->
+                <!--<div class="b-pagination-outer ">
                     <ul id="border-pagination">
                         <li><a class="" href="#">«</a></li>
                         <li><a href="#">1</a></li>
@@ -126,7 +127,7 @@
                         <li><a href="#">7</a></li>
                         <li><a href="#">»</a></li>
                     </ul>
-                </div>
+                </div>-->
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
