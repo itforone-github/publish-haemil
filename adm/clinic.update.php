@@ -11,6 +11,21 @@ include_once("../include/header.php");
         <button type="button" class="btn btn_red" >등록하기</button>
     </div>
     <div class="box3">
+        <h3>회원 정보</h3>
+        <div class="flex">
+            <div>
+                <input type="text" placeholder="아이디"/>
+                <input type="text" placeholder="성명"/>
+                <input type="password" placeholder="비밀번호"/>
+            </div>
+            <div>
+                <input type="date" data-placeholder="생년월일" required aria-required="true"/>
+                <input type="text" placeholder="휴대폰번호"/>
+            </div>
+        </div>
+    </div>
+    <div class="box3">
+        <h3>한의원 정보</h3>
         <div class="flex jc-sb">
             <div>
                 <div class="group_select">
@@ -20,9 +35,9 @@ include_once("../include/header.php");
                     </select>
                 </div>
                 <label>한의원명</label><input type="text" placeholder="한의원명"/>
-                <label>사업자등록번호</label><input type="text" placeholder="사업자등록번호"/>
                 <label>대표자명</label><input type="text" placeholder="대표자명"/>
                 <label>원장아이디(주계정)</label><input type="text" placeholder="원장아이디(주계정)"/>
+                <label>사업자등록번호</label><input type="text" placeholder="사업자등록번호"/>
             </div>
             <div>
                 <label>기본주소</label><input type="text" placeholder="기본주소"/>

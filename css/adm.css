@@ -63,7 +63,7 @@ header {    background-color: #F6F6F6;}
 .clinic .box3 {    padding: 30px 24px;    width: 100%;}
 .clinic .tagbox {   background: #F6F6F6; border-radius: 5px; margin-bottom: 15px}
 .clinic select {  width: 100%; margin-bottom: 12px; }
-.clinic  .flex > div {        width: 32%;    margin-bottom: 15px;    padding-right: 15px;    border-right: 1px solid #C8C8CB;}
+.clinic  .flex > div {        /*width: 32%;*/ width: 100%;    margin-bottom: 15px;    padding-right: 15px; margin-right: 15px;    border-right: 1px solid #C8C8CB;}
 .clinic .flex > div:last-child { padding-right: 0px;    border-right: 0;}
 
 @media screen and (max-width: 1000px){
