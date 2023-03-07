@@ -36,13 +36,12 @@ include_once("../include/header.php");
                 </div>
                 <label>한의원명</label><input type="text" placeholder="한의원명"/>
                 <label>대표자명</label><input type="text" placeholder="대표자명"/>
-                <label>원장아이디(주계정)</label><input type="text" placeholder="원장아이디(주계정)"/>
                 <label>사업자등록번호</label><input type="text" placeholder="사업자등록번호"/>
+                <label>업태</label><input type="text" placeholder="업태"/>
             </div>
             <div>
                 <label>기본주소</label><input type="text" placeholder="기본주소"/>
                 <label>상세주소</label><input type="text" placeholder="상세주소"/>
-                <label>업태</label><input type="text" placeholder="업태"/>
                 <label>대표전화</label><input type="text" placeholder="대표전화"/>
                 <label>팩스번호</label><input type="text" placeholder="팩스번호"/>
             </div>
@@ -64,27 +63,27 @@ include_once("../include/header.php");
 
     <!--수정시 직원계정목록-->
     <div class="box3">
-
+        <h3>직원계정 정보</h3>
         <div class="table adm">
             <table>
                 <thead>
                 <tr>
-                    <th><input type="checkbox" name="checkbox"></th>
                     <th>No.</th>
                     <th>아이디</th>
                     <th>담당자</th>
                     <th>연락처</th>
                     <th>권한</th>
+                    <th>등록일</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td><input type="checkbox" name="checkbox"></td>
                     <td>1</td>
                     <td>yoshin01</td>
                     <td>김유신</td>
                     <td>010-0000-0000</td>
                     <td>최고관리자</td>
+                    <td>23.03.07</td>
                 </tr>
                 </tbody>
             </table>
