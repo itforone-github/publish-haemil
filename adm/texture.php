@@ -9,7 +9,7 @@ include_once("../include/header.php");
             <p>총 <span class="red">4</span>개 </p>
             <div>
                 <select name="search">
-                    <option value="">선택</option>
+                    <option value="">제형명</option>
                 </select>
                 <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
