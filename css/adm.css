@@ -206,6 +206,9 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 /*medicine*/
 .texture .box3 {    padding: 30px 24px;    width: 100%;}
 .texture select {  width: 100%; margin-bottom: 12px; }
+
+#texturemodal01 .circle{margin-bottom: 12px;}
+
 #texturenemodal01 select {width: 100%}
 #textureemodal01 textarea {    width: 100%;    border: 1px solid #ebebeb;    min-height: 100px; padding: 15px}
 @media screen and (max-width: 1400px){

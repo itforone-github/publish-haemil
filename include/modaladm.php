@@ -228,13 +228,13 @@
             <div class="modal-body">
                 <form>
                     <label>제환</label>
-                    <div>
+                    <div class="circle">
                         <span class=""><input type="radio" name="gubun" checked /><label>밀환</label></span>
                         <span class=""><input type="radio" name="gubun"/><label>호환</label></span>
                         <span class=""><input type="radio" name="gubun"/><label>수환</label></span>
                     </div>
                     <label>구분</label>
-                    <div>
+                    <div class="circle">
                         <span class=""><input type="radio" name="gubun2" checked /><label>소녹두대</label></span>
                         <span class=""><input type="radio" name="gubun2"/><label>앵두대</label></span>
                         <span class=""><input type="radio" name="gubun2"/><label>오자대</label></span>
