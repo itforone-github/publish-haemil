@@ -317,7 +317,7 @@
                                  <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
                     <!---->
                     <label>박스</label><select><option>인박스</option><option>아웃박스</option><option>인+아웃박스</option></select>
-                    <label>포장명</label><input type="text" placeholder="포장명을 입력하세요"/>
+                    <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>사용여부</label>
                     <div class="flex jc-sb ">
@@ -362,7 +362,7 @@
                     <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
                                  <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
                     <!---->
-                    <label>인쇄명</label><input type="text" placeholder="인쇄명을 입력하세요"/>
+                    <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>사용여부</label>
                     <div class="flex jc-sb ">
@@ -407,7 +407,7 @@
                     <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
                                  <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
                     <!---->
-                    <label>디자인명</label><input type="text" placeholder="디자인명을 입력하세요"/>
+                    <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>사용여부</label>
                     <div class="flex jc-sb ">
@@ -445,7 +445,7 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <label>원터치통명</label><input type="text" placeholder="원터치통명을 입력하세요"/>
+                    <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>사용여부</label>
                     <div class="flex jc-sb ">
@@ -577,7 +577,7 @@
                 <form>
                     <label>포장 분류</label><select><option>금박</option><option>씰링</option>
                         <option>청병</option><option>사탕포장</option></select>
-                    <label>포장명</label><input type="text" placeholder="포장명을 입력하세요"/>
+                    <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>사용여부</label>
                     <div class="flex jc-sb ">
@@ -617,7 +617,7 @@
                 <form>
                     <label>케이스 분류</label><select><option>원목 케이스</option><option>함지 케이스</option></select>
                     <label>인쇄 분류</label><select><option>인쇄</option><option>무인쇄</option></select>
-                    <label>케이스명</label><input type="text" placeholder="케이스명을 입력하세요"/>
+                    <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>사용여부</label>
                     <div class="flex jc-sb ">

@@ -7,13 +7,12 @@ include_once("../include/header.php");
     <section class="plastic">
         <div class="panel">
             <p>총 <span class="red">4</span>개 </p>
-            <div>
+            <!--<div>
                 <select name="search">
                     <option value="">선택</option>
                 </select>
                 <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
-
-            </div>
+            </div>-->
             <span>
             <button type="button" class="btn btn_whiteline" >선택 삭제</button>
             <button type="button" class="btn btn_red" data-toggle="modal" data-target="#plasticmodal01">포장 등록</button>
@@ -37,7 +36,7 @@ include_once("../include/header.php");
                 <p><a><span class="tag">하늘체</span></a></p>
             </div><!--위 그룹 선택시 노출-->
             <div>
-                <p><strong>박스 분류</strong></p>
+                <p><strong>포장 분류</strong></p>
             </div>
             <div>
                 <p><a><span class="tag active">전체</span></a></p>
@@ -77,7 +76,7 @@ include_once("../include/header.php");
                         <th>번호</th>
                         <th>이미지</th>
                         <th>대상</th>
-                        <th>박스</th>
+                        <th>포장분류</th>
                         <th>그룹</th>
                         <th>금액</th>
                         <th>사용</th>

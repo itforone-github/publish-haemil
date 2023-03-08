@@ -9,7 +9,7 @@ include_once("../include/header.php");
             <p>총 <span class="red">4</span>개 </p>
             <div>
                 <select name="search">
-                    <option value="">선택</option>
+                    <option value="">품명</option>
                 </select>
                 <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
@@ -21,7 +21,7 @@ include_once("../include/header.php");
         </div>
         <div class="tagbox">
             <div>
-                <p><strong>케이스 분류</strong></p>
+                <p><strong>포장 분류</strong></p>
             </div>
             <div>
                 <p><a><span class="tag active">전체</span></a></p>
@@ -58,9 +58,9 @@ include_once("../include/header.php");
                         <th><input type="checkbox" name="chkall" value="1" id="chkall"/></th>
                         <th>번호</th>
                         <th>이미지</th>
-                        <th>케이스분류</th>
+                        <th>품명</th>
+                        <th>포장분류</th>
                         <th>인쇄분류</th>
-                        <th>케이스명</th>
                         <th>금액</th>
                         <th>사용</th>
                         <th>순서</th>
@@ -73,9 +73,9 @@ include_once("../include/header.php");
                         <td><input type="checkbox" name="chk[]" value="0" id="chk_0" /></td>
                         <td>1</td>
                         <td><div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div></td>
+                        <td>20구함지(무인쇄)</td>
                         <td>함지 케이스</td>
                         <td>무인쇄</td>
-                        <td>20구함지(무인쇄)</td>
                         <td>0원</td>
                         <td>사용</td>
                         <td>1</td>

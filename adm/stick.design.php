@@ -9,7 +9,7 @@ include_once("../include/header.php");
             <p>총 <span class="red">4</span>개 </p>
             <div>
                 <select name="search">
-                    <option value="">선택</option>
+                    <option value="">품명</option>
                 </select>
                 <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
@@ -58,7 +58,7 @@ include_once("../include/header.php");
                         <th><input type="checkbox" name="chkall" value="1" id="chkall"/></th>
                         <th>번호</th>
                         <th>이미지</th>
-                        <th>디자인명</th>
+                        <th>품명</th>
                         <th>대상</th>
                         <th>그룹</th>
                         <th>금액</th>
