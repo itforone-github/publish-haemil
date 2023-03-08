@@ -41,7 +41,7 @@ include_once("../include/header.php");
                             <td><input type="checkbox" name="checkbox" /></td>
                             <td>4</td>
                             <td>합배송 문의</td>
-                            <td onclick="location.href='../med/setting.qna.view.php'">안녕하세요 1일자 주문 2건 합배송 부탁드립니다 ...</td>
+                            <td><a href="../med/setting.qna.view.php">안녕하세요 1일자 주문 2건 합배송 부탁드립니다 ...</a></td>
                             <td><span>접수완료</span></td>
                             <td>2022-10-11</td>
                             <td>
