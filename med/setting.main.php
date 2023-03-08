@@ -183,7 +183,7 @@ include_once("../include/header.php");
                         <tbody>
                         <tr>
                             <td>1</td>
-                            <td>시간별 최대 인원을 줄일 수 있나요?</td>
+                            <td><a href="setting.qna.view.php">시간별 최대 인원을 줄일 수 있나요?</a></td>
                             <td>2022-10-01</td>
                         </tr>
                         <tr>
@@ -203,8 +203,9 @@ include_once("../include/header.php");
             </div>
         </div>
         <div>
-            <h3>이벤트 목록</h3>
-            <div class="box2">
+            <h3><span class="ready_bubble2"></span> 이벤트 목록</h3>
+            <div class="box2 ready_page">
+                <div class="ready"></div>
                 <div class="table">
                     <table>
                         <thead>
@@ -222,12 +223,12 @@ include_once("../include/header.php");
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>무료 사상체질 검사 & 맛보기 한약</td>
+                            <td>맞춤 다이어트 한약</td>
                             <td>2022-10-01~2022-11-30</td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>무료 사상체질 검사 & 맛보기 한약</td>
+                            <td>무료인바디</td>
                             <td>2022-10-01~2022-11-30</td>
                         </tr>
                         </tbody>
