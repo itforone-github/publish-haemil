@@ -9,8 +9,9 @@ include_once("../include/header.php");
 </script>
 
 <div id="order_print_wrapper" class="orderprint" onClick="print()">
-    <!--<h3>후한의원 창원점 / 055-286-9900 / 탕 / 일반 [20첩] / 2023-02-22 / 1일3회 / 식전 /30분</h3>-->
-    <h3>카드결제</h3>
+    <h3>후한의원 창원점 / 055-286-9900<br>
+        탕 / 일반 [20첩] / 2023-02-22 / 1일3회 / 식전 /30분</h3>
+    <!--<h3>카드결제</h3>-->
     <div class="table">
 
         <table>
