@@ -14,7 +14,7 @@
                     <label>포인트 내용</label><input type="text" placeholder="포인트 내용을 입력해주세요"/>
                     <div class="flex jc-sb">
                         <div class="w50"><input type="radio" name="point"/><label>포인트 추가</label></div>
-                        <div class="w50"><input type="radio" name="point/"><label>포인트 차감</label></div>
+                        <div class="w50"><input type="radio" name="point"/><label>포인트 차감</label></div>
                     </div>
                 </form>
             </div>
@@ -227,7 +227,20 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <label>제형명</label><input type="text" placeholder="약재명을 입력해주세요"/>
+                    <label>제환</label>
+                    <div>
+                        <span class=""><input type="radio" name="gubun" checked /><label>밀환</label></span>
+                        <span class=""><input type="radio" name="gubun"/><label>호환</label></span>
+                        <span class=""><input type="radio" name="gubun"/><label>수환</label></span>
+                    </div>
+                    <label>구분</label>
+                    <div>
+                        <span class=""><input type="radio" name="gubun2" checked /><label>소녹두대</label></span>
+                        <span class=""><input type="radio" name="gubun2"/><label>앵두대</label></span>
+                        <span class=""><input type="radio" name="gubun2"/><label>오자대</label></span>
+                        <span class=""><input type="radio" name="gubun2"/><label>은단대</label></span>
+                    </div>
+                    <label>mm</label><input type="text" placeholder="예) 3mm"/>
                     <label>1g당 가격</label><input type="text" placeholder="숫자만 입력"/>
                     <label>순서</label><input type="text" placeholder="순서를 입력해주세요"/>
                 </form>
