@@ -69,8 +69,8 @@ include_once("../include/header.php");
                         <tr>
                             <td>3</td>
                             <td>홈페이지</td>
-                            <td onclick="location.href='../med/setting.homepage.cs.view.php'">
-                                팝업수정부탁드립니다!</td>
+                            <td>
+                                <a href="../med/setting.homepage.cs.view.php">팝업수정부탁드립니다!</a></td>
                             <td>접수완료</td>
                             <td>2022-10-01</td>
                             <td><button class="btn btn_mini btn_line" onclick="location.href='../med/setting.homepage.cs.update.php'">수정</button></td>

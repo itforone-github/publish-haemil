@@ -13,6 +13,8 @@ include_once("../include/header.php");
                 <option value="">이름</option>
                 <option value="">아이디</option>
                 <option value="">대표자명</option>
+                <option value="">전화번호</option>
+                <option value="">주소</option>
                 <option value="">사업자등록번호</option>
             </select>
             <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
