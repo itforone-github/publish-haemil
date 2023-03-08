@@ -32,7 +32,15 @@ include_once("../include/header.php");
                     <tbody>
                     <tr>
                         <td>2022-10-31</td>
-                        <td>예약인증</td>
+                        <td><span class="txt_bold">예약인증</span></td>
+                        <td>김환자</td>
+                        <td>1990-10-01</td>
+                        <td><a data-toggle="modal" data-target="#reviewmodal">언제나 친절하고 과잉 진료 없이 원하는 통증만 딱 잡아주십니다 약 떨어질 쯤에 미리 연락주셔서 편하게 예약 잡았어요...</a></td>
+                        <td><button class="btn btn_mini btn_line">신고</button></td>
+                    </tr>
+                    <tr>
+                        <td>2022-10-31</td>
+                        <td><span class="txt_bold">예약인증</span></td>
                         <td>김환자</td>
                         <td>1990-10-01</td>
                         <td>언제나 친절하고 과잉 진료 없이 원하는 통증만 딱 잡아주십니다 약 떨어질 쯤에 미리 연락주셔서 편하게 예약 잡았어요...</td>
@@ -40,7 +48,7 @@ include_once("../include/header.php");
                     </tr>
                     <tr>
                         <td>2022-10-31</td>
-                        <td>예약인증</td>
+                        <td>해당없음</td>
                         <td>김환자</td>
                         <td>1990-10-01</td>
                         <td>언제나 친절하고 과잉 진료 없이 원하는 통증만 딱 잡아주십니다 약 떨어질 쯤에 미리 연락주셔서 편하게 예약 잡았어요...</td>
@@ -48,7 +56,7 @@ include_once("../include/header.php");
                     </tr>
                     <tr>
                         <td>2022-10-31</td>
-                        <td>예약인증</td>
+                        <td>해당없음</td>
                         <td>김환자</td>
                         <td>1990-10-01</td>
                         <td>언제나 친절하고 과잉 진료 없이 원하는 통증만 딱 잡아주십니다 약 떨어질 쯤에 미리 연락주셔서 편하게 예약 잡았어요...</td>
@@ -56,15 +64,7 @@ include_once("../include/header.php");
                     </tr>
                     <tr>
                         <td>2022-10-31</td>
-                        <td>예약인증</td>
-                        <td>김환자</td>
-                        <td>1990-10-01</td>
-                        <td>언제나 친절하고 과잉 진료 없이 원하는 통증만 딱 잡아주십니다 약 떨어질 쯤에 미리 연락주셔서 편하게 예약 잡았어요...</td>
-                        <td><button class="btn btn_mini btn_line">신고</button></td>
-                    </tr>
-                    <tr>
-                        <td>2022-10-31</td>
-                        <td>예약인증</td>
+                        <td><span class="txt_bold">예약인증</span></td>
                         <td>김환자</td>
                         <td>1990-10-01</td>
                         <td>언제나 친절하고 과잉 진료 없이 원하는 통증만 딱 잡아주십니다 약 떨어질 쯤에 미리 연락주셔서 편하게 예약 잡았어요...</td>
@@ -73,7 +73,19 @@ include_once("../include/header.php");
                     </tbody>
                 </table>
             </div>
-
+            <div class="b-pagination-outer">
+                <ul id="border-pagination">
+                    <li><a class="" href="#">«</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#" class="active">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">»</a></li>
+                </ul>
+            </div>
         </div>
     </section>
 <!--푸터 인클루드-->

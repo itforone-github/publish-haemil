@@ -1,5 +1,47 @@
 
 
+<!-- 리뷰상세보기 -->
+<div class="modal fade" id="reviewmodal" tabindex="-1" aria-labelledby="reviewmodalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewmodalLabel">리뷰 상세 보기</h5>
+            </div>
+            <div class="modal-body">
+                <div class="info">
+                    <div class="flex">
+                        <p>작성일<span>2022-10-31</span><i class="icon">예약 인증건</i></p>
+                        <p>진료일<span>2022-10-31</span></p>
+                    </div>
+                    <div class="flex js">
+                        <p>
+                            <strong>김환자</strong>
+                            <span>1990-01-30</span>
+                            <span>010-0000-0000</span>
+                        </p>
+                        <a class="btn btn_mini btn_whiteline" href="../med/treat.patient.php">환자상세보기</a>
+                    </div>
+                </div>
+
+                <dl>
+                    <dt>리뷰내용 <span>추천수 <strong class="txt_red">5</strong></span></dt>
+                    <dd>
+                        언제나 친절하고 과잉 진료 없이 원하는 통증만 딱 잡아주십니다 약 떨어질 쯤에 미리 연락주셔서 편하게 예약 잡았어요 어플로 예약을 잡고 가니까 평소보다 대기도 덜 하고 편안하네요 한의원 선택에 고민이 되신다면 제가 자주 가는 이 한의원 추천할게요~
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>신고 사유</dt>
+                    <textarea placeholder="신고 사유를 작성해주세요."></textarea>
+                </dl>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-primary">리뷰신고</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- 직원계정관리 계정생성 -->
 <div class="modal fade" id="memberupmodal" tabindex="-1" aria-labelledby="memberupmodalLabel" aria-hidden="true">
     <div class="modal-dialog">

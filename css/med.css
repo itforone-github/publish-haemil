@@ -171,7 +171,18 @@
 /*진료리뷰*/
 .t_review.latest h3 span{font-size:0.7em; font-weight: 600; opacity: 0.8; margin-left: 4px;}
 
-
+#reviewmodal{color:#373844}
+#reviewmodal .info{font-size: 1.1em;}
+#reviewmodal .info > div{margin-bottom: 4px;}
+#reviewmodal .info > div:last-child{margin-bottom: 0;}
+#reviewmodal .info p{margin-right: 10px;}
+#reviewmodal .info span{display: inline-block; margin-left: 4px;}
+#reviewmodal .info,
+#reviewmodal dd{background-color: #fff; padding: 20px;}
+#reviewmodal dt{font-size: 1.2em; margin: 14px 0 4px; 0}
+#reviewmodal dt span{font-size:0.75em; display: inline-block; margin-left: 4px;}
+i.icon{display: inline-block; font-style: normal; font-size: 11px; background-color: #FFD0CB;
+    color: #BC2D1E; padding: 4px 6px; border-radius: 5px; line-height: 1em; margin: 0 6px;}
 
 /** 2.처방하기 - 메인 **/
 .px.main .box_title input[type=date]{line-height:30px; height: 30px; background-color: rgba(255,255,255,0.14); color: #fff; border: 0; padding: 0 10px;}
