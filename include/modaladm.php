@@ -267,8 +267,8 @@
                     <!--개별 시 노출-->
                     <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
                     <!--그룹 시 노출-->
-                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
-                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <p class=""><span class="select"><input type="checkbox" id="group3-1" name="group3"/><label for="group3-1">기본</label>
+                                 <input type="checkbox" id="group3-2" name="group3"/><label for="group3-2">하늘체</label></span></p>
                     <!---->
                     <label>박스</label><select><option>진공팩</option><option>스탠드지퍼백</option><option>60팩</option><option>소박스</option></select>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
@@ -485,7 +485,16 @@
                 <form>
                     <label>대상</label><select><option>그룹</option><option>개별</option></select>
                     <!--개별 시 노출-->
-                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+                    <a  data-toggle="modal" data-target="#productupmodal01">
+                        <!--<input type="text"  placeholder="한의원명을 입력하세요"/>-->
+                        <button type="button">한의원 추가</button>
+                    </a>
+                    <!-- 개별 한의원 추가 후 -->
+                    <p>
+                        <span>가나다 한의원 <button type="button">삭제</button></span>
+                        <span>라라라 한의원 <button type="button">삭제</button></span>
+                        <span>드림 한의원 <button type="button">삭제</button></span>
+                    </p>
                     <!--그룹 시 노출-->
                     <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
                                  <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
