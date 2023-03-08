@@ -104,15 +104,15 @@ include_once("../include/header.php");
                         </div>
                         <div class="form_wrap circle">
                             <p>
-                                <label for="basic_box01">
+                                <label for="basic_pouch01">
                                     <img src="https://www.하니마을.com/data/delivery/d5ca4de27b1feb26e817ff3c584f2ece.png">
-                                    <input type="radio" id="basic_box01" name="basic_box" checked />01. 무광핑크
+                                    <input type="radio" id="basic_pouch01" name="basic_pouch" checked />01. 무광핑크
                                 </label>
                             </p>
                             <p>
-                                <label for="basic_box02">
+                                <label for="basic_pouch02">
                                     <img src="https://www.하니마을.com/data/delivery/434e92d508ca0d72ddf8a373cf3be16f.png">
-                                    <input type="radio" id="basic_box02" name="basic_box" />02 무광그린
+                                    <input type="radio" id="basic_pouch02" name="basic_pouch" />02 무광그린
                                 </label>
                             </p>
                         </div>

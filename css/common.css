@@ -159,8 +159,10 @@ a.btn_line2:hover,
 
 /*폼형태*/
 input{    border-radius: 4px; height: 40px;  background-color: #FFFFFF; border: 1px solid #c9c9c9; color: #78787B; padding: 10px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
+input:disabled,
 input:read-only {   background-color: #f3f3f3; border: 0px ;}
 textarea {    border-radius: 4px;background-color: #FFFFFF; border: 1px solid #c9c9c9; color: #78787B; padding: 10px; display: block; font-size: 1em!important; line-height: 1.6em!important; opacity: 1; margin-bottom: 12px; width: 100%;}
+textarea:disabled,
 textarea:read-only {   background-color: #f3f3f3; border: 0px ;}
 input:last-child{margin-bottom: 0;}
 input::placeholder{opacity: 0.8;}
@@ -182,6 +184,7 @@ input::placeholder{opacity: 0.8;}
  .filebox input[type="file"] {     position: absolute;     width: 0;     height: 0;     padding: 0;     overflow: hidden;     border: 0; }
 
 select {    margin-bottom: 12px;padding: 10px;border-radius: 0;width: 100%;color: #78787B;     height: 40px;    background: #FFFFFF;    border: 1px solid #c9c9c9;}
+select:disabled,
 select[readonly] {   background-color: #f3f3f3; border: 0px ;}
 input[type="search"] {border-radius: 0;width: 150px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #c9c9c9;    border-right: 0;display: inline-block; margin-bottom: 0;}
 .btn_search {border-radius: 0;width: 40px;    height: 40px;    background: #FFFFFF 0% 0% no-repeat padding-box;    border: 1px solid #c9c9c9;    border-left: 0;display: inline-block;    padding: 0 10px;}
