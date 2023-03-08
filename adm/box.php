@@ -9,7 +9,7 @@ include_once("../include/header.php");
             <p>총 <span class="red">4</span>개 </p>
             <div>
                 <select name="search">
-                    <option value="">선택</option>
+                    <option value="">박스명</option>
                 </select>
                 <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
 
@@ -95,9 +95,21 @@ include_once("../include/header.php");
                         <td>15개 그룹</td>
                         <td>0원</td>
                         <td>사용</td>
-                        <td>2022-10-31</td>
-                        <td>
-                            <button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
+                        <td>22.10.31</td>
+                        <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="chk[]" value="0" id="chk_0" /></td>
+                        <td>1</td>
+                        <td><div class="thumb_img" style="background-image: url(../img/common/noimg.png)"></div></td>
+                        <td>더편한 60팩</td>
+                        <td>개인</td>
+                        <td>60팩</td>
+                        <td>더편한한의원1<br>더편한한의원2</td>
+                        <td>0원</td>
+                        <td>사용</td>
+                        <td>22.10.31</td>
+                        <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
                     </tr>
                     </tbody>
                 </table>
