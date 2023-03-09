@@ -343,6 +343,10 @@ div.pro_item{     width: calc((100% / 5) - 9px);     margin-bottom: 30px;    dis
 #boxmodal01 .box_ind span{display: inline-block; background-color: #373844; color: #fff; border-radius: 5px; padding: 5px 10px; line-height: 1em; height: 25px;}
 #boxmodal01 .box_ind span button{all:unset;}
 #boxmodal01 .box_group{margin-bottom: 12px;}
+.modal .box_ind{margin: 2px 0 12px 0; display: block; width: 100%;}
+.modal .box_ind span{display: inline-block; background-color: #373844; color: #fff; border-radius: 5px; padding: 5px 10px; line-height: 1em; height: 25px;}
+.modal .box_ind span button{all:unset;}
+.modal .box_group{margin-bottom: 12px;}
 
 /*pouch*/
 .pouch .tagbox  {    display: flex;    flex-direction: row;    flex-wrap: wrap;}

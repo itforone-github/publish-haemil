@@ -284,11 +284,30 @@
             <div class="modal-body">
                 <form>
                     <label>대상</label><select><option>그룹</option><option>개별</option></select>
-                    <!--개별 시 노출-->
-                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+
+                    <!--개별 한의원 노출 시-->
+                    <label>한의원 선택</label>
+                    <div class="box_ind">
+                        <!-- 개별 한의원 추가 시 -->
+                        <span>가나다 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>라라라 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>드림 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <!-- // 개별 한의원 추가 시 -->
+                        <!-- 추가버튼 -->
+                        <!--<input type="text"  placeholder="한의원명을 입력하세요"/>-->
+                        <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#productupmodal01">추가</button>
+                        <!-- //추가버튼 -->
+                    </div>
+                    <!--//개별 한의원 노출 시-->
+
                     <!--그룹 시 노출-->
-                    <p class=""><span class="select"><input type="checkbox" id="group3-1" name="group3"/><label for="group3-1">기본</label>
-                                 <input type="checkbox" id="group3-2" name="group3"/><label for="group3-2">하늘체</label></span></p>
+                    <label>그룹 선택</label>
+                    <div class="box_group">
+                        <span class="select">
+                            <input type="checkbox" id="group2-1" name="group2" checked /><label for="group2-1">기본</label>
+                            <input type="checkbox" id="group2-2" name="group2" /><label for="group2-2">하늘체</label>
+                        </span>
+                    </div>
                     <!---->
                     <label>박스</label><select><option>진공팩</option><option>스탠드지퍼백</option><option>60팩</option><option>소박스</option></select>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
@@ -330,11 +349,30 @@
             <div class="modal-body">
                 <form>
                     <label>대상</label><select><option>그룹</option><option>개별</option></select>
-                    <!--개별 시 노출-->
-                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+
+                    <!--개별 한의원 노출 시-->
+                    <label>한의원 선택</label>
+                    <div class="box_ind">
+                        <!-- 개별 한의원 추가 시 -->
+                        <span>가나다 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>라라라 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>드림 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <!-- // 개별 한의원 추가 시 -->
+                        <!-- 추가버튼 -->
+                        <!--<input type="text"  placeholder="한의원명을 입력하세요"/>-->
+                        <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#productupmodal01">추가</button>
+                        <!-- //추가버튼 -->
+                    </div>
+                    <!--//개별 한의원 노출 시-->
+
                     <!--그룹 시 노출-->
-                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
-                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <label>그룹 선택</label>
+                    <div class="box_group">
+                        <span class="select">
+                            <input type="checkbox" id="group2-1" name="group2" checked /><label for="group2-1">기본</label>
+                            <input type="checkbox" id="group2-2" name="group2" /><label for="group2-2">하늘체</label>
+                        </span>
+                    </div>
                     <!---->
                     <label>박스</label><select><option>인박스</option><option>아웃박스</option><option>인+아웃박스</option></select>
                     <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
@@ -376,11 +414,30 @@
             <div class="modal-body">
                 <form>
                     <label>대상</label><select><option>그룹</option><option>개별</option></select>
-                    <!--개별 시 노출-->
-                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+
+                    <!--개별 한의원 노출 시-->
+                    <label>한의원 선택</label>
+                    <div class="box_ind">
+                        <!-- 개별 한의원 추가 시 -->
+                        <span>가나다 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>라라라 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>드림 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <!-- // 개별 한의원 추가 시 -->
+                        <!-- 추가버튼 -->
+                        <!--<input type="text"  placeholder="한의원명을 입력하세요"/>-->
+                        <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#productupmodal01">추가</button>
+                        <!-- //추가버튼 -->
+                    </div>
+                    <!--//개별 한의원 노출 시-->
+
                     <!--그룹 시 노출-->
-                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
-                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <label>그룹 선택</label>
+                    <div class="box_group">
+                        <span class="select">
+                            <input type="checkbox" id="group2-1" name="group2" checked /><label for="group2-1">기본</label>
+                            <input type="checkbox" id="group2-2" name="group2" /><label for="group2-2">하늘체</label>
+                        </span>
+                    </div>
                     <!---->
                     <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
@@ -421,11 +478,29 @@
             <div class="modal-body">
                 <form>
                     <label>대상</label><select><option>그룹</option><option>개별</option></select>
-                    <!--개별 시 노출-->
-                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+                    <!--개별 한의원 노출 시-->
+                    <label>한의원 선택</label>
+                    <div class="box_ind">
+                        <!-- 개별 한의원 추가 시 -->
+                        <span>가나다 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>라라라 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>드림 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <!-- // 개별 한의원 추가 시 -->
+                        <!-- 추가버튼 -->
+                        <!--<input type="text"  placeholder="한의원명을 입력하세요"/>-->
+                        <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#productupmodal01">추가</button>
+                        <!-- //추가버튼 -->
+                    </div>
+                    <!--//개별 한의원 노출 시-->
+
                     <!--그룹 시 노출-->
-                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
-                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <label>그룹 선택</label>
+                    <div class="box_group">
+                        <span class="select">
+                            <input type="checkbox" id="group2-1" name="group2" checked /><label for="group2-1">기본</label>
+                            <input type="checkbox" id="group2-2" name="group2" /><label for="group2-2">하늘체</label>
+                        </span>
+                    </div>
                     <!---->
                     <label>품명</label><input type="text" placeholder="품명을 입력하세요"/>
                     <label>가격</label><input type="text" placeholder="숫자만 입력"/>
@@ -569,11 +644,30 @@
             <div class="modal-body">
                 <form>
                     <label>대상</label><select><option>그룹</option><option>개별</option></select>
-                    <!--개별 시 노출-->
-                    <a  data-toggle="modal" data-target="#productupmodal01"><input type="text"  placeholder="한의원명을 입력하세요"/></a>
+
+                    <!--개별 한의원 노출 시-->
+                    <label>한의원 선택</label>
+                    <div class="box_ind">
+                        <!-- 개별 한의원 추가 시 -->
+                        <span>가나다 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>라라라 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>드림 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <!-- // 개별 한의원 추가 시 -->
+                        <!-- 추가버튼 -->
+                        <!--<input type="text"  placeholder="한의원명을 입력하세요"/>-->
+                        <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#productupmodal01">추가</button>
+                        <!-- //추가버튼 -->
+                    </div>
+                    <!--//개별 한의원 노출 시-->
+
                     <!--그룹 시 노출-->
-                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
-                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <label>그룹 선택</label>
+                    <div class="box_group">
+                        <span class="select">
+                            <input type="checkbox" id="group2-1" name="group2" checked /><label for="group2-1">기본</label>
+                            <input type="checkbox" id="group2-2" name="group2" /><label for="group2-2">하늘체</label>
+                        </span>
+                    </div>
                     <!---->
                     <label>구분</label><select><option>스탠딩파우치</option><option>스파우트파우치(45팩1박스)</option></select>
                     <label>파우치명</label><input type="text" placeholder="파우치명을 입력하세요"/>
