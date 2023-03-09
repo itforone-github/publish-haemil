@@ -107,12 +107,32 @@
                 <h5 class="modal-title" id="productupmodal01Label">개별 한의원 검색</h5>
             </div>
             <div class="modal-body">
-                <input type="text"  placeholder="한의원명을 입력하세요"/>
-                <div class="list">
-                    <a><p>병원명 | 우상우한의원<br>주소 | 부산시 해운대구 센텀동로 57<br>대표번호 | 051-000-0000<br>이름 | 우상우<br>아이디 | premind00</p></a>
+                <div class="flex">
+                    <input class="search-bar" type="search" placeholder="한의원명을 입력하세요"><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
                 </div>
                 <div class="list">
-                    <a><p>병원명 | 우상우한의원<br>주소 | 부산시 해운대구 센텀동로 57<br>대표번호 | 051-000-0000<br>이름 | 우상우<br>아이디 | premind00</p></a>
+                    <a>
+                        <dl>
+                            <dt>우상우한의원</dt>
+                            <dd>
+                                <p><strong>주소</strong><span>부산시 해운대구 센텀동로 57</span></p>
+                                <p><strong>대표번호</strong><span>051-000-0000</span></p>
+                                <p><strong>이름</strong><span>우상우</span></p>
+                                <p><strong>아이디</strong><span>premind00</span></p>
+                            </dd>
+                        </dl>
+                    </a>
+                    <a>
+                        <dl>
+                            <dt>우상우한의원</dt>
+                            <dd>
+                                <p><strong>주소</strong><span>부산시 해운대구 센텀동로 57</span></p>
+                                <p><strong>대표번호</strong><span>051-000-0000</span></p>
+                                <p><strong>이름</strong><span>우상우</span></p>
+                                <p><strong>아이디</strong><span>premind00</span></p>
+                            </dd>
+                        </dl>
+                    </a>
                 </div>
                 <!-- 모달에서 페이징 제거하고, 길어지면 스크롤 처리하기 -->
                 <!--<div class="b-pagination-outer ">
@@ -484,20 +504,30 @@
             <div class="modal-body">
                 <form>
                     <label>대상</label><select><option>그룹</option><option>개별</option></select>
-                    <!--개별 시 노출-->
-                    <a  data-toggle="modal" data-target="#productupmodal01">
+
+                    <!--개별 한의원 노출 시-->
+                    <label>한의원 선택</label>
+                    <div class="box_ind">
+                        <!-- 개별 한의원 추가 시 -->
+                        <span>가나다 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>라라라 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <span>드림 한의원 <button type="button"><i class="fa-light fa-xmark"></i></button></span>
+                        <!-- // 개별 한의원 추가 시 -->
+                        <!-- 추가버튼 -->
                         <!--<input type="text"  placeholder="한의원명을 입력하세요"/>-->
-                        <button type="button">한의원 추가</button>
-                    </a>
-                    <!-- 개별 한의원 추가 후 -->
-                    <p>
-                        <span>가나다 한의원 <button type="button">삭제</button></span>
-                        <span>라라라 한의원 <button type="button">삭제</button></span>
-                        <span>드림 한의원 <button type="button">삭제</button></span>
-                    </p>
+                        <button type="button" class="btn btn_mini btn_whiteline" data-toggle="modal" data-target="#productupmodal01">추가</button>
+                        <!-- //추가버튼 -->
+                    </div>
+                    <!--//개별 한의원 노출 시-->
+
                     <!--그룹 시 노출-->
-                    <p class=""><span class="select"><input type="checkbox" id="group2-1" name="group2"/><label for="group2-1">기본</label>
-                                 <input type="checkbox" id="group2-2" name="group2"/><label for="group2-2">하늘체</label></span></p>
+                    <label>그룹 선택</label>
+                    <div class="box_group">
+                        <span class="select">
+                            <input type="checkbox" id="group2-1" name="group2" checked /><label for="group2-1">기본</label>
+                            <input type="checkbox" id="group2-2" name="group2" /><label for="group2-2">하늘체</label>
+                        </span>
+                    </div>
                     <!---->
                     <label>구분</label><select><option>60팩</option><option>45팩</option></select>
                     <label>박스명</label><input type="text" placeholder="박스명을 입력하세요"/>
