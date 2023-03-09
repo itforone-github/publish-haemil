@@ -60,12 +60,12 @@
                         </a>
                             <div class="sidebar-submenu" <?php if($pid == "a_clinic" || $pid == "a_clinicmem" || $pid == "a_clinicgrp") { echo "style='display: block'"; }?>>
                             <ul>
-                                <li  <?php if($pid == "a_clinicmem") { echo "class='active'"; }?>>
-                                    <a href="../adm/clinic.member.php">한의원 직원 관리
-                                    </a>
-                                </li>
                                 <li  <?php if($pid == "a_clinic") { echo "class='active'"; }?>>
                                     <a href="../adm/clinic.php">한의원 관리</a>
+                                </li>
+                                <li  <?php if($pid == "a_clinicmem") { echo "class='active'"; }?>>
+                                    <a href="../adm/clinic.member.php">직원 계정 관리
+                                    </a>
                                 </li>
                                 <li  <?php if($pid == "a_clinicgrp") { echo "class='active'"; }?>>
                                     <a href="../adm/clinic.group.php">그룹 관리</a>

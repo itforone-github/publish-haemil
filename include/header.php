@@ -288,18 +288,18 @@ switch ($pid) {
         $exp = "";
         break;
     //3. 한의원관리
-    case "a_clinicmem" :
-        $header_type = 2;
-        $footer_type = 2;
-        $lnb_type = 1;
-        $header_name = "한의원 직원 관리";
-        $exp = "";
-        break;
     case "a_clinic" :
         $header_type = 2;
         $footer_type = 2;
         $lnb_type = 1;
         $header_name = "한의원 관리";
+        $exp = "";
+        break;
+    case "a_clinicmem" :
+        $header_type = 2;
+        $footer_type = 2;
+        $lnb_type = 1;
+        $header_name = "직원 계정 관리";
         $exp = "";
         break;
     case "a_clinicgrp" :
