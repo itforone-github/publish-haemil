@@ -19,7 +19,7 @@ include_once("../include/header.php");
         </div>
         <span>
             <button type="button" class="btn btn_gray2"">엑셀 다운</button>
-            <button type="button" class="btn btn_whiteline">선택 삭제</button>
+            <!--<button type="button" class="btn btn_whiteline">선택 삭제</button>-->
         </span>
     </div>
     <div class="box3">
@@ -27,7 +27,7 @@ include_once("../include/header.php");
             <table>
                 <thead>
                 <tr>
-                    <th><input type="checkbox" name="checkbox"/></th>
+                    <!--<th><input type="checkbox" name="checkbox"/></th>-->
                     <th>No.</th>
                     <th>차트번호</th>
                     <th>한의원명</th>
@@ -41,7 +41,7 @@ include_once("../include/header.php");
                 </thead>
                 <tbody>
                 <tr class="past_btn">
-                    <td><input type="checkbox" name="checkbox"/></td>
+                    <!--<td><input type="checkbox" name="checkbox"/></td>-->
                     <td>1</td>
                     <td>00000001</td>
                     <td>유신한의원</td>
@@ -50,8 +50,14 @@ include_once("../include/header.php");
                     <td>1990-01-01</td>
                     <td>010-0000-0000</td>
                     <td>소양인</td>
-                    <td><button type="button" class="btn btn_whiteline"  data-toggle="modal" data-target="#patientmodal01">보기</button><button type="button" class="btn btn_redline">삭제</button></td>
+                    <td>
+                        <button type="button" class="btn btn_whiteline"  data-toggle="modal" data-target="#patientmodal01">보기</button>
+                        <button type="button" class="btn btn_whiteline" onclick="alert('팝업처리')">과거처방내역</button>
+                        <!--<button type="button" class="btn btn_redline">삭제</button>-->
+                    </td>
                 </tr>
+                <!-- 과거이력을 볼수있는 팝업처리로 변경 -->
+                <?/*/
                 <tr class="past_list">
                     <td colspan="10">
                         <!--과거처방내역-->
@@ -192,8 +198,9 @@ include_once("../include/header.php");
 
                     </td>
                 </tr>
+                */?>
                 <tr class="past_btn">
-                    <td><input type="checkbox" name="checkbox"/></td>
+                    <!--<td><input type="checkbox" name="checkbox"/></td>-->
                     <td>1</td>
                     <td>00000001</td>
                     <td>유신한의원</td>
@@ -202,14 +209,17 @@ include_once("../include/header.php");
                     <td>1990-01-01</td>
                     <td>010-0000-0000</td>
                     <td>소양인</td>
-                    <td><button type="button" class="btn btn_whiteline"  data-toggle="modal" data-target="#patientmodal01">보기</button>
-                        <button type="button" class="btn btn_redline">삭제</button></td>
+                    <td>
+                        <button type="button" class="btn btn_whiteline"  data-toggle="modal" data-target="#patientmodal01">보기</button>
+                        <button type="button" class="btn btn_whiteline" onclick="alert('팝업처리')">과거처방내역</button>
+                        <!--<button type="button" class="btn btn_redline">삭제</button>-->
+                    </td>
                 </tr>
-                <tr class="past_list">
+                <!--<tr class="past_list">
                     <td colspan="10">
                         <div class="empty">과거처방내역이 없습니다.</div>
                     </td>
-                </tr>
+                </tr>-->
                 </tbody>
             </table>
         </div>
