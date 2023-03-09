@@ -34,7 +34,7 @@ include_once("../include/header.php");
             <div>
                 <p><a><span class="tag active">전체</span></a></p>
                 <p><a><span class="tag">인쇄</span></a></p>
-                <p><a><span class="tag">씰링</span></a></p>
+                <p><a><span class="tag">무인쇄</span></a></p>
             </div>
         </div>
         <div class="box3">
