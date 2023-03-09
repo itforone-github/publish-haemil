@@ -30,25 +30,38 @@ include_once("../include/header.php");
             <table>
                 <thead>
                 <tr>
-                    <th><input type="checkbox" name="checkbox"></th>
+                    <!--<th><input type="checkbox" name="checkbox"></th>-->
                     <th>No.</th>
                     <th>한의원명</th>
+                    <th>아이디</th>
                     <th>담당자</th>
                     <th>연락처</th>
-                    <th>아이디</th>
                     <th>권한</th>
+                    <th>등록일</th>
                     <th></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td><input type="checkbox" name="checkbox"></td>
-                    <td>1</td>
+                    <!--<td><input type="checkbox" name="checkbox"></td>-->
+                    <td>2</td>
                     <td>유신한의원</td>
+                    <td>yoshin01</td>
                     <td>김유신</td>
                     <td>010-0000-0000</td>
+                    <td>부원장</td>
+                    <td>23.03.09</td>
+                    <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
+                </tr>
+                <tr>
+                    <!--<td><input type="checkbox" name="checkbox"></td>-->
+                    <td>1</td>
+                    <td>유신한의원</td>
                     <td>yoshin01</td>
-                    <td>최고관리자</td>
+                    <td>김유신</td>
+                    <td>010-0000-0000</td>
+                    <td>부원장</td>
+                    <td>23.03.09</td>
                     <td><button type="button" class="btn btn_whiteline">수정</button><button type="button" class="btn btn_redline">삭제</button></td>
                 </tr>
                 </tbody>
