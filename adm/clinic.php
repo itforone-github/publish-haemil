@@ -18,18 +18,30 @@ include_once("../include/header.php");
                 <option value="">사업자등록번호</option>
             </select>
             <input class="search-bar" type="search" placeholder="검색어를 입력하세요" /><button type="button" class="btn_search"><i class="fa-light fa-magnifying-glass"></i></button>
-
         </div>
-        <button type="button" class="btn btn_red"  onclick="location.href='./clinic.update.php'">등록하기</button>
+        <span>
+            <button type="button" class="btn btn_whiteline">선택 승인</button>
+            <button type="button" class="btn btn_red" onclick="location.href='./clinic.update.php'">등록하기</button>
+        </span>
     </div>
-    <div class="tagbox">
-        <div>
-            <p><strong>그룹</strong></p>
-        </div>
-        <div>
-            <p><a><span class="tag active">전체</span></a></p>
-            <p><a><span class="tag">해밀</span></a></p>
-            <p><a><span class="tag">인애한의원</span></a></p>
+    <div class="box">
+        <div class="tagbox">
+            <div>
+                <p><strong>그룹</strong></p>
+            </div>
+            <div>
+                <p><a><span class="tag active">전체</span></a></p>
+                <p><a><span class="tag">해밀</span></a></p>
+                <p><a><span class="tag">인애한의원</span></a></p>
+            </div>
+            <div>
+                <p><strong>승인상태</strong></p>
+            </div>
+            <div>
+                <p><a><span class="tag active">전체</span></a></p>
+                <p><a><span class="tag">승인</span></a></p>
+                <p><a><span class="tag">미승인</span></a></p>
+            </div>
         </div>
     </div>
     <div class="box3">
@@ -39,6 +51,7 @@ include_once("../include/header.php");
                 <tr>
                     <th><input type="checkbox" name="checkbox"/></th>
                     <th>No.</th>
+                    <th>승인상태</th>
                     <th>한의원명</th>
                     <th>이름 /<br/>아이디</th>
                     <th>대표자명</th>
@@ -54,6 +67,7 @@ include_once("../include/header.php");
                 <tr>
                     <td><input type="checkbox" name="checkbox"/></td>
                     <td>1</td>
+                    <td>승인</td>
                     <td>유신한의원</td>
                     <td>김유신<br>test01</td>
                     <td>김유신</td>

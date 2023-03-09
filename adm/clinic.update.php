@@ -8,9 +8,17 @@ include_once("../include/header.php");
 <section class="clinic">
     <div class="panel">
         <button type="button" class="btn btn_whiteline"  onclick="location.href='./clinic.php'">목록</button>
-        <button type="button" class="btn btn_red" >등록하기</button>
+        <span>
+            <!-- 수정시 노출 -->
+            <button type="button" class="btn btn btn_blue">한의원 승인</button>
+            <button type="button" class="btn btn btn_black">한의원 승인취소</button>
+
+            <button type="button" class="btn btn_red">등록하기</button>
+        </span>
+
     </div>
     <div class="box3">
+        <!--원장 계정 (주계정)-->
         <h3>회원 정보</h3>
         <div class="flex">
             <div>
@@ -82,7 +90,15 @@ include_once("../include/header.php");
                     <td>yoshin01</td>
                     <td>김유신</td>
                     <td>010-0000-0000</td>
-                    <td>최고관리자</td>
+                    <td>원장</td>
+                    <td>23.03.07</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>yoshin02</td>
+                    <td>김유정</td>
+                    <td>010-0000-0000</td>
+                    <td>부원장</td>
                     <td>23.03.07</td>
                 </tr>
                 </tbody>
